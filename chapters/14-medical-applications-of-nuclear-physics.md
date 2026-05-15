@@ -1,287 +1,111 @@
 # Chapter 14 — Medical Applications of Nuclear Physics
+*How tracking a landlady's leftovers became the logic behind PET scans, bone scans, and cancer therapy.*
 
-**Suggested titles**
+In 1913, George de Hevesy was a twenty-eight-year-old postdoctoral chemist in Vienna with a problem. He suspected his landlady was serving him the same leftover meat on Wednesday that he had left on his plate the previous Sunday, recycled through the hash. He had no proof. He did, however, have access to radium-D — what we now call lead-210, a beta emitter with a half-life long enough to be useful. He sprinkled a small quantity onto his portion one Sunday evening, left the rest of the dish behind, and waited.
 
-1. Medical Applications of Nuclear Physics
-2. From Bone Scan to Gamma Knife: When Nuclear Physics Saves Lives
-3. Hevesy's Hot Lunch and the Birth of Nuclear Medicine
+On Wednesday, she served hash. He brought out an electroscope. It discharged. The radium-D was in the new dish.
 
-**TL;DR.** Nuclear physics underwrites a substantial fraction of modern medicine: gamma-emitting tracers reveal organ function (SPECT and PET imaging); X-rays and CT scans map structure; targeted radiation kills cancers; even MRI is an applied quantum-mechanical effect on hydrogen nuclei. The chapter unpacks the radiation units (becquerel, gray, sievert), the relative biological effectiveness of different particle types, and the way each technique trades off resolution, dose, and biological insight.
+The landlady was caught. But sitting at that table in 1913, de Hevesy realized he had demonstrated something that would eventually reshape medicine. A radioactive isotope behaves chemically like its stable partners. It follows the same biological pathways. But wherever it goes, a radiation detector can find it. Tag a substance with a radioactive atom, and you can track that substance through any chemical or biological process you like — including the living human body.
 
----
-
-## Budapest, 1913: a graduate student tags his lunch
-
-George de Hevesy is twenty-eight, a Hungarian chemist working on his postdoctoral research in Vienna. He suspects his landlady is recycling the previous week's leftover meat into the hash she serves him. He has no proof. He has, however, just been working with radium-D — what we now call lead-210, a beta emitter with a long half-life. He acquires a small quantity, sprinkles it onto his hash one Sunday evening, leaves the rest of his portion on the plate, and asks his landlady to take it back.
-
-The following Wednesday, she serves him hash. He brings out an electroscope (the only radiation detector readily available in 1913). The electroscope discharges. The radium-D is in the new dish.
-
-The landlady is caught. The episode would be a footnote — except that de Hevesy realizes, sitting at his table in 1913, that he has demonstrated something profound: a radioactive isotope behaves chemically like its non-radioactive partners and follows the same biological pathways, but its presence and concentration can be detected anywhere with a radiation counter. *Tag a substance with a radioactive isotope, and you can track that substance through any chemical or biological process you like.*
-
-Hevesy spent the rest of his career working out the implications. He won the 1943 Nobel Prize in Chemistry for "his work on the use of isotopes as tracers in the study of chemical processes." That same idea — radioactive tracers in living systems — became the foundation of nuclear medicine. By the 1960s, doctors could image organs in the body by injecting tagged compounds and detecting the emitted gamma rays. By the 1980s, positron emission tomography (PET) could map metabolic activity at submillimeter resolution. By the 2010s, targeted radioisotope therapies were curing cancers that surgery and chemotherapy could not.
-
-This chapter is about how nuclear physics — alpha, beta, gamma, half-life, binding energy from Chapter 31 — gets put to work in medical diagnosis and therapy. It's also about the quantitative units used to measure radiation dose, since the difference between a healing dose and a fatal one can be a factor of a few.
-
-**Learning objectives.** By the end of this chapter you should be able to:
-
-1. Identify the principal medical-imaging modalities that use nuclear physics (X-ray, CT, MRI, gamma camera/SPECT, PET) and describe what physical signal each detects.
-2. Define and convert between the principal radiation units: activity (Bq, Ci), absorbed dose (Gy = J/kg, rad), and equivalent dose (Sv, rem) using the relative biological effectiveness (RBE) of different particles.
-3. Explain how radioactive tracers (radiopharmaceuticals) are used for diagnostic imaging — what isotopes are chosen, why, and how the localization of the tracer reveals function (e.g., $^{99m}$Tc for bone scans, $^{18}$F-FDG for PET metabolic imaging, $^{131}$I for thyroid).
-4. Describe radiation therapy — external beam (X-ray, $^{60}$Co gamma, proton beam) and internal (brachytherapy seeds, radiopharmaceuticals) — and explain the *therapeutic ratio* and how it constrains dose planning.
-5. Estimate biological dose for a given exposure scenario (activity, time, tissue type) and connect it to the lifetime cancer risk via the linear no-threshold model (with appropriate caveats about the model's limits).
-
-**Prerequisites.** Chapter 30 (atomic structure, X-rays, characteristic spectra). Chapter 31 (radioactivity, alpha/beta/gamma decay, half-life, $E = mc^2$ for binding energies). Chapter 24 (electromagnetic spectrum, intensity).
-
-**Why this chapter matters.** Nearly every modern medical workup involves at least one nuclear-physics-based imaging or treatment technique. CT scans alone account for ~$70$ million procedures per year in the US. PET-CT imaging has revolutionized cancer diagnosis and staging. Targeted radiotherapy now cures many cancers that were uniformly fatal a generation ago. Understanding both the diagnostic power and the dose risks is part of being a literate citizen in a modern medical system.
+That idea, applied for the next century, produced PET scans, bone scans, thyroid therapy, targeted cancer treatment, and an entire field called nuclear medicine. This chapter is about how the nuclear physics of Chapter 13 — alpha, beta, gamma, half-life, binding energy — gets put to work.
 
 ---
 
-## Concept 1 — Imaging: structure, function, and the tools that distinguish them
+## Three different windows into the body
 
-### A bone scan, today
+Start with the problem: you need to know what is happening inside a patient, without cutting them open. You have several tools. Which one you reach for depends on what question you're actually asking, and the different tools detect entirely different physical signals.
 
-A patient swallows or is injected with a small dose of technetium-99m bound to a bone-seeking compound (typically methylene diphosphonate, MDP). The Tc-99m has a half-life of 6.0 hours and emits a 140-keV gamma ray when it decays — ideal for medical imaging because the gamma is energetic enough to escape the body but not so energetic that it deposits excessive dose. The compound concentrates in regions of active bone metabolism — places where new bone is being laid down. That happens at fracture sites, around tumors, and at sites of infection.
+A chest X-ray is a shadow. External X-rays from a tube pass through the body and are differentially absorbed depending on what they encounter. Bone — high atomic number, high density — absorbs a lot. Soft tissue absorbs less. Air absorbs almost nothing. The transmitted intensity is recorded on film or a detector behind the patient. What you get is a two-dimensional projection of a three-dimensional density distribution. It shows you structure: broken bones, fluid in the lungs, enlarged lymph nodes, foreign objects. What it cannot show you is what those structures are doing.
 
-A few hours after injection, the patient lies under a *gamma camera* — a large flat detector that records each gamma ray's arrival position. The image, accumulated over a few minutes per body region, shows the patient's skeleton highlighted in places where the tracer has concentrated. A radiologist looking at the image can spot, with high sensitivity, fractures invisible to X-ray, metastatic cancer that has spread to bone, infections deep in the skeleton.
+CT (computed tomography) is the same physics taken further. Instead of one projection angle, you take hundreds of angles as the X-ray tube rotates around the patient, and a computer reconstructs the three-dimensional density field from those projections. The spatial resolution is excellent — sub-millimeter. The dose is meaningful: a chest CT delivers roughly 7 mSv, which we'll come back to.
 
-Compare this to a chest X-ray. The X-ray is a *transmission* image: external X-rays from a tube pass through the body and are differentially absorbed by tissues of different density. Bone (high atomic number) absorbs more than soft tissue, which absorbs more than air. The image is a 2D shadow of the 3D body. It reveals *structure* — broken ribs, lung tumors that have changed local density, foreign objects.
+Now consider a bone scan. The patient is injected with technetium-99m bound to a bone-seeking compound. The technetium concentrates in regions of active bone metabolism — fracture sites, tumor invasion, infection. A few hours later, the patient lies under a gamma camera, a large flat detector that records the arrival position of each gamma ray. The image shows where the tracer went, and therefore where metabolic activity is high. You cannot learn from a bone scan whether a femur is in one piece. You can learn that there's a hot spot of unusual activity in the femur, suggestive of a metastasis, that the X-ray shows as apparently normal bone.
 
-Now compare both to PET. The patient is injected with $^{18}$F-FDG (fluorodeoxyglucose) — a glucose analog labeled with fluorine-18 ($t_{1/2}$ = 110 min). Cells that take up glucose preferentially (most cancer cells, most active brain regions) accumulate the FDG. The fluorine-18 decays by positron emission. Each emitted positron travels a few millimeters before annihilating with an electron, producing two 511-keV gamma rays moving in exactly opposite directions. A ring of detectors around the patient records *coincident* gamma pairs and uses the line connecting them to localize each annihilation event. The reconstructed 3D image shows where glucose is being consumed — *function*, not structure.
+The gamma camera is detecting function, not structure.
 
-Three completely different windows into the body, three different physical signals, three different things you can see. Choosing the right tool for the question is half the art of medical imaging.
+Now consider PET. The patient is injected with $^{18}$F-FDG — fluorodeoxyglucose, a glucose analog with a fluorine-18 atom attached. Cells that consume glucose preferentially (cancer cells, active brain regions) accumulate the FDG. The fluorine-18 decays by positron emission. The positron travels a few millimeters before annihilating with an electron, releasing two 511-keV gamma rays traveling in exactly opposite directions. A ring of detectors around the patient records coincident pairs — two gammas arriving simultaneously on opposite sides — and uses each pair to define a line on which the annihilation occurred. Reconstruct enough lines and you have a three-dimensional map of glucose consumption.
 
-### The mechanism — what each modality detects
+<!-- → [DIAGRAM: PET coincidence detection — ring of detectors around a simplified body cross-section. A positron-emitting source near the center; the positron travels a few mm, annihilates, producing two back-to-back 511-keV gamma arrows reaching opposite detectors simultaneously. A dashed "line of response" connects the two detector hits. Caption: "Each coincident pair defines a line. Enough lines reconstruct the 3D source distribution."] -->
 
-**X-ray and CT.** Differential X-ray absorption ($\mu = \mu(Z, \rho, E)$, where $\mu$ is the linear attenuation coefficient that depends on atomic number, density, and X-ray energy). High-density and high-Z tissues (bone, calcified deposits, contrast agents) absorb more X-rays. CT (computed tomography) takes hundreds of X-ray images from different angles and reconstructs a 3D image computationally. Resolution is excellent (sub-millimeter). Dose is meaningful (a chest CT delivers ~7 mSv, roughly 2-3 years' worth of natural background).
+Three techniques. The X-ray shows density. The bone scan shows metabolic activity at bone. The PET scan shows glucose consumption anywhere in the body. The three are not interchangeable and do not compete. They answer different questions.
 
-**MRI.** Radio-frequency excitation of hydrogen-nucleus spin in a strong magnetic field. The signal depends on local proton density (mostly water) and the local relaxation times $T_1$ and $T_2$ (which depend on the chemical environment). MRI is excellent for soft tissue contrast, doesn't use ionizing radiation, but is slow, expensive, and excludes patients with metallic implants. The physics underlying MRI uses Chapter 22 (magnetic fields) and Chapter 30 (atomic energy levels via the spin-magnetic-field interaction).
+<!-- → [TABLE: Imaging modality comparison — columns: modality, physical signal detected, what it reveals (structure vs. function), approximate effective dose, spatial resolution. Rows: chest X-ray, CT, MRI, gamma camera/SPECT, PET. Purpose: give students a single reference for choosing the right tool.] -->
 
-**Gamma camera / SPECT.** Detection of gammas from injected tracers. SPECT (single-photon emission computed tomography) is the 3D version using a rotating gamma camera. Resolution is moderate (~1 cm), but reveals metabolic and functional information no structural imaging can show.
+Why is $^{99m}$Tc so nearly universal for scintigraphy? Because it is almost perfectly engineered for medical imaging. Its half-life is 6 hours — long enough for the tracer to distribute to the target tissue and be imaged, short enough to decay quickly so the patient's radiation dose stays low. Its 140-keV gamma is energetic enough to escape the body efficiently but not so energetic that it is hard to detect. And it can be chemically attached to dozens of different carrier molecules — bone-seekers, kidney tracers, heart-function tracers — so the same isotope serves many purposes. It is produced on site from $^{99}$Mo generators, which hospitals order weekly. The whole system is elegant in a way that looks designed but is really the accumulated result of decades of trial and selection.
 
-**PET.** Detection of coincident gamma pairs from positron-electron annihilations. Uses positron-emitting isotopes ($^{18}$F most commonly; also $^{11}$C, $^{15}$O, $^{13}$N). Resolution is better than SPECT (~5 mm), and the technique is highly quantitative — the reconstructed image is proportional to the local concentration of tracer.
+The choice of $^{18}$F for PET comes from a different logic. Fluorine-18 decays by positron emission, which is what produces the coincident gamma pairs. Its half-life of 110 minutes is short enough to keep doses manageable but long enough to survive the synthesis, quality-control testing, and transport from the cyclotron where it is produced to the patient. The FDG molecule fools cells into taking up the tracer the way they take up glucose, but they cannot metabolize it further, so it accumulates. Cancer cells are metabolically hyperactive — they consume far more glucose than normal cells — and so the FDG concentrates in them, producing a signal that is often the first evidence of metastatic disease.
 
-### The trade-off
-
-Imaging modalities trade **anatomical resolution against functional information.** CT gives you the highest-resolution structural image but no functional information. PET gives you metabolic function but at lower spatial resolution. MRI offers both modest structure and some functional information (with specialized techniques like fMRI for brain function). Modern *hybrid* imaging — PET-CT, PET-MRI — fuses structure and function in one scan, becoming the standard for cancer staging and many other diagnostic questions.
-
-### Worked example — a brain PET scan with $^{18}$F-FDG
-
-A patient is given $10$ mCi of $^{18}$F-FDG ($t_{1/2}$ = 110 min). The fluorine-18 emits a 0.633-MeV positron at end-point energy (average energy ~250 keV before annihilation), and each decay ultimately produces two 511-keV gammas.
-
-**Activity.** $10$ mCi $= 10 \times 3.7 \times 10^7$ Bq $= 3.7 \times 10^8$ decays/sec.
-
-**Time-integrated dose during the scan.** Suppose the patient is imaged for 30 minutes starting 30 minutes after injection. By 30 minutes after injection, the activity has dropped by a factor of $e^{-\lambda t}$ with $\lambda = \ln 2 / 110 = 0.0063$ min$^{-1}$, so $A(30) = A_0 \cdot e^{-0.189} \approx 0.83 A_0$. The remaining isotope continues decaying during imaging and after.
-
-**Total decays during the patient's body retention** (effectively $\sim$ a few half-lives, after which the patient excretes the rest):
-
-$$N_{\text{decays}} = A_0 \cdot \tau$$
-
-where $\tau = t_{1/2} / \ln 2 \approx 159$ min is the average lifetime. So $N_{\text{decays}} \approx 3.7 \times 10^8 \times 159 \times 60 \approx 3.5 \times 10^{12}$ decays.
-
-**Energy deposited (rough estimate).** Each decay deposits about $0.25$ MeV (positron energy) locally before annihilation. The two 511-keV gammas largely escape the body. So energy deposited:
-
-$$E \approx 3.5 \times 10^{12} \times 0.25 \text{ MeV} \times 1.6 \times 10^{-13} \text{ J/MeV} \approx 0.14 \text{ J}.$$
-
-For a 70-kg patient, this is
-
-$$D = E/m = 0.14/70 = 2.0 \times 10^{-3} \text{ J/kg} = 2.0 \text{ mGy}.$$
-
-The effective whole-body dose for a typical FDG-PET scan is about 7-10 mSv (Sv accounts for biological effectiveness, with X-rays and gammas having $w_R = 1$). Our estimate is in the ballpark.
-
-**Sanity check.** Annual natural background radiation in the US is ~3.0 mSv. A single PET scan delivers about 2-3 years' worth of background. Justified for cancer diagnosis or treatment monitoring; not for routine screening.
-
-### Common misconceptions
-
-- *"Imaging modalities are interchangeable."* Each detects a different physical signal and is good for different things. Pneumonia: chest X-ray. Brain tumor with edema: MRI. Whole-body cancer staging: PET-CT. Bone metastasis: bone scan with Tc-99m. The choice matters.
-- *"All imaging uses ionizing radiation."* MRI and ultrasound do not. Both have other limitations (cost, resolution, exclusions) but no radiation dose.
-
-↳ **Dig Deeper — How MRI works at the level of nuclear spin**
-
-*The chapter mentions that MRI works by exciting hydrogen-nucleus spin in a magnetic field. The full physics is a beautiful synthesis of quantum mechanics (nuclear spin, Larmor precession), classical electrodynamics (radio-frequency pulses), and engineering (magnetic-field gradients for spatial encoding). It's also a counterexample to the belief that all medical imaging uses radioactivity.*
-
-**Prompt:**
-> Explain how MRI works at the level of nuclear spin. (a) Describe the alignment of hydrogen-1 nuclear spins (protons in water) in a strong external magnetic field $B_0$ (typically 1.5-3 T in clinical scanners). (b) Explain the Larmor precession at frequency $f = \gamma B_0 / (2\pi)$, with $\gamma$ the gyromagnetic ratio of the proton ($\gamma/(2\pi) = 42.58$ MHz/T). (c) Describe how a transverse RF pulse at the Larmor frequency tips the spins out of alignment, then how the relaxation back ($T_1, T_2$) emits a measurable RF signal. (d) Explain how magnetic-field gradients encode spatial location into the precession frequency. End with one sentence on why MRI is so good for soft tissue contrast (different tissues have different $T_1$ and $T_2$ from different water environments).
-
-**What to do with the output:** Save it. MRI is one of the most beautiful applications of quantum mechanics in everyday medicine, and a great example of how an arcane physical principle becomes routine clinical practice.
+This is, in its essentials, still Hevesy's 1913 idea. Tag a biologically active molecule. Follow it with a radiation detector. The biology shows you what is happening; the radiation tells you where.
 
 ---
 
-## Concept 2 — Radiation dose: counting energy, weighting biology
+## Counting the cost: what radiation dose actually means
 
-### A radiation worker's badge
+When a radiation beam or a radioactive substance deposits energy in tissue, the energy goes into ionizing atoms and breaking chemical bonds. The primary target of concern is DNA — double-strand breaks that, if not repaired correctly, can produce mutations and eventually cancer. The question is: how much energy, deposited in what form, carries what risk?
 
-A worker at a nuclear medicine clinic wears a small badge clipped to their lab coat. The badge contains film, thermoluminescent crystals, or a chip-based dosimeter. Once a month, the badge is collected and read; the worker's accumulated radiation dose for the period is recorded. If their cumulative annual dose exceeds 50 mSv (the U.S. occupational limit), they are pulled from radiation work for the remainder of the year. If it exceeds 100 mSv (5-year average above 20 mSv/year limit), they may be permanently restricted.
+Three units come into play, and conflating them is the single most common confusion in this subject.
 
-The badge is reading *equivalent dose* in millisieverts. To understand what that number actually means — to compare it to the dose from a chest X-ray, or to background, or to a chemotherapy treatment — you need to understand the chain of units that convert raw decays to biological impact.
+*Activity* is how many decays per second occur in a sample. One becquerel (Bq) is one decay per second. The curie (Ci), an older unit still in use clinically, is $3.7 \times 10^{10}$ Bq — the activity of one gram of radium-226. A diagnostic PET scan delivers about 10 mCi of $^{18}$F-FDG, or $3.7 \times 10^8$ decays per second.
 
-### The mechanism — three chains of units
+*Absorbed dose* is energy deposited per unit mass of tissue. One gray (Gy) is one joule per kilogram. The older unit, the rad, is 0.01 Gy. Activity alone tells you nothing about dose — you need to know the energy of each decay and how much of it is deposited in the tissue of interest. Some radiation escapes the body without depositing; some deposits efficiently.
 
-**Activity.** How many decays per unit time in your sample.
-- 1 becquerel (Bq) = 1 decay per second.
-- 1 curie (Ci) = $3.7 \times 10^{10}$ Bq (the activity of 1 g of $^{226}$Ra).
+*Equivalent dose* is where biology enters. Equal absorbed doses from different radiation types are not equally dangerous. Alpha particles, being heavy and slow at comparable kinetic energies, deposit their energy in dense, short tracks — a few tens of micrometers in tissue. Within that short track, every DNA molecule is hit. Double-strand breaks cluster together and are difficult for the cell to repair. Gamma rays and beta particles deposit energy sparsely, in isolated ionizations that the cell's repair machinery can handle one by one. The *radiation weighting factor* $w_R$ captures this: for gammas and betas, $w_R = 1$; for alphas, $w_R = 20$. Equivalent dose in sieverts (Sv) is absorbed dose in Gy multiplied by $w_R$.
 
-**Absorbed dose.** Energy deposited per unit mass of tissue.
-- 1 gray (Gy) = 1 J/kg.
-- 1 rad = 0.01 J/kg = 0.01 Gy. (Older non-SI unit, still used in clinical practice.)
+So: 0.5 Gy of gamma radiation is 0.5 Sv. The same absorbed dose from alphas is 10 Sv — twenty times more biologically damaging, because of how the energy is deposited, not how much.
 
-A given activity over a given time deposits a dose that depends on the geometry and stopping properties of tissue — a complicated calculation that nuclear medicine physicists do for each procedure.
+<!-- → [DIAGRAM: Alpha vs. gamma ionization track — two panels at the same scale. Left: alpha track, dense cluster of ionization events over ~50 μm, multiple DNA strand hits visible. Right: gamma (Compton electron) track, sparse ionization events spread over ~mm, individual strand hits. Caption: "Same energy deposited, very different spatial pattern — which is why alphas have w_R = 20 and gammas have w_R = 1."] -->
 
-**Equivalent dose.** Absorbed dose weighted by the biological effectiveness of the radiation type. Different particles deposit energy in different patterns, and a 1-Gy dose of alpha particles damages tissue much more than 1 Gy of X-rays. The *relative biological effectiveness* (RBE), or the closely related *radiation weighting factor* $w_R$, quantifies this.
+This is why inhaled radon daughters — which are alpha emitters that lodge in the lung — are the second-leading cause of lung cancer in the United States after smoking. The alpha particles deposit their entire energy within a few cells of where they stop. The lung tissue adjacent to a radon daughter gets an extremely high local dose from what is, in joules, a tiny amount of energy.
 
-| Radiation type | $w_R$ |
-|---|---|
-| X-rays, gamma rays | 1 |
-| Beta particles, electrons | 1 |
-| Thermal neutrons | 5-10 |
-| Fast neutrons | 10-20 |
-| Alpha particles | 20 |
-| Heavy nuclei | 20+ |
+Some reference numbers are worth knowing. Annual natural background in the United States averages about 3 mSv, dominated by radon ($\sim$2 mSv) and cosmic rays ($\sim$0.3 mSv, more at altitude). A chest X-ray is about 0.1 mSv. A chest CT is about 7 mSv. A whole-body PET-CT is about 14 mSv. The acute lethal dose — the dose at which half the exposed population dies within 30 days without medical care — is around 4-5 Sv.
 
-- 1 sievert (Sv) = 1 Gy × $w_R$.
-- 1 rem = 1 rad × $w_R$ = 0.01 Sv.
+That last number is worth pausing on. It is four to five *sieverts*, not millisieverts. The diagnostic doses we're discussing — 1 to 15 mSv — are three orders of magnitude below the acute lethal range. The cancer risk from a single CT scan, estimated using the linear no-threshold model, is on the order of 0.05% — compared to a baseline lifetime cancer risk of about 40%. For a patient with a suspected pulmonary embolism or a ruptured appendix, the 7-mSv CT that diagnoses the problem and enables treatment is an overwhelming net benefit. The question of whether repeated CT scans in lower-stakes situations are justified is a real question, but the arithmetic makes individual diagnostic scans unambiguously reasonable.
 
-Why do alphas damage so much more per Gy? Because alphas are heavy and slow at the same kinetic energy as electrons. They deposit their energy in dense, concentrated tracks that overlap many DNA strands within a single cell, creating clustered double-strand breaks that are difficult for the cell to repair. Beta and gamma radiation deposits energy in sparse, isolated ionizations that the cell can usually handle.
+<!-- → [CHART: Radiation dose scale — log-scale horizontal axis from 0.001 mSv to 10,000 mSv (10 Sv). Labeled markers: single dental X-ray (0.005), chest X-ray (0.1), annual background (3), chest CT (7), whole-body PET-CT (14), annual occupational limit (50), threshold for acute symptoms (~1000), LD50 (~4000–5000). Student should see at a glance that diagnostic imaging sits three orders of magnitude below lethality.] -->
 
-**Effective dose** further weights equivalent dose by tissue type — some organs (gonads, bone marrow, lung, colon) are more sensitive than others (skin, bone surface). Effective dose is in Sv too, but accounts for the specific organs hit.
-
-### Reference dose levels
-
-| Source | Effective dose |
-|---|---|
-| Cosmic-ray + terrestrial background, US average | ~3.0 mSv/year |
-| Chest X-ray | ~0.1 mSv |
-| Chest CT | ~7 mSv |
-| Whole-body PET-CT | ~14 mSv |
-| Abdominal CT with contrast | ~10 mSv |
-| Mammogram | ~0.4 mSv |
-| Single dental X-ray | ~0.005 mSv |
-| Acute lethal dose (no medical care) | ~5 Sv (LD50 ~ 4-5 Sv at 30 days) |
-| Annual occupational limit (US) | 50 mSv |
-
-Background radiation is dominated by radon ($^{222}$Rn from soil) at ~2 mSv/year on average and by cosmic rays at ~0.3 mSv/year (more at altitude — mountain dwellers and frequent flyers get 2-3× more).
-
-### The trade-off
-
-Radiation dosing trades **diagnostic information against cancer risk.** A typical CT scan is estimated to increase lifetime cancer risk by ~$0.05$%. For an indication where the imaging will change clinical management (suspected stroke, suspected appendicitis), this is well worth it. For routine screening of asymptomatic patients, the risk-benefit balance is harder. There is ongoing debate in medicine about appropriate use of CT and PET, especially in pediatric patients (whose growing tissues are more sensitive).
-
-### Worked example — equivalent dose from an alpha source
-
-A worker is exposed to alpha particles depositing $0.50$ Gy of absorbed dose to the lung. What is the equivalent dose?
-
-Equivalent dose = absorbed dose × $w_R$:
-
-$$H = D \times w_R = 0.50 \text{ Gy} \times 20 = 10 \text{ Sv}.$$
-
-This is a substantial dose — about 200× the annual occupational limit and into the range of acute radiation syndrome. Alpha particles in the lung are particularly dangerous because they're stopped by a few cells and deposit all their energy locally, with high RBE. Inhaled radon daughters (alpha-emitters) are the second-leading cause of lung cancer in the U.S. after smoking.
-
-**Sanity check.** Compare to gamma radiation: a 0.50-Gy dose of gamma rays would give $H = 0.5$ Sv — still substantial but 20× less than the alpha case. This is why alphas (and inhaled or ingested alpha emitters) are dangerous in ways gammas are not.
-
-### Common misconceptions
-
-- *"All radiation is equally dangerous per unit energy."* No. Per unit absorbed dose (Gy), alphas are 20× more biologically effective than gammas. The unit Sv accounts for this.
-- *"One CT scan will cause cancer."* The risk per scan is small (~$0.05\%$ lifetime) compared to the baseline cancer risk (~$40\%$). A single scan when medically indicated is a clear net benefit. Repeated unnecessary scans are not.
-- *"Background radiation is everywhere; therefore radiation is harmless."* Background dose averages ~3 mSv/year; high-altitude or radon-prone areas push that to ~5-10 mSv/year. The lifetime risk from background is small but not zero. Above background, the linear no-threshold model assumes additional risk scales linearly with dose, with the assumption (debated at very low doses) that there's no safe threshold.
-
-↳ **Dig Deeper — The linear no-threshold model and its critics**
-
-*The chapter uses the LNT (linear no-threshold) model implicitly. Below ~100 mSv, the data are not strong enough to confirm or refute LNT. Some scientists argue for a threshold; others argue for hormesis (low doses being beneficial). The debate has real policy implications.*
-
-**Prompt:**
-> Explain the linear no-threshold (LNT) model of radiation risk and its critics. (a) State the LNT assumption: cancer risk is linearly proportional to dose, with no threshold. (b) Summarize the main evidence for LNT (Hiroshima/Nagasaki survivor data above ~50-100 mSv). (c) Summarize the main critics: hormesis (very low doses may be beneficial), threshold (no risk below some level), and arguments from cellular DNA-repair mechanisms. (d) Explain why LNT is widely used in regulation despite uncertainty (precautionary principle, lack of strong contradictory data). End with one sentence on why this matters for nuclear-medicine practice and radiation protection.
-
-**What to do with the output:** Save it. The LNT debate is one of the few places in physics where the science directly drives public-health policy (radiation regulation, nuclear-medicine guidelines, allowable occupational exposures), and the underlying epidemiology is genuinely uncertain at low doses.
+The linear no-threshold (LNT) model — the assumption that cancer risk scales linearly with dose all the way to zero — is used because it is conservative, not because it is proven. Below about 100 mSv, the epidemiological data are too noisy to distinguish a linear effect from zero effect. The Hiroshima and Nagasaki survivor data are clear above 100 mSv and become equivocal below. Regulatory practice in medicine and nuclear industries uses LNT because it errs on the side of caution; whether it accurately describes the actual biology at low doses is genuinely uncertain. Some evidence suggests a threshold below which normal DNA repair handles the damage; some evidence suggests a linear effect. The debate has not been resolved, and anyone who tells you it has is overstating the evidence in one direction or the other.
 
 ---
 
-## Concept 3 — Therapy: killing cancer with the same physics that diagnoses it
+## Using the same physics to treat
 
-### A gamma knife treatment, today
+Everything so far has been about *detection* — using radiation to reveal what is happening inside the body. But the same physical interaction — ionizing radiation depositing energy in cells and damaging DNA — can be used in the opposite direction: to kill cells you want dead. The challenge is selectivity. You want to kill the tumor. You do not want to kill the surrounding tissue.
 
-A patient with a brain tumor is fitted with a stereotactic frame — a metal halo bolted to the skull for sub-millimeter positioning accuracy. They are placed inside a *Leksell Gamma Knife*, a hemispherical helmet containing 192 cobalt-60 sources arranged in a precise geometric pattern. Each source emits gammas (1.17 and 1.33 MeV from $^{60}$Co decay). Each individual beam is too weak to damage tissue. But all 192 beams converge on one point — the tumor — where the combined dose is intense enough to destroy the targeted tissue.
+The difference between diagnostic and therapeutic doses is about six orders of magnitude. A bone scan delivers a few millisieverts. A prostate-cancer radiation course delivers 80 Gy to the prostate — 80 joules per kilogram, focused to an organ the size of a walnut. The whole-body acute lethal dose is 4-5 Sv. The prostate receives 80,000 mSv. The patient survives because the dose is geometrically concentrated in one small volume.
 
-The treatment lasts an hour or so. The patient walks out the same day. There is no incision. The targeting is exquisite — sub-millimeter accuracy. The technique is used for brain tumors, AVMs, trigeminal neuralgia, and other conditions where precision matters and the target is small.
+This is the fundamental engineering problem of radiation therapy: deliver enough dose to kill the tumor while limiting the dose to everything else. The ratio of tumor kill to normal-tissue kill is called the *therapeutic ratio*, and every technique in radiotherapy exists to maximize it.
 
-This is *radiation therapy* — using ionizing radiation to kill cancer or other unwanted tissue. The principle is the same as in diagnostic imaging (deposit energy in tissue) but the dose is millions of times higher and the goal is destruction, not measurement. The challenge is to deposit enough dose to kill the tumor while limiting dose to surrounding healthy tissue. The ratio of tumor cell kill to normal cell kill is the *therapeutic ratio*, and every radiation-therapy technique is engineered to maximize it.
+The classical approach is a linear accelerator (LINAC) producing 6-25 MV X-rays via bremsstrahlung. A high-energy beam enters the patient from one direction. The tumor is deep inside; normal tissue is in front of it. If you aim from only one angle, the tissue between the skin and the tumor absorbs the same dose as the tumor — or more, since X-ray beams deposit maximum dose near the surface and fall off with depth. The solution is to rotate the beam through many angles, so that the tumor — where all the beams cross — accumulates high dose, while no single piece of normal tissue is ever in the path of more than a fraction of the total beam fluence. Modern intensity-modulated radiation therapy (IMRT) uses computer-optimized beam shapes and intensities that produce dose distributions conforming to the tumor's irregular three-dimensional shape. The tumor gets 80 Gy; the rectum a centimeter away might get 30.
 
-### The mechanism — targeting and dose modulation
+There is a deeper physical solution, and it involves the Bragg peak.
 
-**External beam radiation therapy (EBRT).** A beam of high-energy X-rays, gammas, or charged particles is aimed at the tumor from outside the body. To spare normal tissue, the beam is rotated through multiple angles (intensity-modulated radiation therapy, IMRT) so the cumulative dose at any normal point is small but the cumulative dose at the tumor (where the beams cross) is high. Modern linear accelerators (LINACs) produce 6-25 MV X-rays via bremsstrahlung from electrons accelerated to those energies and slammed into a tungsten target.
+When a charged particle — a proton, for instance — moves through tissue, it loses energy continuously via ionizations, and the rate of energy loss increases as the particle slows. Fast protons lose energy slowly; slow protons lose energy quickly. Just before the proton stops, it deposits a sharp spike of energy — the Bragg peak — in a very short length of tissue. Beyond that point, the proton is gone and deposits nothing. Before that point, the proton was moving fast and deposited relatively little.
 
-**Brachytherapy.** Small radioactive sources (seeds) are implanted directly inside or adjacent to the tumor, delivering high local dose. Common isotopes: $^{125}$I ($t_{1/2}$ = 60 d), $^{103}$Pd ($t_{1/2}$ = 17 d), $^{192}$Ir ($t_{1/2}$ = 74 d). Used for prostate, cervical, breast, and other cancers. The seeds either remain (low-dose-rate, LDR) or are removed after delivering their dose (high-dose-rate, HDR).
+Compare this to the X-ray beam, which deposits maximum dose near the surface and decays exponentially with depth. To deliver 80 Gy to a deep prostate with X-rays, you must also deliver substantial dose to the bladder wall in front of it and the rectum behind it. With a proton beam tuned so that the Bragg peak falls exactly at the tumor depth, you can deposit most of the dose at the tumor, with much less in the tissue in front and almost nothing behind. For pediatric brain tumors, where the tissue behind the target is developing brain in a child, this physical advantage is decisive.
 
-**Targeted radiopharmaceuticals.** A radioisotope is chemically attached to a molecule that selectively binds to cancer cells. Examples: $^{131}$I for thyroid cancer (the thyroid concentrates iodine), $^{223}$Ra for bone-metastatic prostate cancer (radium-223 is a calcium analog that goes to bone). Newer agents target specific tumor receptors with antibody-conjugated isotopes.
+<!-- → [CHART: Bragg peak vs. X-ray depth-dose curves — horizontal axis is depth in tissue (cm, 0 to 30), vertical axis is relative dose (%). Two curves: (1) megavoltage X-ray — peaks near surface, falls off exponentially. (2) Proton beam — low entrance dose, sharp Bragg peak at ~15 cm, near-zero dose beyond. Tumor region shaded at 12–17 cm. Caption: "The proton deposits almost nothing before and nothing after the peak — the X-ray can't be turned off at depth."] -->
 
-**Particle therapy.** Beams of protons or carbon ions instead of X-rays. Charged particles have a sharp *Bragg peak* — they deposit most of their energy at a specific depth determined by their initial energy, with much less dose in front of and almost none behind the peak. This produces excellent depth-dose conformity, sparing tissue beyond the tumor. Proton therapy is increasingly used for pediatric cancers, brain tumors, and tumors near critical structures. Carbon-ion therapy is even more selective but available at only a handful of centers worldwide due to cost.
+Proton therapy is expensive — the accelerator required costs on the order of $100 million, versus a few million for a LINAC — and its clinical advantage over advanced X-ray techniques is debated for many adult cancers. But the physics is unambiguous: the Bragg peak is a real and meaningful advantage where the geometry makes it relevant.
 
-### The Bragg peak
+Beyond external beams, the same tracer logic used for diagnosis can be turned to therapy. Iodine-131 ($t_{1/2}$ = 8 days) emits both beta particles (for therapy) and gammas (for imaging). The thyroid gland concentrates iodine — it cannot distinguish the radioactive isotope from the stable isotope you get from food. A large dose of $^{131}$I injected into a thyroid-cancer patient finds its way to any remaining thyroid tissue, including metastatic deposits, and the beta particles (range ~1-2 mm in tissue) deliver a killing dose locally, while most of the gammas escape and cause little harm. Differentiated thyroid cancer treated with surgery plus $^{131}$I has a five-year survival rate above 95%.
 
-The Bragg peak — the depth at which a charged-particle beam deposits maximum energy — is the central physical advantage of particle therapy. As a fast charged particle moves through tissue, it loses energy gradually via ionizations (Bethe-Bloch formula); the rate of energy loss increases as the particle slows down (because slower particles spend more time in any given region of tissue). Just before the particle stops, it deposits a sharp peak of energy. By choosing the initial energy, the therapy planner places the Bragg peak exactly at the tumor depth.
-
-Compare to a megavoltage X-ray beam, which deposits maximum dose near the surface and falls off exponentially with depth. To treat a deep tumor with X-rays, you have to overdose the tissue in front. With protons, you don't.
-
-### The trade-off
-
-Radiotherapy trades **dose to tumor against dose to normal tissue (the therapeutic ratio).** The cost: every treatment damages some normal tissue, which limits how much dose you can deliver and may cause acute or late side effects. The benefit: many cancers — Hodgkin's lymphoma, early-stage breast cancer, prostate cancer, brain tumors, head-and-neck cancers, many others — have high cure rates with radiation therapy, often without requiring surgery or chemotherapy.
-
-### Worked example — total dose for a typical cancer treatment
-
-A patient with prostate cancer receives external-beam radiotherapy at 200 cGy ($= 2$ Gy) per fraction, 5 days per week for 8 weeks. Total dose:
-
-$$D_{\text{total}} = 2 \text{ Gy} \times 5 \times 8 = 80 \text{ Gy}.$$
-
-(Modern protocols vary; some use higher dose per fraction, fewer fractions — *hypofractionation*.)
-
-For comparison:
-- Whole-body acute lethal dose: ~5 Gy.
-- This treatment: 80 Gy *to the prostate*, with much smaller doses to surrounding tissue (modulated by IMRT geometry).
-
-The reason 80 Gy is survivable is that it's *highly localized* to the prostate. Surrounding normal tissue receives much less. The therapeutic ratio is what makes this work.
-
-**Sanity check.** Standard definitive prostate-radiation protocols use total doses of 70-80 Gy in 35-44 daily fractions, with 5-year cure rates >90% for low-risk disease. The numbers are well-established clinical practice.
-
-### Common misconceptions
-
-- *"Radiation therapy makes you radioactive."* No. External-beam radiation passes through and is absorbed; the patient does not become a radiation source afterward. Brachytherapy does temporarily make the patient slightly radioactive (until the implanted source decays or is removed), but external beam does not.
-- *"Only cancer cells are affected."* All cells in the radiation field are damaged. Cancer cells are typically more sensitive (they reproduce more, and rapid replication is when DNA damage causes problems). Selectivity comes from geometry (focusing dose on the tumor) and from biological differences (cancer cells less able to repair).
-
-↳ **Dig Deeper — The Bragg peak and the case for proton therapy**
-
-*The chapter mentions proton therapy as a way to put dose precisely at the tumor depth. The full physics — the Bethe-Bloch energy-loss formula and the resulting Bragg peak — explains both the technique's promise and its current limitations (high cost, limited availability, debated cost-effectiveness for many adult cancers).*
-
-**Prompt:**
-> Explain the physics of the Bragg peak in proton therapy. (a) Describe the Bethe-Bloch formula for energy loss of a charged particle in matter: $-dE/dx \propto Z^2 / v^2$ (where Z is the particle charge and v is its velocity). Explain why slowing particles deposit more energy per unit length. (b) Compare the depth-dose curve of protons (sharp Bragg peak at a depth determined by initial energy, near-zero dose beyond) to megavoltage X-rays (maximum dose near the surface, exponential falloff with depth). (c) Briefly cover the case for proton therapy: pediatric cancers, brain tumors near critical structures, situations where sparing tissue behind the tumor matters most. (d) Briefly cover the controversy: high cost ($100M+ to build a proton facility), limited evidence of clinical benefit over advanced X-ray techniques (IMRT, VMAT) for many adult cancers. End with one sentence on the future of proton therapy in oncology.
-
-**What to do with the output:** Save it. Proton therapy is one of the active frontiers in radiation oncology, and a good case study in how a clear physics advantage may or may not translate into proportionate clinical benefit.
+Radium-223 for bone-metastatic prostate cancer works by a similar logic. Radium is a calcium analog — the body treats it like calcium and deposits it preferentially at sites of high bone turnover, which is exactly where prostate cancer metastases go. The alpha particles emitted by radium-223 (range ~$<100$ micrometers in tissue) kill the tumor cells in the bone lesion while causing minimal damage to surrounding bone marrow. Radium-223 is the first internal alpha emitter approved for cancer treatment, and the alpha's high $w_R$ (= 20) is, in this context, a therapeutic advantage rather than a hazard.
 
 ---
 
-## Synthesis — nuclear physics in service of medicine
+## The same dose, from diagnosis to therapy
 
-Step back. Three concepts in this chapter, all built from Chapter 31's nuclear physics applied to specific medical problems:
+Let me close by making the scale concrete. In a single patient with differentiated thyroid cancer, the same physical principle plays out across six orders of magnitude of dose.
 
-**Concept 1** introduced the major imaging modalities — X-ray and CT (transmission of external radiation), MRI (radio-frequency response of nuclear spins in a magnetic field), gamma camera and SPECT (detection of gammas from internal tracers), PET (coincident gamma detection from positron-electron annihilation). Each detects a different physical signal and reveals different information.
+Initial workup: a $^{99m}$Tc thyroid scan, perhaps 5-10 mCi, effective dose around 3-5 mSv. The tracer is chemically attached to a pertechnetate carrier that the thyroid takes up. The gamma camera images the distribution. The cancerous nodule shows up as an area of absent or altered uptake.
 
-**Concept 2** quantified radiation dose: activity (Bq), absorbed dose (Gy), equivalent dose (Sv) with biological weighting factors. Reference doses (mSv to Sv) for various procedures and exposures put medical doses in context with natural background and occupational limits.
+Staging: a $^{18}$F-FDG PET-CT, 10 mCi, effective dose around 14 mSv. The whole body is surveyed for metabolic hotspots that might be metastatic disease.
 
-**Concept 3** described radiation therapy: external-beam (X-ray, gamma, proton), brachytherapy (implanted seeds), and targeted radiopharmaceutical therapy. The therapeutic ratio (tumor kill vs. normal tissue kill) is the central engineering challenge, and physical techniques — IMRT, the Bragg peak of proton therapy, gamma-knife geometry — exist to maximize it.
+Treatment: the surgeon removes the thyroid. Then the patient receives $^{131}$I, typically 100-200 mCi — twenty times the activity of the PET scan. The dose to the thyroid bed and any residual thyroid tissue is measured in grays. The same gammas that were imaged at diagnostic doses now confirm uptake post-therapy. The same iodine-concentrating biology that made the original scan work now ensures the therapeutic dose goes exactly where it needs to go.
 
-The deepest single fact: **the same physics — ionizing radiation depositing energy in tissue — both diagnoses and treats. The dose makes the difference.** A bone scan delivers 5-10 mSv (small risk, useful diagnostic). A prostate-cancer radiotherapy course delivers 80 Gy *to the prostate* (definitive treatment, highly localized). Same fundamental interactions; six orders of magnitude difference in dose.
+Three steps. Three doses separated by a factor of roughly thirty from bottom to top. One underlying principle throughout: a radioactive atom follows the same chemical pathways as its stable counterpart, and a radiation detector — or a radiation dose — can exploit that.
 
-### A worked example using all three concepts — a thyroid-cancer treatment plan
-
-A patient is diagnosed with differentiated thyroid cancer. Their treatment plan involves three nuclear-medicine steps:
-
-**Concept 1 — diagnosis with a Tc-99m scan.** Initial workup includes a thyroid scan with $^{99m}$Tc-pertechnetate. The Tc concentrates in the thyroid (and salivary glands). The gamma camera shows the thyroid's activity distribution; cancerous nodules appear as "cold" (less uptake) or rarely "hot" (more uptake) regions. Activity: ~5-10 mCi. Effective dose: ~3-5 mSv.
-
-**Concept 1 + 3 — confirmation with PET.** $^{18}$F-FDG PET-CT confirms the metabolic activity and detects any metastases. Activity ~10 mCi, effective dose ~7 mSv. The PET-CT may identify lymph nodes or other sites that need to be addressed.
-
-**Concept 3 — surgery + radioactive iodine therapy.** After surgical removal of the thyroid, the patient receives $^{131}$I (iodine-131; $t_{1/2}$ = 8 days; emits both beta particles for therapy and gamma rays for imaging). The dose is therapeutic — typically 100-200 mCi (3.7-7.4 GBq) — orders of magnitude higher than any diagnostic dose. The beta particles have range ~1-2 mm in tissue, so they kill any remaining thyroid tissue (including residual cancer cells that take up iodine) without significantly damaging surrounding structures. The gammas allow post-treatment imaging to confirm uptake.
-
-**Concept 2 — dose assessment.** The patient's bone marrow dose during treatment is carefully tracked (limit: ~2 Gy to bone marrow over the course of treatment). The patient is briefly hospitalized in a shielded room because they are temporarily radioactive (gamma emission from the I-131 in their thyroid bed) and could expose family members at home.
-
-**Outcome.** Differentiated thyroid cancer has 5-year survival rates >95% with this approach. The combination of surgery + radioactive iodine is the gold standard.
-
-**Scale shift.** That same use of $^{131}$I for diagnosis and treatment was pioneered in the late 1940s by Saul Hertz at Massachusetts General Hospital. Modern nuclear medicine uses dozens of different radioisotopes for specific cancer types, each chosen for its half-life, decay mode, and chemical pathway in the body. The principles set by Hevesy in 1913 — radioactive tracking of biological molecules — remain unchanged.
+Hevesy proved this with an electroscope and a suspicious landlady in 1913. Modern nuclear medicine runs on the same idea at the scale of millions of procedures per year.
 
 ---
 
@@ -289,41 +113,41 @@ A patient is diagnosed with differentiated thyroid cancer. Their treatment plan 
 
 ### Warm-up
 
-**32.1** *(LO 1)* Match each imaging modality to the physical signal it detects: (a) CT scan, (b) MRI, (c) PET, (d) bone scan with $^{99m}$Tc, (e) chest X-ray. Pick from: X-ray transmission; gamma emission from injected tracer; coincident gamma pairs from positron-electron annihilation; radio-frequency response from nuclear spin precession.
+**14.1** *(imaging modalities)* Match each modality to what it primarily reveals: (a) chest X-ray, (b) bone scan with $^{99m}$Tc, (c) PET with $^{18}$F-FDG, (d) MRI. Choose from: tissue density and structure; metabolic glucose consumption; active bone turnover; soft-tissue water content and relaxation environment.
 
-**32.2** *(LO 2)* Convert: (a) 5.0 mCi to Bq, (b) 2.5 Gy to rad, (c) 10 mSv to rem, (d) 0.5 Gy of alpha radiation to Sv (use $w_R = 20$).
+**14.2** *(unit conversions)* Convert: (a) 10 mCi to becquerels, (b) 2.0 Gy to rad, (c) 15 mSv to rem, (d) 0.25 Gy of alpha radiation to sieverts (use $w_R = 20$).
 
-**32.3** *(LO 3)* List two radiopharmaceuticals used for diagnostic imaging and one used for therapy. For each, state which organ or condition it targets.
+**14.3** *(half-life choice)* Why is a 6-hour half-life nearly ideal for a diagnostic imaging tracer? What would go wrong with a half-life of 6 minutes? With 6 months?
 
-**32.4** *(LO 4)* What are the three principal external-beam radiotherapy modalities? Briefly describe one technical advantage of proton therapy over X-ray therapy.
+**14.4** *(Bragg peak)* In one or two sentences, explain why a proton beam can be designed to deposit almost no dose in healthy tissue *beyond* a tumor, while a megavoltage X-ray beam cannot.
 
 ### Application
 
-**32.5** *(LO 1)* Why is $^{99m}$Tc the most widely used isotope for nuclear-medicine imaging? Consider its half-life (6 h), gamma energy (140 keV), production from $^{99}$Mo generators, and biological behavior of the various technetium compounds.
+**14.5** *(dose comparison)* A patient receives a chest CT (7 mSv). (a) How many times the annual U.S. background dose (3 mSv) does this represent? (b) How does it compare to the acute radiation-sickness threshold (~1 Sv)? (c) How many chest X-rays (0.1 mSv each) deliver the same dose?
 
-**32.6** *(LO 2)* A patient receives a CT abdominal scan delivering 10 mSv. Compare this to (a) annual U.S. background radiation, (b) a single chest X-ray, (c) a transatlantic flight (estimated 0.05 mSv).
+**14.6** *(equivalent dose)* A radiation worker's lung receives 0.10 Gy of absorbed dose from inhaled alpha-emitting radon daughters. (a) What is the equivalent dose in sieverts? (b) How does this compare to the annual U.S. occupational limit of 50 mSv?
 
-**32.7** *(LO 5)* Estimate the increased lifetime cancer risk from a single 10-mSv CT scan, using the linear no-threshold model with risk coefficient ~$5 \times 10^{-5}$ per mSv. Compare to baseline U.S. lifetime cancer risk of ~40%.
+**14.7** *(why $^{131}$I for thyroid)* Iodine-131 emits both beta particles and gamma rays. (a) Which emission is responsible for the therapeutic effect, and why? (b) Which emission allows post-treatment imaging to confirm uptake? (c) Why would an isotope that emits *only* alpha particles be problematic for this therapy?
 
-**32.8** *(LO 3)* Explain why the iodine isotope used for thyroid *imaging* ($^{123}$I, t1/2 = 13 h, gamma-only) differs from the one used for thyroid *therapy* ($^{131}$I, t1/2 = 8 d, beta + gamma). What property makes each suitable for its purpose?
+**14.8** *(PET physics)* Fluorine-18 decays by positron emission. (a) What happens to the positron within a few millimeters? (b) What two photons are produced, and what are their energies and directions? (c) Why does PET require coincidence detection rather than single-photon detection?
 
 ### Synthesis
 
-**32.9** *(LO 2, LO 5)* A radiation worker accidentally ingests $1 \times 10^7$ Bq of an alpha emitter that lodges in her lung. Each alpha deposits 5 MeV in surrounding lung tissue (assume 50 g of lung receives the dose). Estimate (a) the absorbed dose in Gy if all alphas decay within the lung over a year, (b) the equivalent dose in Sv. Comment on the result vs. occupational limits.
+**14.9** *(LNT risk estimate)* Using the linear no-threshold model with a risk coefficient of $5 \times 10^{-5}$ per mSv, estimate the increased lifetime cancer risk from (a) a single chest CT (7 mSv), (b) ten CT scans over a lifetime (70 mSv total). Compare each to the U.S. baseline lifetime cancer risk of approximately 40%. What does this arithmetic imply about the risk-benefit calculation for a single medically indicated CT?
 
-**32.10** *(LO 3, LO 4)* A patient with a 2-cm brain tumor is treated with the Gamma Knife (192 sources of $^{60}$Co, each emitting 1.17 and 1.33 MeV gammas). (a) Why are 192 separate beams used rather than one strong beam? (b) Why is $^{60}$Co (rather than, say, $^{137}$Cs or $^{99m}$Tc) chosen as the isotope? Hint: consider gamma energy, half-life, and availability.
+**14.10** *(diagnostic vs. therapeutic dose)* A typical $^{99m}$Tc bone scan delivers ~5 mSv. A therapeutic course of $^{131}$I for thyroid cancer delivers roughly 80 Gy to the thyroid bed. Convert 80 Gy to mSv (for beta/gamma, $w_R = 1$) and find the ratio of therapeutic to diagnostic dose. What does this ratio tell you about the meaning of "same physics, different purpose"?
 
-**32.11** *(LO 1, LO 3)* A breast cancer patient undergoes (i) a mammogram (X-ray), (ii) a follow-up biopsy (no radiation), (iii) PET-CT for staging ($^{18}$F-FDG), (iv) a sentinel lymph node biopsy with $^{99m}$Tc colloid (gamma probe). For each of (i), (iii), (iv), state the imaging modality, what it reveals, and approximate effective dose.
+**14.11** *(Gamma Knife geometry)* A Gamma Knife uses 192 separate $^{60}$Co sources, each producing a weak beam, all aimed at one point inside the brain. (a) Why use 192 sources instead of one strong source? (b) A single source delivers 1/192 of the total dose along its path before reaching the target. If the total target dose is 20 Gy, what does each source contribute to any single point along its entry path? (c) What property of $^{60}$Co (half-life 5.3 years, gamma energies 1.17 and 1.33 MeV) makes it suitable for this application?
 
 ### Challenge
 
-**32.12** *(beyond chapter)* Why are children's radiation doses from CT scans more concerning than adults', for the same scan? Consider (a) more remaining lifetime for cancer to develop, (b) tissue radiosensitivity in growing tissue, (c) anatomical scaling (a fixed scanning protocol delivers more dose per unit body mass to a smaller patient).
+**14.12** *(activity decay during imaging)* A patient is injected with 10 mCi of $^{18}$F-FDG ($t_{1/2}$ = 110 min) at time $t = 0$. The PET scan begins 60 minutes later and lasts 30 minutes. (a) What is the activity at the start of the scan? (b) What is the activity at the end of the scan? (c) Estimate the total number of decays during the 30-minute scan window. (d) If each decay deposits roughly 0.25 MeV in the patient's 70-kg body, estimate the absorbed dose in mGy from the scan window alone.
 
-**32.13** *(beyond chapter)* The natural background dose averages ~3 mSv/year in the US, dominated by radon ($^{222}$Rn from soil). Find and report the typical radon level in a basement and what that translates to in mSv/year. How does this compare to the dose from one CT scan?
+**14.13** *(proton vs. X-ray depth dose)* A proton beam is tuned so that its Bragg peak falls at a depth of 15 cm in tissue. A megavoltage X-ray beam deposits 100% of its maximum dose at 3 cm depth and falls off exponentially with attenuation coefficient $\mu \approx 0.05 \, \text{cm}^{-1}$. (a) What fraction of the X-ray beam's maximum dose reaches 15 cm depth? (b) If you need 70 Gy at the tumor (15 cm), what dose does the X-ray beam deposit at 3 cm (where maximum dose occurs)? (c) Explain in one sentence why the proton beam avoids this problem.
 
 ---
 
-## LLM Exercise — Chapter 32: Medical Nuclear Physics in Your Anchor Phenomenon
+## LLM Exercise — Chapter 14: Medical Nuclear Physics in Your Anchor Phenomenon
 
 **Project:** Physics Reality Check Logbook
 **What you're building this chapter:** A Logbook entry for medical nuclear physics. Most everyday phenomena don't involve direct medical imaging, but you can compute the radiation dose from imaging procedures you've had, or from natural sources connected to your phenomenon, or from the imaging modalities used to diagnose conditions related to your phenomenon (e.g., a runner's stress-fracture scan).
@@ -332,25 +156,43 @@ A patient is diagnosed with differentiated thyroid cancer. Their treatment plan 
 ### The Prompt
 
 ```
-I'm continuing my Physics Reality Check Logbook for College Physics with LLMs. My anchor phenomenon is [paste your 1-sentence description].
+I'm continuing my Physics Reality Check Logbook for College Physics
+with LLMs. My anchor phenomenon is [paste your 1-sentence description].
 
-For Chapter 32, I want to apply medical-nuclear-physics — imaging, dose, therapy — to my phenomenon.
+For Chapter 14, I want to apply medical-nuclear-physics — imaging,
+dose, therapy — to my phenomenon.
 
 Please:
 
-1. Identify ONE medical-nuclear connection to my phenomenon. Examples: for a bike commute — the X-ray that diagnoses a wrist fracture from a fall, the chiropractor's possible CT, the PET-CT a cyclist might get for cancer screening as an aging athlete. For a coffee maker — the cumulative dose from medical imaging over a typical adult lifetime, the X-rays the hospital uses to monitor an industrial coffee facility's machinery. For a basketball shot — the X-ray for any sports-related injury (knee, ankle, finger), the MRI for ligament damage. For a marathon — common runner's injuries imaged with X-ray or MRI (stress fractures, tendinitis), the dexa scan for bone density monitoring of older runners.
+1. Identify ONE medical-nuclear connection to my phenomenon. Examples:
+   for a bike commute — the X-ray that diagnoses a wrist fracture from
+   a fall, the chiropractor's possible CT, the PET-CT a cyclist might
+   get for cancer screening as an aging athlete. For a coffee maker —
+   the cumulative dose from medical imaging over a typical adult
+   lifetime, the X-rays the hospital uses to monitor an industrial
+   coffee facility's machinery. For a basketball shot — the X-ray for
+   any sports-related injury (knee, ankle, finger), the MRI for
+   ligament damage. For a marathon — common runner's injuries imaged
+   with X-ray or MRI (stress fractures, tendinitis), the DEXA scan for
+   bone density monitoring of older runners.
 
-2. Apply ONE chapter equation. Compute total dose from a specific imaging procedure (e.g., chest X-ray ~0.1 mSv, abdominal CT ~10 mSv), or compute equivalent dose from absorbed dose × $w_R$, or estimate cancer risk using the LNT model.
+2. Apply ONE chapter equation. Compute total dose from a specific
+   imaging procedure (e.g., chest X-ray ~0.1 mSv, abdominal CT
+   ~10 mSv), or compute equivalent dose from absorbed dose × w_R,
+   or estimate cancer risk using the LNT model.
 
-3. Specify input numbers (look up the typical effective dose for the procedure).
+3. Specify input numbers (look up the typical effective dose for the
+   procedure).
 
 4. Run the calculation. Report value with units.
 
 5. One sanity check: does the dose match published reference values?
 
-6. One sentence connecting this to Chapter 33 (particle physics) — many of the same physics ideas (relativistic kinematics, charged particles in fields) underlie particle therapy.
+6. One sentence connecting this to Chapter 15 (particle physics) —
+   many of the same physics ideas (relativistic kinematics, charged
+   particles in fields) underlie particle therapy.
 
-Save the output as logbook/chapter-32-medical-nuclear.md.
+Save the output as logbook/chapter-14-medical-nuclear.md.
 ```
 
 ### What this produces
@@ -364,43 +206,11 @@ A Logbook entry connecting your phenomenon to medical imaging or therapy via rad
 
 ### Connection to previous chapters
 
-Builds on Chapter 31 (radioactivity, half-life, decay modes, $E = mc^2$) and Chapter 30 (X-ray production from atomic transitions).
+Builds on Chapter 13 (radioactivity, half-life, decay modes, $E = mc^2$) and Chapter 12 (X-ray production from atomic transitions).
 
 ### Preview of next chapter
 
-Chapter 33 (particle physics) descends below the nucleon level — to quarks and the Standard Model. Many of the same physics ideas (relativistic energy-momentum, decay rates, conservation laws) reappear at the smaller scale.
-
----
-
-## Chapter summary
-
-Medical nuclear physics applies the principles of Chapter 31 (radioactivity) and Chapter 30 (atomic structure, X-rays) to diagnosis and therapy. Imaging modalities — X-ray, CT, MRI, gamma camera, SPECT, PET — each detect different physical signals and reveal different aspects of structure or function. Radiation dose is measured in becquerels (activity), grays (absorbed dose, J/kg), and sieverts (equivalent dose, weighted by $w_R$ for biological effectiveness). Radiation therapy delivers ~100× higher doses than diagnosis but is geometrically targeted to spare normal tissue, using techniques like IMRT, gamma-knife stereotactic radiosurgery, brachytherapy, and proton/charged-particle therapy.
-
-The one idea that matters most: **radiation can both diagnose disease (low dose, high information) and cure it (high dose, focused delivery). The same physics underlies both.** Nuclear medicine is a clear case of physics-as-enabling-science.
-
-The common mistake to watch for: **confusing the units.** Activity (Bq) is decay rate. Absorbed dose (Gy) is energy per mass. Equivalent dose (Sv) is dose × $w_R$. Always check what unit a quoted radiation level uses; the conversions are not all simple factors of 100.
-
-What you should now be able to teach someone else: how the major imaging modalities differ, how radiation dose is quantified, how the therapeutic ratio guides radiation therapy, and why proton therapy has a physical (Bragg-peak) advantage over X-ray therapy. If you can also explain why a single CT scan delivers about 2-3 years of background radiation, you've understood the practical core.
-
----
-
-## What would change my mind
-
-The chapter argues that nuclear-medicine techniques are well-validated and that their benefits, in appropriately selected clinical situations, outweigh their radiation risks. The argument would need revision if (a) large-scale epidemiological studies found cancer risks from low-dose imaging (~10 mSv) substantially higher than the LNT extrapolation predicts, or (b) a non-ionizing imaging modality (e.g., advanced MRI or ultrasound) achieved equivalent or better diagnostic performance for current PET/CT applications. Both are active research areas.
-
-## Still puzzling
-
-The deepest unresolved question this chapter touches: **what is the actual cancer risk of diagnostic-level radiation doses (1-50 mSv)?** Above ~100 mSv, the data from atomic-bomb survivors and other cohorts are clear; below that, the data are too sparse to definitively confirm or refute the linear no-threshold model. This is one of the few areas in medicine where physics-derived doses interact with imperfectly known biological response, and where regulatory practice (assuming LNT) outpaces scientific certainty. The answer matters for whether routine pediatric CT screening is wise, whether the wider use of PET-CT for cancer monitoring increases population cancer rates, and how strict occupational limits should be.
-
----
-
-## Connections forward
-
-Chapter 33 (particle physics) goes below the nucleon, examining the quark structure of protons and neutrons and the Standard Model of fundamental interactions. Some particle-physics techniques (relativistic charged-particle beams, particle accelerators) directly enable proton-beam radiotherapy. Chapter 34 (frontiers) considers open questions in physics including dark matter and gravitational waves; many of the detection techniques used in particle physics also originated in or feed back into medical and other nuclear technologies.
-
----
-
-**Tags:** medical-nuclear-physics, radiation-dose, PET-imaging, radiotherapy, dosimetry
+Chapter 15 (particle physics) descends below the nucleon level — to quarks and the Standard Model. Many of the same physics ideas (relativistic energy-momentum, decay rates, conservation laws) reappear at the smaller scale.
 
 ---
 
@@ -411,7 +221,10 @@ Chapter 33 (particle physics) goes below the nucleon, examining the quark struct
 **Run this:**
 
 ```
-Who was Irène Joliot-Curie, and how does her work on artificial radioactivity connect to the medical applications of nuclear physics we covered in this chapter? Keep it to three paragraphs. End with the single most surprising thing about her career or ideas.
+Who was Irène Joliot-Curie, and how does her work on artificial
+radioactivity connect to the medical applications of nuclear physics
+we covered in this chapter? Keep it to three paragraphs. End with
+the single most surprising thing about her career or ideas.
 ```
 
 → Search **"Irène Joliot-Curie"** on Wikipedia.
