@@ -7,7 +7,8 @@ About seventeen hours later, something arrived at Earth. It had no weight that a
 
 What had arrived was a cloud of magnetized plasma, launched from the Sun, that traveled ninety million miles in seventeen hours, compressed Earth's magnetic field like a fist squeezing a balloon, and dumped enough energy into the upper atmosphere to light the sky from pole to nearly equator. The most advanced communication technology of the industrialized world simply stopped working.
 
-<!-- → [INFOGRAPHIC: Sun–Earth timeline for the Carrington Event — horizontal axis with labeled stages: flare observed at t=0; X-rays/light arrive at t+8 min; CME departs; CME arrives at t+17 hours — annotate what each stage affected (light: nothing; CME: telegraph network, aurora to equator); second row showing the same sequence for a modern event (light: satellite drag, radio blackout; CME: grid failure, GPS loss); the two-row comparison makes the "same machine, more exposure" thesis visceral before the chapter argues it] -->
+![Sun–Earth timeline for the Carrington Event ](images/02-the-sun-a-garden-variety-star-fig-01.png)
+*Figure 2.1 — Sun–Earth timeline for the Carrington Event *
 
 If it happened tomorrow, we would lose power grids, satellites, GPS, hospital equipment, financial networks. The 1859 damage was bounded by the technology of 1859. We have since added considerably more technology. The Sun has not changed.
 
@@ -23,13 +24,15 @@ In 1925, a young British astronomer named Cecilia Payne-Gaposchkin decided to re
 
 Every element, when heated, absorbs light at specific wavelengths — the same wavelengths it would emit if you excited it in isolation. The pattern is distinctive. Iron has its fingerprint. Hydrogen has its own. Pass sunlight through a prism and spread it into a spectrum, and you see thousands of dark lines where the Sun's cooler outer atmosphere has absorbed specific colors from the light passing through it on its way to your eye. Each dark line is an element saying *I am here*.
 
-<!-- → [IMAGE: solar absorption spectrum (Fraunhofer lines) — a continuous rainbow spread with dark vertical lines overlaid; annotate three or four lines with element identities (hydrogen Balmer series at 656 nm, sodium D lines at 589 nm, calcium H and K at 397/393 nm); caption: "Each dark line is an element removing its characteristic wavelengths from passing sunlight. The pattern is a fingerprint. Payne-Gaposchkin read it in 1925 and found something no one expected."] -->
+![Each dark line is an element removing its characteristic wavelengths from passing sunlight. The pattern is a fingerprint. Payne-Gaposchkin read it in 1925 and found something no one expected.](images/02-the-sun-a-garden-variety-star-fig-02.png)
+*Figure 2.2 — Solar absorption spectrum (Fraunhofer lines) *
 
 Payne-Gaposchkin measured those lines and ran the calculations. The result was so improbable she doubted herself. The Sun, she found, is approximately 73 percent hydrogen by mass and 25 percent helium. Everything else — carbon, oxygen, nitrogen, iron, all the elements you associate with planets and life — makes up about 2 percent.
 
 She wrote in her doctoral thesis that the enormous abundances she found for hydrogen and helium were "almost certainly not real." Her advisor, Henry Norris Russell, told her to add the disclaimer. He was wrong. She was right. The Sun is made of the two simplest elements in the universe, and almost nothing else.
 
-<!-- → [INFOGRAPHIC: pie chart of solar composition by mass — hydrogen 73%, helium 25%, all other elements 2% — with a small inset showing Earth's bulk composition for contrast (iron ~32%, oxygen ~30%, silicon ~15%); caption: "Payne-Gaposchkin's 1925 result, which she initially walked back under pressure from her advisor. The disclaimer was wrong. The numbers were right."] -->
+![Payne-Gaposchkin's 1925 result, which she initially walked back under pressure from her advisor. The disclaimer was wrong. The numbers were right.](images/02-the-sun-a-garden-variety-star-fig-03.png)
+*Figure 2.3 — Pie chart of solar composition by mass *
 
 This matters for what comes next. Hydrogen is not burning in the ordinary chemical sense — there is no oxygen to react with, and chemical burning could not keep the Sun shining for more than a few thousand years. Something else is happening, something that requires 15 million Kelvin to even begin.
 
@@ -55,7 +58,8 @@ A photon produced in the core of the Sun does not travel outward in a straight l
 
 The statistics of random walks produce a remarkable result. If each step is of length $l$, and the total distance from start to finish is $D$, the number of steps required to travel distance $D$ in a random walk is not $D/l$ but $(D/l)^2$. The straight-line trip from the Sun's core to its surface at light speed takes about two seconds. But a random walk with steps of 1 centimeter across 700,000 kilometers takes roughly $10^{26}$ steps. At the speed of light, that is about 100,000 years.
 
-<!-- → [DIAGRAM: random walk vs. straight-line path — two panels side by side; left panel: clean arrow from core to surface labeled "straight line at light speed: ~2 seconds"; right panel: dense, tangled zigzag path covering the same distance labeled "random walk at 1 cm mean free path: ~100,000 years"; annotate the step length (1 cm) and total steps (~10²⁶); the visual should make the factor-of-a-billion time difference intuitively obvious without requiring the reader to do the math] -->
+![Random walk vs](images/02-the-sun-a-garden-variety-star-fig-04.png)
+*Figure 2.4 — Random walk vs*
 
 The light hitting your eyes right now left the Sun's surface eight minutes ago. But the energy in that light left the Sun's *core* roughly 100,000 years ago — around the time modern humans were first spreading into Europe.
 
@@ -69,11 +73,13 @@ At about 70 percent of the radius outward, the temperature has dropped to around
 
 When more heat arrives from below than can be transported upward by radiation, the only option is convection. Hot material rises. Cool material sinks. It is the same process that moves warm water to the surface of a heating pot, the same process that drives a thunderstorm, the same process that moves continents — just operating in a shell of plasma 200,000 kilometers deep, at temperatures of millions of Kelvin, cycling material at thousands of meters per second.
 
-<!-- → [DIAGRAM: labeled cross-section of the Sun's interior — three concentric zones: core (~0–25% radius, labeled "nuclear fusion, 15 million K"), radiative zone (~25–70% radius, labeled "photon random walk, ~100,000 years to cross"), convection zone (~70–100% radius, labeled "hot plasma rising, cool plasma sinking"); temperature annotations at zone boundaries; energy transport mechanism labeled in each zone; photosphere labeled as the thin outer shell where light escapes] -->
+![Labeled cross-section of the Sun's interior ](images/02-the-sun-a-garden-variety-star-fig-05.png)
+*Figure 2.5 — Labeled cross-section of the Sun's interior *
 
 The tops of these convection cells are visible from Earth. High-resolution solar telescopes show the photosphere — the thin layer where light finally escapes — covered in polygonal bright patches roughly 1,000 kilometers across, called granules, surrounded by darker lanes where cooler plasma is sinking. Each granule rises, spreads, cools, and dissolves in about eight minutes. The photosphere is covered with millions of them at any moment. The Sun's surface is not still. It is churning.
 
-<!-- → [IMAGE: high-resolution solar telescope photograph of photospheric granulation — bright polygon cells with darker intergranular lanes; annotate one granule's diameter (~1,000 km) with Earth shown to scale alongside it; caption: "Each bright polygon is a convection cell completing one full cycle in about 8 minutes. Millions operate simultaneously. The photosphere looks calm from a distance. Up close, it is not."] -->
+![Each bright polygon is a convection cell completing one full cycle in about 8 minutes. Millions operate simultaneously. The photosphere looks calm from a distance. Up close, it is not.](images/02-the-sun-a-garden-variety-star-fig-06.png)
+*Figure 2.6 — High-resolution solar telescope photograph of photospheric granulation *
 
 The convection zone is also where the Sun's magnetic field is generated. This is the connection we need.
 
@@ -85,7 +91,8 @@ Moving plasma is moving charge. Moving charge generates a magnetic field. The co
 
 The Sun does not rotate as a rigid body. Its equator rotates faster than its poles — about 25 days per rotation at the equator versus 36 days near the poles. The magnetic field, which is frozen into the conducting plasma, gets stretched and wound by this differential rotation. The equatorial field gets pulled ahead of the polar field. Imagine stirring a very viscous fluid in which thin strands of chocolate have been laid in straight lines north to south — after a few stirs, the strands are wound around and around, increasingly tangled, amplified.
 
-<!-- → [DIAGRAM: differential rotation winding the magnetic field — three-panel sequence: panel 1: Sun with clean dipole field lines running north–south, equatorial rotation period labeled (25 days), polar labeled (36 days); panel 2: after several rotations, equatorial field stretched ahead of polar, lines beginning to wrap east–west around the Sun; panel 3: tightly coiled flux tubes rising buoyantly through the convection zone toward the photosphere; the three-panel sequence should make the winding mechanism visually self-explanatory] -->
+![Differential rotation winding the magnetic field ](images/02-the-sun-a-garden-variety-star-fig-07.png)
+*Figure 2.7 — Differential rotation winding the magnetic field *
 
 After enough windings, the magnetic field is coiled so tightly that it forms concentrated flux tubes. These tubes are so magnetically pressurized that they are less dense than their surroundings. Buoyant, they rise through the convection zone like long magnetic ropes. When one of these ropes punches through the photosphere, it creates a pair of sunspots: one where the field emerges (one magnetic polarity) and one nearby where it re-enters (opposite polarity). The strong field in the tube suppresses convection underneath, blocking the upward heat flow. The region cools to about 3,800 Kelvin — still intensely hot, but cool enough relative to the surrounding 5,800 Kelvin to appear dark.
 
@@ -99,7 +106,8 @@ The amateur pharmacist Heinrich Schwabe spent seventeen years, starting in the 1
 
 The mechanism is the dynamo described above, running to its natural conclusion. The field winds up over roughly five years — sunspot activity rises as flux tubes emerge in growing numbers. Then the field becomes so tangled, so stressed by continued winding, that it breaks apart and reconnects to new configurations. The energy stored in the magnetic field is released. The field rebuilds, but with reversed polarity. What was north is now south. The cycle repeats, taking another eleven years to reverse again — meaning the true magnetic cycle is 22 years, though the observable sunspot cycle is 11.
 
-<!-- → [CHART: monthly smoothed sunspot number vs. year from ~1750 to present — time series showing the repeating 11-year wave; annotate: Maunder Minimum (~1645–1715, where the curve nearly flatlines), Carrington Event at Solar Cycle 10 maximum (1859), 1989 Quebec blackout (Cycle 22), 2012 near-miss (Cycle 24); the student should see that cycle amplitude varies, that the most dangerous events cluster near maximum, and that the Maunder Minimum shows the cycle can weaken substantially] -->
+![Monthly smoothed sunspot number vs](images/02-the-sun-a-garden-variety-star-fig-08.png)
+*Figure 2.8 — Monthly smoothed sunspot number vs*
 
 Right now, we are in Solar Cycle 25, approaching maximum. The Sun will be most active around 2025 and decline thereafter. We know this in the same way we know when the tide will come in: the broad pattern is regular enough to predict. What we cannot predict is which specific active region will produce a major flare on which specific day. The cycle is the rhythm. The individual events are the improvisation.
 
@@ -111,7 +119,8 @@ Above the photosphere, the Sun's atmosphere does something that violates every n
 
 You are moving away from the most powerful energy source in the solar system, and the temperature rises by a factor of nearly 200.
 
-<!-- → [CHART: temperature vs. altitude above the photosphere — horizontal axis: height (0 to ~10,000 km, log scale); vertical axis: temperature (K, log scale, 4,000 K to 3,000,000 K); show the temperature minimum at ~500 km, chromosphere rising to ~10,000 K, narrow transition region, corona plateau at 1–3 million K; annotate the transition region: "coronal heating problem — this rise has no fully accepted explanation"; the curve should look visually wrong to anyone who expects temperature to fall with distance from a heat source — that wrongness is the point] -->
+![Temperature vs](images/02-the-sun-a-garden-variety-star-fig-09.png)
+*Figure 2.9 — Temperature vs*
 
 This is not a trick of measurement. It is real. And it is one of the major unsolved problems in astrophysics. We know the magnetic field is involved — waves and oscillations propagating upward from the convection zone carry energy into the corona, and magnetic reconnection events release energy there — but the precise mechanism by which the corona maintains temperatures of a million Kelvin remains genuinely open. The corona is simultaneously the most visible and the least understood part of the Sun.
 
@@ -125,13 +134,15 @@ Sunspot maximum is when the tangled magnetic field above active regions is under
 
 The first is a solar flare. When two magnetic loops with opposite orientations approach each other in the corona, the field lines break and reconnect explosively. The stored magnetic energy — which had been building since those loops were first dragged up through the photosphere — releases all at once. The surrounding plasma is heated to tens of millions of Kelvin. A flood of X-rays and extreme ultraviolet radiation streams outward. Because it travels at the speed of light, it arrives at Earth eight minutes after the flare. There is no warning time. By the time anyone knows it happened, it has already arrived. The X-rays ionize the upper atmosphere, disrupting the ionosphere that radio communication depends on as a reflector. Satellites experience increased drag as the upper atmosphere expands from sudden heating.
 
-<!-- → [DIAGRAM: magnetic reconnection sequence — four panels: (1) two opposing coronal loops approaching above an active region, field line directions annotated with arrows showing opposing orientation; (2) field lines beginning to pinch and break at the contact point; (3) explosive reconnection — field lines snap to new lower-energy partners, stored energy released as X-ray/UV burst directed toward Earth, accelerated particles streaming along newly reconnected lines; (4) post-flare loop arcade in lower, quieter configuration; annotate X-ray travel time to Earth (8 min) and "no warning window"] -->
+![Magnetic reconnection sequence ](images/02-the-sun-a-garden-variety-star-fig-10.png)
+*Figure 2.10 — Magnetic reconnection sequence *
 
 The second event is a coronal mass ejection. Sometimes — not always, and not only with flares — the eruption launches an actual cloud of plasma: tens of millions of tons of magnetized material blasted away from the corona at 500 to 1,000 kilometers per second. A CME is not radiation. It is matter. It does not travel at the speed of light. It arrives at Earth in two to four days. Unlike the flare's instantaneous punch, a CME is a slow punch you can see coming — and modern solar observatories do see them coming, giving a few days of warning.
 
 When a CME arrives, it encounters Earth's magnetic field. The outcome depends critically on the orientation of the CME's own magnetic field. If the CME's field happens to point southward — opposite to Earth's equatorial field, which points northward — the two fields connect. Charged particles funnel deep into the magnetosphere along field lines that now extend from the CME all the way down to Earth's polar regions. The field compressions and oscillations induce electric currents in anything long and conducting at the surface: power lines, pipelines, telegraph wires.
 
-<!-- → [DIAGRAM: Earth's magnetosphere during CME impact — cross-section view from above the ecliptic; solar wind and CME approaching from left; dayside magnetosphere compressed (annotate ~65,000 km standoff vs. normal ~65,000 km, compressed further during CME); nightside magnetotail stretched; field lines funneling into polar cusps with particle paths shown; inset diagram showing "southward Bz" reconnection geometry — CME field pointing south connecting to Earth's northward equatorial field, explaining why field orientation controls storm severity; aurora shaded zone extending to mid-latitudes] -->
+![Earth's magnetosphere during CME impact ](images/02-the-sun-a-garden-variety-star-fig-11.png)
+*Figure 2.11 — Earth's magnetosphere during CME impact *
 
 This is exactly what happened in 1859. This is what burned Carrington's telegraph operators.
 
@@ -145,7 +156,8 @@ Studies published afterward, using satellite data from the STEREO spacecraft tha
 
 This is not a hypothetical projection about a possible future event. It is a description of something that already happened, in 2012, and missed.
 
-<!-- → [INFOGRAPHIC: major solar events and Earth impacts on a timeline — horizontal axis: 1859 to 2012; plot Carrington Event (1859), Quebec blackout (1989, annotate: 6 million without power, 9 hours), Halloween storms (2003, annotate: satellites damaged), 2012 near-miss (annotate: "missed by ~1 week of orbital travel, estimated $1–2T damage if direct hit"); scale each event marker by estimated or actual damage; 2012 shown as a dotted outline — the event that happened but didn't land; the visual argument: the same class of event, with escalating stakes as technology accumulates] -->
+![Major solar events and Earth impacts on a](images/02-the-sun-a-garden-variety-star-fig-12.png)
+*Figure 2.12 — Major solar events and Earth impacts on a*
 
 The Carrington Event of 1859 happened. The 1989 Quebec blackout — a much weaker storm that knocked out power for six million people for nine hours in a Canadian winter — happened. The 2003 Halloween storms damaged or destroyed several satellites. The 2012 near-miss happened.
 
@@ -161,7 +173,8 @@ It formed 4.6 billion years ago from a collapsing cloud of gas and dust — itse
 
 The Sun will continue fusing hydrogen for another five billion years or so. As it ages, its luminosity will gradually increase — it is already about 30 percent brighter than it was when Earth formed, a change with real consequences for Earth's climate history. When the hydrogen in the core is finally exhausted, the core will contract, the outer layers will expand enormously, and the Sun will become a red giant: vastly larger, cooler at the surface, likely engulfing Mercury and Venus and possibly Earth. The outer layers will be expelled as a planetary nebula. The remaining core will become a white dwarf — roughly Earth-sized, slowly cooling over billions of years in the dark.
 
-<!-- → [DIAGRAM: Sun's life cycle on a horizontal timeline — from left to right: nebular collapse (4.6 Ga ago) → current main sequence position labeled "you are here" (~halfway through hydrogen supply) → gradual brightening phase → red giant expansion (~5 Ga from now, Earth's orbital radius shown as a dotted circle inside the swollen envelope) → planetary nebula ejection → white dwarf cooling; annotate the current phase as the one where CMEs and flares occur — the violence in this chapter is not a sign of instability; it is the machine operating normally in its long stable middle life] -->
+![Sun's life cycle on a horizontal timeline ](images/02-the-sun-a-garden-variety-star-fig-13.png)
+*Figure 2.13 — Sun's life cycle on a horizontal timeline *
 
 None of that matters on any human timescale. What matters to us is the eleven-year cycle, the coronal mass ejections, the solar flares, the charged particles that reach Earth in days. The Sun is stable enough, on billion-year scales, for life to evolve and persist. It is violent enough, on eleven-year scales, to periodically threaten the infrastructure that life — in its current technological form — depends on.
 
@@ -180,3 +193,117 @@ Cecilia Payne-Gaposchkin read the Sun's spectrum in 1925 and found that it was m
 **Exercise 4.** The Sun's spectrum at the surface contains thousands of dark absorption lines (Fraunhofer lines). Prompt an LLM: *"How do these absorption lines give us specific information about the Sun's composition, despite our never having directly sampled solar material? Walk through Kirchhoff's laws of spectroscopy: hot dense gas emits a continuous spectrum; cool gas in front of a hot source produces dark absorption lines at specific wavelengths; each element produces a unique pattern."* Evaluate whether the response correctly identifies that the Sun's atmosphere absorbs at specific wavelengths corresponding to atomic transitions in elements present, and that this reveals the Sun's composition (mostly hydrogen, helium, plus heavier elements at less than 2%).
 
 **Exercise 5 (challenge).** Solar flares and coronal mass ejections can disrupt Earth-based technology — the 1989 CME caused a province-wide blackout in Quebec; the Carrington Event of 1859 produced auroras visible at the equator. Prompt an LLM: *"Walk me through how a CME interacts with Earth's magnetosphere. Why do these events affect satellites, power grids, and GPS systems? Then estimate: if a Carrington-level event hit Earth today, what would be the economic and societal cost?"* Evaluate whether the response engages with the magnetic induction mechanism (rapidly varying magnetic fields induce currents in long conductors like power lines), the geographic specificity (high-latitude grids most vulnerable), and acknowledges the substantial uncertainty in cost estimates (often quoted at $1–2 trillion globally for a major event, but with wide confidence intervals).
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 2.1 — Sun–Earth timeline for the Carrington Event 
+
+Create a standalone D3 v7 HTML file for Figure Sun–Earth timeline for the Carrington Event . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Sun–Earth timeline for the Carrington Event — horizontal axis with labeled stages: flare observed at t=0; X-rays/light arrive at t+8 min; CME departs; CME arrives at t+17 hours — annotate what each stage affected (light: nothing; CME: telegraph network, aurora to equator); second row showing the same sequence for a modern event (light: satellite drag, radio blackout; CME: grid failure, GPS loss); the two-row comparison makes the "same machine, more exposure" thesis visceral before the chapter argues it. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-01.html`
+
+---
+
+### Figure 2.2 — Solar absorption spectrum (Fraunhofer lines) 
+
+Create a standalone D3 v7 HTML file for Figure Solar absorption spectrum (Fraunhofer lines) . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: solar absorption spectrum (Fraunhofer lines) — a continuous rainbow spread with dark vertical lines overlaid; annotate three or four lines with element identities (hydrogen Balmer series at 656 nm, sodium D lines at 589 nm, calcium H and K at 397/393 nm); caption: "Each dark line is an element removing its characteristic wavelengths from passing sunlight. The pattern is a fingerprint. Payne-Gaposchkin read it in 1925 and found something no one expected.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-02.html`
+
+---
+
+### Figure 2.3 — Pie chart of solar composition by mass 
+
+Create a standalone D3 v7 HTML file for Figure Pie chart of solar composition by mass . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: pie chart of solar composition by mass — hydrogen 73%, helium 25%, all other elements 2% — with a small inset showing Earth's bulk composition for contrast (iron ~32%, oxygen ~30%, silicon ~15%); caption: "Payne-Gaposchkin's 1925 result, which she initially walked back under pressure from her advisor. The disclaimer was wrong. The numbers were right.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-03.html`
+
+---
+
+### Figure 2.4 — Random walk vs
+
+Create a standalone D3 v7 HTML file for Figure Random walk vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: random walk vs. straight-line path — two panels side by side; left panel: clean arrow from core to surface labeled "straight line at light speed: ~2 seconds"; right panel: dense, tangled zigzag path covering the same distance labeled "random walk at 1 cm mean free path: ~100,000 years"; annotate the step length (1 cm) and total steps (~10²⁶); the visual should make the factor-of-a-billion time difference intuitively obvious without requiring the reader to do the math. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-04.html`
+
+---
+
+### Figure 2.5 — Labeled cross-section of the Sun's interior 
+
+Create a standalone D3 v7 HTML file for Figure Labeled cross-section of the Sun's interior . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: labeled cross-section of the Sun's interior — three concentric zones: core (~0–25% radius, labeled "nuclear fusion, 15 million K"), radiative zone (~25–70% radius, labeled "photon random walk, ~100,000 years to cross"), convection zone (~70–100% radius, labeled "hot plasma rising, cool plasma sinking"); temperature annotations at zone boundaries; energy transport mechanism labeled in each zone; photosphere labeled as the thin outer shell where light escapes. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-05.html`
+
+---
+
+### Figure 2.6 — High-resolution solar telescope photograph of photospheric granulation 
+
+Create a standalone D3 v7 HTML file for Figure High-resolution solar telescope photograph of photospheric granulation . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: high-resolution solar telescope photograph of photospheric granulation — bright polygon cells with darker intergranular lanes; annotate one granule's diameter (~1,000 km) with Earth shown to scale alongside it; caption: "Each bright polygon is a convection cell completing one full cycle in about 8 minutes. Millions operate simultaneously. The photosphere looks calm from a distance. Up close, it is not.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-06.html`
+
+---
+
+### Figure 2.7 — Differential rotation winding the magnetic field 
+
+Create a standalone D3 v7 HTML file for Figure Differential rotation winding the magnetic field . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: differential rotation winding the magnetic field — three-panel sequence: panel 1: Sun with clean dipole field lines running north–south, equatorial rotation period labeled (25 days), polar labeled (36 days); panel 2: after several rotations, equatorial field stretched ahead of polar, lines beginning to wrap east–west around the Sun; panel 3: tightly coiled flux tubes rising buoyantly through the convection zone toward the photosphere; the three-panel sequence should make the winding mechanism visually self-explanatory. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-07.html`
+
+---
+
+### Figure 2.8 — Monthly smoothed sunspot number vs
+
+Create a standalone D3 v7 HTML file for Figure Monthly smoothed sunspot number vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: monthly smoothed sunspot number vs. year from ~1750 to present — time series showing the repeating 11-year wave; annotate: Maunder Minimum (~1645–1715, where the curve nearly flatlines), Carrington Event at Solar Cycle 10 maximum (1859), 1989 Quebec blackout (Cycle 22), 2012 near-miss (Cycle 24); the student should see that cycle amplitude varies, that the most dangerous events cluster near maximum, and that the Maunder Minimum shows the cycle can weaken substantially. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-08.html`
+
+---
+
+### Figure 2.9 — Temperature vs
+
+Create a standalone D3 v7 HTML file for Figure Temperature vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: temperature vs. altitude above the photosphere — horizontal axis: height (0 to ~10,000 km, log scale); vertical axis: temperature (K, log scale, 4,000 K to 3,000,000 K); show the temperature minimum at ~500 km, chromosphere rising to ~10,000 K, narrow transition region, corona plateau at 1–3 million K; annotate the transition region: "coronal heating problem — this rise has no fully accepted explanation"; the curve should look visually wrong to anyone who expects temperature to fall with distance from a heat source — that wrongness is the point. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-09.html`
+
+---
+
+### Figure 2.10 — Magnetic reconnection sequence 
+
+Create a standalone D3 v7 HTML file for Figure Magnetic reconnection sequence . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: magnetic reconnection sequence — four panels: (1) two opposing coronal loops approaching above an active region, field line directions annotated with arrows showing opposing orientation; (2) field lines beginning to pinch and break at the contact point; (3) explosive reconnection — field lines snap to new lower-energy partners, stored energy released as X-ray/UV burst directed toward Earth, accelerated particles streaming along newly reconnected lines; (4) post-flare loop arcade in lower, quieter configuration; annotate X-ray travel time to Earth (8 min) and "no warning window". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font spl
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-10.html`
+
+---
+
+### Figure 2.11 — Earth's magnetosphere during CME impact 
+
+Create a standalone D3 v7 HTML file for Figure Earth's magnetosphere during CME impact . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Earth's magnetosphere during CME impact — cross-section view from above the ecliptic; solar wind and CME approaching from left; dayside magnetosphere compressed (annotate ~65,000 km standoff vs. normal ~65,000 km, compressed further during CME); nightside magnetotail stretched; field lines funneling into polar cusps with particle paths shown; inset diagram showing "southward Bz" reconnection geometry — CME field pointing south connecting to Earth's northward equatorial field, explaining why field orientation controls storm severity; aurora shaded zone extending to mid-latitudes. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-11.html`
+
+---
+
+### Figure 2.12 — Major solar events and Earth impacts on a
+
+Create a standalone D3 v7 HTML file for Figure Major solar events and Earth impacts on a. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: major solar events and Earth impacts on a timeline — horizontal axis: 1859 to 2012; plot Carrington Event (1859), Quebec blackout (1989, annotate: 6 million without power, 9 hours), Halloween storms (2003, annotate: satellites damaged), 2012 near-miss (annotate: "missed by ~1 week of orbital travel, estimated $1–2T damage if direct hit"); scale each event marker by estimated or actual damage; 2012 shown as a dotted outline — the event that happened but didn't land; the visual argument: the same class of event, with escalating stakes as technology accumulates. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-12.html`
+
+---
+
+### Figure 2.13 — Sun's life cycle on a horizontal timeline 
+
+Create a standalone D3 v7 HTML file for Figure Sun's life cycle on a horizontal timeline . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Sun's life cycle on a horizontal timeline — from left to right: nebular collapse (4.6 Ga ago) → current main sequence position labeled "you are here" (~halfway through hydrogen supply) → gradual brightening phase → red giant expansion (~5 Ga from now, Earth's orbital radius shown as a dotted circle inside the swollen envelope) → planetary nebula ejection → white dwarf cooling; annotate the current phase as the one where CMEs and flares occur — the violence in this chapter is not a sign of instability; it is the machine operating normally in its long stable middle life. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font sp
+
+> Reference implementation: `d3/02-the-sun-a-garden-variety-star-fig-13.html`

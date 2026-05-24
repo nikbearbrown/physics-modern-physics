@@ -9,7 +9,8 @@ Twenty particles. From a stellar core collapsing to the size of a city in less t
 
 The rest passed through the Earth as though it were not there.
 
-<!-- → [INFOGRAPHIC: SN 1987A event timeline — horizontal axis showing: stellar core collapse at t=0; neutrino burst detected at Kamiokande (Japan) and IMB (Ohio) at t+0 (annotate "20 particles detected, rest passed through Earth unimpeded"); light from explosion visible to Shelton at t+3 hours; naked-eye visibility peaks over following days; annotate the 160,000 light-year distance and note that neutrinos and light traveled the same distance but neutrinos left the star's interior before the light could escape — this is the visual argument for why twenty particles tell us more than the entire light show] -->
+![SN 1987A event timeline ](images/07-the-death-of-stars-fig-01.png)
+*Figure 7.1 — SN 1987A event timeline *
 
 This chapter is about what makes that possible. What goes on inside a dying star that converts ten billion years of a sun's light into a single second of neutrino flood. What remains when the fire goes out. And why none of this is merely a spectacle — why stellar death is the reason the atoms in your body exist at all.
 
@@ -35,7 +36,8 @@ But there is a limit. Subrahmanyan Chandrasekhar worked it out in 1930 on a ship
 
 Eddington, the most prominent astrophysicist of the era, told Chandrasekhar that his result could not be right — that nature would not permit such an inelegant conclusion. Chandrasekhar was right. Eddington was wrong. The Nobel came in 1983, fifty years later.
 
-<!-- → [CHART: white dwarf mass-radius relationship — horizontal axis: mass in solar masses (0 to 1.4); vertical axis: radius in Earth radii (0 to ~2); plot the theoretical curve showing radius decreasing as mass increases, approaching zero at the Chandrasekhar limit; mark the Sun's mass (1.0 M☉) with a labeled point; mark 1.4 M☉ with a vertical dashed line labeled "Chandrasekhar limit — electron degeneracy pressure fails"; annotate "counterintuitive: more massive = smaller"; small inset showing Earth's radius for scale; caption: "Chandrasekhar derived this curve at age 20. Eddington said it was wrong. It isn't."] -->
+![Chandrasekhar derived this curve at age 20. Eddington said it was wrong. It isn't.](images/07-the-death-of-stars-fig-02.png)
+*Figure 7.2 — White dwarf mass-radius relationship *
 
 Below the Chandrasekhar limit, a white dwarf simply cools. Over timescales longer than the current age of the universe, it becomes a black dwarf — a cold crystalline sphere of carbon and oxygen, dense as anything, cold as space, slowly doing nothing. This is the Sun's ultimate fate. Not a bang. A slow cooling into darkness.
 
@@ -45,7 +47,8 @@ Below the Chandrasekhar limit, a white dwarf simply cools. Over timescales longe
 
 A star born twenty times more massive than the Sun lives completely differently. Its core temperature and pressure are high enough to fuse not just hydrogen and helium but everything up the periodic table toward iron. After hydrogen comes helium, which fuses to carbon. Carbon fuses to oxygen, neon, magnesium. Then silicon fuses to iron. Each stage runs faster than the last. Hydrogen burning takes millions of years. Silicon burning takes about a day.
 
-<!-- → [DIAGRAM: cross-section of a massive star near the end of its life — concentric shells labeled from outside in: hydrogen envelope (outermost), hydrogen-burning shell, helium layer, helium-burning shell, carbon/oxygen layer, neon/oxygen-burning shell, silicon-burning shell, iron core (innermost, shaded differently); annotate approximate timescales alongside each burning stage: H burning ~millions of years, He burning ~hundreds of thousands, C burning ~centuries, Ne/O burning ~years, Si burning ~1 day; the goal is to make the accelerating pace visceral — the whole stellar history compresses to a single day at the end] -->
+![Cross-section of a massive star near the end](images/07-the-death-of-stars-fig-03.png)
+*Figure 7.3 — Cross-section of a massive star near the end*
 
 Iron is where it ends.
 
@@ -65,7 +68,8 @@ The outer layers of the star — which had been collapsing inward — accelerate
 
 The star explodes. The material scattered by this explosion travels at thousands of kilometers per second. And in the final seconds, as neutrons barrel through the expanding material, they are captured by nuclei and converted into protons in a cascade of nuclear reactions. This process — rapid neutron capture, the r-process — builds elements heavier than iron. Gold. Silver. Platinum. Uranium. Every element in the universe heavier than iron was created in the seconds after a stellar core collapsed, either in the supernova itself or in the neutron star merger events we now know also produce these elements.
 
-<!-- → [DIAGRAM: core collapse sequence in five panels — (1) iron core in place, outer shells labeled, all is stable; (2) core collapse begins, arrows showing infalling material at 0.25c; (3) inner core reaches nuclear density and rebounds, shockwave marked; (4) shockwave stalls in dense overlying material — annotate "stalled: fraction of a second"; (5) neutrino energy deposition restarts shockwave, outer layers now accelerating outward, r-process nucleosynthesis labeled in the expanding material; caption: "The entire sequence from iron core to explosion takes less than one second. The neutrinos are the hidden mechanism."] -->
+![The entire sequence from iron core to explosion takes less than one second. The neutrinos are the hidden mechanism.](images/07-the-death-of-stars-fig-04.png)
+*Figure 7.4 — Core collapse sequence in five panels *
 
 ---
 
@@ -83,7 +87,8 @@ The collapse also amplifies the star's magnetic field by the same compression. I
 
 The neutron star rotates. The beams rotate with it. If Earth lies in the path of the sweep, we detect a pulse of radio waves with each rotation. A pulsar.
 
-<!-- → [DIAGRAM: pulsar lighthouse model — neutron star at center with rotation axis vertical and magnetic axis tilted ~30° from it; two narrow radiation beams emerging from magnetic poles, sweeping a cone through space as the star rotates; Earth shown off to one side in the path of the sweep; inset panel showing the pulse profile as seen from Earth — a sharp repeating spike with the rotation period labeled (e.g. 1.33728 s for PSR B1919+21); caption: "Each spike is the beam sweeping past Earth. The period is the rotation rate of the dead star. Jocelyn Bell found this pattern in paper printouts in 1967 and called it 'a bit of scruff.'"] -->
+![Each spike is the beam sweeping past Earth. The period is the rotation rate of the dead star. Jocelyn Bell found this pattern in paper printouts in 1967 and called it 'a bit of scruff.'](images/07-the-death-of-stars-fig-05.png)
+*Figure 7.5 — Pulsar lighthouse model *
 
 ---
 
@@ -99,7 +104,8 @@ The Crab Nebula pulsar is the clearest demonstration of what drives these object
 
 Where is the energy coming from? The pulsar is slowing down. It loses about 38 nanoseconds of rotation per day. From that measurement, you can calculate how much rotational kinetic energy the pulsar sheds per second. The number matches the energy output of the nebula. The dead star is still powering the explosion's afterglow — not through nuclear burning, not through residual heat, but through the steady braking of a 10-kilometer sphere spinning 30 times per second, with a magnetic field a trillion times stronger than Earth's.
 
-<!-- → [IMAGE: Hubble Space Telescope or Chandra X-ray image of the Crab Nebula — show the full nebula with its filamentary structure; annotate the central pulsar as a point source; annotate the approximate size (10 light-years across); annotate "still glowing ~100,000× solar luminosity, powered entirely by the pulsar's slowing rotation"; a small inset showing the pulse profile confirms the pulsar is real and measurable; caption: "SN 1054, nearly a thousand years later. The explosion is still being powered by the dead star at its center."] -->
+![SN 1054, nearly a thousand years later. The explosion is still being powered by the dead star at its center.](images/07-the-death-of-stars-fig-06.png)
+*Figure 7.6 — Hubble Space Telescope or Chandra X-ray image of*
 
 ---
 
@@ -115,7 +121,13 @@ If the mass transfer is fast enough, the white dwarf gains mass. It approaches t
 
 This is a Type Ia supernova. No neutron star, no black hole — just an expanding shell of fused elements. No hydrogen in the spectrum, because white dwarfs contain none.
 
-<!-- → [TABLE: Type Ia vs. Type II supernovae comparison — rows: progenitor system, what triggers the explosion, hydrogen in spectrum (yes/no), remnant left behind, what makes peak brightness consistent or variable, use as distance indicator; two columns: Type Ia and Type II; keep entries tight; the purpose is to show that the two mechanisms are as different as possible — one destroys its progenitor completely, the other creates a new kind of object] -->
+| Type Ia | Type II |
+| --- | --- |
+| progenitor system, what triggers the explosion, hydrogen in spectrum (yes | no |
+| remnant left behind, what makes peak brightness consistent or variable, use as distance indicator | A concrete checkpoint for applying the chapter concept. |
+| two columns: Type Ia and Type II | A concrete checkpoint for applying the chapter concept. |
+| keep entries tight | A concrete checkpoint for applying the chapter concept. |
+| the purpose is to show that the two mechanisms are as different as possible | one destroys its progenitor completely, the other creates a new kind of object |
 
 What makes Type Ia supernovae remarkable is that they are triggered at essentially the same mass — the Chandrasekhar limit — every time. This makes them nearly standard candles: their peak brightness is consistent enough across cosmic distances to use them as rulers. In the 1990s, two teams measuring Type Ia supernovae in distant galaxies found them systematically fainter than expected. Fainter means farther. Farther than expected means the universe has expanded more than models predicted. The universe is not just expanding — its expansion is accelerating.
 
@@ -131,7 +143,8 @@ Trace an iron atom in your blood's hemoglobin. It was forged in the core of a ma
 
 Trace a gold atom in any jewelry you own. It was not made in stellar fusion. Iron is the end of the nuclear road for fusion. Gold was made in the seconds after a stellar core collapsed, or in the moments when two neutron stars spiraled together and merged — detected for the first time in 2017 by LIGO as gravitational waves, accompanied by the electromagnetic signal of heavy-element synthesis. Gold is the product of either a supernova or a collision between dead stars.
 
-<!-- → [INFOGRAPHIC: periodic table color-coded by nucleosynthetic origin — each element shaded by where it was made: Big Bang nucleosynthesis (H, He, Li — one color); stellar fusion in low/intermediate-mass stars (C, N — second color); massive star fusion and core-collapse supernovae (O through Fe — third color); r-process neutron capture in supernovae and neutron star mergers (elements heavier than Fe — fourth color); cosmic ray spallation (Li, Be, B — fifth color); annotate three specific elements with callout arrows: carbon ("triple-alpha process, planetary nebulae"), iron ("silicon burning, massive stars, Type II"), gold ("r-process, core-collapse or neutron star merger — GW170817 confirmed this"); caption: "Every element in your body has a different origin story. The periodic table is a map of stellar history."] -->
+![Every element in your body has a different origin story. The periodic table is a map of stellar history.](images/07-the-death-of-stars-fig-07.png)
+*Figure 7.7 — Periodic table color-coded by nucleosynthetic origin *
 
 None of this is metaphor. These are the actual histories of the atoms in your body, reconstructable through nuclear astrophysics and isotope geochemistry. The universe chemically enriches itself through stellar death. Each generation of stars inherits a more complex chemistry than the last, because each generation of supernovae scattered heavier elements into the gas from which the next generation formed.
 
@@ -177,3 +190,69 @@ End with the single most surprising thing about her career or ideas.
 - Ask it to compare the 1974 Nobel Prize controversy with how the discovery is usually attributed in modern textbooks.
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 7.1 — SN 1987A event timeline 
+
+Create a standalone D3 v7 HTML file for Figure SN 1987A event timeline . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: SN 1987A event timeline — horizontal axis showing: stellar core collapse at t=0; neutrino burst detected at Kamiokande (Japan) and IMB (Ohio) at t+0 (annotate "20 particles detected, rest passed through Earth unimpeded"); light from explosion visible to Shelton at t+3 hours; naked-eye visibility peaks over following days; annotate the 160,000 light-year distance and note that neutrinos and light traveled the same distance but neutrinos left the star's interior before the light could escape — this is the visual argument for why twenty particles tell us more than the entire light show. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split
+
+> Reference implementation: `d3/07-the-death-of-stars-fig-01.html`
+
+---
+
+### Figure 7.2 — White dwarf mass-radius relationship 
+
+Create a standalone D3 v7 HTML file for Figure White dwarf mass-radius relationship . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: white dwarf mass-radius relationship — horizontal axis: mass in solar masses (0 to 1.4); vertical axis: radius in Earth radii (0 to ~2); plot the theoretical curve showing radius decreasing as mass increases, approaching zero at the Chandrasekhar limit; mark the Sun's mass (1.0 M☉) with a labeled point; mark 1.4 M☉ with a vertical dashed line labeled "Chandrasekhar limit — electron degeneracy pressure fails"; annotate "counterintuitive: more massive = smaller"; small inset showing Earth's radius for scale; caption: "Chandrasekhar derived this curve at age 20. Eddington said it was wrong. It isn't.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the r
+
+> Reference implementation: `d3/07-the-death-of-stars-fig-02.html`
+
+---
+
+### Figure 7.3 — Cross-section of a massive star near the end
+
+Create a standalone D3 v7 HTML file for Figure Cross-section of a massive star near the end. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: cross-section of a massive star near the end of its life — concentric shells labeled from outside in: hydrogen envelope (outermost), hydrogen-burning shell, helium layer, helium-burning shell, carbon/oxygen layer, neon/oxygen-burning shell, silicon-burning shell, iron core (innermost, shaded differently); annotate approximate timescales alongside each burning stage: H burning ~millions of years, He burning ~hundreds of thousands, C burning ~centuries, Ne/O burning ~years, Si burning ~1 day; the goal is to make the accelerating pace visceral — the whole stellar history compresses to a single day at the end. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color varia
+
+> Reference implementation: `d3/07-the-death-of-stars-fig-03.html`
+
+---
+
+### Figure 7.4 — Core collapse sequence in five panels 
+
+Create a standalone D3 v7 HTML file for Figure Core collapse sequence in five panels . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: core collapse sequence in five panels — (1) iron core in place, outer shells labeled, all is stable; (2) core collapse begins, arrows showing infalling material at 0.25c; (3) inner core reaches nuclear density and rebounds, shockwave marked; (4) shockwave stalls in dense overlying material — annotate "stalled: fraction of a second"; (5) neutrino energy deposition restarts shockwave, outer layers now accelerating outward, r-process nucleosynthesis labeled in the expanding material; caption: "The entire sequence from iron core to explosion takes less than one second. The neutrinos are the hidden mechanism.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables a
+
+> Reference implementation: `d3/07-the-death-of-stars-fig-04.html`
+
+---
+
+### Figure 7.5 — Pulsar lighthouse model 
+
+Create a standalone D3 v7 HTML file for Figure Pulsar lighthouse model . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: pulsar lighthouse model — neutron star at center with rotation axis vertical and magnetic axis tilted ~30° from it; two narrow radiation beams emerging from magnetic poles, sweeping a cone through space as the star rotates; Earth shown off to one side in the path of the sweep; inset panel showing the pulse profile as seen from Earth — a sharp repeating spike with the rotation period labeled (e.g. 1.33728 s for PSR B1919+21); caption: "Each spike is the beam sweeping past Earth. The period is the rotation rate of the dead star. Jocelyn Bell found this pattern in paper printouts in 1967 and called it 'a bit of scruff.'". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables an
+
+> Reference implementation: `d3/07-the-death-of-stars-fig-05.html`
+
+---
+
+### Figure 7.6 — Hubble Space Telescope or Chandra X-ray image of
+
+Create a standalone D3 v7 HTML file for Figure Hubble Space Telescope or Chandra X-ray image of. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Hubble Space Telescope or Chandra X-ray image of the Crab Nebula — show the full nebula with its filamentary structure; annotate the central pulsar as a point source; annotate the approximate size (10 light-years across); annotate "still glowing ~100,000× solar luminosity, powered entirely by the pulsar's slowing rotation"; a small inset showing the pulse profile confirms the pulsar is real and measurable; caption: "SN 1054, nearly a thousand years later. The explosion is still being powered by the dead star at its center.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/07-the-death-of-stars-fig-06.html`
+
+---
+
+### Figure 7.7 — Periodic table color-coded by nucleosynthetic origin 
+
+Create a standalone D3 v7 HTML file for Figure Periodic table color-coded by nucleosynthetic origin . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: periodic table color-coded by nucleosynthetic origin — each element shaded by where it was made: Big Bang nucleosynthesis (H, He, Li — one color); stellar fusion in low/intermediate-mass stars (C, N — second color); massive star fusion and core-collapse supernovae (O through Fe — third color); r-process neutron capture in supernovae and neutron star mergers (elements heavier than Fe — fourth color); cosmic ray spallation (Li, Be, B — fifth color); annotate three specific elements with callout arrows: carbon ("triple-alpha process, planetary nebulae"), iron ("silicon burning, massive stars, Type II"), gold ("r-process, core-collapse or neutron star merger — GW170817 confirmed this"); caption: "Every element in your body has a different origin story. The periodic table is a map of stellar history.". Use the described data shape and labels; when exact values are not supplied, use plausib
+
+> Reference implementation: `d3/07-the-death-of-stars-fig-07.html`

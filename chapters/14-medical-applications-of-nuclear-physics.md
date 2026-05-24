@@ -25,11 +25,14 @@ The gamma camera is detecting function, not structure.
 
 Now consider PET. The patient is injected with $^{18}$F-FDG — fluorodeoxyglucose, a glucose analog with a fluorine-18 atom attached. Cells that consume glucose preferentially (cancer cells, active brain regions) accumulate the FDG. The fluorine-18 decays by positron emission. The positron travels a few millimeters before annihilating with an electron, releasing two 511-keV gamma rays traveling in exactly opposite directions. A ring of detectors around the patient records coincident pairs — two gammas arriving simultaneously on opposite sides — and uses each pair to define a line on which the annihilation occurred. Reconstruct enough lines and you have a three-dimensional map of glucose consumption.
 
-<!-- → [DIAGRAM: PET coincidence detection — ring of detectors around a simplified body cross-section. A positron-emitting source near the center; the positron travels a few mm, annihilates, producing two back-to-back 511-keV gamma arrows reaching opposite detectors simultaneously. A dashed "line of response" connects the two detector hits. Caption: "Each coincident pair defines a line. Enough lines reconstruct the 3D source distribution."] -->
+![Each coincident pair defines a line. Enough lines reconstruct the 3D source distribution.](images/14-medical-applications-of-nuclear-physics-fig-01.png)
+*Figure 14.1 — PET coincidence detection *
 
 Three techniques. The X-ray shows density. The bone scan shows metabolic activity at bone. The PET scan shows glucose consumption anywhere in the body. The three are not interchangeable and do not compete. They answer different questions.
 
-<!-- → [TABLE: Imaging modality comparison — columns: modality, physical signal detected, what it reveals (structure vs. function), approximate effective dose, spatial resolution. Rows: chest X-ray, CT, MRI, gamma camera/SPECT, PET. Purpose: give students a single reference for choosing the right tool.] -->
+| modality | physical signal detected | what it reveals (structure vs |
+| --- | --- | --- |
+| chest X-ray, CT, MRI, gamma camera | SPECT, PET. | A concrete checkpoint for applying the chapter concept. |
 
 Why is $^{99m}$Tc so nearly universal for scintigraphy? Because it is almost perfectly engineered for medical imaging. Its half-life is 6 hours — long enough for the tracer to distribute to the target tissue and be imaged, short enough to decay quickly so the patient's radiation dose stays low. Its 140-keV gamma is energetic enough to escape the body efficiently but not so energetic that it is hard to detect. And it can be chemically attached to dozens of different carrier molecules — bone-seekers, kidney tracers, heart-function tracers — so the same isotope serves many purposes. It is produced on site from $^{99}$Mo generators, which hospitals order weekly. The whole system is elegant in a way that looks designed but is really the accumulated result of decades of trial and selection.
 
@@ -53,7 +56,8 @@ Three units come into play, and conflating them is the single most common confus
 
 So: 0.5 Gy of gamma radiation is 0.5 Sv. The same absorbed dose from alphas is 10 Sv — twenty times more biologically damaging, because of how the energy is deposited, not how much.
 
-<!-- → [DIAGRAM: Alpha vs. gamma ionization track — two panels at the same scale. Left: alpha track, dense cluster of ionization events over ~50 μm, multiple DNA strand hits visible. Right: gamma (Compton electron) track, sparse ionization events spread over ~mm, individual strand hits. Caption: "Same energy deposited, very different spatial pattern — which is why alphas have w_R = 20 and gammas have w_R = 1."] -->
+![Same energy deposited, very different spatial pattern — which is why alphas have w_R = 20 and gammas have w_R = 1.](images/14-medical-applications-of-nuclear-physics-fig-02.png)
+*Figure 14.2 — Alpha vs*
 
 This is why inhaled radon daughters — which are alpha emitters that lodge in the lung — are the second-leading cause of lung cancer in the United States after smoking. The alpha particles deposit their entire energy within a few cells of where they stop. The lung tissue adjacent to a radon daughter gets an extremely high local dose from what is, in joules, a tiny amount of energy.
 
@@ -61,7 +65,8 @@ Some reference numbers are worth knowing. Annual natural background in the Unite
 
 That last number is worth pausing on. It is four to five *sieverts*, not millisieverts. The diagnostic doses we're discussing — 1 to 15 mSv — are three orders of magnitude below the acute lethal range. The cancer risk from a single CT scan, estimated using the linear no-threshold model, is on the order of 0.05% — compared to a baseline lifetime cancer risk of about 40%. For a patient with a suspected pulmonary embolism or a ruptured appendix, the 7-mSv CT that diagnoses the problem and enables treatment is an overwhelming net benefit. The question of whether repeated CT scans in lower-stakes situations are justified is a real question, but the arithmetic makes individual diagnostic scans unambiguously reasonable.
 
-<!-- → [CHART: Radiation dose scale — log-scale horizontal axis from 0.001 mSv to 10,000 mSv (10 Sv). Labeled markers: single dental X-ray (0.005), chest X-ray (0.1), annual background (3), chest CT (7), whole-body PET-CT (14), annual occupational limit (50), threshold for acute symptoms (~1000), LD50 (~4000–5000). Student should see at a glance that diagnostic imaging sits three orders of magnitude below lethality.] -->
+![Radiation dose scale ](images/14-medical-applications-of-nuclear-physics-fig-03.png)
+*Figure 14.3 — Radiation dose scale *
 
 The linear no-threshold (LNT) model — the assumption that cancer risk scales linearly with dose all the way to zero — is used because it is conservative, not because it is proven. Below about 100 mSv, the epidemiological data are too noisy to distinguish a linear effect from zero effect. The Hiroshima and Nagasaki survivor data are clear above 100 mSv and become equivocal below. Regulatory practice in medicine and nuclear industries uses LNT because it errs on the side of caution; whether it accurately describes the actual biology at low doses is genuinely uncertain. Some evidence suggests a threshold below which normal DNA repair handles the damage; some evidence suggests a linear effect. The debate has not been resolved, and anyone who tells you it has is overstating the evidence in one direction or the other.
 
@@ -83,7 +88,8 @@ When a charged particle — a proton, for instance — moves through tissue, it 
 
 Compare this to the X-ray beam, which deposits maximum dose near the surface and decays exponentially with depth. To deliver 80 Gy to a deep prostate with X-rays, you must also deliver substantial dose to the bladder wall in front of it and the rectum behind it. With a proton beam tuned so that the Bragg peak falls exactly at the tumor depth, you can deposit most of the dose at the tumor, with much less in the tissue in front and almost nothing behind. For pediatric brain tumors, where the tissue behind the target is developing brain in a child, this physical advantage is decisive.
 
-<!-- → [CHART: Bragg peak vs. X-ray depth-dose curves — horizontal axis is depth in tissue (cm, 0 to 30), vertical axis is relative dose (%). Two curves: (1) megavoltage X-ray — peaks near surface, falls off exponentially. (2) Proton beam — low entrance dose, sharp Bragg peak at ~15 cm, near-zero dose beyond. Tumor region shaded at 12–17 cm. Caption: "The proton deposits almost nothing before and nothing after the peak — the X-ray can't be turned off at depth."] -->
+![The proton deposits almost nothing before and nothing after the peak — the X-ray can't be turned off at depth.](images/14-medical-applications-of-nuclear-physics-fig-04.png)
+*Figure 14.4 — Bragg peak vs*
 
 Proton therapy is expensive — the accelerator required costs on the order of $100 million, versus a few million for a LINAC — and its clinical advantage over advanced X-ray techniques is debated for many adult cancers. But the physics is unambiguous: the Bragg peak is a real and meaningful advantage where the geometry makes it relevant.
 
@@ -235,3 +241,45 @@ the single most surprising thing about her career or ideas.
 - Ask it about her parallel work as a French government minister for scientific research.
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 14.1 — PET coincidence detection 
+
+Create a standalone D3 v7 HTML file for Figure PET coincidence detection . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: PET coincidence detection — ring of detectors around a simplified body cross-section. A positron-emitting source near the center; the positron travels a few mm, annihilates, producing two back-to-back 511-keV gamma arrows reaching opposite detectors simultaneously. A dashed "line of response" connects the two detector hits. Caption: "Each coincident pair defines a line. Enough lines reconstruct the 3D source distribution.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/14-medical-applications-of-nuclear-physics-fig-01.html`
+
+---
+
+### Figure 14.2 — Alpha vs
+
+Create a standalone D3 v7 HTML file for Figure Alpha vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Alpha vs. gamma ionization track — two panels at the same scale. Left: alpha track, dense cluster of ionization events over ~50 μm, multiple DNA strand hits visible. Right: gamma (Compton electron) track, sparse ionization events spread over ~mm, individual strand hits. Caption: "Same energy deposited, very different spatial pattern — which is why alphas have w_R = 20 and gammas have w_R = 1.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/14-medical-applications-of-nuclear-physics-fig-02.html`
+
+---
+
+### Figure 14.3 — Radiation dose scale 
+
+Create a standalone D3 v7 HTML file for Figure Radiation dose scale . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Radiation dose scale — log-scale horizontal axis from 0.001 mSv to 10,000 mSv (10 Sv). Labeled markers: single dental X-ray (0.005), chest X-ray (0.1), annual background (3), chest CT (7), whole-body PET-CT (14), annual occupational limit (50), threshold for acute symptoms (~1000), LD50 (~4000–5000). Student should see at a glance that diagnostic imaging sits three orders of magnitude below lethality.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/14-medical-applications-of-nuclear-physics-fig-03.html`
+
+---
+
+### Figure 14.4 — Bragg peak vs
+
+Create a standalone D3 v7 HTML file for Figure Bragg peak vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Bragg peak vs. X-ray depth-dose curves — horizontal axis is depth in tissue (cm, 0 to 30), vertical axis is relative dose (%). Two curves: (1) megavoltage X-ray — peaks near surface, falls off exponentially. (2) Proton beam — low entrance dose, sharp Bragg peak at ~15 cm, near-zero dose beyond. Tumor region shaded at 12–17 cm. Caption: "The proton deposits almost nothing before and nothing after the peak — the X-ray can't be turned off at depth.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/14-medical-applications-of-nuclear-physics-fig-04.html`

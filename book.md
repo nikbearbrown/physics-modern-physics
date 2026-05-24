@@ -12,7 +12,7 @@
 
 # Physics +1: Modern Physics
 
-**Author:** Nik Bear Brown
+**Author:** Humanitarians AI
 
 ---
 

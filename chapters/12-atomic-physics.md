@@ -7,7 +7,8 @@ Geiger's supervisor, Ernest Rutherford, later said that seeing this was "almost 
 
 Rutherford worked out the mathematics. To produce the observed scattering rate, the positive charge and almost all the mass of the gold atom had to be concentrated in a nucleus roughly $10^{-14}$ meters across. The atom itself is $10^{-10}$ meters across — ten thousand times larger. The nucleus is to the atom as a fly is to a cathedral. Almost everything inside an atom is empty space.
 
-<!-- → [DIAGRAM: Scale comparison of atom vs. nucleus — two concentric circles. Outer circle labeled "atom (~10⁻¹⁰ m)"; inner circle, drawn to correct relative scale (~10⁻⁴ of the radius), labeled "nucleus (~10⁻¹⁴ m)". A third tiny inset shows the fly-in-a-cathedral metaphor with correct proportions. Student should see immediately why Rutherford's result was shocking.] -->
+![Scale comparison of atom vs](images/12-atomic-physics-fig-01.png)
+*Figure 12.1 — Scale comparison of atom vs*
 
 This is the picture every chemistry student learns in the first week. But it immediately creates a catastrophe.
 
@@ -45,7 +46,8 @@ $$E_n = -\frac{13.6 \, \text{eV}}{n^2}.$$
 
 The ground state, $n = 1$, has energy $-13.6$ eV — that is, it would take 13.6 eV of energy to rip the electron completely free of the proton. The excited states ($n = 2, 3, \ldots$) have less negative energies, approaching zero as $n \to \infty$ (a free electron at rest).
 
-<!-- → [DIAGRAM: Hydrogen energy level diagram — vertical axis is energy in eV, horizontal lines at E_n = −13.6/n² for n = 1 through 6, with n = ∞ (ionization) at 0 eV. Arrows showing the Lyman series (all ending at n=1, labeled UV), Balmer series (ending at n=2, labeled visible, with Balmer-α at 656 nm called out), and Paschen series (ending at n=3, labeled IR). Ground state labeled −13.6 eV. Student should see immediately why Lyman lines are UV and Balmer lines are visible.] -->
+![Hydrogen energy level diagram ](images/12-atomic-physics-fig-02.png)
+*Figure 12.2 — Hydrogen energy level diagram *
 
 When the electron jumps from state $n_i$ to state $n_f$ (with $n_f < n_i$), it releases a photon of energy:
 
@@ -83,7 +85,8 @@ $$m_e v r_n = n \frac{h}{2\pi}.$$
 
 That is Bohr's quantization condition, now derived from the requirement that the electron's de Broglie wave be a standing wave on the orbit. The allowed orbits are the ones where the electron, thought of as a wave, resonates with itself. The disallowed orbits are the ones where it destructively interferes.
 
-<!-- → [DIAGRAM: Standing waves on a circular orbit — three panels. Left: n=1, one wavelength fits around the circle (stable). Center: n=3, three wavelengths fit around the circle (stable). Right: non-integer case, wave returns slightly out of phase, showing destructive interference where the waveform crosses itself. Caption: "Only integer fits survive — everything else cancels."] -->
+![Only integer fits survive — everything else cancels.](images/12-atomic-physics-fig-03.png)
+*Figure 12.3 — Standing waves on a circular orbit *
 
 This is why the electron does not radiate while in a stationary orbit. The standing-wave state is an eigenstate of the atom — it is as stable as a vibrating string in its fundamental mode. There is nothing to radiate because there is no oscillating charge distribution; the standing wave is symmetric and static in time. Radiation requires a *transition* — a change from one standing-wave pattern to another — which is a time-varying process. That time variation drives the photon emission.
 
@@ -113,7 +116,12 @@ Every quantum state in an atom is labeled by four numbers:
 
 **$m_s$**, the spin quantum number: $+\frac{1}{2}$ or $-\frac{1}{2}$.
 
-<!-- → [TABLE: Quantum number summary — columns: quantum number, symbol, allowed values, physical meaning, number of states. Rows: principal (n), orbital angular momentum (ℓ), magnetic (m_ℓ), spin (m_s). Final row: total states in shell n = 2n². Purpose: give students a single reference they can return to when doing electron configurations.] -->
+| quantum number | symbol | allowed values | physical meaning | number of states |
+| --- | --- | --- | --- | --- |
+| principal (n | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| orbital angular momentum (ℓ | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| magnetic (m_ℓ | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| spin (m_s). Final row: total states in shell n = 2n². | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 The Pauli exclusion principle says each combination $(n, \ell, m_\ell, m_s)$ can be occupied by at most one electron. Two electrons can share the same spatial orbital $(n, \ell, m_\ell)$ only if one is spin-up and the other is spin-down.
 
@@ -158,7 +166,8 @@ A tube operating at $80$ kV produces photons up to $80$ keV. A tube at $100$ kV,
 
 The total X-ray spectrum from a tube is the sum of both: a continuous bremsstrahlung background from deceleration, with sharp characteristic lines sitting on top of it, at energies specific to the anode material. The lines let you identify the element; the bremsstrahlung gives you the imaging exposure.
 
-<!-- → [CHART: X-ray tube spectrum — horizontal axis is photon energy (keV), vertical axis is intensity. Smooth bremsstrahlung curve rising from a minimum wavelength cutoff (determined by qV) and falling off at higher energies. Two sharp K_α and K_β characteristic peaks superimposed on the continuous background. Label the cutoff energy as qV, label the peaks by name. Caption: "The continuous background comes from deceleration; the sharp peaks are the element's signature."] -->
+![The continuous background comes from deceleration; the sharp peaks are the element's signature.](images/12-atomic-physics-fig-04.png)
+*Figure 12.4 — X-ray tube spectrum *
 
 Moseley enlisted in the British Army in 1914 and was killed at Gallipoli in August 1915. He was twenty-seven. Had he lived, he would almost certainly have received the Nobel Prize. He never did. The work that died with him would have been the work of another decade.
 
@@ -172,7 +181,8 @@ Sodium (Na, $Z = 11$) has electron configuration $1s^2 \, 2s^2 \, 2p^6 \, 3s^1$.
 
 The same 589-nm line appears in solar absorption spectra. When sunlight passes through the Sun's cooler outer atmosphere, sodium atoms there absorb exactly those wavelengths, leaving dark gaps (Fraunhofer lines) in the solar spectrum at 589 nm. Joseph Fraunhofer catalogued these lines in 1814 without knowing what they were. By the 1860s, Kirchhoff and Bunsen had matched them to laboratory spectra of known elements. By 1913, Bohr's model explained why the lines were at those specific wavelengths.
 
-<!-- → [IMAGE: Solar absorption spectrum showing Fraunhofer lines — a horizontal band of the visible spectrum (violet to red) crossed by narrow dark vertical lines. The sodium D doublet at 589 nm should be called out with an arrow. Caption: "The dark lines are where atoms in the Sun's atmosphere absorbed exactly the photon energies their electrons needed. Each gap is an element's signature."] -->
+![The dark lines are where atoms in the Sun's atmosphere absorbed exactly the photon energies their electrons needed. Each gap is an element's signature.](images/12-atomic-physics-fig-05.png)
+*Figure 12.5 — Solar absorption spectrum showing Fraunhofer lines *
 
 That is the arc: from Geiger counting flashes in a darkened room in 1909, to Bohr's standing-wave orbits in 1913, to Pauli's exclusion principle in 1925, to an explanation of every line in every stellar spectrum and the electron configuration of every element. The whole edifice sits on two postulates and four quantum numbers.
 
@@ -303,3 +313,53 @@ End with the single most surprising thing about her career or ideas.
 - Ask it about Meitner's refusal to work on the Manhattan Project and what it meant for her career.
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 12.1 — Scale comparison of atom vs
+
+Create a standalone D3 v7 HTML file for Figure Scale comparison of atom vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Scale comparison of atom vs. nucleus — two concentric circles. Outer circle labeled "atom (~10⁻¹⁰ m)"; inner circle, drawn to correct relative scale (~10⁻⁴ of the radius), labeled "nucleus (~10⁻¹⁴ m)". A third tiny inset shows the fly-in-a-cathedral metaphor with correct proportions. Student should see immediately why Rutherford's result was shocking.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/12-atomic-physics-fig-01.html`
+
+---
+
+### Figure 12.2 — Hydrogen energy level diagram 
+
+Create a standalone D3 v7 HTML file for Figure Hydrogen energy level diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Hydrogen energy level diagram — vertical axis is energy in eV, horizontal lines at E_n = −13.6/n² for n = 1 through 6, with n = ∞ (ionization) at 0 eV. Arrows showing the Lyman series (all ending at n=1, labeled UV), Balmer series (ending at n=2, labeled visible, with Balmer-α at 656 nm called out), and Paschen series (ending at n=3, labeled IR). Ground state labeled −13.6 eV. Student should see immediately why Lyman lines are UV and Balmer lines are visible.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/12-atomic-physics-fig-02.html`
+
+---
+
+### Figure 12.3 — Standing waves on a circular orbit 
+
+Create a standalone D3 v7 HTML file for Figure Standing waves on a circular orbit . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Standing waves on a circular orbit — three panels. Left: n=1, one wavelength fits around the circle (stable). Center: n=3, three wavelengths fit around the circle (stable). Right: non-integer case, wave returns slightly out of phase, showing destructive interference where the waveform crosses itself. Caption: "Only integer fits survive — everything else cancels.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/12-atomic-physics-fig-03.html`
+
+---
+
+### Figure 12.4 — X-ray tube spectrum 
+
+Create a standalone D3 v7 HTML file for Figure X-ray tube spectrum . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: X-ray tube spectrum — horizontal axis is photon energy (keV), vertical axis is intensity. Smooth bremsstrahlung curve rising from a minimum wavelength cutoff (determined by qV) and falling off at higher energies. Two sharp K_α and K_β characteristic peaks superimposed on the continuous background. Label the cutoff energy as qV, label the peaks by name. Caption: "The continuous background comes from deceleration; the sharp peaks are the element's signature.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/12-atomic-physics-fig-04.html`
+
+---
+
+### Figure 12.5 — Solar absorption spectrum showing Fraunhofer lines 
+
+Create a standalone D3 v7 HTML file for Figure Solar absorption spectrum showing Fraunhofer lines . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Solar absorption spectrum showing Fraunhofer lines — a horizontal band of the visible spectrum (violet to red) crossed by narrow dark vertical lines. The sodium D doublet at 589 nm should be called out with an arrow. Caption: "The dark lines are where atoms in the Sun's atmosphere absorbed exactly the photon energies their electrons needed. Each gap is an element's signature.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/12-atomic-physics-fig-05.html`

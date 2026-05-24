@@ -33,11 +33,13 @@ This is the "Hubble time" — how long galaxies would take to reach their curren
 
 The oldest stars in the Milky Way — in globular clusters — have ages of about 13 billion years. A star older than the universe would be a catastrophic failure of the model. So far: no such stars found.
 
-<!-- → [CHART: Hubble diagram — recession velocity (km/s) vs. distance (Mpc) for a sample of galaxies. Shows the original Hubble 1929 data alongside modern data from Cepheid measurements. Linear relationship (Hubble's law) visible; scatter in Hubble's original data visible alongside the tighter modern fit. Caption: "Hubble's 1929 data is the origin of modern cosmology — 24 galaxies, one of the most consequential plots in science."] -->
+![Hubble's 1929 data is the origin of modern cosmology — 24 galaxies, one of the most consequential plots in science.](images/16-frontiers-of-physics-fig-01.png)
+*Figure 16.1 — Hubble diagram *
 
 The contents of the universe, by mass-energy, are striking. About 5% is ordinary matter — atoms, ions, gas, everything that makes up all the stars and galaxies you can see. About 27% is dark matter. About 68% is dark energy. We are made of, and can observe, only the 5%.
 
-<!-- → [INFOGRAPHIC: Universe composition pie chart — three sectors: ordinary matter (5%, labeled "everything you've ever seen"), dark matter (27%, labeled "gravitates; unknown particles"), dark energy (68%, labeled "drives acceleration; unknown nature"). Use muted palette; the "5%" wedge should look shockingly small. Caption: "The Standard Model and all of chemistry describe this slice."] -->
+![The Standard Model and all of chemistry describe this slice.](images/16-frontiers-of-physics-fig-02.png)
+*Figure 16.2 — Universe composition pie chart *
 
 ---
 
@@ -67,7 +69,8 @@ For one solar mass, this is about 3 km. For the Sun to become a black hole, you 
 
 Gravitational waves — ripples in the spacetime geometry itself, traveling at the speed of light — were also predicted in 1916 and are emitted by any accelerating mass distribution. The amplitude of the waves is tiny. The signal from GW150914, 1.3 billion light-years away, reached Earth as a strain of $10^{-21}$ — a 4-km interferometer arm changed length by $10^{-18}$ meters, less than a thousandth the diameter of a proton. LIGO detected this directly with laser interferometry. The precision required is extraordinary: it is as if you were measuring the distance from here to the nearest star, Alpha Centauri, to within the width of a human hair.
 
-<!-- → [DIAGRAM: LIGO gravitational-wave detection — two panels. Left: schematic of a Michelson interferometer with 4-km arms, beam splitter, laser source, and photodetector. Right: the actual GW150914 strain waveform (time in seconds on x-axis, strain h on y-axis), showing the chirp shape and the matched numerical-relativity template overlay. Caption: "The strain of 10⁻²¹ means a 4-km arm changed by 10⁻¹⁸ m — less than a proton's diameter. The template match is exact."] -->
+![The strain of 10⁻²¹ means a 4-km arm changed by 10⁻¹⁸ m — less than a proton's diameter. The template match is exact.](images/16-frontiers-of-physics-fig-03.png)
+*Figure 16.3 — LIGO gravitational-wave detection *
 
 The incompleteness of general relativity is well-defined. GR is a classical theory. It says nothing about quantum mechanics. At the center of a black hole, and in the first $10^{-43}$ seconds of the Big Bang, the spacetime curvature becomes so extreme that quantum-gravitational effects must dominate — and we have no theory for this regime. Every candidate theory (string theory, loop quantum gravity, others) has produced beautiful mathematics and no confirmed predictions that differ from the classical theory. The problem is not that we lack ideas; it is that the energy scale at which quantum gravity matters ($\sim 10^{19}$ GeV, the Planck scale) is about fifteen orders of magnitude beyond what any conceivable particle accelerator will ever reach. Testing quantum gravity may require cosmological observations rather than laboratory experiments.
 
@@ -79,7 +82,8 @@ Vera Rubin spent years in the 1970s measuring how fast stars orbit the centers o
 
 The speed did not fall off. It stayed flat.
 
-<!-- → [CHART: Galactic rotation curve — horizontal axis is distance from galactic center (kpc), vertical axis is orbital speed (km/s). Two curves: (1) "expected from visible mass" — rises then falls as 1/√r beyond the visible disk. (2) "observed" — rises then stays flat out to large radii. The gap between them is the dark matter halo's contribution. Caption: "The flat part is the problem. There is no visible mass out there to support those speeds."] -->
+![The flat part is the problem. There is no visible mass out there to support those speeds.](images/16-frontiers-of-physics-fig-04.png)
+*Figure 16.4 — Galactic rotation curve *
 
 To support a flat rotation curve at $v = 200$ km/s out to 30 kiloparsecs, the enclosed mass must be:
 
@@ -254,3 +258,45 @@ surprising thing about his career or ideas.
 - Ask it about the competition between Perlmutter's Supernova Cosmology Project and Brian Schmidt's High-Z team.
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 16.1 — Hubble diagram 
+
+Create a standalone D3 v7 HTML file for Figure Hubble diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Hubble diagram — recession velocity (km/s) vs. distance (Mpc) for a sample of galaxies. Shows the original Hubble 1929 data alongside modern data from Cepheid measurements. Linear relationship (Hubble's law) visible; scatter in Hubble's original data visible alongside the tighter modern fit. Caption: "Hubble's 1929 data is the origin of modern cosmology — 24 galaxies, one of the most consequential plots in science.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/16-frontiers-of-physics-fig-01.html`
+
+---
+
+### Figure 16.2 — Universe composition pie chart 
+
+Create a standalone D3 v7 HTML file for Figure Universe composition pie chart . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Universe composition pie chart — three sectors: ordinary matter (5%, labeled "everything you've ever seen"), dark matter (27%, labeled "gravitates; unknown particles"), dark energy (68%, labeled "drives acceleration; unknown nature"). Use muted palette; the "5%" wedge should look shockingly small. Caption: "The Standard Model and all of chemistry describe this slice.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/16-frontiers-of-physics-fig-02.html`
+
+---
+
+### Figure 16.3 — LIGO gravitational-wave detection 
+
+Create a standalone D3 v7 HTML file for Figure LIGO gravitational-wave detection . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: LIGO gravitational-wave detection — two panels. Left: schematic of a Michelson interferometer with 4-km arms, beam splitter, laser source, and photodetector. Right: the actual GW150914 strain waveform (time in seconds on x-axis, strain h on y-axis), showing the chirp shape and the matched numerical-relativity template overlay. Caption: "The strain of 10⁻²¹ means a 4-km arm changed by 10⁻¹⁸ m — less than a proton's diameter. The template match is exact.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/16-frontiers-of-physics-fig-03.html`
+
+---
+
+### Figure 16.4 — Galactic rotation curve 
+
+Create a standalone D3 v7 HTML file for Figure Galactic rotation curve . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Galactic rotation curve — horizontal axis is distance from galactic center (kpc), vertical axis is orbital speed (km/s). Two curves: (1) "expected from visible mass" — rises then falls as 1/√r beyond the visible disk. (2) "observed" — rises then stays flat out to large radii. The gap between them is the dark matter halo's contribution. Caption: "The flat part is the problem. There is no visible mass out there to support those speeds.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/16-frontiers-of-physics-fig-04.html`

@@ -15,7 +15,8 @@ The universe, it turns out, does this constantly. The galaxy is full of the remn
 
 This chapter explains three things. First, what gravity actually is according to Einstein — not a force, but the curvature of spacetime. Second, what the event horizon is and why it forms. Third, how we detect objects that, by definition, emit no light.
 
-<!-- → [INFOGRAPHIC: timeline of black hole confirmation — horizontal axis from 1916 to 2022; mark key events: Schwarzschild's solution (1916), Cygnus X-1 confirmed (1972), stellar orbits at Galactic center imply 4M☉ black hole (1998–2008), LIGO GW150914 detection (2015, Nobel Prize 2017), EHT image of M87 (2019), EHT image of Sgr A* (2022); caption: "From mathematical curiosity to confirmed observation in one century. Each milestone closed a gap between theory and evidence."] -->
+![From mathematical curiosity to confirmed observation in one century. Each milestone closed a gap between theory and evidence.](images/08-black-holes-and-curved-spacetime-fig-01.png)
+*Figure 8.1 — Timeline of black hole confirmation *
 
 ---
 
@@ -43,7 +44,8 @@ In flat spacetime (far from any mass), geodesics are straight lines. Light trave
 
 In curved spacetime (near a massive object), geodesics are curves. Even light — which has no mass and experiences no gravitational force in Newton's picture — follows the curved geodesics of spacetime. It has to. There's nowhere else to go. Spacetime is all there is, and everything moves through it.
 
-<!-- → [DIAGRAM: two panels — left: flat spacetime grid (ruled lines) with a straight light ray path labeled "geodesic in flat spacetime = straight line"; right: curved spacetime grid near a massive object (warped mesh) with the same light ray now following a curve around the mass, labeled "geodesic in curved spacetime = curve"; annotate "no force acts on the light — it simply follows the geometry"; caption: "Gravity is not pulling the light. The geometry of space has changed, and the light follows the only available path."] -->
+![Gravity is not pulling the light. The geometry of space has changed, and the light follows the only available path.](images/08-black-holes-and-curved-spacetime-fig-02.png)
+*Figure 8.2 — Two panels *
 
 This prediction was tested first during the total solar eclipse of 1919. Einstein had calculated that starlight passing close to the Sun's limb should be deflected by 1.75 arcseconds — not because gravity pulls on photons, but because spacetime near the Sun is curved. Arthur Eddington's expedition photographed stars near the Sun during totality and measured the apparent displacement of their positions. The result matched Einstein's prediction. The Sun was bending space, and light was following.
 
@@ -51,7 +53,13 @@ Three other tests confirm the theory with increasing precision. Mercury's perihe
 
 The price of this picture is that it is harder to visualize than a force. But it is more accurate, more complete, and in a deep sense more honest about what gravity actually is.
 
-<!-- → [TABLE: four tests of general relativity — rows: Mercury's perihelion precession, deflection of starlight at solar limb, gravitational time dilation (GPS), gravitational wave speed; columns: Newton's prediction, Einstein's prediction, observed result, precision of agreement; annotate "GPS corrects for 38 microseconds/day from GR and SR combined; without correction, position error accumulates at ~10 km/day"; caption: "General relativity has been tested at scales from a Harvard building to the orbit of Mercury. It has not yet failed."] -->
+| Newton's prediction | Einstein's prediction | observed result | precision of agreement |
+| --- | --- | --- | --- |
+| Mercury's perihelion precession, deflection of starlight at solar limb, gravitational time dilation (GPS | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| gravitational wave speed | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| columns: Newton's prediction, Einstein's prediction, observed result, precision of agreement | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| annotate "GPS corrects for 38 microseconds | day from GR and SR combined | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| without correction, position error accumulates at ~10 km | day" | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 ---
 
@@ -73,7 +81,8 @@ For the Sun ($M = 2 \times 10^{30}$ kg), this gives $R_S \approx 3$ km. For Eart
 
 The formula depends only on mass. Nothing else. Not what the object is made of, not its temperature, not its history. Only mass determines the critical radius.
 
-<!-- → [INFOGRAPHIC: Schwarzschild radius comparison across scales — a vertical size comparison showing: proton (~10⁻¹⁵ m) labeled "Schwarzschild radius of a pickup truck"; marble (~1 cm) labeled "R_S of Earth"; city block (~3 km) labeled "R_S of the Sun"; distance from Earth to Moon (~400,000 km) labeled "R_S of Sagittarius A*"; Mercury's orbit (~0.4 AU) labeled "R_S of M87 black hole"; caption: "The Schwarzschild radius spans 28 orders of magnitude in size across the mass range of known black holes."] -->
+![The Schwarzschild radius spans 28 orders of magnitude in size across the mass range of known black holes.](images/08-black-holes-and-curved-spacetime-fig-03.png)
+*Figure 8.3 — Schwarzschild radius comparison across scales *
 
 The event horizon is not a physical surface. There is no shell, no wall, no detectable barrier. If you fell through it, you would not feel it. You would not see it. To a freely falling observer, the event horizon is locally indistinguishable from ordinary space. This is the equivalence principle again: locally, free fall looks like the absence of gravity. The horizon is a global feature of the geometry, not a local one.
 
@@ -81,7 +90,8 @@ What makes it remarkable is what happens to the paths available to you once you'
 
 This is the feature that physicists mean when they say the event horizon is a one-way membrane. Not that something stops you at the boundary, but that on the other side, the structure of spacetime itself has changed.
 
-<!-- → [DIAGRAM: light cone diagram showing the event horizon — vertical axis = time, horizontal axis = space; draw light cones (45° wedges) at three positions: far outside horizon (cone points upward and outward freely), at the horizon (cone tilts so the outward edge is vertical — future is confined to horizon), inside the horizon (cone tilts fully inward — all future directions point toward singularity); annotate "outside: outward paths exist", "at horizon: outward light hovers", "inside: no outward paths"; caption: "The event horizon is not a wall. It is the boundary where the future changes direction."] -->
+![The event horizon is not a wall. It is the boundary where the future changes direction.](images/08-black-holes-and-curved-spacetime-fig-04.png)
+*Figure 8.4 — Light cone diagram showing the event horizon *
 
 Let me compute a real example. Astronomers have tracked stars at the center of the Milky Way for thirty years, measuring their positions and velocities with infrared telescopes. The stars trace elliptical orbits around an invisible point. Applying Kepler's third law — the same relationship between orbital period and radius that Kepler found for planets around the Sun — gives the mass of the central object: approximately four million solar masses, confined to a volume less than the orbit of Mercury.
 
@@ -91,7 +101,8 @@ $$R_S = \frac{2 \times (6.67 \times 10^{-11}) \times (4 \times 10^6) \times (1.9
 
 About 12 million kilometers — roughly one-fifth the radius of Mercury's orbit. This object, Sagittarius A*, is invisible at optical wavelengths, not because it is dark in the sense of reflecting no light, but because it is a black hole, and the geometry of its spacetime permits no light to escape from within that 12-million-kilometer boundary.
 
-<!-- → [DIAGRAM: stellar orbits around Sagittarius A* — show the inner parsec of the Galactic center with labeled stellar orbits (S2, S29, and two or three others) traced as ellipses around the central invisible point; annotate the orbital period of S2 (~16 years), the implied central mass (4 million solar masses), and the Schwarzschild radius (12 million km) as a tiny dot at the center dwarfed by the orbital scales; caption: "Stars orbit the Galactic center as if something with 4 million solar masses sits there. The object is invisible. Kepler's law identifies it."] -->
+![Stars orbit the Galactic center as if something with 4 million solar masses sits there. The object is invisible. Kepler's law identifies it.](images/08-black-holes-and-curved-spacetime-fig-05.png)
+*Figure 8.5 — Stellar orbits around Sagittarius A* *
 
 One important correction to a persistent misconception: black holes are not cosmic vacuum cleaners. They do not suck. A black hole's gravitational field at large distances is identical to that of the ordinary star that formed it. If the Sun magically became a black hole — it can't, it's too low mass, but suppose — Earth's orbit would be unchanged. We would continue orbiting the same as now, in permanent darkness, at the same distance, experiencing the same gravitational acceleration. The black hole's effect differs from the original star only when you get very close — within a few Schwarzschild radii.
 
@@ -111,7 +122,8 @@ By measuring the orbital period and the companion star's velocity, Kepler's law 
 
 This is not a direct detection. It is an inference from orbital mechanics and X-ray emission. But the inference is tight. We now know of more than a dozen stellar-mass black holes in binary systems, with masses ranging from 5 to 21 solar masses.
 
-<!-- → [DIAGRAM: X-ray binary schematic — show a massive companion star (blue supergiant) and an invisible black hole orbiting their common center of mass; draw the Roche lobe overflow: gas streaming from the companion star's outer atmosphere toward the black hole; show the gas spiraling into an accretion disk; annotate disk temperature (~100 million K → X-ray emission), the X-ray flickering timescale (milliseconds to seconds), and the companion star's Doppler-shifting spectral lines; caption: "The black hole is invisible. The X-rays from the disk and the companion star's orbital motion together make its presence unmistakable."] -->
+![The black hole is invisible. The X-rays from the disk and the companion star's orbital motion together make its presence unmistakable.](images/08-black-holes-and-curved-spacetime-fig-06.png)
+*Figure 8.6 — X-ray binary schematic *
 
 **Gravitational waves.** In September 2015, the LIGO detectors — two instruments in Louisiana and Washington, each consisting of two perpendicular laser-beam arms four kilometers long — measured something that shook the infrastructure of physics. Both instruments registered a signal lasting about 0.2 seconds, rising in frequency from 35 to 150 Hz. It was the chirp of two black holes spiraling together.
 
@@ -123,7 +135,8 @@ The signal arrived at the Louisiana detector 7 milliseconds before the Washingto
 
 This was not an inference. This was spacetime itself vibrating against our instruments. The result won the Nobel Prize in Physics in 2017, and since then, LIGO and its partner detector Virgo in Italy have catalogued hundreds of mergers — black holes colliding with black holes, neutron stars colliding with black holes, neutron stars colliding with each other.
 
-<!-- → [DIAGRAM: LIGO schematic and GW150914 signal — top: L-shaped interferometer layout with 4 km arms, laser source, beam splitter, and mirrors labeled; annotate "arm stretches by 10⁻¹⁸ m during GW150914 — smaller than 1/1000 of a proton diameter"; bottom: the actual GW150914 waveform from both detectors (H1 and L1) showing the chirp from ~35 Hz to ~150 Hz over 0.2 seconds, with the 7-millisecond delay between detectors annotated; caption: "Two detectors, separated by 3,000 km, registered the same signal 7 milliseconds apart. Spacetime had vibrated."] -->
+![Two detectors, separated by 3,000 km, registered the same signal 7 milliseconds apart. Spacetime had vibrated.](images/08-black-holes-and-curved-spacetime-fig-07.png)
+*Figure 8.7 — LIGO schematic and GW150914 signal *
 
 **The shadow of the event horizon.** In 2019, the Event Horizon Telescope Collaboration announced the first image of a black hole's shadow. The target was M87, a giant elliptical galaxy 55 million light-years away, whose central black hole has a mass of about 6.5 billion solar masses.
 
@@ -133,7 +146,8 @@ The image shows a ring of bright emission — gas heated by the black hole, swir
 
 This is as close as you can get to a photograph of curved spacetime. The dark region is not a material object. It is the absence of light — light that entered the event horizon and will never return — surrounded by light that narrowly avoided that fate.
 
-<!-- → [IMAGE: Event Horizon Telescope image of M87 black hole (2019) — the iconic orange ring with dark center; annotate: "diameter of shadow: ~40 microarcseconds = predicted by GR for 6.5 billion solar masses at 55 million light-years"; inset: 2022 EHT image of Sagittarius A* for comparison; caption: "The dark region is not the black hole. It is the shadow cast by the event horizon. Its size and shape are determined entirely by general relativity — and they match."] -->
+![The dark region is not the black hole. It is the shadow cast by the event horizon. Its size and shape are determined entirely by general relativity — and they match.](images/08-black-holes-and-curved-spacetime-fig-08.png)
+*Figure 8.8 — Event Horizon Telescope image of M87 black hole*
 
 ---
 
@@ -163,7 +177,14 @@ Supermassive black holes — millions to tens of billions of solar masses — si
 
 All three classes are described by the same equations. The Schwarzschild radius formula is scale-free. The equivalence principle holds everywhere. A physicist doing calculations near a stellar-mass black hole uses the same mathematics as one doing calculations near Sagittarius A*. The universe is, in this sense, economical.
 
-<!-- → [TABLE: three black hole classes compared — rows: stellar-mass (5–100 M☉), intermediate-mass (10³–10⁵ M☉), supermassive (10⁶–10¹⁰ M☉); columns: mass range, Schwarzschild radius range, average density inside event horizon, formation pathway, primary detection method, example; fill with real values; annotate the counterintuitive density column — supermassive black holes have lower average interior density than water; caption: "The same equations govern black holes across 10 orders of magnitude in mass. Scale changes. Physics doesn't."] -->
+| mass range | Schwarzschild radius range | average density inside event horizon | formation pathway | primary detection method |
+| --- | --- | --- | --- | --- |
+| stellar-mass (5–100 M☉ | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| intermediate-mass (10³–10⁵ M☉ | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| supermassive (10⁶–10¹⁰ M☉ | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| columns: mass range, Schwarzschild radius range, average density inside event horizon, formation pathway, primary detection method, example | Use the chapter example as the concrete test case. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| fill with real values | Audience, stakes, timing, and platform conventions shape the choice. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| annotate the counterintuitive density column | supermassive black holes have lower average interior density than water | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 What would change my mind: a detection of information transmitted from inside a black hole's event horizon to the outside would overturn the classical understanding of the event horizon as a one-way membrane. Such a detection would suggest that either quantum effects significantly modify the geometry near the horizon, or the universe has mechanisms for information transfer we do not yet understand.
 
@@ -221,3 +242,77 @@ Who was Karl Schwarzschild, and how does his exact solution to Einstein's field 
 - Add a constraint: "Answer as Schwarzschild's 1916 letter to Einstein from the Eastern Front."
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 8.1 — Timeline of black hole confirmation 
+
+Create a standalone D3 v7 HTML file for Figure Timeline of black hole confirmation . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: timeline of black hole confirmation — horizontal axis from 1916 to 2022; mark key events: Schwarzschild's solution (1916), Cygnus X-1 confirmed (1972), stellar orbits at Galactic center imply 4M☉ black hole (1998–2008), LIGO GW150914 detection (2015, Nobel Prize 2017), EHT image of M87 (2019), EHT image of Sgr A* (2022); caption: "From mathematical curiosity to confirmed observation in one century. Each milestone closed a gap between theory and evidence.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-black-holes-and-curved-spacetime-fig-01.html`
+
+---
+
+### Figure 8.2 — Two panels 
+
+Create a standalone D3 v7 HTML file for Figure Two panels . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: two panels — left: flat spacetime grid (ruled lines) with a straight light ray path labeled "geodesic in flat spacetime = straight line"; right: curved spacetime grid near a massive object (warped mesh) with the same light ray now following a curve around the mass, labeled "geodesic in curved spacetime = curve"; annotate "no force acts on the light — it simply follows the geometry"; caption: "Gravity is not pulling the light. The geometry of space has changed, and the light follows the only available path.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-black-holes-and-curved-spacetime-fig-02.html`
+
+---
+
+### Figure 8.3 — Schwarzschild radius comparison across scales 
+
+Create a standalone D3 v7 HTML file for Figure Schwarzschild radius comparison across scales . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Schwarzschild radius comparison across scales — a vertical size comparison showing: proton (~10⁻¹⁵ m) labeled "Schwarzschild radius of a pickup truck"; marble (~1 cm) labeled "R_S of Earth"; city block (~3 km) labeled "R_S of the Sun"; distance from Earth to Moon (~400,000 km) labeled "R_S of Sagittarius A*"; Mercury's orbit (~0.4 AU) labeled "R_S of M87 black hole"; caption: "The Schwarzschild radius spans 28 orders of magnitude in size across the mass range of known black holes.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-black-holes-and-curved-spacetime-fig-03.html`
+
+---
+
+### Figure 8.4 — Light cone diagram showing the event horizon 
+
+Create a standalone D3 v7 HTML file for Figure Light cone diagram showing the event horizon . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: light cone diagram showing the event horizon — vertical axis = time, horizontal axis = space; draw light cones (45° wedges) at three positions: far outside horizon (cone points upward and outward freely), at the horizon (cone tilts so the outward edge is vertical — future is confined to horizon), inside the horizon (cone tilts fully inward — all future directions point toward singularity); annotate "outside: outward paths exist", "at horizon: outward light hovers", "inside: no outward paths"; caption: "The event horizon is not a wall. It is the boundary where the future changes direction.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the re
+
+> Reference implementation: `d3/08-black-holes-and-curved-spacetime-fig-04.html`
+
+---
+
+### Figure 8.5 — Stellar orbits around Sagittarius A* 
+
+Create a standalone D3 v7 HTML file for Figure Stellar orbits around Sagittarius A* . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: stellar orbits around Sagittarius A* — show the inner parsec of the Galactic center with labeled stellar orbits (S2, S29, and two or three others) traced as ellipses around the central invisible point; annotate the orbital period of S2 (~16 years), the implied central mass (4 million solar masses), and the Schwarzschild radius (12 million km) as a tiny dot at the center dwarfed by the orbital scales; caption: "Stars orbit the Galactic center as if something with 4 million solar masses sits there. The object is invisible. Kepler's law identifies it.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-black-holes-and-curved-spacetime-fig-05.html`
+
+---
+
+### Figure 8.6 — X-ray binary schematic 
+
+Create a standalone D3 v7 HTML file for Figure X-ray binary schematic . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: X-ray binary schematic — show a massive companion star (blue supergiant) and an invisible black hole orbiting their common center of mass; draw the Roche lobe overflow: gas streaming from the companion star's outer atmosphere toward the black hole; show the gas spiraling into an accretion disk; annotate disk temperature (~100 million K → X-ray emission), the X-ray flickering timescale (milliseconds to seconds), and the companion star's Doppler-shifting spectral lines; caption: "The black hole is invisible. The X-rays from the disk and the companion star's orbital motion together make its presence unmistakable.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the re
+
+> Reference implementation: `d3/08-black-holes-and-curved-spacetime-fig-06.html`
+
+---
+
+### Figure 8.7 — LIGO schematic and GW150914 signal 
+
+Create a standalone D3 v7 HTML file for Figure LIGO schematic and GW150914 signal . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: LIGO schematic and GW150914 signal — top: L-shaped interferometer layout with 4 km arms, laser source, beam splitter, and mirrors labeled; annotate "arm stretches by 10⁻¹⁸ m during GW150914 — smaller than 1/1000 of a proton diameter"; bottom: the actual GW150914 waveform from both detectors (H1 and L1) showing the chirp from ~35 Hz to ~150 Hz over 0.2 seconds, with the 7-millisecond delay between detectors annotated; caption: "Two detectors, separated by 3,000 km, registered the same signal 7 milliseconds apart. Spacetime had vibrated.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-black-holes-and-curved-spacetime-fig-07.html`
+
+---
+
+### Figure 8.8 — Event Horizon Telescope image of M87 black hole
+
+Create a standalone D3 v7 HTML file for Figure Event Horizon Telescope image of M87 black hole. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Event Horizon Telescope image of M87 black hole (2019) — the iconic orange ring with dark center; annotate: "diameter of shadow: ~40 microarcseconds = predicted by GR for 6.5 billion solar masses at 55 million light-years"; inset: 2022 EHT image of Sagittarius A* for comparison; caption: "The dark region is not the black hole. It is the shadow cast by the event horizon. Its size and shape are determined entirely by general relativity — and they match.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-black-holes-and-curved-spacetime-fig-08.html`

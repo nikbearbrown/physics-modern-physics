@@ -29,7 +29,9 @@ Alongside the matter particles are the force carriers. The electromagnetic force
 
 Thirteen force carriers. Twelve matter particles, each with an antimatter partner. One Higgs. That's the Standard Model.
 
-<!-- → [TABLE: Standard Model particle inventory — three sections: (1) Matter fermions: three columns for three generations, rows for quarks (up/charm/top; down/strange/bottom) and leptons (electron/muon/tau; e-neutrino/μ-neutrino/τ-neutrino), with mass in MeV/c² and charge shown for each; (2) Force-carrier bosons: photon (electromagnetism, mass 0), 8 gluons (strong force, mass 0), W± and Z⁰ (weak force, mass ~80–91 GeV); (3) Higgs boson (mass 125 GeV); annotate which generation makes up ordinary matter (generation 1); caption: "The complete inventory as of 2012. Every particle predicted by the Standard Model has been observed. The table has no room for gravity, dark matter, or dark energy."] -->
+| Item | Meaning |
+| --- | --- |
+| has no room for gravity, dark matter, or dark energy." | A concrete checkpoint for applying the chapter concept. |
 
 ---
 
@@ -51,7 +53,13 @@ This template — force range sets mediator mass — works for all the forces. E
 
 The four forces, their carriers, and their relative strengths at nuclear energy scales:
 
-<!-- → [TABLE: four fundamental forces — four rows, one per force; columns: Force name, Carrier particle(s), Relative strength at nuclear scale, Range, Example phenomenon; rows: Strong (gluons, 1, <10⁻¹⁵ m, holds nucleus together), Electromagnetic (photon, 10⁻², infinite, chemistry and light), Weak (W± Z⁰, 10⁻¹³, <10⁻¹⁸ m, beta decay), Gravity (graviton conjectured, 10⁻³⁸, infinite, planetary orbits); annotate that the graviton has never been detected; caption: "Four forces, four very different strengths, two with infinite range. Gravity is 10³⁸ times weaker than the strong force at particle scales — yet it dominates the cosmos."] -->
+| Force name | Carrier particle(s) | Relative strength at nuclear scale | Range | Example phenomenon |
+| --- | --- | --- | --- | --- |
+| Strong (gluons, 1, <10⁻¹⁵ m, holds nucleus together | A specific, evidence-linked version that readers can verify. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | Use the chapter example as the concrete test case. |
+| Electromagnetic (photon, 10⁻², infinite, chemistry and light | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | Use the chapter example as the concrete test case. |
+| Weak (W± Z⁰, 10⁻¹³, <10⁻¹⁸ m, beta decay | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | Use the chapter example as the concrete test case. |
+| Gravity (graviton conjectured, 10⁻³⁸, infinite, planetary orbits | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | Use the chapter example as the concrete test case. |
+| annotate that the graviton has never been detected | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | Use the chapter example as the concrete test case. |
 
 The strong force is the most powerful at short range, about 100 times stronger than electromagnetism. The weak force is 100 billion times weaker. Gravity is 10 trillion trillion trillion times weaker than the strong force. Gravity is completely negligible at the particle scale. It dominates the universe only because it's universally attractive and has no canceling sign — positive and negative charges can cancel electromagnetic forces, but there's no negative mass to cancel gravity.
 
@@ -65,7 +73,8 @@ Nobody had seen such a thing.
 
 In 1932, Carl Anderson was studying cosmic rays with a cloud chamber when he saw a track that curved the wrong way for any known particle. The curvature revealed positive charge; the track thickness and length revealed mass equal to the electron's. It was the positron — Dirac's antielectron. Anderson had found antimatter.
 
-<!-- → [IMAGE: Anderson's original 1932 cloud chamber photograph of the positron — the historic photograph showing the curved track of a charged particle passing through a lead plate; the track curves upward on both sides of the plate but in the direction opposite to an electron; annotate the direction of the magnetic field, the curvature direction indicating positive charge, and the track width indicating electron-scale mass; caption: "Anderson's 1932 photograph. The track curves the wrong way for an electron. It's a positron — the first antiparticle ever observed, four years after Dirac predicted it must exist."] -->
+![Anderson's 1932 photograph. The track curves the wrong way for an electron. It's a positron — the first antiparticle ever observed, four years after Dirac predicted it must exist.](images/15-particle-physics-fig-01.png)
+*Figure 15.1 — Anderson's original 1932 cloud chamber photograph of the*
 
 Every fundamental particle has an antimatter counterpart with the same mass and opposite charge. The antielectron is the positron. The antiproton has the same mass as the proton and charge $-e$. The antineutron is electrically neutral but has opposite magnetic moment. Even the neutrinos have antineutrinos — electrically neutral themselves, but distinct particles.
 
@@ -83,7 +92,8 @@ In 1963, Murray Gell-Mann at Caltech and George Zweig at CERN independently prop
 
 The proposal was radical because it required fractional electric charges — $+2/3$ and $-1/3$ in units of the proton charge — and because it required quarks to be permanently confined inside hadrons, never observable as free particles. You could not produce a quark in isolation. If you tried to pull two quarks apart, the strong force field between them stretched like a rubber band and eventually it was energetically cheaper to create a new quark-antiquark pair than to continue separating them. You always ended up with hadrons, never with a free quark.
 
-<!-- → [DIAGRAM: quark confinement — three-panel sequence; panel 1: a proton shown as three quarks (u, u, d) connected by gluon field lines, labeled "stable hadron"; panel 2: two quarks being pulled apart, the gluon field stretching like a flux tube, energy increasing with separation, labeled "energy stored in field grows as quarks separate"; panel 3: the flux tube snapping and creating a new quark-antiquark pair, producing two mesons instead of two free quarks, labeled "pair creation — cheaper than separation"; annotate the energy scale (~1 GeV needed to break the string); caption: "You can't isolate a quark. Pull hard enough and the field breaks — creating new quarks from the energy. You always get hadrons."] -->
+![You can't isolate a quark. Pull hard enough and the field breaks — creating new quarks from the energy. You always get hadrons.](images/15-particle-physics-fig-02.png)
+*Figure 15.2 — Quark confinement *
 
 This property — confinement — was strange enough that many physicists didn't take quarks seriously for years. The decisive evidence came from deep-inelastic-scattering experiments at Stanford in the late 1960s, the same logic as Rutherford's gold-foil experiment but with high-energy electrons probing the proton's interior. The results showed the proton behaving as if it contained pointlike constituents with fractional charges. The 1990 Nobel Prize went to Friedman, Kendall, and Taylor for this.
 
@@ -101,7 +111,8 @@ Particles that don't interact with the Higgs field — the photon, the gluons �
 
 The Higgs boson is the quantum excitation of the Higgs field — the particle you get when you disturb the field and it rings like a bell. Detecting the Higgs boson at 125 GeV proved that the Higgs field is real. Everything that has mass has it because it's swimming through a field that was detected, for the first time, in July 2012 in an underground detector on the French-Swiss border.
 
-<!-- → [DIAGRAM: Higgs mechanism — a horizontal "Higgs field" band filling all space; particles represented as objects moving through it; show a photon (no interaction, moving freely, labeled "massless — no coupling to Higgs") alongside an electron (slight interaction, labeled "light — weak coupling") alongside a top quark (strong interaction, labeled "heavy — strong coupling ~1"); annotate the vacuum expectation value of the Higgs field (~246 GeV); an inset showing the "Mexican hat" potential with the field settled at its nonzero minimum; caption: "The Higgs field is like a medium that fills all space. Particles that interact with it are impeded — we call that impedance 'mass.' The photon doesn't interact at all."] -->
+![The Higgs field is like a medium that fills all space. Particles that interact with it are impeded — we call that impedance 'mass.' The photon doesn't interact at all.](images/15-particle-physics-fig-03.png)
+*Figure 15.3 — Higgs mechanism *
 
 The Standard Model does not explain *why* the electron's coupling to the Higgs field is what it is, or why the top quark's coupling is so much larger. These are free parameters — about nineteen of them in the full Standard Model — that we measure experimentally and insert into the theory. The theory accommodates any values you put in. It does not predict them. This is one of the Standard Model's known inadequacies.
 
@@ -119,7 +130,8 @@ The Standard Model accounts for about 5% of the energy content of the universe �
 
 The remaining 68% is dark energy — the energy driving the accelerating expansion of the universe. The Standard Model predicts a vacuum energy from quantum fields that should be about $10^{120}$ times larger than what is observed. This is the most spectacular numerical discrepancy in the history of theoretical physics.
 
-<!-- → [INFOGRAPHIC: energy content of the universe — pie chart; three segments: ordinary matter (Standard Model) 5% (shaded and labeled "everything the Standard Model describes"), dark matter 27% (labeled "gravitates but doesn't interact with light — no Standard Model candidate"), dark energy 68% (labeled "drives accelerating expansion — predicted 10¹²⁰ × too large by Standard Model"); the 5% slice should look conspicuously small; caption: "The Standard Model, despite being the most precisely tested theory in physics, describes 5% of the universe's energy content. The other 95% is unknown."] -->
+![The Standard Model, despite being the most precisely tested theory in physics, describes 5% of the universe's energy content. The other 95% is unknown.](images/15-particle-physics-fig-04.png)
+*Figure 15.4 — Energy content of the universe *
 
 And the matter-antimatter asymmetry: as discussed above, the Standard Model's CP violation is insufficient by many orders of magnitude.
 
@@ -135,7 +147,8 @@ Thirteen trillion electron volts. For reference, an electron volt is the energy 
 
 When two protons collide, it's really the quarks and gluons inside them that interact. Most collisions are soft — glancing blows producing low-energy sprays of particles. Occasionally a high-energy collision occurs between individual partons, producing new heavy particles that immediately decay into detectable signals. The Higgs boson is produced this way roughly once every 10 billion collisions and lives for about $10^{-22}$ seconds before decaying. The detectors reconstruct the decay products — photon pairs, or pairs of Z bosons, or other combinations — and infer the Higgs from statistical bumps in energy distributions.
 
-<!-- → [CHART: the Higgs discovery plot — horizontal axis: invariant mass of two-photon pairs (GeV, range ~110–150 GeV); vertical axis: number of events per GeV bin; show the background continuum as a smooth falling curve; show a clear bump above background at ~125 GeV labeled "Higgs signal, 5σ significance"; annotate the bump's width (~4 MeV natural width, but broadened by detector resolution to ~2 GeV); annotate "July 4, 2012" and the ATLAS or CMS experiment label; caption: "The bump. Forty-eight years of searching, two experiments, both independently reporting the same excess at 125 GeV. Higgs wept."] -->
+![The bump. Forty-eight years of searching, two experiments, both independently reporting the same excess at 125 GeV. Higgs wept.](images/15-particle-physics-fig-05.png)
+*Figure 15.5 — The Higgs discovery plot *
 
 Since the Higgs discovery in 2012, the LHC has continued at higher energies searching for new particles. Supersymmetry, which predicts a heavy partner for every Standard Model particle, was one of the most popular theories for physics beyond the Standard Model. The LHC has found no supersymmetric particles in the mass range where many theorists expected to find them. Either supersymmetry doesn't exist, or the particles are heavier than current accelerators can produce, or the theory needs significant revision.
 
@@ -230,3 +243,53 @@ the single most surprising thing about his career or ideas.
 - Ask it about Powell's pacifist activism and his role founding the Pugwash Conferences on nuclear disarmament.
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 15.1 — Anderson's original 1932 cloud chamber photograph of the
+
+Create a standalone D3 v7 HTML file for Figure Anderson's original 1932 cloud chamber photograph of the. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Anderson's original 1932 cloud chamber photograph of the positron — the historic photograph showing the curved track of a charged particle passing through a lead plate; the track curves upward on both sides of the plate but in the direction opposite to an electron; annotate the direction of the magnetic field, the curvature direction indicating positive charge, and the track width indicating electron-scale mass; caption: "Anderson's 1932 photograph. The track curves the wrong way for an electron. It's a positron — the first antiparticle ever observed, four years after Dirac predicted it must exist.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color
+
+> Reference implementation: `d3/15-particle-physics-fig-01.html`
+
+---
+
+### Figure 15.2 — Quark confinement 
+
+Create a standalone D3 v7 HTML file for Figure Quark confinement . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: quark confinement — three-panel sequence; panel 1: a proton shown as three quarks (u, u, d) connected by gluon field lines, labeled "stable hadron"; panel 2: two quarks being pulled apart, the gluon field stretching like a flux tube, energy increasing with separation, labeled "energy stored in field grows as quarks separate"; panel 3: the flux tube snapping and creating a new quark-antiquark pair, producing two mesons instead of two free quarks, labeled "pair creation — cheaper than separation"; annotate the energy scale (~1 GeV needed to break the string); caption: "You can't isolate a quark. Pull hard enough and the field breaks — creating new quarks from the energy. You always get hadrons.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, an
+
+> Reference implementation: `d3/15-particle-physics-fig-02.html`
+
+---
+
+### Figure 15.3 — Higgs mechanism 
+
+Create a standalone D3 v7 HTML file for Figure Higgs mechanism . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Higgs mechanism — a horizontal "Higgs field" band filling all space; particles represented as objects moving through it; show a photon (no interaction, moving freely, labeled "massless — no coupling to Higgs") alongside an electron (slight interaction, labeled "light — weak coupling") alongside a top quark (strong interaction, labeled "heavy — strong coupling ~1"); annotate the vacuum expectation value of the Higgs field (~246 GeV); an inset showing the "Mexican hat" potential with the field settled at its nonzero minimum; caption: "The Higgs field is like a medium that fills all space. Particles that interact with it are impeded — we call that impedance 'mass.' The photon doesn't interact at all.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible,
+
+> Reference implementation: `d3/15-particle-physics-fig-03.html`
+
+---
+
+### Figure 15.4 — Energy content of the universe 
+
+Create a standalone D3 v7 HTML file for Figure Energy content of the universe . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: energy content of the universe — pie chart; three segments: ordinary matter (Standard Model) 5% (shaded and labeled "everything the Standard Model describes"), dark matter 27% (labeled "gravitates but doesn't interact with light — no Standard Model candidate"), dark energy 68% (labeled "drives accelerating expansion — predicted 10¹²⁰ × too large by Standard Model"); the 5% slice should look conspicuously small; caption: "The Standard Model, despite being the most precisely tested theory in physics, describes 5% of the universe's energy content. The other 95% is unknown.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/15-particle-physics-fig-04.html`
+
+---
+
+### Figure 15.5 — The Higgs discovery plot 
+
+Create a standalone D3 v7 HTML file for Figure The Higgs discovery plot . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: the Higgs discovery plot — horizontal axis: invariant mass of two-photon pairs (GeV, range ~110–150 GeV); vertical axis: number of events per GeV bin; show the background continuum as a smooth falling curve; show a clear bump above background at ~125 GeV labeled "Higgs signal, 5σ significance"; annotate the bump's width (~4 MeV natural width, but broadened by detector resolution to ~2 GeV); annotate "July 4, 2012" and the ATLAS or CMS experiment label; caption: "The bump. Forty-eight years of searching, two experiments, both independently reporting the same excess at 125 GeV. Higgs wept.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono fon
+
+> Reference implementation: `d3/15-particle-physics-fig-05.html`

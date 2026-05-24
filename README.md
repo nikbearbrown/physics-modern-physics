@@ -1,6 +1,6 @@
 # Physics +1: Modern Physics
 
-**Author:** Nik Bear Brown
+**Author:** Humanitarians AI
 **Series:** Physics +1 (Volume 6)
 **Publisher:** Bear Brown, LLC
 **Status:** Draft

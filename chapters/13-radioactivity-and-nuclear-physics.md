@@ -19,7 +19,8 @@ Carbon-12 has 6 protons and 6 neutrons: $A = 12$. Carbon-14 has 6 protons and 8 
 
 The nucleus is small. Radii scale as $r \approx (1.2 \text{ fm}) A^{1/3}$, where a femtometer ($10^{-15}$ m) is about one hundred-thousandth the radius of the atom. A typical nucleus is roughly $10^{-14}$ m across. The density of nuclear matter — all isotopes, roughly the same — is about $2 \times 10^{17}$ kg per cubic meter. A teaspoon of nuclear material would weigh roughly a billion tonnes.
 
-<!-- → [DIAGRAM: nuclear scale comparison — a nested or side-by-side size illustration; show a hydrogen atom at far left (~10⁻¹⁰ m), an oxygen nucleus at center (~4 fm), a proton at far right (~1 fm); include a ruler-style scale bar in femtometers; annotate: "the nucleus is ~100,000 times smaller than the atom in linear dimension, ~10¹⁵ times smaller in volume"; a second inset shows the nuclear density (~2×10¹⁷ kg/m³) compared to lead (~10⁴ kg/m³) and a neutron star (~10¹⁷ kg/m³), making explicit that nuclear matter and neutron star matter have the same density; caption: "The atom is mostly empty space. The nucleus is almost incomprehensibly dense by human-scale standards."] -->
+![The atom is mostly empty space. The nucleus is almost incomprehensibly dense by human-scale standards.](images/13-radioactivity-and-nuclear-physics-fig-01.png)
+*Figure 13.1 — Nuclear scale comparison *
 
 Protons are positively charged. Pack six or eighty of them into a volume the size of a nucleus, and the electrostatic repulsion is enormous. Something must hold them together. That something is the strong nuclear force: a short-range attractive interaction between nucleons that is vastly stronger than electromagnetism at distances of a femtometer or so, and effectively zero beyond a few femtometers. It is attractive between any two nucleons — proton-proton, neutron-neutron, proton-neutron. Without it, every nucleus larger than hydrogen would immediately explode.
 
@@ -31,7 +32,8 @@ Ernest Rutherford, working in Montreal in 1899, took a sample of radium and put 
 
 He named them alpha, beta, and gamma.
 
-<!-- → [DIAGRAM: Rutherford's 1899 magnetic deflection experiment — a radium source at left emitting three beams; a magnetic field region (labeled B, into the page); three beams exiting the field: alpha beam deflecting upward (positive charge, heavy — deflects less), beta beam deflecting strongly downward (negative charge, light — deflects more), gamma beam passing straight through (no charge, no deflection); annotate each beam's identity, charge, and mass; caption: "One experiment, three beams. Everything known about nuclear radiation in the early 20th century begins here."] -->
+![One experiment, three beams. Everything known about nuclear radiation in the early 20th century begins here.](images/13-radioactivity-and-nuclear-physics-fig-02.png)
+*Figure 13.2 — Rutherford's 1899 magnetic deflection experiment *
 
 **Alpha radiation** is helium-4 nuclei: two protons and two neutrons, charge $+2e$, mass 4 u. When a nucleus emits an alpha, it loses 2 protons and 2 neutrons. Uranium-238 alpha-decays to thorium-234:
 
@@ -61,7 +63,8 @@ The electron in beta-minus decay was not sitting inside the nucleus before the d
 
 The neutrino in beta decay puzzled physicists for years. When beta particles were first measured, they came out with a continuous spectrum of energies — not the single definite energy expected from a two-body decay. Wolfgang Pauli, in 1930, proposed in a letter (which he addressed to "Dear Radioactive Ladies and Gentlemen") that an unobserved third particle must be carrying away the missing energy. He called it the neutrino — the little neutral one. It took 26 years to detect it experimentally. Pauli was right.
 
-<!-- → [CHART: beta decay energy spectrum — horizontal axis: kinetic energy of emitted beta particle (0 to Q-value); vertical axis: number of electrons detected; plot a continuous bell-shaped curve peaking at roughly one-third of Q and falling to zero at Q; draw a vertical dashed line at Q labeled "expected energy if only two particles (never observed)"; annotate "the missing energy goes to the neutrino"; caption: "If beta decay were a two-body process, every electron would emerge at the same energy — a sharp spike at Q. Instead: a continuous spread. Pauli explained it in 1930. Cowan and Reines confirmed the neutrino in 1956."] -->
+![If beta decay were a two-body process, every electron would emerge at the same energy — a sharp spike at Q. Instead: a continuous spread. Pauli explained it in 1930. Cowan and Reines confirmed the neutrino in 1956.](images/13-radioactivity-and-nuclear-physics-fig-03.png)
+*Figure 13.3 — Beta decay energy spectrum *
 
 **Gamma radiation** is photons — extremely high-energy photons, in the MeV range. Gamma emission occurs when a nucleus in an excited state drops to its ground state, releasing the energy difference as light. No protons or neutrons change; only the nuclear energy state.
 
@@ -89,7 +92,8 @@ In 1988, three independent laboratories — Tucson, Oxford, Zürich — received
 
 For older material — rocks, not cloth — carbon-14 cannot reach. Its half-life of 5,730 years limits it to roughly 50,000 years. Potassium-40, with a half-life of 1.25 billion years, covers geological time. Uranium-238, with a half-life of 4.5 billion years, covers the age of the solar system. Clair Patterson used uranium-lead isotope ratios in meteorites to measure the age of the Earth as $4.55 \pm 0.07$ billion years in 1956 — one of the most precise and consequential measurements in the history of science.
 
-<!-- → [CHART: radioactive dating clocks and their ranges — horizontal log-scale time axis from 100 years to 10 billion years; plot three horizontal bars, one per isotope, showing the useful dating range: ¹⁴C (5,730 yr half-life, useful range ~500–50,000 yr), ⁴⁰K (1.25 Gyr half-life, useful range ~100,000 yr – 4 Gyr), ²³⁸U (4.5 Gyr half-life, useful range ~10 Myr – 4.5 Gyr); annotate key calibrated dates on the axis: Shroud of Turin (~700 yr), oldest human artifacts (~40,000 yr), formation of solar system (4.54 Gyr); caption: "Each isotope is a clock with a different reach. The choice of clock depends on the age you're trying to measure."] -->
+![Each isotope is a clock with a different reach. The choice of clock depends on the age you're trying to measure.](images/13-radioactivity-and-nuclear-physics-fig-04.png)
+*Figure 13.4 — Radioactive dating clocks and their ranges *
 
 ---
 
@@ -107,7 +111,8 @@ For helium-4, that is about 7.1 MeV per nucleon.
 
 Now compute it for iron-56: $Z = 26$, $N = 30$, atomic mass 55.9349 u. The sum of free nucleons is $26(1.00794) + 30(1.00867) = 56.4665$ u. The mass defect is $56.4665 - 55.9349 = 0.5316$ u. The binding energy is $0.5316 \times 931.5 = 495.2$ MeV. Per nucleon: $495.2 / 56 = 8.84$ MeV.
 
-<!-- → [CHART: binding energy per nucleon vs. mass number — horizontal axis: mass number A (1 to 238); vertical axis: binding energy per nucleon in MeV (0 to 9); plot the empirical curve rising steeply from ¹H (0), peaking near ⁵⁶Fe / ⁶²Ni (~8.8 MeV/nucleon), then gradually declining to ²³⁸U (~7.6 MeV/nucleon); annotate specific isotopes: ⁴He (7.1 MeV), ¹²C (7.7 MeV), ⁵⁶Fe (8.84 MeV, labeled "peak"), ²³⁵U (7.6 MeV); draw a left-pointing arrow labeled "fusion releases energy" on the rising left side; draw a right-pointing arrow labeled "fission releases energy" on the falling right side; caption: "The most important graph in nuclear physics. Both fusion and fission move toward iron — they release energy for opposite physical reasons."] -->
+![The most important graph in nuclear physics. Both fusion and fission move toward iron — they release energy for opposite physical reasons.](images/13-radioactivity-and-nuclear-physics-fig-05.png)
+*Figure 13.5 — Binding energy per nucleon vs*
 
 Plot binding energy per nucleon against mass number for every stable isotope. The curve rises steeply from hydrogen, peaks near iron and nickel at about 8.8 MeV per nucleon, then falls gradually out to uranium at about 7.6 MeV per nucleon. This curve is the most important graph in nuclear physics. It tells you everything about where nuclear energy comes from and why certain reactions release it.
 
@@ -127,11 +132,13 @@ Inside uranium-238, an alpha particle has kinetic energy of about 4 to 5 MeV. Ou
 
 George Gamow solved this in 1928 with quantum mechanics. The alpha is not a classical particle with a definite position. It is a quantum object with a wavefunction that extends through the classically forbidden region of the Coulomb barrier — exponentially decaying, but not zero. There is a small but nonzero probability that the alpha will be found on the outside of the barrier where classically it should never reach. Every time the alpha bounces around inside the nucleus, it has a tiny probability of tunneling out. Given enough bounces — and a nucleus provides something like $10^{21}$ bounces per second — eventually it escapes.
 
-<!-- → [DIAGRAM: quantum tunneling through the Coulomb barrier — horizontal axis: distance from nuclear center (0 to ~20 fm); vertical axis: potential energy (MeV); show the attractive square-well of the nuclear interior (strong force, negative potential, depth ~−50 MeV) at small r; the Coulomb barrier rising steeply from the nuclear edge to a peak of ~30 MeV at ~10 fm, then falling as 1/r for larger r; draw a horizontal dashed line at the alpha's energy (~5 MeV) — below the barrier peak; show the wavefunction extending through the barrier with exponentially decreasing amplitude, emerging on the other side; annotate "classically forbidden region" in the barrier; annotate "alpha's kinetic energy" with an arrow; caption: "The alpha cannot go over the barrier. Its wavefunction tunnels through. The probability is tiny — which is why the half-life is 4.5 billion years."] -->
+![The alpha cannot go over the barrier. Its wavefunction tunnels through. The probability is tiny — which is why the half-life is 4.5 billion years.](images/13-radioactivity-and-nuclear-physics-fig-06.png)
+*Figure 13.6 — Quantum tunneling through the Coulomb barrier *
 
 The tunneling probability depends exponentially on the barrier height and width. A slightly higher barrier means exponentially longer waiting time. This is why alpha-decay half-lives span 17 orders of magnitude while alpha-particle energies vary by only a factor of 2 or 3. A small change in energy means an exponential change in half-life. The Geiger-Nuttall law, discovered empirically in 1911 before quantum mechanics existed, encodes exactly this exponential sensitivity: $\log(t_{1/2})$ varies linearly with $1/\sqrt{E_\alpha}$.
 
-<!-- → [CHART: Geiger-Nuttall plot — horizontal axis: 1/√Eα (alpha kinetic energy in MeV); vertical axis: log₁₀(half-life in seconds); scatter of data points for known alpha emitters (e.g. ²¹²Po at ~0.3 μs, ²³²Th at ~10¹⁰ years, ²³⁸U at ~4.5 Gyr); a straight best-fit line through the data; annotate the range: "factor of ~2 in energy, 17 orders of magnitude in half-life"; caption: "Discovered empirically in 1911, explained by Gamow in 1928. The linearity of this log-linear plot is the fingerprint of quantum tunneling."] -->
+![Discovered empirically in 1911, explained by Gamow in 1928. The linearity of this log-linear plot is the fingerprint of quantum tunneling.](images/13-radioactivity-and-nuclear-physics-fig-07.png)
+*Figure 13.7 — Geiger-Nuttall plot *
 
 Tunneling does not violate conservation of energy. The alpha has the same total energy on both sides of the barrier. What quantum mechanics allows is the possibility of finding the particle in a location that would be forbidden classically — not because energy is not conserved, but because the particle's position is not definite until measured.
 
@@ -239,3 +246,69 @@ End with the single most surprising thing about her career or ideas.
 - Ask it about Wu's role in the Manhattan Project and her later career at Columbia.
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 13.1 — Nuclear scale comparison 
+
+Create a standalone D3 v7 HTML file for Figure Nuclear scale comparison . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: nuclear scale comparison — a nested or side-by-side size illustration; show a hydrogen atom at far left (~10⁻¹⁰ m), an oxygen nucleus at center (~4 fm), a proton at far right (~1 fm); include a ruler-style scale bar in femtometers; annotate: "the nucleus is ~100,000 times smaller than the atom in linear dimension, ~10¹⁵ times smaller in volume"; a second inset shows the nuclear density (~2×10¹⁷ kg/m³) compared to lead (~10⁴ kg/m³) and a neutron star (~10¹⁷ kg/m³), making explicit that nuclear matter and neutron star matter have the same density; caption: "The atom is mostly empty space. The nucleus is almost incomprehensibly dense by human-scale standards.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the bri
+
+> Reference implementation: `d3/13-radioactivity-and-nuclear-physics-fig-01.html`
+
+---
+
+### Figure 13.2 — Rutherford's 1899 magnetic deflection experiment 
+
+Create a standalone D3 v7 HTML file for Figure Rutherford's 1899 magnetic deflection experiment . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Rutherford's 1899 magnetic deflection experiment — a radium source at left emitting three beams; a magnetic field region (labeled B, into the page); three beams exiting the field: alpha beam deflecting upward (positive charge, heavy — deflects less), beta beam deflecting strongly downward (negative charge, light — deflects more), gamma beam passing straight through (no charge, no deflection); annotate each beam's identity, charge, and mass; caption: "One experiment, three beams. Everything known about nuclear radiation in the early 20th century begins here.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split
+
+> Reference implementation: `d3/13-radioactivity-and-nuclear-physics-fig-02.html`
+
+---
+
+### Figure 13.3 — Beta decay energy spectrum 
+
+Create a standalone D3 v7 HTML file for Figure Beta decay energy spectrum . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: beta decay energy spectrum — horizontal axis: kinetic energy of emitted beta particle (0 to Q-value); vertical axis: number of electrons detected; plot a continuous bell-shaped curve peaking at roughly one-third of Q and falling to zero at Q; draw a vertical dashed line at Q labeled "expected energy if only two particles (never observed)"; annotate "the missing energy goes to the neutrino"; caption: "If beta decay were a two-body process, every electron would emerge at the same energy — a sharp spike at Q. Instead: a continuous spread. Pauli explained it in 1930. Cowan and Reines confirmed the neutrino in 1956.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and t
+
+> Reference implementation: `d3/13-radioactivity-and-nuclear-physics-fig-03.html`
+
+---
+
+### Figure 13.4 — Radioactive dating clocks and their ranges 
+
+Create a standalone D3 v7 HTML file for Figure Radioactive dating clocks and their ranges . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: radioactive dating clocks and their ranges — horizontal log-scale time axis from 100 years to 10 billion years; plot three horizontal bars, one per isotope, showing the useful dating range: ¹⁴C (5,730 yr half-life, useful range ~500–50,000 yr), ⁴⁰K (1.25 Gyr half-life, useful range ~100,000 yr – 4 Gyr), ²³⁸U (4.5 Gyr half-life, useful range ~10 Myr – 4.5 Gyr); annotate key calibrated dates on the axis: Shroud of Turin (~700 yr), oldest human artifacts (~40,000 yr), formation of solar system (4.54 Gyr); caption: "Each isotope is a clock with a different reach. The choice of clock depends on the age you're trying to measure.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DES
+
+> Reference implementation: `d3/13-radioactivity-and-nuclear-physics-fig-04.html`
+
+---
+
+### Figure 13.5 — Binding energy per nucleon vs
+
+Create a standalone D3 v7 HTML file for Figure Binding energy per nucleon vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: binding energy per nucleon vs. mass number — horizontal axis: mass number A (1 to 238); vertical axis: binding energy per nucleon in MeV (0 to 9); plot the empirical curve rising steeply from ¹H (0), peaking near ⁵⁶Fe / ⁶²Ni (~8.8 MeV/nucleon), then gradually declining to ²³⁸U (~7.6 MeV/nucleon); annotate specific isotopes: ⁴He (7.1 MeV), ¹²C (7.7 MeV), ⁵⁶Fe (8.84 MeV, labeled "peak"), ²³⁵U (7.6 MeV); draw a left-pointing arrow labeled "fusion releases energy" on the rising left side; draw a right-pointing arrow labeled "fission releases energy" on the falling right side; caption: "The most important graph in nuclear physics. Both fusion and fission move toward iron — they release energy for opposite physical reasons.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or ar
+
+> Reference implementation: `d3/13-radioactivity-and-nuclear-physics-fig-05.html`
+
+---
+
+### Figure 13.6 — Quantum tunneling through the Coulomb barrier 
+
+Create a standalone D3 v7 HTML file for Figure Quantum tunneling through the Coulomb barrier . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: quantum tunneling through the Coulomb barrier — horizontal axis: distance from nuclear center (0 to ~20 fm); vertical axis: potential energy (MeV); show the attractive square-well of the nuclear interior (strong force, negative potential, depth ~−50 MeV) at small r; the Coulomb barrier rising steeply from the nuclear edge to a peak of ~30 MeV at ~10 fm, then falling as 1/r for larger r; draw a horizontal dashed line at the alpha's energy (~5 MeV) — below the barrier peak; show the wavefunction extending through the barrier with exponentially decreasing amplitude, emerging on the other side; annotate "classically forbidden region" in the barrier; annotate "alpha's kinetic energy" with an arrow; caption: "The alpha cannot go over the barrier. Its wavefunction tunnels through. The probability is tiny — which is why the half-life is 4.5 billion years.". Use the described data shape and labels; w
+
+> Reference implementation: `d3/13-radioactivity-and-nuclear-physics-fig-06.html`
+
+---
+
+### Figure 13.7 — Geiger-Nuttall plot 
+
+Create a standalone D3 v7 HTML file for Figure Geiger-Nuttall plot . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Geiger-Nuttall plot — horizontal axis: 1/√Eα (alpha kinetic energy in MeV); vertical axis: log₁₀(half-life in seconds); scatter of data points for known alpha emitters (e.g. ²¹²Po at ~0.3 μs, ²³²Th at ~10¹⁰ years, ²³⁸U at ~4.5 Gyr); a straight best-fit line through the data; annotate the range: "factor of ~2 in energy, 17 orders of magnitude in half-life"; caption: "Discovered empirically in 1911, explained by Gamow in 1928. The linearity of this log-linear plot is the fingerprint of quantum tunneling.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/13-radioactivity-and-nuclear-physics-fig-07.html`

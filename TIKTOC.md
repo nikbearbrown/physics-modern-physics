@@ -2,7 +2,7 @@
 
 ## Physics +1 Series · Modern Physics
 
-**Author:** Nik Bear Brown
+**Author:** Humanitarians AI
 **Series:** Physics +1
 **Format:** $1 Kindle · Brutalist D3 + Claude Code
 **Brutalist reference:** brutalist-d3-x-claude

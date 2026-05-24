@@ -7,7 +7,8 @@ In the basement of a dormitory at the Case School of Applied Science in Clevelan
 
 The ether was the medium light was supposed to travel through — the way sound travels through air. Nobody had ever seen it, but it seemed logically necessary. Waves wave in something. Light is a wave. Therefore light waves in something. The ether was that something, and Michelson and Morley were going to find it.
 
-<!-- → [DIAGRAM: Annotated schematic of the Michelson-Morley interferometer — beam splitter, two perpendicular arms, mirrors, recombination point, fringe pattern. Caption should label the "ether wind" direction and show the expected vs. observed fringe shift side by side.] -->
+![Schematic of the Michelson-Morley interferometer ](images/09-special-relativity-fig-01.png)
+*Figure 9.1 — Schematic of the Michelson-Morley interferometer *
 
 Their interferometer was exquisite. Light from a sodium lamp was split into two beams, sent down perpendicular arms several meters long, bounced off mirrors, and recombined. The interference pattern where they met depended on whether the two beams took the same amount of time or slightly different amounts. If the Earth was moving through the ether at orbital speed — about 30 km/s — then the beam traveling parallel to Earth's motion should take slightly longer than the beam traveling perpendicular, because it would be fighting the ether current in one direction and riding it in the other, like a swimmer crossing a river versus swimming downstream and back. The interference pattern should shift measurably when the apparatus was rotated.
 
@@ -33,7 +34,8 @@ But accepting the second postulate forces consequences that nobody expected. Fro
 
 The first consequence, the one that cuts deepest, is about simultaneity.
 
-<!-- → [DIAGRAM: Train-and-embankment simultaneity thought experiment — two panels side by side. Left panel: embankment observer at midpoint, two lightning strike positions at train ends, light reaching her simultaneously. Right panel: train observer at midpoint, train moving right, light from front strike arriving before light from rear strike. Label both observers' conclusions.] -->
+![Train-and-embankment simultaneity thought experiment ](images/09-special-relativity-fig-02.png)
+*Figure 9.2 — Train-and-embankment simultaneity thought experiment *
 
 Imagine a train moving along a track at constant speed. Two lightning bolts strike the two ends of the train simultaneously — simultaneously, that is, from the perspective of an observer standing beside the track exactly at the midpoint between the two strikes. The light from both strikes reaches her at the same instant. She concludes: the two bolts struck at the same time.
 
@@ -53,7 +55,8 @@ Once this is clear, time dilation follows by a direct argument.
 
 Build the simplest clock imaginable. Two mirrors facing each other, separated by a distance $D$, with a pulse of light bouncing between them. Each round trip — down and back — takes $2D/c$. Call this the tick.
 
-<!-- → [DIAGRAM: Light-clock time dilation derivation — two panels. Left: clock at rest, light bouncing vertically between mirrors, path length 2D. Right: same clock moving horizontally at speed v, light traveling diagonally, path length longer. Right triangle drawn explicitly with legs D, vΔt/2, and hypotenuse cΔt/2 labeled. Caption: "The path is longer at the same speed — so the tick takes longer."] -->
+![The path is longer at the same speed — so the tick takes longer.](images/09-special-relativity-fig-03.png)
+*Figure 9.3 — Light-clock time dilation derivation *
 
 Now put this clock on a moving spaceship and watch it from outside. The clock is moving horizontally. The light pulse, in your frame, has to travel diagonally — it goes up and sideways on the way to the top mirror, then down and sideways on the way back. The total path is longer than $2D$. But light travels at $c$ in your frame too — that is the second postulate. So if the path is longer and the speed is the same, the time for each tick is longer. The clock is running slow.
 
@@ -73,7 +76,8 @@ Time dilation is $\Delta t = \gamma \Delta t_0$. This is not an artifact of the 
 
 The effect is negligible at ordinary speeds. A car at 100 km/h has $\gamma$ differing from 1 by about $4 \times 10^{-14}$. A muon produced by cosmic rays at 0.99$c$ has $\gamma \approx 7$.
 
-<!-- → [CHART: γ as a function of v/c — horizontal axis from 0 to 1.0 (in units of c), vertical axis from 1 to ~10. Curve starts flat near 1 for low velocities and rises steeply approaching v=c. Mark specific points: car at 100 km/h (γ ≈ 1.000000000000014), airplane (γ ≈ 1 + 10^{-13}), muon at 0.99c (γ ≈ 7), LHC proton at 0.9999999c (γ ≈ 7460). Student should see the "knee" of the curve above v ≈ 0.7c.] -->
+![Γ as a function of v/c ](images/09-special-relativity-fig-04.png)
+*Figure 9.4 — Γ as a function of v/c *
 
 That muon is worth dwelling on. It is created high in the atmosphere — typically 10 km up — when an energetic cosmic ray strikes an air molecule. A muon at rest decays into an electron and two neutrinos with a mean lifetime of 2.2 microseconds. At the speed of light, it would travel $c \times 2.2 \times 10^{-6}$ seconds, which is about 660 meters. It should decay long before reaching sea level. But muons rain down on the surface at a rate of about one per square centimeter per minute. They are making the 10-kilometer journey.
 
@@ -95,7 +99,8 @@ $$L = \frac{L_0}{\gamma}$$
 
 where $L_0$ is the proper length — the length measured in the object's rest frame — and $L$ is the length measured by an observer past whom the object is moving. At 0.99$c$, $\gamma \approx 7$, and the 10 km becomes about 1.4 km. At 0.99$c$, the muon crosses 1.4 km in about 4.7 microseconds in its own frame. It decays in 2.2 microseconds on average, so many of them make it, and the fraction that do is the same number Earth calculates.
 
-<!-- → [INFOGRAPHIC: Muon survival — two-panel side-by-side comparison. Left panel (Earth's frame): muon descends through 10 km atmosphere, clock runs slow at γ=7, effective lifetime 15 μs, many muons survive. Right panel (muon's frame): muon at rest, atmosphere rushes up, contracted to 1.4 km, lifetime 2.2 μs, same fraction survive. Caption: "Two different mechanisms, one physical outcome — the consistency of the theory."] -->
+![Two different mechanisms, one physical outcome — the consistency of the theory.](images/09-special-relativity-fig-05.png)
+*Figure 9.5 — Muon survival *
 
 Two different accounts, two different mechanisms — time dilation in Earth's frame, length contraction in the muon's frame — and the same physical outcome: the muon lands. This is not a coincidence. It is the consistency of the theory. The two effects are not independent phenomena. They are the same geometry seen from different frames.
 
@@ -123,7 +128,8 @@ $$u = \frac{0.9c + 0.9c}{1 + (0.9)(0.9)} = \frac{1.8c}{1.81} \approx 0.994c$$
 
 Not $1.8c$. Velocities saturate as they approach $c$. The speed of light is not a barrier you approach from below and asymptotically close in on. It is a hard limit built into the structure of the addition rule.
 
-<!-- → [CHART: Relativistic vs. classical velocity addition — two curves on the same axes. Horizontal axis: u' from 0 to c (speed of object in moving frame). Vertical axis: u from 0 to c (speed seen from rest frame). Frame moves at v = 0.8c. Classical curve: straight line (would exceed c). Relativistic curve: saturates below c. Mark the point where classical prediction exceeds c to show the violation.] -->
+![Relativistic vs](images/09-special-relativity-fig-06.png)
+*Figure 9.6 — Relativistic vs*
 
 ---
 
@@ -155,7 +161,8 @@ The rest energy $mc^2$ is what makes nuclear physics work. When uranium-235 fiss
 
 This is not a special property of uranium. It is what happens whenever mass is converted to energy in any form. The Sun converts about 600 million tons of hydrogen into helium every second. The helium weighs slightly less than the hydrogen it came from. The difference — about 4 million tons per second — has become the light and heat that have powered the Earth for 4.5 billion years.
 
-<!-- → [INFOGRAPHIC: Mass-energy equivalence in context — a row of energy scales showing: 1 gram of mass converted = 9×10^13 J; compare to: burning 1 kg of coal (~30 MJ), 1 ton of TNT (~4 GJ), Hiroshima bomb (~60 TJ), annual US electricity consumption (~14,000 PJ). Log-scale bar or bubble chart. Purpose: make the magnitude of c² viscerally clear.] -->
+![Mass-energy equivalence in context ](images/09-special-relativity-fig-07.png)
+*Figure 9.7 — Mass-energy equivalence in context *
 
 ---
 
@@ -169,7 +176,9 @@ Where the extension matters: cosmic-ray muons, particle accelerators, the interi
 
 Inside the Large Hadron Collider, protons are accelerated to kinetic energies of 7 TeV — about 7,460 times their rest energy. At these energies, the proton's rest mass is negligible compared to its total energy, and it behaves almost exactly like a massless particle, coasting at $c$ minus nine parts per billion. The 27-kilometer ring, in the proton's frame, is length-contracted to about 3.6 meters. The same proton physics that governs hydrogen atoms at room temperature, operating at 7,460 times the rest energy, agrees with the relativistic formulas to the precision of the measurement. It always does.
 
-<!-- → [TABLE: Relativistic vs. classical regime comparison — columns: system, speed (m/s), v/c, γ−1, relativistic correction significant? Rows: car at 100 km/h, commercial aircraft, ISS, GPS satellite, muon at 0.99c, LHC proton. Purpose: show students that γ−1 is the quantity to evaluate when deciding whether relativity matters.] -->
+| system | speed (m | s) | v | c |
+| --- | --- | --- | --- | --- |
+| car at 100 km | h, commercial aircraft, ISS, GPS satellite, muon at 0.99c, LHC proton. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 ---
 
@@ -185,7 +194,8 @@ This is why the theory is called "relativity" — spatial distances and time int
 
 Newton's failure was not in his equations, which are almost exactly right at ordinary speeds. His failure was in his assumption about what was fundamental. He took space and time as given — absolute, universal, requiring no explanation. Einstein showed that the fundamental thing is the geometry of spacetime, of which Newton's space and time are a low-velocity shadow.
 
-<!-- → [DIAGRAM: Spacetime diagram (Minkowski diagram) — two axes: horizontal = space (x), vertical = time (ct). Two worldlines at different velocities shown as straight lines through the origin. A pair of events marked. Show how the spatial and temporal separations between events differ for the two observers, but the spacetime interval (the "distance" in spacetime) is the same. Caption: "Each observer cuts spacetime differently — but the geometry they're cutting is the same."] -->
+![Each observer cuts spacetime differently — but the geometry they're cutting is the same.](images/09-special-relativity-fig-08.png)
+*Figure 9.8 — Spacetime diagram (Minkowski diagram) *
 
 ---
 
@@ -279,3 +289,77 @@ Who was Hendrik Lorentz, and how does his transformation connect to special rela
 - Ask it about Lorentz's role chairing the Solvay Conferences that brought together quantum-era physicists.
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 9.1 — Schematic of the Michelson-Morley interferometer 
+
+Create a standalone D3 v7 HTML file for Figure Schematic of the Michelson-Morley interferometer . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Annotated schematic of the Michelson-Morley interferometer — beam splitter, two perpendicular arms, mirrors, recombination point, fringe pattern. Caption should label the "ether wind" direction and show the expected vs. observed fringe shift side by side.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-special-relativity-fig-01.html`
+
+---
+
+### Figure 9.2 — Train-and-embankment simultaneity thought experiment 
+
+Create a standalone D3 v7 HTML file for Figure Train-and-embankment simultaneity thought experiment . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Train-and-embankment simultaneity thought experiment — two panels side by side. Left panel: embankment observer at midpoint, two lightning strike positions at train ends, light reaching her simultaneously. Right panel: train observer at midpoint, train moving right, light from front strike arriving before light from rear strike. Label both observers' conclusions.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-special-relativity-fig-02.html`
+
+---
+
+### Figure 9.3 — Light-clock time dilation derivation 
+
+Create a standalone D3 v7 HTML file for Figure Light-clock time dilation derivation . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Light-clock time dilation derivation — two panels. Left: clock at rest, light bouncing vertically between mirrors, path length 2D. Right: same clock moving horizontally at speed v, light traveling diagonally, path length longer. Right triangle drawn explicitly with legs D, vΔt/2, and hypotenuse cΔt/2 labeled. Caption: "The path is longer at the same speed — so the tick takes longer.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-special-relativity-fig-03.html`
+
+---
+
+### Figure 9.4 — Γ as a function of v/c 
+
+Create a standalone D3 v7 HTML file for Figure Γ as a function of v/c . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: γ as a function of v/c — horizontal axis from 0 to 1.0 (in units of c), vertical axis from 1 to ~10. Curve starts flat near 1 for low velocities and rises steeply approaching v=c. Mark specific points: car at 100 km/h (γ ≈ 1.000000000000014), airplane (γ ≈ 1 + 10^{-13}), muon at 0.99c (γ ≈ 7), LHC proton at 0.9999999c (γ ≈ 7460). Student should see the "knee" of the curve above v ≈ 0.7c.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-special-relativity-fig-04.html`
+
+---
+
+### Figure 9.5 — Muon survival 
+
+Create a standalone D3 v7 HTML file for Figure Muon survival . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Muon survival — two-panel side-by-side comparison. Left panel (Earth's frame): muon descends through 10 km atmosphere, clock runs slow at γ=7, effective lifetime 15 μs, many muons survive. Right panel (muon's frame): muon at rest, atmosphere rushes up, contracted to 1.4 km, lifetime 2.2 μs, same fraction survive. Caption: "Two different mechanisms, one physical outcome — the consistency of the theory.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-special-relativity-fig-05.html`
+
+---
+
+### Figure 9.6 — Relativistic vs
+
+Create a standalone D3 v7 HTML file for Figure Relativistic vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Relativistic vs. classical velocity addition — two curves on the same axes. Horizontal axis: u' from 0 to c (speed of object in moving frame). Vertical axis: u from 0 to c (speed seen from rest frame). Frame moves at v = 0.8c. Classical curve: straight line (would exceed c). Relativistic curve: saturates below c. Mark the point where classical prediction exceeds c to show the violation.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-special-relativity-fig-06.html`
+
+---
+
+### Figure 9.7 — Mass-energy equivalence in context 
+
+Create a standalone D3 v7 HTML file for Figure Mass-energy equivalence in context . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Mass-energy equivalence in context — a row of energy scales showing: 1 gram of mass converted = 9×10^13 J; compare to: burning 1 kg of coal (~30 MJ), 1 ton of TNT (~4 GJ), Hiroshima bomb (~60 TJ), annual US electricity consumption (~14,000 PJ). Log-scale bar or bubble chart. Purpose: make the magnitude of c² viscerally clear.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-special-relativity-fig-07.html`
+
+---
+
+### Figure 9.8 — Spacetime diagram (Minkowski diagram) 
+
+Create a standalone D3 v7 HTML file for Figure Spacetime diagram (Minkowski diagram) . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Spacetime diagram (Minkowski diagram) — two axes: horizontal = space (x), vertical = time (ct). Two worldlines at different velocities shown as straight lines through the origin. A pair of events marked. Show how the spatial and temporal separations between events differ for the two observers, but the spacetime interval (the "distance" in spacetime) is the same. Caption: "Each observer cuts spacetime differently — but the geometry they're cutting is the same.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-special-relativity-fig-08.html`

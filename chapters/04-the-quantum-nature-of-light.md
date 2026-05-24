@@ -7,7 +7,8 @@ One of those cracks was embarrassing. Take a furnace. Heat it to any temperature
 
 This was not what happened. Not even close. Measure the actual radiation curve and it peaks at a particular wavelength, then falls away. The oven glows red or yellow or white depending on temperature. It does not blind you with X-rays.
 
-<!-- → [CHART: two curves on the same axes — the classical Rayleigh-Jeans prediction (rising without bound toward the ultraviolet, labeled "classical theory: diverges to infinity") vs. the actual measured blackbody spectrum (bell-shaped, peaking at a temperature-dependent wavelength, labeled "experiment"); annotate the region where they agree (long wavelengths) and where they catastrophically diverge (short wavelengths); the visual should make the word "catastrophe" feel earned] -->
+![Two curves on the same axes ](images/04-the-quantum-nature-of-light-fig-01.png)
+*Figure 4.1 — Two curves on the same axes *
 
 The equations were wrong. Not slightly wrong — catastrophically, embarrassingly, infinitely wrong. Physicists called it the ultraviolet catastrophe, and the name captures the mood: this was not a small discrepancy to be explained away. It was a failure of classical physics at the most fundamental level, and it would not be patched up. It would be demolished and replaced.
 
@@ -33,7 +34,8 @@ Here is why Planck's assumption resolves the catastrophe. In the classical pictu
 
 In Planck's picture, each high-frequency mode requires a minimum energy of $hf$ to be excited at all. At high frequencies, $hf$ becomes large compared to the available thermal energy $k_BT$. Modes that require more energy than the system can readily supply simply go unexcited. The distribution peaks, then falls. The catastrophe evaporates.
 
-<!-- → [DIAGRAM: two-panel illustration of why high-frequency modes go dark; left panel: classical picture — a smooth continuum of modes, each receiving equal energy share, the high-frequency end receiving as much as the low-frequency end (labeled "classical: all modes equally excited"); right panel: quantum picture — low-frequency modes (small hf, easily excited) vs. high-frequency modes (large hf, cost exceeds available energy kT, shown as empty/dark); annotate the cutoff condition hf ≫ kT where modes switch off; caption: "The minimum wage problem: high-frequency modes require more energy per quantum than the system can afford. They go unexcited. The catastrophe vanishes."] -->
+![The minimum wage problem: high-frequency modes require more energy per quantum than the system can afford. They go unexcited. The catastrophe vanishes.](images/04-the-quantum-nature-of-light-fig-02.png)
+*Figure 4.2 — Illustration of why high-frequency modes go dark*
 
 What Planck had found, though he did not fully believe it yet, was that energy comes in packets. Not continuously divisible like water, but in discrete units like coins. You cannot pay half a photon.
 
@@ -53,7 +55,11 @@ The puzzle was this: the *frequency* of the light determined whether electrons w
 
 This was inexplicable in classical terms. Light is a wave. A more intense wave carries more energy. If you shine a bright enough light on the metal, eventually the wave should build up enough energy to kick electrons free, regardless of frequency. Waiting should work. Intensity should matter. But neither was true. Below threshold frequency: nothing. Above it: immediate ejection, with kinetic energy set by frequency alone.
 
-<!-- → [TABLE: summary of classical wave prediction vs. observed photoelectric behavior — three rows: (1) "Does intensity affect ejection threshold?" classical predicts yes, experiment says no; (2) "Is there a minimum frequency below which nothing happens?" classical predicts no, experiment says yes; (3) "Does electron kinetic energy increase with intensity or frequency?" classical predicts intensity, experiment says frequency only; caption: "Every classical prediction is wrong in a different direction. This is not experimental error. It is a complete breakdown of the wave model."] -->
+| Item | Meaning |
+| --- | --- |
+| 1) "Does intensity affect ejection threshold?" classical predicts yes, experiment says no | A concrete checkpoint for applying the chapter concept. |
+| 2) "Is there a minimum frequency below which nothing happens?" classical predicts no, experiment says yes | A concrete checkpoint for applying the chapter concept. |
+| 3) "Does electron kinetic energy increase with intensity or frequency?" classical predicts intensity, experiment says frequency only | A concrete checkpoint for applying the chapter concept. |
 
 Einstein's 1905 paper proposed the solution, and it was radical. Light is not a continuous wave spreading energy smoothly across the metal surface. Light is a stream of discrete particles — what we now call photons — each carrying energy $E = hf$. When a photon strikes an electron in the metal, it delivers its entire energy to that one electron, all at once. There is no accumulation over time. Either the photon has enough energy to eject the electron from the metal, or it doesn't. No waiting. No averaging.
 
@@ -75,7 +81,8 @@ $$E = hf = (6.626 \times 10^{-34})(7.14 \times 10^{14}) = 4.73 \times 10^{-19} \
 
 So the ejected electron carries $2.96 - 2.71 = 0.25$ eV of kinetic energy. Red light at 650 nm carries only 1.91 eV — below the 2.71 eV threshold — so no electrons emerge from calcium regardless of how bright the red beam is.
 
-<!-- → [CHART: photon energy (eV) vs. wavelength (nm) for the visible spectrum — a curve labeled E = hc/λ; mark horizontal dashed lines at the binding energies of several common metals (sodium 2.28 eV, calcium 2.71 eV, zinc 4.3 eV); shade the wavelength ranges where each metal ejects electrons (photon energy above the line) vs. where it does not (below); annotate "UV photon at 300 nm: 4.1 eV — breaks DNA bonds" and "visible photon at 650 nm: 1.9 eV — harmless to calcium"; this chart lets a reader see immediately why material choice and light color interact in every photodetector design] -->
+![Photon energy (eV) vs](images/04-the-quantum-nature-of-light-fig-03.png)
+*Figure 4.3 — Photon energy (eV) vs*
 
 This is also why ultraviolet light damages skin and visible light does not. A single UV photon at 300 nm carries about 4.1 eV — enough to break chemical bonds in DNA. A single visible photon carries 1.5 to 3 eV, generally insufficient to break the bonds that hold biological molecules together. You could bathe in visible light forever and the individual photon interactions would not snap those bonds. UV photons can snap them one at a time. The damage is not about total energy delivered; it is about energy delivered per photon.
 
@@ -89,7 +96,8 @@ Here is something that should be impossible under classical mechanics: massless 
 
 Look at a comet. Its tail does not trail behind it like a boat's wake. The tail points away from the Sun — always away, regardless of which direction the comet is moving. Something from the Sun is pushing the comet's material away. That something is light.
 
-<!-- → [IMAGE: photograph or diagram of a comet showing both its dust tail and ion tail pointing away from the Sun, with the comet's direction of travel annotated; a small inset showing the geometry — Sun at left, comet trajectory curving past, tail pointing away from Sun rather than trailing behind; caption: "The tail points away from the Sun in both directions of travel. This is not aerodynamic drag. It is radiation pressure — photon momentum accumulated over billions of particles."] -->
+![The tail points away from the Sun in both directions of travel. This is not aerodynamic drag. It is radiation pressure — photon momentum accumulated over billions of particles.](images/04-the-quantum-nature-of-light-fig-04.png)
+*Figure 4.4 — Photograph or diagram of a comet showing both*
 
 In 1923, Arthur Compton settled the matter experimentally. He aimed X-rays at electrons and measured what came out. If X-rays were purely waves, scattering off an electron should not change their wavelength — only their direction. But Compton found that the scattered X-rays had longer wavelengths than the incident ones. The X-rays had lost energy. The electrons had recoiled, carrying kinetic energy they didn't have before.
 
@@ -105,7 +113,8 @@ $$p = \frac{6.626 \times 10^{-34}}{500 \times 10^{-9}} = 1.33 \times 10^{-27} \t
 
 This is vanishingly small. If a 70 kg person absorbed a visible photon, the resulting velocity change would be about $2 \times 10^{-29}$ m/s — a number so small it has no physical significance. You do not feel the push of light in ordinary circumstances.
 
-<!-- → [DIAGRAM: Compton scattering — before-and-after: incident X-ray photon (wavelength λ, momentum h/λ, direction left-to-right) strikes electron at rest; after: scattered photon emerges at angle θ with longer wavelength λ' > λ (lower energy, lower momentum); electron recoils at angle φ with kinetic energy equal to the energy lost by the photon; annotate the conservation equations: energy in = energy out, momentum in = momentum out; caption: "Compton's 1923 experiment: X-rays scattered off electrons emerged with longer wavelengths. The only way to explain this is if photons have momentum and transfer it to electrons exactly as classical billiard balls would."] -->
+![Compton's 1923 experiment: X-rays scattered off electrons emerged with longer wavelengths. The only way to explain this is if photons have momentum and transfer it to electrons exactly as classical billiard balls would.](images/04-the-quantum-nature-of-light-fig-05.png)
+*Figure 4.5 — Compton scattering *
 
 But accumulate enough photons on a small enough object over a long enough time, in the absence of friction, and the momentum adds up. Cometary tails are the visible proof. Solar sails — spacecraft propelled by sunlight — are the engineering application. A 10-square-meter sail at Earth's distance from the Sun receives roughly $9 \times 10^{-5}$ newtons of force from photon pressure. For a 100 kg spacecraft, that produces an acceleration of about $9 \times 10^{-7}$ m/s², which over a month accumulates to several meters per second of velocity change — meaningful for deep-space navigation.
 
@@ -123,7 +132,8 @@ These two descriptions are not compatible within classical physics. A wave sprea
 
 And yet. If you send photons through a double slit one at a time — so slowly that only one photon is in the apparatus at a moment — each photon lands at a single point on the detector. One spot. Particle behavior. But as you accumulate many such single-photon events, the pattern that builds up is the interference pattern. Wave behavior. The individual photon lands somewhere consistent with a probability distribution that is itself wave-like.
 
-<!-- → [DIAGRAM: single-photon double-slit buildup — four-panel sequence showing the detector screen at increasing photon counts: (1) after ~10 photons: scattered random dots, no pattern; (2) after ~100 photons: still scattered, faint hint of structure; (3) after ~1,000 photons: bands beginning to emerge; (4) after ~10,000 photons: full interference pattern, sharp bright and dark fringes; caption: "Each photon lands at one point — particle. The pattern they build is an interference fringe — wave. There is no classical picture in which the same object does both."] -->
+![Each photon lands at one point — particle. The pattern they build is an interference fringe — wave. There is no classical picture in which the same object does both.](images/04-the-quantum-nature-of-light-fig-06.png)
+*Figure 4.6 — Single-photon double-slit buildup *
 
 The photon is not a wave. It is not a particle. It is a quantum entity, and it behaves like a wave when it propagates and like a particle when it interacts. The double slit shows both behaviors in the same experiment, using the same photons. There is no classical picture — no mental model built from everyday experience — that accommodates this. Every attempt to sneak a classical interpretation in, to say "the photon really went through one slit, we just don't know which one," breaks down when you test it experimentally.
 
@@ -135,7 +145,14 @@ This is the same relation as for photons, now extended to all matter. An electro
 
 At human scales this is invisible, because the de Broglie wavelength of a macroscopic object is absurdly small. A 1 kg ball thrown at 10 m/s has a de Broglie wavelength of about $6.6 \times 10^{-35}$ m — many orders of magnitude smaller than a proton. You will never observe interference fringes from a thrown ball, not because the physics doesn't apply but because the wavelength is incomparably smaller than anything that could detect it. The quantum world is not separate from the classical world. It is the classical world, seen at a scale where $h$ is no longer negligible.
 
-<!-- → [TABLE: de Broglie wavelengths for objects across scales — rows: electron at 1 eV (λ ≈ 1.2 nm, comparable to atomic spacing, diffraction possible), hydrogen atom at room temperature (λ ≈ 0.1 nm), C₆₀ buckyball (λ ≈ 0.003 nm, interference demonstrated experimentally in 1999), baseball at 30 m/s (λ ≈ 10⁻³⁴ m, unmeasurable), human at walking pace (λ ≈ 10⁻³⁵ m, unmeasurable); column "wave effects observable?" — yes/yes/yes/no/no; caption: "The duality doesn't switch off for large objects. The wavelength just becomes smaller than anything that could detect it."] -->
+| Item | Meaning |
+| --- | --- |
+| electron at 1 eV (λ ≈ 1.2 nm, comparable to atomic spacing, diffraction possible | A concrete checkpoint for applying the chapter concept. |
+| hydrogen atom at room temperature (λ ≈ 0.1 nm | A concrete checkpoint for applying the chapter concept. |
+| C₆₀ buckyball (λ ≈ 0.003 nm, interference demonstrated experimentally in 1999 | A concrete checkpoint for applying the chapter concept. |
+| baseball at 30 m | s (λ ≈ 10⁻³⁴ m, unmeasurable |
+| human at walking pace (λ ≈ 10⁻³⁵ m, unmeasurable | A concrete checkpoint for applying the chapter concept. |
+| column "wave effects observable?" | yes |
 
 ---
 
@@ -147,7 +164,8 @@ This single fact propagates outward in every direction.
 
 Atomic spectra become intelligible. Hydrogen emits light at exactly four visible wavelengths — 656 nm, 486 nm, 434 nm, 410 nm — and no others. Classical physics cannot explain this. Why would hydrogen emit those specific wavelengths and not the ones in between? Because the electron in a hydrogen atom can only occupy certain quantized energy levels, and when it drops from a higher level to a lower one, it emits a photon whose energy equals the difference. Each transition produces one specific frequency. The discrete spectrum is direct evidence of discrete energy levels.
 
-<!-- → [IMAGE: hydrogen emission spectrum — a black background with exactly four colored lines in the visible range: red at 656 nm, cyan at 486 nm, blue-violet at 434 nm, violet at 410 nm; annotate each line with its wavelength and the electron transition that produces it (n=3→2, n=4→2, n=5→2, n=6→2); contrast with a continuous rainbow spectrum inset for comparison; caption: "Hydrogen emits at exactly these four wavelengths and nowhere else. The discreteness of the spectrum is direct evidence that electron energy levels in the atom are quantized."] -->
+![Hydrogen emits at exactly these four wavelengths and nowhere else. The discreteness of the spectrum is direct evidence that electron energy levels in the atom are quantized.](images/04-the-quantum-nature-of-light-fig-07.png)
+*Figure 4.7 — Hydrogen emission spectrum *
 
 Semiconductors become designable. The gap between the quantum energy levels of electrons in a crystal lattice determines whether a material conducts electricity, whether it absorbs a particular wavelength of light, whether it can be made into a solar cell or an LED. Engineering that gap — by controlling composition and structure — is the entire basis of the microelectronics industry. Every transistor in every computer ever built exists because quantization makes the band gap real and controllable.
 
@@ -300,3 +318,69 @@ career or ideas.
 - Add a constraint: "Answer including criticisms or limits of Albert Einstein's framework."
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 4.1 — Two curves on the same axes 
+
+Create a standalone D3 v7 HTML file for Figure Two curves on the same axes . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: two curves on the same axes — the classical Rayleigh-Jeans prediction (rising without bound toward the ultraviolet, labeled "classical theory: diverges to infinity") vs. the actual measured blackbody spectrum (bell-shaped, peaking at a temperature-dependent wavelength, labeled "experiment"); annotate the region where they agree (long wavelengths) and where they catastrophically diverge (short wavelengths); the visual should make the word "catastrophe" feel earned. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-the-quantum-nature-of-light-fig-01.html`
+
+---
+
+### Figure 4.2 — Illustration of why high-frequency modes go dark
+
+Create a standalone D3 v7 HTML file for Figure Illustration of why high-frequency modes go dark. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: two-panel illustration of why high-frequency modes go dark; left panel: classical picture — a smooth continuum of modes, each receiving equal energy share, the high-frequency end receiving as much as the low-frequency end (labeled "classical: all modes equally excited"); right panel: quantum picture — low-frequency modes (small hf, easily excited) vs. high-frequency modes (large hf, cost exceeds available energy kT, shown as empty/dark); annotate the cutoff condition hf ≫ kT where modes switch off; caption: "The minimum wage problem: high-frequency modes require more energy per quantum than the system can afford. They go unexcited. The catastrophe vanishes.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and anno
+
+> Reference implementation: `d3/04-the-quantum-nature-of-light-fig-02.html`
+
+---
+
+### Figure 4.3 — Photon energy (eV) vs
+
+Create a standalone D3 v7 HTML file for Figure Photon energy (eV) vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: photon energy (eV) vs. wavelength (nm) for the visible spectrum — a curve labeled E = hc/λ; mark horizontal dashed lines at the binding energies of several common metals (sodium 2.28 eV, calcium 2.71 eV, zinc 4.3 eV); shade the wavelength ranges where each metal ejects electrons (photon energy above the line) vs. where it does not (below); annotate "UV photon at 300 nm: 4.1 eV — breaks DNA bonds" and "visible photon at 650 nm: 1.9 eV — harmless to calcium"; this chart lets a reader see immediately why material choice and light color interact in every photodetector design. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-the-quantum-nature-of-light-fig-03.html`
+
+---
+
+### Figure 4.4 — Photograph or diagram of a comet showing both
+
+Create a standalone D3 v7 HTML file for Figure Photograph or diagram of a comet showing both. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: photograph or diagram of a comet showing both its dust tail and ion tail pointing away from the Sun, with the comet's direction of travel annotated; a small inset showing the geometry — Sun at left, comet trajectory curving past, tail pointing away from Sun rather than trailing behind; caption: "The tail points away from the Sun in both directions of travel. This is not aerodynamic drag. It is radiation pressure — photon momentum accumulated over billions of particles.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-the-quantum-nature-of-light-fig-04.html`
+
+---
+
+### Figure 4.5 — Compton scattering 
+
+Create a standalone D3 v7 HTML file for Figure Compton scattering . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Compton scattering — before-and-after: incident X-ray photon (wavelength λ, momentum h/λ, direction left-to-right) strikes electron at rest; after: scattered photon emerges at angle θ with longer wavelength λ' > λ (lower energy, lower momentum); electron recoils at angle φ with kinetic energy equal to the energy lost by the photon; annotate the conservation equations: energy in = energy out, momentum in = momentum out; caption: "Compton's 1923 experiment: X-rays scattered off electrons emerged with longer wavelengths. The only way to explain this is if photons have momentum and transfer it to electrons exactly as classical billiard balls would.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIG
+
+> Reference implementation: `d3/04-the-quantum-nature-of-light-fig-05.html`
+
+---
+
+### Figure 4.6 — Single-photon double-slit buildup 
+
+Create a standalone D3 v7 HTML file for Figure Single-photon double-slit buildup . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: single-photon double-slit buildup — four-panel sequence showing the detector screen at increasing photon counts: (1) after ~10 photons: scattered random dots, no pattern; (2) after ~100 photons: still scattered, faint hint of structure; (3) after ~1,000 photons: bands beginning to emerge; (4) after ~10,000 photons: full interference pattern, sharp bright and dark fringes; caption: "Each photon lands at one point — particle. The pattern they build is an interference fringe — wave. There is no classical picture in which the same object does both.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-the-quantum-nature-of-light-fig-06.html`
+
+---
+
+### Figure 4.7 — Hydrogen emission spectrum 
+
+Create a standalone D3 v7 HTML file for Figure Hydrogen emission spectrum . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: hydrogen emission spectrum — a black background with exactly four colored lines in the visible range: red at 656 nm, cyan at 486 nm, blue-violet at 434 nm, violet at 410 nm; annotate each line with its wavelength and the electron transition that produces it (n=3→2, n=4→2, n=5→2, n=6→2); contrast with a continuous rainbow spectrum inset for comparison; caption: "Hydrogen emits at exactly these four wavelengths and nowhere else. The discreteness of the spectrum is direct evidence that electron energy levels in the atom are quantized.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-the-quantum-nature-of-light-fig-07.html`

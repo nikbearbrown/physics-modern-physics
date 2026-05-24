@@ -5,7 +5,7 @@
 
 # Physics +1: Modern Physics — Outline
 
-**Author:** Nik Bear Brown
+**Author:** Humanitarians AI
 **Series:** Physics +1
 **Volume:** 5
 

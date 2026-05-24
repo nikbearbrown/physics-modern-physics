@@ -21,7 +21,8 @@ where $v$ is the recession velocity, $d$ is the distance, and $H_0$ is the Hubbl
 
 The immediate implication is almost too simple. If everything is currently moving away from everything else, then running the film backward in time brings everything together. At some moment in the past — not infinitely remote, but a finite time ago — all the matter and energy we observe was compressed into a single region. The time since that moment is roughly $1/H_0$, which works out to about 14 billion years. The more careful calculation, accounting for the fact that expansion has not been constant (gravity slowed it early on; something is accelerating it now), gives 13.8 billion years.
 
-<!-- → [CHART: Hubble's law — horizontal axis: distance in megaparsecs (0 to 500); vertical axis: recession velocity in km/s (0 to 35,000); scatter of galaxy data points following v = H₀d; best-fit line with slope labeled H₀ ≈ 70 km/s/Mpc; a small inset showing the raisin-bread analogy — raisins embedded in dough, arrows showing that more-separated raisins move apart faster as the dough rises, with annotation "no raisin is at the center; every raisin sees every other receding"; caption: "Hubble's 1929 data. The farther the galaxy, the faster it recedes. Run this backward and everything was once together."] -->
+![Hubble's 1929 data. The farther the galaxy, the faster it recedes. Run this backward and everything was once together.](images/11-the-big-bang-fig-01.png)
+*Figure 11.1 — Hubble's law *
 
 This is not a strange thing to find. It is the ordinary consequence of the ordinary observation that things are moving apart.
 
@@ -39,7 +40,8 @@ At one second after the Big Bang, the temperature was about 10 billion Kelvin. F
 
 At about a tenth of a second later, the temperature dropped below the threshold at which deuterium — one proton and one neutron — can survive without being immediately photodissociated. Deuterium formed and was immediately broken apart. But as the universe continued to cool, deuterium began surviving long enough to react further. Deuterium combined with neutrons to form tritium, or with protons to form helium-3. Helium-3 combined with neutrons to form helium-4. Helium-4, with two protons and two neutrons, is the most tightly bound of the light nuclei. Most of the neutrons ended up there.
 
-<!-- → [DIAGRAM: Big Bang nucleosynthesis reaction network — flow diagram with nodes labeled: p (proton), n (neutron), D (deuterium), ³He, T (tritium), ⁴He, ⁷Li; arrows showing reaction pathways (e.g. "p + n → D + γ", "D + D → ³He + n", "³He + n → T + p", "T + p → ⁴He"); annotate where the chain terminates (mass-5 and mass-8 gaps halt further reactions); annotate the final product mass fractions alongside each nucleus: ⁴He ~25%, H ~75%, D ~10⁻⁵, ⁷Li ~10⁻¹⁰; draw a clock or timeline annotation showing the whole chain completes in ~200 seconds; caption: "The entire periodic table above helium was made later, in stars. These four light elements are what the first three minutes produced."] -->
+![The entire periodic table above helium was made later, in stars. These four light elements are what the first three minutes produced.](images/11-the-big-bang-fig-02.png)
+*Figure 11.2 — Big Bang nucleosynthesis reaction network *
 
 The arithmetic is straightforward. Start with the freeze-out ratio of one neutron per six protons. Take 2 neutrons and 12 protons. Form 1 helium-4 nucleus using both neutrons and 2 protons. You have 10 protons left over as hydrogen. The helium fraction by mass is $4/(4+10) = 4/14 \approx 28\%$. The actual calculation accounts for neutron decay (free neutrons are unstable, with a half-life of about ten minutes, so some neutrons decayed before they could be incorporated into helium) and gives a helium mass fraction of about 25%. Hydrogen makes up the remaining 75%.
 
@@ -69,7 +71,8 @@ Those photons have been traveling ever since. The universe has expanded by a fac
 
 Penzias and Wilson measured the temperature as 3.5 Kelvin, with their instrument uncertainties. The current best value from the Planck satellite is 2.72548 Kelvin. The prediction from the Big Bang model is about 2.73 Kelvin. The agreement is not a free parameter — the predicted temperature follows from the measured expansion rate and the physics of recombination.
 
-<!-- → [IMAGE: Planck satellite full-sky CMB map — oval all-sky projection with Milky Way emission masked as a horizontal band; color scale from cold (deep blue) to hot (deep red) representing temperature variations of ±200 microkelvin around the 2.73 K mean; annotate that the entire color range represents 0.0004 K — less than 0.02% of the mean temperature; caption: "The entire visible color range spans four ten-thousandths of a degree. The early universe was uniform to one part in 100,000. The tiny variations you see here are the seeds of every galaxy that ever formed."] -->
+![The entire visible color range spans four ten-thousandths of a degree. The early universe was uniform to one part in 100,000. The tiny variations you see here are the seeds of every galaxy that ever formed.](images/11-the-big-bang-fig-03.png)
+*Figure 11.3 — Planck satellite full-sky CMB map *
 
 The temperature is nearly uniform in all directions. Look in one direction and measure 2.72548 Kelvin. Look in the opposite direction and measure 2.72548 Kelvin. They agree to one part in 100,000. The early universe was extraordinarily uniform.
 
@@ -83,7 +86,8 @@ The first peak — corresponding to sound waves that had just completed one full
 
 The heights of the second and third peaks encode the relative densities of ordinary matter and dark matter. Dark matter does not interact with photons; ordinary matter does. This difference affects how the plasma oscillates. From the peak heights, one finds that ordinary matter makes up about 5% of the universe's total energy content. Dark matter — which does not interact with the plasma — makes up about 27%. Dark energy, inferred from the overall expansion history, makes up the remaining 68%.
 
-<!-- → [CHART: CMB angular power spectrum — horizontal axis: multipole moment ℓ (angular scale, large scales at left ~ℓ=2 to small scales at right ~ℓ=2000); vertical axis: temperature variance (μK²); theoretical prediction as a smooth curve with three prominent peaks labeled "1st acoustic peak (geometry of space)", "2nd acoustic peak (baryon density)", "3rd acoustic peak (dark matter density)"; overplot Planck satellite data points with small error bars lying on the theoretical curve; annotate universe composition inferred from peak heights: 5% ordinary matter, 27% dark matter, 68% dark energy; caption: "The agreement between theory and data is not approximate. The curve is calculated from first principles; the data points are measured. They match."] -->
+![The agreement between theory and data is not approximate. The curve is calculated from first principles; the data points are measured. They match.](images/11-the-big-bang-fig-04.png)
+*Figure 11.4 — CMB angular power spectrum *
 
 These are not theoretical preferences. They are what the data require.
 
@@ -103,7 +107,11 @@ They all point to the same history.
 
 The baryon density — the density of ordinary matter — is one place where two of the three measurements are directly comparable. Big Bang nucleosynthesis, through the deuterium abundance, pins down the baryon density. The CMB acoustic peaks, through the relative heights of the second and third oscillations, independently pin down the baryon density. The two values agree. They have to, if the story is right. They do agree. This is not a coincidence you can arrange by accident.
 
-<!-- → [TABLE: three independent measurements converging on the same story — three rows (one per measurement), four columns: Measurement Type, Physical Observable, Key Number Derived, Agrees with others?; rows: (1) Hubble expansion / galaxy recession velocities / age ~13.8 Gyr, baryon density (indirect) / yes; (2) CMB acoustic peaks / temperature fluctuation pattern / baryon density ~4.9% of total energy, geometry flat to <0.1% / yes; (3) Big Bang nucleosynthesis / deuterium & helium abundances in ancient gas / baryon density ~4.9% of total energy, helium fraction ~25% / yes; caption: "Three measurements using three different physical phenomena from three different epochs. The baryon density value in rows 2 and 3 is not a coincidence — it is a consistency test, and it passes."] -->
+| Measurement Type | Physical Observable | Key Number Derived | Agrees with others? |
+| --- | --- | --- | --- |
+| 1) Hubble expansion | galaxy recession velocities | age ~13.8 Gyr, baryon density (indirect) | yes |
+| 2) CMB acoustic peaks | temperature fluctuation pattern | baryon density ~4.9% of total energy, geometry flat to <0.1% | yes |
+| 3) Big Bang nucleosynthesis | deuterium & helium abundances in ancient gas | baryon density ~4.9% of total energy, helium fraction ~25% | yes |
 
 The universe began in a hot, dense state about 13.8 billion years ago. We know this from three independent observations. We can trace the physics from the first second onward with confidence. The hiss that Penzias and Wilson could not get rid of in 1964 was 13.8-billion-year-old light, cooling toward the ambient temperature of the universe, carrying in its nearly imperceptible temperature fluctuations the seeds of every galaxy and star that ever formed.
 
@@ -121,7 +129,8 @@ The mechanism of inflation — the hypothesized period of rapid early expansion 
 
 And before $10^{-43}$ seconds, at the Planck time, our equations break down. Quantum gravity effects become important and we have no theory that handles them. Whatever happened at the very beginning — and whether "beginning" even makes sense as a concept — is beyond what we can currently calculate.
 
-<!-- → [DIAGRAM: cosmic timeline — horizontal log-scale time axis from 10⁻⁴³ seconds to 13.8 billion years; mark and label key transitions: Planck time (10⁻⁴³ s, "equations break down here"), quark-gluon plasma (10⁻¹² s), protons and neutrons form (10⁻⁶ s), neutron-proton freeze-out (1 s, "n:p ratio locks at 1:6"), nucleosynthesis window (1–200 s, shade this region, label "helium and deuterium formed"), matter-radiation equality (50,000 yr), recombination and CMB release (380,000 yr, "photons decouple — this is what Penzias and Wilson detected"), first stars (200 million yr), present (13.8 Gyr); above the timeline annotate temperature at each milestone; below the timeline label which observable comes from each era (nucleosynthesis → light element abundances; CMB release → microwave background; present → Hubble expansion); caption: "Everything to the right of 380,000 years is directly observable. Everything between 1 second and 380,000 years is inferred from two observables that agree. Everything before 1 second is increasingly speculative."] -->
+![Everything to the right of 380,000 years is directly observable. Everything between 1 second and 380,000 years is inferred from two observables that agree. Everything before 1 second is increasingly speculative.](images/11-the-big-bang-fig-05.png)
+*Figure 11.5 — Cosmic timeline *
 
 What is not at the frontier: the existence of the Big Bang itself, the age of the universe, the synthesis of the light elements, the origin of the CMB. These are as well-established as anything in science. The open questions are at the edges of what the theory explains. The core is solid.
 
@@ -163,3 +172,53 @@ paragraphs. End with the single most surprising thing about his career or ideas.
 - Add a constraint: "Answer as Lemaître's 1933 reply to Einstein, who had told him 'your math is correct but your physics is abominable'."
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 11.1 — Hubble's law 
+
+Create a standalone D3 v7 HTML file for Figure Hubble's law . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Hubble's law — horizontal axis: distance in megaparsecs (0 to 500); vertical axis: recession velocity in km/s (0 to 35,000); scatter of galaxy data points following v = H₀d; best-fit line with slope labeled H₀ ≈ 70 km/s/Mpc; a small inset showing the raisin-bread analogy — raisins embedded in dough, arrows showing that more-separated raisins move apart faster as the dough rises, with annotation "no raisin is at the center; every raisin sees every other receding"; caption: "Hubble's 1929 data. The farther the galaxy, the faster it recedes. Run this backward and everything was once together.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/11-the-big-bang-fig-01.html`
+
+---
+
+### Figure 11.2 — Big Bang nucleosynthesis reaction network 
+
+Create a standalone D3 v7 HTML file for Figure Big Bang nucleosynthesis reaction network . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Big Bang nucleosynthesis reaction network — flow diagram with nodes labeled: p (proton), n (neutron), D (deuterium), ³He, T (tritium), ⁴He, ⁷Li; arrows showing reaction pathways (e.g. "p + n → D + γ", "D + D → ³He + n", "³He + n → T + p", "T + p → ⁴He"); annotate where the chain terminates (mass-5 and mass-8 gaps halt further reactions); annotate the final product mass fractions alongside each nucleus: ⁴He ~25%, H ~75%, D ~10⁻⁵, ⁷Li ~10⁻¹⁰; draw a clock or timeline annotation showing the whole chain completes in ~200 seconds; caption: "The entire periodic table above helium was made later, in stars. These four light elements are what the first three minutes produced.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and 
+
+> Reference implementation: `d3/11-the-big-bang-fig-02.html`
+
+---
+
+### Figure 11.3 — Planck satellite full-sky CMB map 
+
+Create a standalone D3 v7 HTML file for Figure Planck satellite full-sky CMB map . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Planck satellite full-sky CMB map — oval all-sky projection with Milky Way emission masked as a horizontal band; color scale from cold (deep blue) to hot (deep red) representing temperature variations of ±200 microkelvin around the 2.73 K mean; annotate that the entire color range represents 0.0004 K — less than 0.02% of the mean temperature; caption: "The entire visible color range spans four ten-thousandths of a degree. The early universe was uniform to one part in 100,000. The tiny variations you see here are the seeds of every galaxy that ever formed.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/11-the-big-bang-fig-03.html`
+
+---
+
+### Figure 11.4 — CMB angular power spectrum 
+
+Create a standalone D3 v7 HTML file for Figure CMB angular power spectrum . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: CMB angular power spectrum — horizontal axis: multipole moment ℓ (angular scale, large scales at left ~ℓ=2 to small scales at right ~ℓ=2000); vertical axis: temperature variance (μK²); theoretical prediction as a smooth curve with three prominent peaks labeled "1st acoustic peak (geometry of space)", "2nd acoustic peak (baryon density)", "3rd acoustic peak (dark matter density)"; overplot Planck satellite data points with small error bars lying on the theoretical curve; annotate universe composition inferred from peak heights: 5% ordinary matter, 27% dark matter, 68% dark energy; caption: "The agreement between theory and data is not approximate. The curve is calculated from first principles; the data points are measured. They match.". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline 
+
+> Reference implementation: `d3/11-the-big-bang-fig-04.html`
+
+---
+
+### Figure 11.5 — Cosmic timeline 
+
+Create a standalone D3 v7 HTML file for Figure Cosmic timeline . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: cosmic timeline — horizontal log-scale time axis from 10⁻⁴³ seconds to 13.8 billion years; mark and label key transitions: Planck time (10⁻⁴³ s, "equations break down here"), quark-gluon plasma (10⁻¹² s), protons and neutrons form (10⁻⁶ s), neutron-proton freeze-out (1 s, "n:p ratio locks at 1:6"), nucleosynthesis window (1–200 s, shade this region, label "helium and deuterium formed"), matter-radiation equality (50,000 yr), recombination and CMB release (380,000 yr, "photons decouple — this is what Penzias and Wilson detected"), first stars (200 million yr), present (13.8 Gyr); above the timeline annotate temperature at each milestone; below the timeline label which observable comes from each era (nucleosynthesis → light element abundances; CMB release → microwave background; present → Hubble expansion); caption: "Everything to the right of 380,000 years is directly observable. Everything between 1 second and 380,000 ye
+
+> Reference implementation: `d3/11-the-big-bang-fig-05.html`
