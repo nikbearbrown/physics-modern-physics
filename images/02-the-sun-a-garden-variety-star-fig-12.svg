@@ -1,29 +1,102 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Major solar events and Earth impacts on a</title>
-  <desc id="desc">major solar events and Earth impacts on a timeline — horizontal axis: 1859 to 2012; plot Carrington Event (1859), Quebec blackout (1989, annotate: 6 m</desc>
+<!--
+  Major Solar Events Timeline
+  Book: Physics +1: Modern Physics
+  Chapter: 02-the-sun-a-garden-variety-star
+  Figure: 12
+  Type: Timeline
+  Generated: 2026-05-25
+  Source: pantry/02-the-sun-a-garden-variety-star-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Major Solar Events — 1859 to 2025</title>
+  <desc>Horizontal timeline of major recorded solar events. Carrington Event in 1859 with the largest known geomagnetic storm. Quebec blackout in 1989 from a CME. Halloween storms in 2003. The 2012 near-miss where a major CME missed Earth by about a week. Solar Cycle 25 peak around 2024 to 2025. Bar height roughly proportional to estimated intensity; vermillion bars mark events that missed Earth.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="02-the-sun-a-garden-variety-star"
+      figure-number="12"
+      figure-title="Major Solar Events Timeline"
+      figure-slug="solar-events-timeline"
+      figure-type="timeline"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/02-the-sun-a-garden-variety-star-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowink" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#2a1a0e"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Major solar events and Earth impacts on a</text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">major solar events and Earth impacts on a timeline — horizontal axis: 1859 to 2012; plot Carrington Event (1859), Quebec blackout (1989, annotate: 6 m</text>
-  <rect x="64" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="120" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">START</text>
-  <text x="120" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 180 210 C 196 210, 206 210, 218 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="218" y="166" width="112" height="88" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="274" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">MAJOR</text>
-  <text x="274" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 334 210 C 350 210, 360 210, 372 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="372" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="428" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SOLAR</text>
-  <text x="428" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 488 210 C 504 210, 514 210, 526 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="526" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="582" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">EVENTS</text>
-  <text x="582" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 120 292 C 240 340, 430 340, 584 292" stroke="#C8102E" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/>
-  <text x="350" y="362" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The diagram emphasizes sequence, dependency, and the decision point.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Major Solar Events Affecting Earth — 1850 to 2025</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Sky-blue: hit Earth.  Vermillion: missed Earth.  Bar height ∝ intensity.</text>
+
+  <!-- Axis -->
+  <line x1="80" y1="300" x2="660" y2="300" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrowink)"/>
+
+  <!-- Year tick marks -->
+  <g stroke="#2a1a0e" stroke-width="0.75">
+    <line x1="80" y1="295" x2="80" y2="305"/>
+    <line x1="196" y1="295" x2="196" y2="305"/>
+    <line x1="312" y1="295" x2="312" y2="305"/>
+    <line x1="428" y1="295" x2="428" y2="305"/>
+    <line x1="544" y1="295" x2="544" y2="305"/>
+    <line x1="660" y1="295" x2="660" y2="305"/>
+  </g>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="80" y="320">1850</text>
+    <text x="196" y="320">1900</text>
+    <text x="312" y="320">1950</text>
+    <text x="428" y="320">1975</text>
+    <text x="544" y="320">2000</text>
+    <text x="660" y="320">2025</text>
+  </g>
+  <text x="370" y="340" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">YEAR</text>
+
+  <!-- x mapping: 80 + (year-1850) * (580/175) = 80 + (year-1850)*3.314 -->
+  <!-- Carrington 1859: x = 80 + 9*3.314 = 109.8 — tallest bar (1859 strongest) -->
+  <line x1="110" y1="300" x2="110" y2="100" stroke="#56B4E9" stroke-width="4"/>
+  <circle cx="110" cy="100" r="6" fill="#56B4E9"/>
+  <text x="110" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">1859</text>
+  <text x="110" y="80" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">Carrington</text>
+
+  <!-- Quebec 1989: x = 80 + 139*3.314 = 540.6 → 540 — medium -->
+  <line x1="540" y1="300" x2="540" y2="180" stroke="#56B4E9" stroke-width="4"/>
+  <circle cx="540" cy="180" r="5" fill="#56B4E9"/>
+  <text x="540" y="172" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#56B4E9">1989</text>
+  <text x="540" y="160" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#56B4E9">Quebec blackout</text>
+
+  <!-- Halloween 2003: x = 80 + 153*3.314 = 587 — moderate -->
+  <line x1="587" y1="300" x2="587" y2="200" stroke="#56B4E9" stroke-width="4"/>
+  <circle cx="587" cy="200" r="5" fill="#56B4E9"/>
+  <text x="610" y="200" text-anchor="start" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#56B4E9">2003 Halloween</text>
+
+  <!-- 2012 near-miss: x = 80 + 162*3.314 = 617 — Carrington-class but missed -->
+  <line x1="617" y1="300" x2="617" y2="110" stroke="#C8102E" stroke-width="4"/>
+  <circle cx="617" cy="110" r="6" fill="#C8102E"/>
+  <text x="617" y="240" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E">2012</text>
+  <text x="617" y="252" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E">near-miss</text>
+
+  <!-- Cycle 25 peak 2024: x ≈ 660 -->
+  <line x1="660" y1="300" x2="660" y2="220" stroke="#56B4E9" stroke-width="4"/>
+  <circle cx="660" cy="220" r="5" fill="#56B4E9"/>
+  <text x="660" y="208" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#56B4E9">Cycle 25</text>
+
+  <!-- Legend -->
+  <rect x="80" y="360" width="240" height="44" fill="#F5F5F5" stroke="#56B4E9" stroke-width="1"/>
+  <line x1="92" y1="378" x2="108" y2="378" stroke="#56B4E9" stroke-width="3"/>
+  <text x="116" y="382" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">hit Earth</text>
+  <line x1="92" y1="396" x2="108" y2="396" stroke="#C8102E" stroke-width="3"/>
+  <text x="116" y="400" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">missed Earth (near-miss)</text>
+
+  <!-- Caption -->
+  <rect x="340" y="360" width="320" height="44" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="500" y="378" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">2012 was Carrington-class — and missed Earth</text>
+  <text x="500" y="394" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">by about one week of orbital geometry.</text>
 </svg>

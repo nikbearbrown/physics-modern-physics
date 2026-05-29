@@ -1,4 +1,11 @@
 # Chapter 10 — Quantum Physics
+
+## TL;DR
+
+- The three experiments that demolished classical physics, and what replaced it.
+- The chapter moves through The Catastrophe, The Electrons That Won't Eject, The Electrons That Are Waves, The Uncertainty That Is Not Ignorance, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The three experiments that demolished classical physics, and what replaced it.*
 
 In 1926, Erwin Schrödinger wrote down a wave equation that correctly predicted the behavior of electrons in atoms. Within two years, Paul Dirac had extended it to relativistic particles. Within a decade, the theory built on that equation — quantum mechanics — had explained the structure of every element in the periodic table, the nature of chemical bonds, the behavior of metals, the properties of semiconductors. It has since been tested to more decimal places than any other theory in the history of science.
@@ -27,7 +34,7 @@ The prediction diverges. As frequency increases, the number of modes increases f
 
 This is called the ultraviolet catastrophe, and it is not a subtle discrepancy requiring careful experiment to detect. It is a prediction of infinity where experiment measures a finite, well-behaved curve that peaks at one frequency and falls off on both sides.
 
-![The catastrophe is not a small discrepancy. Classical physics predicts infinite power in the UV. The measured curve is well-behaved. Planck's formula matches the measured curve exactly.](images/10-quantum-physics-fig-01.png)
+![The catastrophe is not a small discrepancy. Classical physics predicts infinite power in the UV. The measured curve is well-behaved. Planck's formula matches the measured curve exactly.](../images/10-quantum-physics-fig-01.png)
 *Figure 10.1 — Blackbody spectrum *
 
 Max Planck fixed it in 1900 by making an assumption he did not believe. He assumed that the oscillating atoms in the walls of the cavity could not radiate arbitrary amounts of energy. Instead, they could only emit or absorb energy in discrete units — *quanta* — of size $hf$, where $f$ is the frequency of oscillation and $h$ is a new constant of nature. Planck called this a "purely formal" trick, useful for getting the right answer but probably not physically real.
@@ -36,7 +43,7 @@ Here is why the trick works. Classical physics says every mode gets average ener
 
 Planck spent years trying to derive the same result without the quantization assumption. He could not. Neither could anyone else. The quantization is not a trick. It is real.
 
-![The quantization is not a fudge — it is a cost structure. High-frequency modes require more energy per quantum than the system typically has available.](images/10-quantum-physics-fig-02.png)
+![The quantization is not a fudge — it is a cost structure. High-frequency modes require more energy per quantum than the system typically has available.](../images/10-quantum-physics-fig-02.png)
 *Figure 10.2 — Why quantization cuts off high-frequency modes *
 
 ---
@@ -49,7 +56,7 @@ The occasion was the photoelectric effect, which had been mysterious since Heinr
 
 Here is the mystery. Increase the intensity of the light and more electrons come out — but they come out at the same speed. Change the frequency of the light and the speed of the ejected electrons changes. Below a certain threshold frequency, no electrons come out at all, regardless of intensity. The threshold depends on the metal, not on the light.
 
-![Millikan measured this graph in 1916 trying to disprove Einstein's 1905 paper. The slope gave him Planck's constant to high precision. He ended up confirming Einstein instead.](images/10-quantum-physics-fig-03.png)
+![Millikan measured this graph in 1916 trying to disprove Einstein's 1905 paper. The slope gave him Planck's constant to high precision. He ended up confirming Einstein instead.](../images/10-quantum-physics-fig-03.png)
 *Figure 10.3 — The photoelectric effect *
 
 Classical wave physics has a clear prediction: light is a wave carrying energy distributed across its wavefront. More intense light means more energy per unit area, which means electrons should receive more energy and come out faster. If the intensity is high enough, any frequency should eventually eject electrons — given enough time to accumulate the energy from the wave. Neither prediction is correct.
@@ -76,7 +83,7 @@ A photon also carries momentum. This was confirmed by Arthur Compton in 1923, wh
 
 $$p = \frac{h}{\lambda} = \frac{E}{c}$$
 
-![If X-rays were purely waves, scattering off an electron changes direction, not wavelength. Compton found the wavelength changed. The billiard-ball calculation matched. Photons have momentum.](images/10-quantum-physics-fig-04.png)
+![If X-rays were purely waves, scattering off an electron changes direction, not wavelength. Compton found the wavelength changed. The billiard-ball calculation matched. Photons have momentum.](../images/10-quantum-physics-fig-04.png)
 *Figure 10.4 — Compton scattering *
 
 ---
@@ -95,7 +102,7 @@ They had been studying the surface of nickel by bombarding it with electrons sin
 
 This is the unmistakable signature of diffraction. Waves passing through a regular array of obstacles produce constructive interference at angles given by Bragg's law: $n\lambda = 2d\sin\theta$, where $d$ is the spacing between planes of atoms. They calculated the electron wavelength from de Broglie's formula using the known electron momentum. The Bragg condition predicted peaks at exactly the angles where Davisson and Germer saw them. Electrons are waves.
 
-![The sharp peak is the signature of diffraction — constructive interference of the electron's wave at specific angles. Classical particles scatter smoothly. Waves do not.](images/10-quantum-physics-fig-05.png)
+![The sharp peak is the signature of diffraction — constructive interference of the electron's wave at specific angles. Classical particles scatter smoothly. Waves do not.](../images/10-quantum-physics-fig-05.png)
 *Figure 10.5 — Davisson-Germer electron diffraction *
 
 For an electron accelerated through 54 volts, the kinetic energy is 54 eV, the momentum is $p = \sqrt{2m_e \cdot 54\text{ eV}}$, and the de Broglie wavelength works out to about 0.167 nm — comparable to the atomic spacing in nickel, which is why diffraction was visible at all.
@@ -118,7 +125,7 @@ G. P. Thomson — son of J. J. Thomson, who had discovered the electron by measu
 
 By the 1990s and 2000s, diffraction and interference had been demonstrated with neutrons, atoms, and eventually molecules of hundreds of atoms — including buckminsterfullerene C₆₀ by Anton Zeilinger's group in Vienna in 1999. Wave-particle duality is not a quirk of electrons. It is universal.
 
-![De Broglie wavelength across scales ](images/10-quantum-physics-fig-06.png)
+![De Broglie wavelength across scales ](../images/10-quantum-physics-fig-06.png)
 *Figure 10.6 — De Broglie wavelength across scales *
 
 ---
@@ -141,7 +148,7 @@ The notation $h/4\pi$ appears because $\hbar = h/(2\pi)$ is the natural unit in 
 
 These are not statements about our ignorance. They are statements about what quantum states exist. A particle cannot be in a state that has both definite position and definite momentum — because such a state does not exist. This follows from the mathematics of Fourier transforms: a wave with perfectly definite wavelength (perfectly definite momentum) has no definite position at all — it extends across all space. A wave with perfectly definite position is a spike that contains contributions from all possible wavelengths — all possible momenta. The relation between position-space and momentum-space representations of the wavefunction is a Fourier transform, and the uncertainty principle is a theorem about Fourier transforms. It has nothing to do with clumsy measurement. It is mathematics.
 
-![The uncertainty principle is a theorem about Fourier transforms. A wave with one definite wavelength has no definite position. A wave with one definite position contains all wavelengths. You cannot have both. This is mathematics, not measurement clumsiness.](images/10-quantum-physics-fig-07.png)
+![The uncertainty principle is a theorem about Fourier transforms. A wave with one definite wavelength has no definite position. A wave with one definite position contains all wavelengths. You cannot have both. This is mathematics, not measurement clumsiness.](../images/10-quantum-physics-fig-07.png)
 *Figure 10.7 — The Fourier uncertainty *
 
 The most important application of the uncertainty principle is the one you carry with you every moment: the stability of atoms.
@@ -160,7 +167,7 @@ Classically, a negative charge orbiting a positive charge would radiate, lose en
 
 The uncertainty principle resolves the crisis. Suppose the electron were confined to a region of size $r$ around the proton. Its minimum kinetic energy from the uncertainty principle is roughly $\hbar^2/(2m_e r^2)$. Its potential energy from Coulomb attraction is $-ke^2/r$. The total energy as a function of $r$ has a minimum at a finite value — the Bohr radius $a_0 \approx 0.53 \times 10^{-10}$ m. Below that radius, the kinetic energy from confinement grows faster than the electrostatic energy gained by getting closer, and the total energy increases. The atom is stable not despite quantum mechanics but because of it. The uncertainty principle is the reason you exist.
 
-![Squeeze the electron closer and kinetic energy from confinement rises faster than Coulomb attraction falls. The atom's stable size is where total energy is minimized — a balance set by Planck's constant.](images/10-quantum-physics-fig-08.png)
+![Squeeze the electron closer and kinetic energy from confinement rises faster than Coulomb attraction falls. The atom's stable size is where total energy is minimized — a balance set by Planck's constant.](../images/10-quantum-physics-fig-08.png)
 *Figure 10.8 — Hydrogen atom total energy vs*
 
 ---
@@ -249,9 +256,7 @@ Chapter 30 (atomic physics) applies quantum mechanics to atoms specifically — 
 
 ---
 
-## AI Wayback Machine
-
-**Max Planck** introduced the quantum hypothesis in 1900 — proposing that energy comes in discrete packets to explain blackbody radiation. He spent the rest of his life uncomfortable with what his idea unleashed.
+##  AI Wayback Machine
 
 **Run this:**
 

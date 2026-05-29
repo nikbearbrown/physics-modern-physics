@@ -1,4 +1,11 @@
 # Chapter 14 — Medical Applications of Nuclear Physics
+
+## TL;DR
+
+- How tracking a landlady's leftovers became the logic behind PET scans, bone scans, and cancer therapy.
+- The chapter moves through Three different windows into the body, Counting the cost: what radiation dose actually means, Using the same physics to treat, The same dose, from diagnosis to therapy, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *How tracking a landlady's leftovers became the logic behind PET scans, bone scans, and cancer therapy.*
 
 In 1913, George de Hevesy was a twenty-eight-year-old postdoctoral chemist in Vienna with a problem. He suspected his landlady was serving him the same leftover meat on Wednesday that he had left on his plate the previous Sunday, recycled through the hash. He had no proof. He did, however, have access to radium-D — what we now call lead-210, a beta emitter with a half-life long enough to be useful. He sprinkled a small quantity onto his portion one Sunday evening, left the rest of the dish behind, and waited.
@@ -25,7 +32,7 @@ The gamma camera is detecting function, not structure.
 
 Now consider PET. The patient is injected with $^{18}$F-FDG — fluorodeoxyglucose, a glucose analog with a fluorine-18 atom attached. Cells that consume glucose preferentially (cancer cells, active brain regions) accumulate the FDG. The fluorine-18 decays by positron emission. The positron travels a few millimeters before annihilating with an electron, releasing two 511-keV gamma rays traveling in exactly opposite directions. A ring of detectors around the patient records coincident pairs — two gammas arriving simultaneously on opposite sides — and uses each pair to define a line on which the annihilation occurred. Reconstruct enough lines and you have a three-dimensional map of glucose consumption.
 
-![Each coincident pair defines a line. Enough lines reconstruct the 3D source distribution.](images/14-medical-applications-of-nuclear-physics-fig-01.png)
+![Each coincident pair defines a line. Enough lines reconstruct the 3D source distribution.](../images/14-medical-applications-of-nuclear-physics-fig-01.png)
 *Figure 14.1 — PET coincidence detection *
 
 Three techniques. The X-ray shows density. The bone scan shows metabolic activity at bone. The PET scan shows glucose consumption anywhere in the body. The three are not interchangeable and do not compete. They answer different questions.
@@ -56,7 +63,7 @@ Three units come into play, and conflating them is the single most common confus
 
 So: 0.5 Gy of gamma radiation is 0.5 Sv. The same absorbed dose from alphas is 10 Sv — twenty times more biologically damaging, because of how the energy is deposited, not how much.
 
-![Same energy deposited, very different spatial pattern — which is why alphas have w_R = 20 and gammas have w_R = 1.](images/14-medical-applications-of-nuclear-physics-fig-02.png)
+![Same energy deposited, very different spatial pattern — which is why alphas have w_R = 20 and gammas have w_R = 1.](../images/14-medical-applications-of-nuclear-physics-fig-02.png)
 *Figure 14.2 — Alpha vs*
 
 This is why inhaled radon daughters — which are alpha emitters that lodge in the lung — are the second-leading cause of lung cancer in the United States after smoking. The alpha particles deposit their entire energy within a few cells of where they stop. The lung tissue adjacent to a radon daughter gets an extremely high local dose from what is, in joules, a tiny amount of energy.
@@ -65,7 +72,7 @@ Some reference numbers are worth knowing. Annual natural background in the Unite
 
 That last number is worth pausing on. It is four to five *sieverts*, not millisieverts. The diagnostic doses we're discussing — 1 to 15 mSv — are three orders of magnitude below the acute lethal range. The cancer risk from a single CT scan, estimated using the linear no-threshold model, is on the order of 0.05% — compared to a baseline lifetime cancer risk of about 40%. For a patient with a suspected pulmonary embolism or a ruptured appendix, the 7-mSv CT that diagnoses the problem and enables treatment is an overwhelming net benefit. The question of whether repeated CT scans in lower-stakes situations are justified is a real question, but the arithmetic makes individual diagnostic scans unambiguously reasonable.
 
-![Radiation dose scale ](images/14-medical-applications-of-nuclear-physics-fig-03.png)
+![Radiation dose scale ](../images/14-medical-applications-of-nuclear-physics-fig-03.png)
 *Figure 14.3 — Radiation dose scale *
 
 The linear no-threshold (LNT) model — the assumption that cancer risk scales linearly with dose all the way to zero — is used because it is conservative, not because it is proven. Below about 100 mSv, the epidemiological data are too noisy to distinguish a linear effect from zero effect. The Hiroshima and Nagasaki survivor data are clear above 100 mSv and become equivocal below. Regulatory practice in medicine and nuclear industries uses LNT because it errs on the side of caution; whether it accurately describes the actual biology at low doses is genuinely uncertain. Some evidence suggests a threshold below which normal DNA repair handles the damage; some evidence suggests a linear effect. The debate has not been resolved, and anyone who tells you it has is overstating the evidence in one direction or the other.
@@ -88,7 +95,7 @@ When a charged particle — a proton, for instance — moves through tissue, it 
 
 Compare this to the X-ray beam, which deposits maximum dose near the surface and decays exponentially with depth. To deliver 80 Gy to a deep prostate with X-rays, you must also deliver substantial dose to the bladder wall in front of it and the rectum behind it. With a proton beam tuned so that the Bragg peak falls exactly at the tumor depth, you can deposit most of the dose at the tumor, with much less in the tissue in front and almost nothing behind. For pediatric brain tumors, where the tissue behind the target is developing brain in a child, this physical advantage is decisive.
 
-![The proton deposits almost nothing before and nothing after the peak — the X-ray can't be turned off at depth.](images/14-medical-applications-of-nuclear-physics-fig-04.png)
+![The proton deposits almost nothing before and nothing after the peak — the X-ray can't be turned off at depth.](../images/14-medical-applications-of-nuclear-physics-fig-04.png)
 *Figure 14.4 — Bragg peak vs*
 
 Proton therapy is expensive — the accelerator required costs on the order of $100 million, versus a few million for a LINAC — and its clinical advantage over advanced X-ray techniques is debated for many adult cancers. But the physics is unambiguous: the Bragg peak is a real and meaningful advantage where the geometry makes it relevant.
@@ -220,9 +227,7 @@ Chapter 15 (particle physics) descends below the nucleon level — to quarks and
 
 ---
 
-## AI Wayback Machine
-
-**Irène Joliot-Curie** discovered artificial radioactivity in 1934 with her husband Frédéric — and the Nobel Prize they shared the next year made possible the medical isotopes used in modern PET and SPECT imaging.
+##  AI Wayback Machine
 
 **Run this:**
 

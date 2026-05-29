@@ -1,32 +1,71 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Hydrogen emission spectrum </title>
-  <desc id="desc">Hydrogen emits at exactly these four wavelengths and nowhere else. The discreteness of the spectrum is direct evidence that electron energy levels in </desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Hydrogen Emission Spectrum (Balmer Series)
+  Book: Physics +1: Modern Physics
+  Chapter: 04-the-quantum-nature-of-light
+  Figure: 07
+  Type: Annotated spectrum strip
+  Generated: 2026-05-25
+  Source: pantry/04-the-quantum-nature-of-light-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Hydrogen Emission — The Balmer Series in the Visible</title>
+  <desc>Black background with four bright emission lines from hydrogen's Balmer series. H-alpha at 656 nanometers (red), H-beta at 486 nanometers (cyan), H-gamma at 434 nanometers (violet), H-delta at 410 nanometers (deep violet). Between the lines: nothing. The discreteness is the discovery.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="04-the-quantum-nature-of-light"
+      figure-number="07"
+      figure-title="Hydrogen Balmer Spectrum"
+      figure-slug="hydrogen-balmer"
+      figure-type="annotated-spectrum"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/04-the-quantum-nature-of-light-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Hydrogen emission spectrum </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Hydrogen emits at exactly these four wavelengths and nowhere else. The discreteness of the spectrum is direct evidence that electron energy levels in </text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Hydrogen Balmer Series — Discrete Lines on a Black Background</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Between the lines: nothing. That's the discovery.</text>
+
+  <rect x="60" y="180" width="580" height="100" fill="#1a1208" stroke="#2a1a0e" stroke-width="1"/>
+
+  <line x1="114" y1="180" x2="114" y2="280" stroke="#9400D3" stroke-width="2"/>
+  <line x1="158" y1="180" x2="158" y2="280" stroke="#5050FF" stroke-width="2"/>
+  <line x1="252" y1="180" x2="252" y2="280" stroke="#00CCFF" stroke-width="3"/>
+  <line x1="560" y1="180" x2="560" y2="280" stroke="#FF3030" stroke-width="3.5"/>
+
+  <line x1="60" y1="290" x2="640" y2="290" stroke="#2a1a0e" stroke-width="0.75"/>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="60" y="306">380</text>
+    <text x="241" y="306">480</text>
+    <text x="423" y="306">580</text>
+    <text x="640" y="306">700 nm</text>
+  </g>
+
+  <line x1="114" y1="180" x2="114" y2="148" stroke="#545454" stroke-width="0.5"/>
+  <text x="114" y="142" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#9400D3">Hδ</text>
+  <text x="114" y="128" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">410 nm</text>
+
+  <line x1="158" y1="180" x2="158" y2="148" stroke="#545454" stroke-width="0.5"/>
+  <text x="158" y="142" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#5050FF">Hγ</text>
+  <text x="158" y="128" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">434 nm</text>
+
+  <line x1="252" y1="180" x2="252" y2="148" stroke="#545454" stroke-width="0.5"/>
+  <text x="252" y="142" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#00CCFF">Hβ</text>
+  <text x="252" y="128" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">486 nm</text>
+
+  <line x1="560" y1="180" x2="560" y2="148" stroke="#545454" stroke-width="0.5"/>
+  <text x="560" y="142" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#FF3030">Hα</text>
+  <text x="560" y="128" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">656 nm</text>
+
+  <text x="350" y="332" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">1/λ = R (1/2² − 1/n²)  ·  Balmer series: n → 2 transitions</text>
+
+  <rect x="60" y="356" width="580" height="50" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="376" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Hydrogen emits at discrete wavelengths — and *only* at those wavelengths.</text>
+  <text x="350" y="394" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Bohr's 1913 atom (quantized orbits) explained why; Schrödinger's wavefunction explained how.</text>
 </svg>

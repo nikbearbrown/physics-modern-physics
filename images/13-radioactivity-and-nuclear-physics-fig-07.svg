@@ -1,32 +1,99 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Geiger-Nuttall plot </title>
-  <desc id="desc">Discovered empirically in 1911, explained by Gamow in 1928. The linearity of this log-linear plot is the fingerprint of quantum tunneling.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Geiger-Nuttall Plot
+  Book: Physics +1: Modern Physics
+  Chapter: 13-radioactivity-and-nuclear-physics
+  Figure: 07
+  Type: Statistical / quantitative (log half-life)
+  Generated: 2026-05-25
+  Source: pantry/13-radioactivity-and-nuclear-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Geiger-Nuttall Plot — 17 Orders of Magnitude on One Line</title>
+  <desc>Log half-life (in years) plotted against 1 over square root of alpha-particle kinetic energy. Data points for about 30 known alpha emitters span from microseconds (high KE) to billions of years (low KE). All fall along a single best-fit straight line — a startling experimental regularity that Gamow's tunneling theory then derived from first principles.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="13-radioactivity-and-nuclear-physics"
+      figure-number="07"
+      figure-title="Geiger-Nuttall Plot"
+      figure-slug="geiger-nuttall"
+      figure-type="quantitative"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/13-radioactivity-and-nuclear-physics-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Geiger-Nuttall plot </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Discovered empirically in 1911, explained by Gamow in 1928. The linearity of this log-linear plot is the fingerprint of quantum tunneling.</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Geiger-Nuttall — Half-Life Spans 17 Orders of Magnitude</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Empirical 1911. Gamow derived it from quantum tunneling in 1928.</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="340" x2="660" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Y-axis: log τ½ (yr) from 10^-7 to 10^10. 17 decades. y(logτ) = 340 - (logτ+7)*14.1 -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="end">
+    <text x="94" y="344">10⁻⁷ s</text>
+    <text x="94" y="297">10⁻³</text>
+    <text x="94" y="241">10²</text>
+    <text x="94" y="184">10⁶</text>
+    <text x="94" y="128">10¹⁰ yr</text>
+  </g>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="95" y1="297" x2="105" y2="297"/>
+    <line x1="95" y1="241" x2="105" y2="241"/>
+    <line x1="95" y1="184" x2="105" y2="184"/>
+    <line x1="95" y1="128" x2="105" y2="128"/>
+  </g>
+  <text x="48" y="220" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 48 220)">HALF-LIFE (yr, LOG)</text>
+
+  <!-- X-axis: 1/√E_α from 0.3 to 0.6 (MeV^-0.5). x = 100 + (val - 0.3)*1867 -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="356">0.30</text>
+    <text x="240" y="356">0.35</text>
+    <text x="380" y="356">0.40</text>
+    <text x="520" y="356">0.45</text>
+    <text x="660" y="356">0.50 MeV⁻¹ᐟ²</text>
+  </g>
+  <text x="380" y="376" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">1 / √E_α</text>
+
+  <!-- Best-fit line (steep positive slope) -->
+  <line x1="120" y1="320" x2="640" y2="120" stroke="#C8102E" stroke-width="2"/>
+
+  <!-- Data scatter along the line -->
+  <g fill="#56B4E9">
+    <circle cx="140" cy="312" r="3"/>
+    <circle cx="170" cy="298" r="3"/>
+    <circle cx="200" cy="288" r="3"/>
+    <circle cx="240" cy="270" r="3"/>
+    <circle cx="280" cy="252" r="3"/>
+    <circle cx="310" cy="240" r="3"/>
+    <circle cx="350" cy="226" r="3"/>
+    <circle cx="390" cy="208" r="3"/>
+    <circle cx="430" cy="195" r="3"/>
+    <circle cx="470" cy="180" r="3"/>
+    <circle cx="500" cy="170" r="3"/>
+    <circle cx="540" cy="158" r="3"/>
+    <circle cx="570" cy="146" r="3"/>
+    <circle cx="600" cy="135" r="3"/>
+  </g>
+
+  <!-- Named emitters -->
+  <circle cx="140" cy="306" r="4" fill="#C8102E"/>
+  <text x="148" y="310" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">²¹²Po (E ≈ 8.8 MeV)</text>
+
+  <circle cx="420" cy="198" r="4" fill="#C8102E"/>
+  <text x="430" y="194" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">²²⁶Ra (1.6 kyr)</text>
+
+  <circle cx="610" cy="130" r="4" fill="#C8102E"/>
+  <text x="600" y="124" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">²³⁸U (4.5 Gyr)</text>
+
+  <!-- Caption -->
+  <rect x="100" y="386" width="560" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="380" y="402" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Empirical regularity (1911) explained from first principles by Gamow's tunneling (1928).</text>
 </svg>

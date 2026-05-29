@@ -1,32 +1,83 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Radioactive dating clocks and their ranges </title>
-  <desc id="desc">Each isotope is a clock with a different reach. The choice of clock depends on the age you're trying to measure.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Radioactive Dating Clocks
+  Book: Physics +1: Modern Physics
+  Chapter: 13-radioactivity-and-nuclear-physics
+  Figure: 04
+  Type: Statistical / quantitative (log bar chart)
+  Generated: 2026-05-25
+  Source: pantry/13-radioactivity-and-nuclear-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Radioactive Dating Clocks — Each Isotope Has Its Range</title>
+  <desc>Horizontal log-scale bar chart of useful dating ranges. Carbon-14 with half-life 5730 years is useful from about a thousand to fifty thousand years — archaeology. Potassium-40 with half-life 1.25 billion years is useful for geology. Uranium-238 with half-life 4.5 billion years is useful for meteorites and Earth's age. Rubidium-87 with half-life 49 billion years and samarium-neodymium for the oldest rocks.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="13-radioactivity-and-nuclear-physics"
+      figure-number="04"
+      figure-title="Dating Ranges"
+      figure-slug="dating-ranges"
+      figure-type="quantitative"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/13-radioactivity-and-nuclear-physics-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Radioactive dating clocks and their ranges </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Each isotope is a clock with a different reach. The choice of clock depends on the age you're trying to measure.</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Radioactive Dating — Each Isotope Reads Its Own Era</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Useful range ≈ ±2 half-lives. From archaeology (10³ yr) to oldest rocks (10¹⁰ yr).</text>
+
+  <!-- Axes -->
+  <line x1="200" y1="340" x2="660" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="200" y1="100" x2="200" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- X-axis: log time from 10^2 to 10^11 yr. 9 dec / 460 px = 51.1 px/dec. x(logt) = 200 + (logt - 2)*51.1 -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="200" y="356">10²</text>
+    <text x="302" y="356">10⁴</text>
+    <text x="404" y="356">10⁶</text>
+    <text x="506" y="356">10⁸</text>
+    <text x="609" y="356">10¹⁰</text>
+    <text x="660" y="356">10¹¹ yr</text>
+  </g>
+  <text x="430" y="376" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">AGE (years, log)</text>
+
+  <!-- Bars: log10(min) to log10(max). x = 200 + (log-2)*51.1 -->
+  <!-- C-14: 10^3 to 5×10^4 → x=251 to 387 -->
+  <rect x="251" y="120" width="136" height="30" fill="#56B4E9"/>
+  <text x="194" y="140" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">¹⁴C</text>
+  <text x="395" y="140" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">archaeology · τ½ = 5,730 yr</text>
+
+  <!-- K-40: 10^5 to 10^10 → x=353 to 609 -->
+  <rect x="353" y="160" width="256" height="30" fill="#56B4E9"/>
+  <text x="194" y="180" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">⁴⁰K</text>
+  <text x="617" y="180" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">geology · τ½ = 1.25 Gyr</text>
+
+  <!-- U-238: 10^7 to 10^11 → x=455 to 660 -->
+  <rect x="455" y="200" width="205" height="30" fill="#56B4E9"/>
+  <text x="194" y="220" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">²³⁸U</text>
+  <text x="450" y="220" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">meteorites · τ½ = 4.5 Gyr →</text>
+
+  <!-- Rb-87: 10^8 to 10^11 → x=506 to 660 -->
+  <rect x="506" y="240" width="154" height="30" fill="#56B4E9"/>
+  <text x="194" y="260" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">⁸⁷Rb</text>
+  <text x="498" y="260" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">oldest rocks · τ½ = 49 Gyr →</text>
+
+  <!-- Sm-Nd: 10^9 to 10^11 → x=558 to 660 -->
+  <rect x="558" y="280" width="102" height="30" fill="#56B4E9"/>
+  <text x="194" y="300" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">Sm-Nd</text>
+  <text x="550" y="300" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">deep time · τ½ = 106 Gyr →</text>
+
+  <!-- Earth's age marker -->
+  <line x1="583" y1="100" x2="583" y2="340" stroke="#C8102E" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="583" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Earth: 4.5 Gyr</text>
+
+  <!-- Caption -->
+  <rect x="100" y="386" width="560" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="380" y="402" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Each ruler measures within roughly 2 half-lives of its calibration center.</text>
 </svg>

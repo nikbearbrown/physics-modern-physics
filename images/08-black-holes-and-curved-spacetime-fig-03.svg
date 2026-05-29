@@ -1,25 +1,105 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Schwarzschild radius comparison across scales </title>
-  <desc id="desc">The Schwarzschild radius spans 28 orders of magnitude in size across the mass range of known black holes.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
-  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Schwarzschild radius comparison across scales </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The Schwarzschild radius spans 28 orders of magnitude in size across the mass range of known black holes.</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SCHWARZSCHILD</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">RADIUS</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">COMPARISON</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+<!--
+  Schwarzschild Radius Across Scales
+  Book: Physics +1: Modern Physics
+  Chapter: 08-black-holes-and-curved-spacetime
+  Figure: 03
+  Type: Statistical / quantitative (log-log)
+  Generated: 2026-05-25
+  Source: pantry/08-black-holes-and-curved-spacetime-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Schwarzschild Radius — A Linear Law Across 28 Orders of Magnitude</title>
+  <desc>Log-log plot of Schwarzschild radius versus mass. Slope is 1 (R proportional to M). Marker points: a 70 kg human (10 to the minus 25 m), Earth (about 9 millimeters), Sun (3 kilometers), a stellar black hole at 10 solar masses (30 km), Sgr A* (12 billion meters), M87* (about 10 to the 13 meters). The Schwarzschild radius depends only on mass.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="08-black-holes-and-curved-spacetime"
+      figure-number="03"
+      figure-title="R_S Across Scales"
+      figure-slug="schwarzschild-scales"
+      figure-type="quantitative"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/08-black-holes-and-curved-spacetime-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Schwarzschild Radius vs Mass — One Line Across 28 Orders of Magnitude</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">R_S = 2GM/c² · log-log scale documented (28 dec span).</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="380" x2="660" y2="380" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="380" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Y-axis: log R from 10^-26 to 10^14 (40 dec). y(R) = 380 - (logR+26)*(280/40) = 380 - (logR+26)*7 -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="end">
+    <text x="94" y="384">10⁻²⁶ m</text>
+    <text x="94" y="314">10⁻¹⁶</text>
+    <text x="94" y="244">10⁻⁶</text>
+    <text x="94" y="174">10⁴</text>
+    <text x="94" y="104">10¹⁴ m</text>
+  </g>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="95" y1="310" x2="105" y2="310"/>
+    <line x1="95" y1="240" x2="105" y2="240"/>
+    <line x1="95" y1="170" x2="105" y2="170"/>
+    <line x1="95" y1="100" x2="105" y2="100"/>
+  </g>
+  <text x="48" y="240" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 48 240)">R_S (m, LOG)</text>
+
+  <!-- X-axis: log M from 10^0 to 10^42 (42 dec). x(M) = 100 + (logM)*(560/42) = 100 + logM*13.33 -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="396">10⁰</text>
+    <text x="220" y="396">10⁹</text>
+    <text x="340" y="396">10¹⁸</text>
+    <text x="460" y="396">10²⁷</text>
+    <text x="580" y="396">10³⁶</text>
+    <text x="660" y="396">10⁴² kg</text>
+  </g>
+  <text x="380" y="418" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">MASS (kg, LOG)</text>
+
+  <!-- R_S line (slope 1). For 70 kg: logR ~ -25.1, x = 100 + 1.85*13.33 = 124.7; y = 380 - 0.9*7 = 373.7. For M_sun = 2e30 kg: x = 100 + 30.3*13.33 = 504; logR_S = log(3000) = 3.48; y = 380 - 29.48*7 = 173.7 -->
+  <line x1="100" y1="382" x2="660" y2="100" stroke="#56B4E9" stroke-width="2.5"/>
+  <text x="380" y="226" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#56B4E9">R_S = 2GM/c² · slope 1</text>
+
+  <!-- Marker points -->
+  <!-- Human: M=70 kg, logM=1.85; R_S=1.04e-25 m, logR=-24.98 → x=125, y=373 -->
+  <circle cx="125" cy="373" r="4" fill="#C8102E"/>
+  <text x="135" y="370" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">you (70 kg)</text>
+  <text x="135" y="382" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">R_S ~ 10⁻²⁵ m</text>
+
+  <!-- Earth: M=6e24 kg, logM=24.78; R_S=8.87 mm, logR=-2.05 → x=430, y=212 — actually waaait let me recompute -->
+  <!-- Actually: y(R) = 380 - (logR + 26)*7. For logR=-2.05: y = 380 - 23.95*7 = 212.4 -->
+  <circle cx="430" cy="212" r="4" fill="#C8102E"/>
+  <text x="442" y="208" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Earth</text>
+  <text x="442" y="220" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">R_S ≈ 9 mm</text>
+
+  <!-- Sun: M=2e30 kg, logM=30.3; R_S=3 km, logR=3.48 → x=504, y=174 -->
+  <circle cx="504" cy="174" r="4" fill="#C8102E"/>
+  <text x="514" y="170" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Sun</text>
+  <text x="514" y="182" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">R_S ≈ 3 km</text>
+
+  <!-- Stellar BH 10 M_sun: M=2e31 kg, logM=31.3; R_S=30 km, logR=4.48 → x=517, y=167 -->
+  <circle cx="517" cy="167" r="4" fill="#C8102E"/>
+  <text x="528" y="155" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">10 M☉ BH</text>
+  <text x="528" y="146" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">R_S ≈ 30 km</text>
+
+  <!-- Sgr A*: M=4e6 M_sun = 8e36 kg, logM=36.9; R_S=1.2e10 m, logR=10.08 → x=592, y=128 -->
+  <circle cx="592" cy="128" r="4" fill="#C8102E"/>
+  <text x="600" y="116" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Sgr A*</text>
+  <text x="600" y="128" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">R_S ~ 12 Gm</text>
+
+  <!-- M87*: M=6.5e9 M_sun = 1.3e40 kg, logM=40.11; R_S=1.9e13 m, logR=13.28 → x=635, y=105 -->
+  <circle cx="635" cy="105" r="4" fill="#C8102E"/>
+  <text x="645" y="93" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">M87*</text>
+  <text x="645" y="105" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">R_S ~ 10¹³ m</text>
+
+  <!-- Caption -->
+  <rect x="100" y="430" width="560" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="380" y="446" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Mass is the only ingredient. The relation spans 28 orders of magnitude in mass.</text>
 </svg>

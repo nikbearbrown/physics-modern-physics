@@ -1,32 +1,75 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Mass-energy equivalence in context </title>
-  <desc id="desc">Mass-energy equivalence in context — a row of energy scales showing: 1 gram of mass converted = 9×10^13 J; compare to: burning 1 kg of coal (~30 MJ), </desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Mass-Energy Equivalence at Scale
+  Book: Physics +1: Modern Physics
+  Chapter: 09-special-relativity
+  Figure: 07
+  Type: Statistical / quantitative (log bar)
+  Generated: 2026-05-25
+  Source: pantry/09-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Mass-Energy Equivalence at Real-World Scales</title>
+  <desc>Horizontal log bar chart of energy released by converting 1 gram of mass via different processes. Chemical burning converts roughly 10 to the minus 9 of the rest mass; fission converts 10 to the minus 3; fusion converts 10 to the minus 2; matter-antimatter annihilation converts 100 percent. The Sun loses roughly 4 million tonnes per second to fusion. The span from chemistry to annihilation is a factor of about a billion.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="09-special-relativity"
+      figure-number="07"
+      figure-title="Mass-Energy at Scale"
+      figure-slug="mass-energy-scale"
+      figure-type="quantitative"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/09-special-relativity-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Mass-energy equivalence in context </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Mass-energy equivalence in context — a row of energy scales showing: 1 gram of mass converted = 9×10^13 J; compare to: burning 1 kg of coal (~30 MJ), </text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">What c² Actually Means — Energy from 1 Gram</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Annihilation: 9×10¹³ J per gram. Chemistry: 10⁵ J per gram. Factor of a billion.</text>
+
+  <!-- Axes -->
+  <line x1="200" y1="340" x2="660" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="200" y1="100" x2="200" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- X-axis: log E from 10^4 to 10^14 J. 10 dec over 460 px = 46 px/dec.
+       x(E) = 200 + (logE - 4)*46 -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="200" y="356">10⁴</text>
+    <text x="292" y="356">10⁶</text>
+    <text x="384" y="356">10⁸</text>
+    <text x="476" y="356">10¹⁰</text>
+    <text x="568" y="356">10¹²</text>
+    <text x="660" y="356">10¹⁴ J</text>
+  </g>
+  <text x="430" y="378" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">ENERGY FROM 1 GRAM (J, LOG)</text>
+
+  <!-- Bars. log(E) → x = 200 + (logE-4)*46 -->
+  <!-- Chemistry: 1 g of TNT ~4.2 kJ = 4200 J → logE=3.62 — below scale. Use chemical fuel ~ 10^5 J/g; logE=5 → x=246 -->
+  <rect x="200" y="120" width="46" height="30" fill="#C8860E"/>
+  <text x="194" y="140" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">Chemistry</text>
+  <text x="256" y="140" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">~ 10⁵ J/g · Δm/m ~ 10⁻⁹</text>
+
+  <!-- Fission: 1 g U-235 → ~8.2e10 J; logE=10.91 → x = 200 + 6.91*46 = 517.9 -->
+  <rect x="200" y="170" width="318" height="30" fill="#C8102E" opacity="0.5"/>
+  <text x="194" y="190" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">Fission</text>
+  <text x="528" y="190" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">~ 10¹¹ J/g · Δm/m ~ 10⁻³</text>
+
+  <!-- Fusion: D+T → ~3.4e11 J/g (1% conversion); logE=11.53 → x=546.4 -->
+  <rect x="200" y="220" width="346" height="30" fill="#C8102E" opacity="0.7"/>
+  <text x="194" y="240" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">Fusion</text>
+  <text x="556" y="240" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">~ 3×10¹¹ J/g · Δm/m ~ 10⁻²</text>
+
+  <!-- Annihilation: 1 g × c² = 9×10^13 J; logE=13.95 → x=657.7 -->
+  <rect x="200" y="270" width="458" height="30" fill="#56B4E9"/>
+  <text x="194" y="290" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">Annihilation</text>
+  <text x="668" y="290" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">9×10¹³ J/g · Δm/m = 1</text>
+
+  <!-- Caption -->
+  <rect x="200" y="386" width="460" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="430" y="402" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Annihilation extracts everything. Chemistry barely scratches the surface.</text>
 </svg>

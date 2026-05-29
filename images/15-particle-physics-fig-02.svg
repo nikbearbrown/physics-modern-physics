@@ -1,29 +1,104 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Quark confinement </title>
-  <desc id="desc">You can't isolate a quark. Pull hard enough and the field breaks — creating new quarks from the energy. You always get hadrons.</desc>
+<!--
+  Quark Confinement (4-panel sequence)
+  Book: Physics +1: Modern Physics
+  Chapter: 15-particle-physics
+  Figure: 02
+  Type: Sequence diagram
+  Generated: 2026-05-25
+  Source: pantry/15-particle-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Quark Confinement — Pull Them Apart and Get Two Mesons</title>
+  <desc>Four-panel sequence showing what happens when you try to separate a quark from an antiquark. Panel 1: pair close together with a weak field line. Panel 2: pulled apart, the gluon field forms a tube whose energy grows linearly with separation. Panel 3: tube stretched far enough that the stored energy exceeds the mass-energy of a new quark-antiquark pair. Panel 4: tube snaps, creating a new pair in the middle. Now there are two mesons. You cannot isolate a single quark.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="15-particle-physics"
+      figure-number="02"
+      figure-title="Quark Confinement"
+      figure-slug="quark-confinement"
+      figure-type="sequence"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/15-particle-physics-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowred15" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8102E"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Quark confinement </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">You can't isolate a quark. Pull hard enough and the field breaks — creating new quarks from the energy. You always get hadrons.</text>
-  <rect x="64" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="120" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">START</text>
-  <text x="120" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 180 210 C 196 210, 206 210, 218 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="218" y="166" width="112" height="88" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="274" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">QUARK</text>
-  <text x="274" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 334 210 C 350 210, 360 210, 372 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="372" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="428" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">CONFINEMENT</text>
-  <text x="428" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 488 210 C 504 210, 514 210, 526 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="526" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="582" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">DECISION</text>
-  <text x="582" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 120 292 C 240 340, 430 340, 584 292" stroke="#C8102E" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/>
-  <text x="350" y="362" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The diagram emphasizes sequence, dependency, and the decision point.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Quark Confinement — Why You Cannot Isolate a Quark</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Stretch the flux tube, energy grows linearly, eventually snaps into a new pair.</text>
+
+  <!-- 4 panels horizontally -->
+
+  <!-- Panel 1: close pair -->
+  <rect x="40" y="100" width="140" height="180" fill="none" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="110" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">(1) close pair</text>
+  <circle cx="90" cy="190" r="10" fill="#56B4E9" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="90" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">q</text>
+  <circle cx="130" cy="190" r="10" fill="#56B4E9" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="130" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">q̄</text>
+  <line x1="98" y1="190" x2="122" y2="190" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="110" y="240" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">weak field</text>
+
+  <!-- Panel 2: pulled apart, flux tube -->
+  <rect x="200" y="100" width="140" height="180" fill="none" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="270" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">(2) pulled apart</text>
+  <circle cx="220" cy="190" r="10" fill="#56B4E9" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="220" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">q</text>
+  <circle cx="320" cy="190" r="10" fill="#56B4E9" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="320" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">q̄</text>
+  <!-- Flux tube (vermillion thick band) -->
+  <rect x="228" y="185" width="84" height="10" fill="#C8102E" opacity="0.6"/>
+  <!-- Pulling arrows -->
+  <line x1="200" y1="220" x2="180" y2="220" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrowred15)"/>
+  <line x1="340" y1="220" x2="360" y2="220" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrowred15)"/>
+  <text x="270" y="244" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">flux tube · E ∝ r</text>
+
+  <!-- Panel 3: stretched far -->
+  <rect x="360" y="100" width="140" height="180" fill="none" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="430" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">(3) energy exceeds 2m_q c²</text>
+  <circle cx="370" cy="190" r="10" fill="#56B4E9" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="370" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">q</text>
+  <circle cx="490" cy="190" r="10" fill="#56B4E9" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="490" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">q̄</text>
+  <!-- Stretched flux tube (thicker, brighter) -->
+  <rect x="378" y="183" width="104" height="14" fill="#C8102E" opacity="0.8"/>
+  <text x="430" y="244" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">about to snap...</text>
+
+  <!-- Panel 4: snap → two mesons -->
+  <rect x="520" y="100" width="140" height="180" fill="none" stroke="#C8102E" stroke-width="1"/>
+  <text x="590" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">(4) SNAP → 2 mesons</text>
+
+  <!-- Left meson: original q + new q̄ -->
+  <circle cx="540" cy="190" r="10" fill="#56B4E9" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="540" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">q</text>
+  <circle cx="560" cy="190" r="10" fill="#C8860E" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="560" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">q̄'</text>
+
+  <!-- Right meson: new q' + original q̄ -->
+  <circle cx="610" cy="190" r="10" fill="#C8860E" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="610" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">q'</text>
+  <circle cx="630" cy="190" r="10" fill="#56B4E9" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="630" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">q̄</text>
+
+  <!-- New bonds -->
+  <line x1="548" y1="190" x2="552" y2="190" stroke="#C8102E" stroke-width="2"/>
+  <line x1="618" y1="190" x2="622" y2="190" stroke="#C8102E" stroke-width="2"/>
+
+  <text x="590" y="244" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">no free quarks</text>
+
+  <!-- Caption -->
+  <rect x="40" y="300" width="620" height="60" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="320" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Color confinement: the flux tube stores energy linearly with separation.</text>
+  <text x="350" y="338" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Long before you can isolate the quark, the tube creates a new pair.</text>
+  <text x="350" y="354" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">No isolated quark has ever been observed. QCD's most counterintuitive prediction.</text>
 </svg>

@@ -1,25 +1,72 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Cross-section of a massive star near the end</title>
-  <desc id="desc">cross-section of a massive star near the end of its life — concentric shells labeled from outside in: hydrogen envelope (outermost), hydrogen-burning </desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
-  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Cross-section of a massive star near the end</text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">cross-section of a massive star near the end of its life — concentric shells labeled from outside in: hydrogen envelope (outermost), hydrogen-burning </text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">CROSS-SECTION</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">OF</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+<!--
+  Onion-Shell Cross-Section of a Massive Star
+  Book: Physics +1: Modern Physics
+  Chapter: 07-the-death-of-stars
+  Figure: 03
+  Type: Mechanism cross-section
+  Generated: 2026-05-25
+  Source: pantry/07-the-death-of-stars-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Onion-Shell Burning — A Massive Star at the End</title>
+  <desc>Cross-section of a massive star near supernova. From outermost to innermost: hydrogen-burning shell (millions of years), helium shell (100000 years), carbon shell (1000 years), oxygen and neon shell (1 year), silicon shell (1 day), iron core (no more fusion). Each layer burns faster than the one outside it. Iron is the most tightly bound nucleus — fusion stops.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="07-the-death-of-stars"
+      figure-number="03"
+      figure-title="Onion-Shell Star"
+      figure-slug="onion-shell-star"
+      figure-type="mechanism"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/07-the-death-of-stars-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Onion-Shell Burning — Each Layer Burns Faster Than the One Outside</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Hydrogen for millions of years; silicon for one day. Then the core is iron — and fusion stops.</text>
+
+  <!-- Nested shells -->
+  <circle cx="280" cy="240" r="180" fill="#56B4E9" opacity="0.25" stroke="#2a1a0e" stroke-width="1"/>
+  <circle cx="280" cy="240" r="150" fill="#C8860E" opacity="0.25" stroke="#2a1a0e" stroke-width="0.75"/>
+  <circle cx="280" cy="240" r="120" fill="#7B61A8" opacity="0.30" stroke="#2a1a0e" stroke-width="0.75"/>
+  <circle cx="280" cy="240" r="90" fill="#C8860E" opacity="0.45" stroke="#2a1a0e" stroke-width="0.75"/>
+  <circle cx="280" cy="240" r="60" fill="#545454" opacity="0.45" stroke="#2a1a0e" stroke-width="0.75"/>
+  <circle cx="280" cy="240" r="30" fill="#C8102E" opacity="0.85" stroke="#2a1a0e" stroke-width="1.25"/>
+
+  <!-- Labels (leader lines on right side) -->
+  <line x1="280" y1="60" x2="480" y2="76" stroke="#545454" stroke-width="0.5"/>
+  <text x="490" y="80" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">H shell</text>
+  <text x="490" y="92" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">~ Myr</text>
+
+  <line x1="380" y1="120" x2="490" y2="128" stroke="#545454" stroke-width="0.5"/>
+  <text x="500" y="132" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">He shell</text>
+  <text x="500" y="144" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">~ 100 kyr</text>
+
+  <line x1="380" y1="180" x2="490" y2="180" stroke="#545454" stroke-width="0.5"/>
+  <text x="500" y="184" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">C shell</text>
+  <text x="500" y="196" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">~ 1,000 yr</text>
+
+  <line x1="358" y1="240" x2="490" y2="236" stroke="#545454" stroke-width="0.5"/>
+  <text x="500" y="240" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">O/Ne shell</text>
+  <text x="500" y="252" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">~ 1 year</text>
+
+  <line x1="328" y1="288" x2="490" y2="288" stroke="#545454" stroke-width="0.5"/>
+  <text x="500" y="292" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">Si shell</text>
+  <text x="500" y="304" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">~ 1 day</text>
+
+  <line x1="298" y1="270" x2="490" y2="340" stroke="#C8102E" stroke-width="0.75"/>
+  <text x="500" y="344" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">Fe core</text>
+  <text x="500" y="358" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">fusion stops · most-bound nucleus</text>
+
+  <!-- Caption -->
+  <rect x="60" y="394" width="580" height="50" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="414" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Each layer burns faster than the one outside it.</text>
+  <text x="350" y="432" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Silicon burns for one day. Then the iron core forms — and fusion has nothing left to extract.</text>
 </svg>

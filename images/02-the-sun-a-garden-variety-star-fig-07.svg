@@ -1,29 +1,102 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Differential rotation winding the magnetic field </title>
-  <desc id="desc">differential rotation winding the magnetic field — three-panel sequence: panel 1: Sun with clean dipole field lines running north–south, equatorial ro</desc>
+<!--
+  Differential Rotation Winding the Magnetic Field
+  Book: Physics +1: Modern Physics
+  Chapter: 02-the-sun-a-garden-variety-star
+  Figure: 07
+  Type: Cycle diagram (sequence)
+  Generated: 2026-05-25
+  Source: pantry/02-the-sun-a-garden-variety-star-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Babcock-Leighton — How Differential Rotation Winds the Sun's Field</title>
+  <desc>Four-panel sequence. Panel A: initial poloidal field running North to South. Panel B: equator rotates faster than poles, the field stretches eastward at low latitudes. Panel C: continued winding produces toroidal flux ropes. Panel D: flux ropes rise buoyantly through the convection zone and emerge as bipolar sunspot pairs at the surface.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="02-the-sun-a-garden-variety-star"
+      figure-number="07"
+      figure-title="Differential Rotation and Field Winding"
+      figure-slug="dynamo-winding"
+      figure-type="sequence"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/02-the-sun-a-garden-variety-star-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowink" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#2a1a0e"/>
     </marker>
   </defs>
-  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Differential rotation winding the magnetic field </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">differential rotation winding the magnetic field — three-panel sequence: panel 1: Sun with clean dipole field lines running north–south, equatorial ro</text>
-  <rect x="64" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="120" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">START</text>
-  <text x="120" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 180 210 C 196 210, 206 210, 218 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="218" y="166" width="112" height="88" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="274" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">DIFFERENTIAL</text>
-  <text x="274" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 334 210 C 350 210, 360 210, 372 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="372" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="428" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">ROTATION</text>
-  <text x="428" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 488 210 C 504 210, 514 210, 526 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="526" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="582" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">WINDING</text>
-  <text x="582" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 120 292 C 240 340, 430 340, 584 292" stroke="#C8102E" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/>
-  <text x="350" y="362" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The diagram emphasizes sequence, dependency, and the decision point.</text>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Babcock-Leighton Dynamo — Differential Rotation Builds the Cycle</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Poloidal → wound → toroidal → erupts as sunspots. Repeats every ~11 years.</text>
+
+  <line x1="350" y1="80" x2="350" y2="380" stroke="#2a1a0e" stroke-width="0.5"/>
+  <line x1="60" y1="222" x2="640" y2="222" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel A (top-left): Initial poloidal field -->
+  <text x="180" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#2a1a0e" letter-spacing="0.06em">(A) POLOIDAL — INITIAL N-S FIELD</text>
+  <circle cx="180" cy="160" r="48" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="180" y="118" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">N</text>
+  <text x="180" y="208" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">S</text>
+  <!-- Field lines along meridians -->
+  <g fill="none" stroke="#56B4E9" stroke-width="1.25">
+    <path d="M 180 112 Q 144 160 180 208"/>
+    <path d="M 180 112 Q 216 160 180 208"/>
+    <path d="M 180 112 Q 132 160 180 208"/>
+    <path d="M 180 112 Q 228 160 180 208"/>
+  </g>
+
+  <!-- Panel B (top-right): Equator stretches -->
+  <text x="510" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#2a1a0e" letter-spacing="0.06em">(B) EQUATOR FASTER — STRETCH</text>
+  <circle cx="510" cy="160" r="48" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/>
+  <!-- Field lines stretched eastward at equator -->
+  <g fill="none" stroke="#56B4E9" stroke-width="1.25">
+    <path d="M 510 112 Q 470 140 480 160 Q 490 180 510 208"/>
+    <path d="M 510 112 Q 550 140 540 160 Q 530 180 510 208"/>
+    <path d="M 510 112 Q 460 145 466 160 Q 472 180 510 208"/>
+    <path d="M 510 112 Q 560 145 554 160 Q 548 180 510 208"/>
+  </g>
+  <!-- Differential rotation arrows at equator -->
+  <line x1="475" y1="170" x2="495" y2="170" stroke="#C8102E" stroke-width="1.25" marker-end="url(#arrowink)"/>
+  <line x1="525" y1="170" x2="545" y2="170" stroke="#C8102E" stroke-width="1.25" marker-end="url(#arrowink)"/>
+  <text x="510" y="180" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="7" fill="#C8102E">faster</text>
+
+  <!-- Panel C (bottom-left): Toroidal -->
+  <text x="180" y="244" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#C8102E" letter-spacing="0.06em">(C) TOROIDAL — FLUX ROPES FORM</text>
+  <circle cx="180" cy="304" r="48" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/>
+  <!-- Toroidal field lines (horizontal circles around equator) -->
+  <g fill="none" stroke="#56B4E9" stroke-width="2">
+    <ellipse cx="180" cy="290" rx="44" ry="6"/>
+    <ellipse cx="180" cy="304" rx="46" ry="6"/>
+    <ellipse cx="180" cy="318" rx="44" ry="6"/>
+  </g>
+
+  <!-- Panel D (bottom-right): Sunspot pairs -->
+  <text x="510" y="244" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="9" fill="#C8102E" letter-spacing="0.06em">(D) ERUPTION — SUNSPOT PAIRS</text>
+  <circle cx="510" cy="304" r="48" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/>
+  <!-- Flux rope rising → bipolar pair -->
+  <path d="M 490 320 Q 510 280 530 320" stroke="#C8102E" stroke-width="2" fill="none"/>
+  <circle cx="488" cy="320" r="4" fill="#2a1a0e"/>
+  <circle cx="532" cy="320" r="4" fill="#2a1a0e"/>
+  <text x="488" y="338" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#2a1a0e">N</text>
+  <text x="532" y="338" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#2a1a0e">S</text>
+  <text x="510" y="284" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E">↑ buoyant rope</text>
+
+  <!-- Arrows between panels showing sequence -->
+  <text x="350" y="170" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">→</text>
+  <text x="350" y="314" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">→</text>
+  <text x="175" y="240" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">↓</text>
+
+  <!-- Caption -->
+  <rect x="60" y="384" width="580" height="60" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="404" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">The Sun's equator laps its poles every ~5 years.</text>
+  <text x="350" y="422" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Field lines that started as a smooth N-S dipole end up wound and tangled — and erupt.</text>
+  <text x="350" y="438" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">Reverses every 11 years → full magnetic cycle is 22 years.</text>
 </svg>

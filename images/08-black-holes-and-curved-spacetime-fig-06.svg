@@ -1,25 +1,90 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">X-ray binary schematic </title>
-  <desc id="desc">The black hole is invisible. The X-rays from the disk and the companion star's orbital motion together make its presence unmistakable.</desc>
+<!--
+  X-ray Binary Schematic
+  Book: Physics +1: Modern Physics
+  Chapter: 08-black-holes-and-curved-spacetime
+  Figure: 06
+  Type: Mechanism cross-section
+  Generated: 2026-05-25
+  Source: pantry/08-black-holes-and-curved-spacetime-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">X-ray Binary — Mass Streams from Star to Black Hole, Emitting X-rays</title>
+  <desc>A binary system in cross-section. A normal companion star on the left fills its Roche lobe and sheds gas through the inner Lagrange point. The gas spirals into an accretion disk around a compact black hole on the right. The inner disk reaches millions of kelvin and emits X-rays. The black hole is marked by a small dark disk surrounded by the event horizon circle.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="08-black-holes-and-curved-spacetime"
+      figure-number="06"
+      figure-title="X-ray Binary"
+      figure-slug="xray-binary"
+      figure-type="mechanism"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/08-black-holes-and-curved-spacetime-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowred" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8102E"/>
+    </marker>
+    <marker id="arrowoch" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8860E"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">X-ray binary schematic </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The black hole is invisible. The X-rays from the disk and the companion star's orbital motion together make its presence unmistakable.</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">X-RAY</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">BINARY</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SCHEMATIC</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">X-ray Binary — A Star Feeds a Black Hole</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Gas falls in, heats to millions of K, glows in X-rays. Cygnus X-1 was the first.</text>
+
+  <!-- Companion star (left, orange) — teardrop shape, Roche-lobe filling -->
+  <path d="M 140 210 Q 100 150 140 110 Q 200 90 240 130 Q 270 170 270 210 Q 270 250 240 290 Q 200 330 140 310 Q 100 270 140 210 Z" fill="#C8860E" opacity="0.7" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="170" y="214" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">companion</text>
+  <text x="170" y="230" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#FFFFFF">~ 20 M☉</text>
+
+  <!-- Roche lobe boundary (dashed extension) -->
+  <path d="M 270 210 Q 300 150 320 210 Q 300 270 270 210" fill="none" stroke="#545454" stroke-width="0.75" stroke-dasharray="3 2"/>
+  <text x="295" y="100" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">Roche lobe</text>
+
+  <!-- L1 point and mass stream -->
+  <circle cx="320" cy="210" r="2" fill="#2a1a0e"/>
+  <text x="320" y="200" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#2a1a0e">L₁</text>
+
+  <!-- Mass stream curving toward disk -->
+  <path d="M 320 210 Q 380 200 430 220 Q 460 230 470 240" stroke="#C8860E" stroke-width="2" fill="none" marker-end="url(#arrowoch)"/>
+  <text x="380" y="184" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">mass stream</text>
+
+  <!-- Accretion disk (right, sky-blue with hot inner) — ellipse stack -->
+  <ellipse cx="540" cy="240" rx="100" ry="22" fill="#56B4E9" opacity="0.4" stroke="#2a1a0e" stroke-width="0.75"/>
+  <ellipse cx="540" cy="240" rx="70" ry="16" fill="#56B4E9" opacity="0.55"/>
+  <ellipse cx="540" cy="240" rx="40" ry="10" fill="#C8102E" opacity="0.65"/>
+  <ellipse cx="540" cy="240" rx="20" ry="6" fill="#C8102E" opacity="0.85"/>
+
+  <!-- Black hole at disk center -->
+  <circle cx="540" cy="240" r="6" fill="#1a1208"/>
+  <circle cx="540" cy="240" r="10" fill="none" stroke="#2a1a0e" stroke-width="1.25" stroke-dasharray="2 2"/>
+
+  <!-- Labels -->
+  <text x="540" y="186" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">accretion disk</text>
+  <text x="540" y="276" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">outer ~ 10⁴ K · inner ~ 10⁷ K</text>
+  <text x="556" y="232" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#1a1208">BH</text>
+
+  <!-- X-ray emission cones (from inner disk) -->
+  <g stroke="#C8102E" stroke-width="1.5" fill="none">
+    <line x1="544" y1="230" x2="580" y2="180" marker-end="url(#arrowred)"/>
+    <line x1="536" y1="250" x2="500" y2="300" marker-end="url(#arrowred)"/>
+  </g>
+  <text x="588" y="178" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">X-rays</text>
+
+  <!-- Orbital plane reference -->
+  <line x1="60" y1="240" x2="680" y2="240" stroke="#545454" stroke-width="0.5" stroke-dasharray="2 2"/>
+  <text x="74" y="232" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">orbital plane</text>
+
+  <!-- Caption -->
+  <rect x="60" y="356" width="600" height="50" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="360" y="376" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Falling gas releases 10–40% of its rest energy before crossing the horizon.</text>
+  <text x="360" y="394" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Most efficient power source in the universe — outclassing fusion by a factor of 50.</text>
 </svg>

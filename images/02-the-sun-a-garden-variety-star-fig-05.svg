@@ -1,25 +1,98 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Labeled cross-section of the Sun's interior </title>
-  <desc id="desc">labeled cross-section of the Sun's interior — three concentric zones: core (~0–25% radius, labeled "nuclear fusion, 15 million K"), radiative zone (~2</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
-  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Labeled cross-section of the Sun's interior </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">labeled cross-section of the Sun's interior — three concentric zones: core (~0–25% radius, labeled "nuclear fusion, 15 million K"), radiative zone (~2</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">LABELED</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">CROSS-SECTION</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">OF</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+<!--
+  Cross-Section of the Sun's Interior
+  Book: Physics +1: Modern Physics
+  Chapter: 02-the-sun-a-garden-variety-star
+  Figure: 05
+  Type: Mechanism cross-section
+  Generated: 2026-05-25
+  Source: pantry/02-the-sun-a-garden-variety-star-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Cross-Section of the Sun — Four Zones of Energy Transport</title>
+  <desc>Cutaway view of the Sun showing four concentric zones. Core (inner 25 percent of radius): fusion happens here, temperature 15 million kelvin. Radiative zone (25 to 70 percent of radius): photons diffuse outward via scattering. Tachocline: thin boundary at 70 percent of radius. Convection zone (70 to 100 percent): hot plasma rises in convection cells. Photosphere: thin visible surface.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="02-the-sun-a-garden-variety-star"
+      figure-number="05"
+      figure-title="Sun's Interior Cross-Section"
+      figure-slug="sun-interior"
+      figure-type="mechanism"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/02-the-sun-a-garden-variety-star-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Cross-Section of the Sun — Four Zones, One Star</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Where energy is made, where it diffuses, where it convects, where it escapes.</text>
+
+  <!-- Photosphere (outer thin shell) -->
+  <circle cx="280" cy="240" r="160" fill="#C8860E" opacity="0.4" stroke="#2a1a0e" stroke-width="1.5"/>
+  <!-- Convection zone (70-100%) -->
+  <circle cx="280" cy="240" r="155" fill="#FFFFFF"/>
+  <!-- texture: convection cells as small wavy patterns -->
+  <g fill="none" stroke="#C8860E" stroke-width="1" opacity="0.6">
+    <circle cx="220" cy="160" r="14"/>
+    <circle cx="320" cy="150" r="12"/>
+    <circle cx="370" cy="200" r="14"/>
+    <circle cx="380" cy="280" r="13"/>
+    <circle cx="340" cy="340" r="12"/>
+    <circle cx="240" cy="350" r="14"/>
+    <circle cx="170" cy="290" r="13"/>
+    <circle cx="160" cy="210" r="12"/>
+    <circle cx="280" cy="110" r="11"/>
+    <circle cx="400" cy="240" r="10"/>
+    <circle cx="280" cy="370" r="11"/>
+    <circle cx="170" cy="160" r="10"/>
+  </g>
+  <!-- Tachocline (dashed line at 70%) -->
+  <circle cx="280" cy="240" r="112" fill="none" stroke="#545454" stroke-width="1" stroke-dasharray="3 2"/>
+  <!-- Radiative zone (25-70%) -->
+  <circle cx="280" cy="240" r="108" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="0.75"/>
+  <!-- Core (inner 25%) -->
+  <circle cx="280" cy="240" r="40" fill="#C8102E" opacity="0.7" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Labels with leader lines (right side) -->
+  <line x1="280" y1="240" x2="440" y2="180" stroke="#545454" stroke-width="0.5"/>
+  <text x="446" y="178" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">CORE</text>
+  <text x="446" y="192" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">fusion · 15 MK</text>
+  <text x="446" y="204" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">r &lt; 0.25 R☉</text>
+
+  <line x1="356" y1="200" x2="440" y2="230" stroke="#545454" stroke-width="0.5"/>
+  <text x="446" y="228" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">RADIATIVE ZONE</text>
+  <text x="446" y="242" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">photon diffusion</text>
+  <text x="446" y="254" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">0.25–0.7 R☉</text>
+
+  <line x1="386" y1="246" x2="440" y2="282" stroke="#545454" stroke-width="0.5"/>
+  <text x="446" y="280" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">TACHOCLINE</text>
+  <text x="446" y="294" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">shear · dynamo source</text>
+
+  <line x1="370" y1="300" x2="440" y2="330" stroke="#545454" stroke-width="0.5"/>
+  <text x="446" y="328" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8860E">CONVECTION ZONE</text>
+  <text x="446" y="342" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">plasma cells rise/fall</text>
+  <text x="446" y="354" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">0.7–1.0 R☉</text>
+
+  <line x1="280" y1="400" x2="440" y2="380" stroke="#545454" stroke-width="0.5"/>
+  <text x="446" y="378" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">PHOTOSPHERE</text>
+  <text x="446" y="392" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">5800 K · what you see</text>
+
+  <!-- Radial fraction ruler (left) -->
+  <line x1="120" y1="240" x2="280" y2="240" stroke="#545454" stroke-width="0.5"/>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454" text-anchor="middle">
+    <text x="120" y="252">1.0</text>
+    <text x="172" y="252">0.7</text>
+    <text x="240" y="252">0.25</text>
+    <text x="280" y="252">0</text>
+  </g>
+  <text x="200" y="270" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">r / R☉</text>
+
+  <!-- Caption -->
+  <rect x="60" y="416" width="580" height="32" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="436" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Energy made in the core; carried by photons, then by convection; finally radiated from the photosphere.</text>
 </svg>

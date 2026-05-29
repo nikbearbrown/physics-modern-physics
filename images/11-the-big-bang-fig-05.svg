@@ -1,29 +1,125 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Cosmic timeline </title>
-  <desc id="desc">Everything to the right of 380,000 years is directly observable. Everything between 1 second and 380,000 years is inferred from two observables that a</desc>
+<!--
+  Cosmic Timeline (Log)
+  Book: Physics +1: Modern Physics
+  Chapter: 11-the-big-bang
+  Figure: 05
+  Type: Timeline (log)
+  Generated: 2026-05-25
+  Source: pantry/11-the-big-bang-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Cosmic Timeline — From Planck Time to Today</title>
+  <desc>Log time axis from Planck time at 10 to the minus 43 seconds through today at 13.8 billion years. Events: Planck era, inflation, electroweak transition, quark confinement, big bang nucleosynthesis, recombination/CMB, first stars, today. Cross-reference to Chapter 6 Figure 6.5 cosmological unification timeline — same backbone, different annotations.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="11-the-big-bang"
+      figure-number="05"
+      figure-title="Cosmic Timeline"
+      figure-slug="cosmic-timeline-11"
+      figure-type="timeline"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/11-the-big-bang-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowink" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#2a1a0e"/>
     </marker>
   </defs>
-  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Cosmic timeline </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Everything to the right of 380,000 years is directly observable. Everything between 1 second and 380,000 years is inferred from two observables that a</text>
-  <rect x="64" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="120" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">START</text>
-  <text x="120" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 180 210 C 196 210, 206 210, 218 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="218" y="166" width="112" height="88" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="274" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">COSMIC</text>
-  <text x="274" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 334 210 C 350 210, 360 210, 372 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="372" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="428" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">TIMELINE</text>
-  <text x="428" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 488 210 C 504 210, 514 210, 526 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="526" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="582" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">DECISION</text>
-  <text x="582" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 120 292 C 240 340, 430 340, 584 292" stroke="#C8102E" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/>
-  <text x="350" y="362" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The diagram emphasizes sequence, dependency, and the decision point.</text>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Cosmic Timeline — Structure Formation Across 60 Decades of Time</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">See Ch 6 Fig 6.5 for the same backbone — there annotated for force unification.</text>
+
+  <!-- Axis -->
+  <line x1="60" y1="280" x2="660" y2="280" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrowink)"/>
+  <text x="660" y="304" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">time (s, log) →</text>
+
+  <!-- log range -43 to +18 (61 decades) over 600 px = 9.84 px/dec -->
+  <!-- x(log t) = 60 + (log_t + 43) * 9.84 -->
+
+  <!-- Tick marks -->
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="60" y1="275" x2="60" y2="285"/>
+    <line x1="158" y1="275" x2="158" y2="285"/>
+    <line x1="256" y1="275" x2="256" y2="285"/>
+    <line x1="355" y1="275" x2="355" y2="285"/>
+    <line x1="453" y1="275" x2="453" y2="285"/>
+    <line x1="552" y1="275" x2="552" y2="285"/>
+  </g>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454" text-anchor="middle">
+    <text x="60" y="298">10⁻⁴³</text>
+    <text x="158" y="298">10⁻³³</text>
+    <text x="256" y="298">10⁻²³</text>
+    <text x="355" y="298">10⁻¹³</text>
+    <text x="453" y="298">10⁻³</text>
+    <text x="552" y="298">10⁷ s</text>
+    <text x="660" y="298">today</text>
+  </g>
+
+  <!-- Speculative pre-1 second region (vermillion shading) — to x=453 -->
+  <rect x="60" y="260" width="393" height="40" fill="#C8102E" opacity="0.1"/>
+  <text x="256" y="316" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">inferred · not directly observable</text>
+
+  <!-- Events:
+       Planck time: t=10^-43 → x=60
+       Inflation: t=10^-36 → x=129
+       Electroweak: t=10^-11 → x=375
+       BBN: t=1 s (=10^0) → x=483
+       Recombination: t=10^13 s (380000 yr) → x=611
+       First stars: t=10^16 (~300 Myr) → x=641
+       Today: t=4.4×10^17 (13.8 Gyr) → x=658 -->
+
+  <!-- Planck era -->
+  <circle cx="60" cy="280" r="5" fill="#C8102E"/>
+  <line x1="60" y1="275" x2="60" y2="200" stroke="#C8102E" stroke-width="1"/>
+  <text x="60" y="192" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Planck era</text>
+  <text x="60" y="180" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">QG?</text>
+
+  <!-- Inflation -->
+  <circle cx="129" cy="280" r="5" fill="#C8860E"/>
+  <line x1="129" y1="285" x2="129" y2="350" stroke="#C8860E" stroke-width="1"/>
+  <text x="129" y="362" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">inflation</text>
+  <text x="129" y="374" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">10⁻³⁶ s · exp. expansion</text>
+
+  <!-- Electroweak -->
+  <circle cx="375" cy="280" r="5" fill="#56B4E9"/>
+  <line x1="375" y1="275" x2="375" y2="220" stroke="#56B4E9" stroke-width="1"/>
+  <text x="375" y="212" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">EW split</text>
+  <text x="375" y="200" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">10⁻¹¹ s</text>
+
+  <!-- BBN -->
+  <circle cx="483" cy="280" r="5" fill="#56B4E9"/>
+  <line x1="483" y1="285" x2="483" y2="350" stroke="#56B4E9" stroke-width="1"/>
+  <text x="483" y="362" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">nucleosynthesis</text>
+  <text x="483" y="374" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">1 sec – 3 min · H,He</text>
+
+  <!-- Recombination / CMB -->
+  <circle cx="611" cy="280" r="6" fill="#56B4E9"/>
+  <line x1="611" y1="275" x2="611" y2="180" stroke="#56B4E9" stroke-width="1"/>
+  <text x="611" y="172" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">CMB · atoms form</text>
+  <text x="611" y="160" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">380,000 yr</text>
+
+  <!-- First stars -->
+  <circle cx="641" cy="280" r="5" fill="#C8860E"/>
+  <line x1="641" y1="285" x2="641" y2="350" stroke="#C8860E" stroke-width="1"/>
+  <text x="650" y="362" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">first stars</text>
+  <text x="650" y="374" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">~ 200 Myr</text>
+
+  <!-- Today -->
+  <circle cx="658" cy="280" r="6" fill="#2a1a0e"/>
+  <text x="658" y="120" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">today</text>
+  <text x="658" y="132" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">13.8 Gyr</text>
+  <line x1="658" y1="275" x2="658" y2="138" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Caption -->
+  <rect x="60" y="400" width="600" height="44" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="360" y="420" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">After the first second: directly observable physics.</text>
+  <text x="360" y="436" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Before: inferred — and increasingly speculative the earlier you go.</text>
 </svg>

@@ -1,0 +1,91 @@
+<!--
+  What the Standard Model Doesn't Explain
+  Book: Physics +1: Modern Physics
+  Chapter: 06-particle-physics
+  Figure: 06
+  Type: Conceptual map / quantitative (stacked bar)
+  Generated: 2026-05-25
+  Source: pantry/06-particle-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Standard Model Accounts for 5 Percent of the Universe</title>
+  <desc>Stacked bar showing the universe's energy content. Ordinary matter, described by the Standard Model to twelve significant figures, accounts for 5 percent. Dark matter, gravitationally evident but otherwise invisible, is 27 percent. Dark energy, driving accelerated expansion but otherwise mysterious, is 68 percent. The Standard Model is the most tested theory in physics and accounts for the smallest slice. Other gaps: gravity, baryogenesis, three generations, hierarchy problem.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="06-particle-physics"
+      figure-number="06"
+      figure-title="What SM Doesn't Explain"
+      figure-slug="cosmic-energy-pie"
+      figure-type="quantitative"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/06-particle-physics-cajal.md"
+    />
+  </metadata>
+  <defs>
+    <pattern id="de-hatch" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#A0A0A0" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Cosmic Energy Budget — SM Covers 5%</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Best-tested theory in physics, smallest slice of the inventory.</text>
+
+  <!-- Stacked bar (full width = 100%) -->
+  <!-- 60 to 660 = 600 px. SM 5% = 30 px, DM 27% = 162 px, DE 68% = 408 px -->
+  <rect x="60" y="160" width="30" height="80" fill="#56B4E9" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="90" y="160" width="162" height="80" fill="#545454" opacity="0.6" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="252" y="160" width="408" height="80" fill="url(#de-hatch)" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Scale axis -->
+  <line x1="60" y1="252" x2="660" y2="252" stroke="#2a1a0e" stroke-width="0.5"/>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="60" y1="248" x2="60" y2="256"/>
+    <line x1="180" y1="248" x2="180" y2="256"/>
+    <line x1="300" y1="248" x2="300" y2="256"/>
+    <line x1="420" y1="248" x2="420" y2="256"/>
+    <line x1="540" y1="248" x2="540" y2="256"/>
+    <line x1="660" y1="248" x2="660" y2="256"/>
+  </g>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="60" y="270">0%</text>
+    <text x="180" y="270">20%</text>
+    <text x="300" y="270">40%</text>
+    <text x="420" y="270">60%</text>
+    <text x="540" y="270">80%</text>
+    <text x="660" y="270">100%</text>
+  </g>
+
+  <!-- Labels with leader lines -->
+  <!-- SM (5%) - leader from x=75 to label above -->
+  <line x1="75" y1="160" x2="100" y2="100" stroke="#56B4E9" stroke-width="0.5"/>
+  <text x="100" y="92" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#56B4E9">Standard Model</text>
+  <text x="100" y="106" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">5% · "described to 12 sig figs"</text>
+
+  <!-- DM (27%) - label on bar -->
+  <text x="171" y="196" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#FFFFFF">Dark Matter</text>
+  <text x="171" y="214" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#FFFFFF">27%</text>
+  <text x="171" y="228" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#FFFFFF">gravitationally evident</text>
+
+  <!-- DE (68%) - label on bar -->
+  <text x="456" y="196" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#2a1a0e">Dark Energy</text>
+  <text x="456" y="214" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">68%</text>
+  <text x="456" y="228" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">accelerates expansion · unknown</text>
+
+  <!-- Other gaps box -->
+  <rect x="60" y="296" width="600" height="60" fill="#F5F5F5" stroke="#545454" stroke-width="0.75"/>
+  <text x="74" y="316" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E" letter-spacing="0.06em">OTHER GAPS IN THE SM</text>
+  <line x1="74" y1="322" x2="646" y2="322" stroke="#C8102E" stroke-width="0.25"/>
+  <text x="74" y="338" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">• no gravity   • matter-antimatter asymmetry (baryogenesis)</text>
+  <text x="74" y="350" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">• why three generations?   • hierarchy problem (Higgs mass)</text>
+
+  <!-- Caption -->
+  <rect x="60" y="376" width="600" height="30" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="360" y="396" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">The frontier is the unmapped majority. We measure it precisely — and explain none of it.</text>
+</svg>

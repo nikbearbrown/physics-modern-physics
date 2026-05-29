@@ -1,25 +1,77 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Two curves on the same axes </title>
-  <desc id="desc">two curves on the same axes — the classical Rayleigh-Jeans prediction (rising without bound toward the ultraviolet, labeled "classical theory: diverge</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Classical vs Quantum Blackbody Curves
+  Book: Physics +1: Modern Physics
+  Chapter: 04-the-quantum-nature-of-light
+  Figure: 01
+  Type: Statistical / quantitative
+  Generated: 2026-05-25
+  Source: pantry/04-the-quantum-nature-of-light-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Blackbody Curves — The Ultraviolet Catastrophe</title>
+  <desc>Spectral radiance as a function of wavelength for a blackbody at solar temperature. The classical Rayleigh-Jeans curve diverges to infinity as wavelength shrinks toward the ultraviolet — the catastrophe. Planck's quantum curve peaks at visible wavelengths and rolls off at both short and long wavelengths, matching observation.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="04-the-quantum-nature-of-light"
+      figure-number="01"
+      figure-title="Blackbody Curves"
+      figure-slug="blackbody-curves"
+      figure-type="quantitative"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/04-the-quantum-nature-of-light-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Two curves on the same axes </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">two curves on the same axes — the classical Rayleigh-Jeans prediction (rising without bound toward the ultraviolet, labeled "classical theory: diverge</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">TWO</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">CURVES</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">ON</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The Ultraviolet Catastrophe — First Crack in Classical Physics</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Classical theory predicts infinite radiance at short λ. Planck's quantization fits the data.</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="340" x2="660" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Visible spectrum gray band (400-700 nm) -->
+  <rect x="160" y="100" width="120" height="240" fill="#545454" opacity="0.12"/>
+  <text x="220" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">visible</text>
+
+  <text x="50" y="220" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 50 220)">SPECTRAL RADIANCE</text>
+
+  <!-- X-axis labels (wavelength in nm) -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="356">0</text>
+    <text x="220" y="356">500</text>
+    <text x="340" y="356">1000</text>
+    <text x="460" y="356">1500</text>
+    <text x="580" y="356">2000</text>
+    <text x="660" y="356">2500 nm</text>
+  </g>
+  <text x="380" y="376" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">WAVELENGTH (nm)</text>
+
+  <!-- Y-axis label -->
+  <text x="100" y="96" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">∞</text>
+
+  <!-- Classical Rayleigh-Jeans curve (~1/λ^4 at short λ) - diverges -->
+  <path d="M 110 100 Q 140 110 180 150 Q 210 200 240 250 Q 280 290 340 310 Q 420 322 540 332 Q 600 336 660 338" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+  <text x="120" y="120" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">classical (Rayleigh-Jeans)</text>
+  <text x="120" y="134" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">diverges as λ → 0</text>
+
+  <!-- Planck curve - peaks ~500nm (for ~5800K) and rolls off both directions -->
+  <!-- At λ=0: 0 (y=340); peak at ~λ=500nm (y=140); decays for longer λ -->
+  <path d="M 110 338 Q 130 280 160 200 Q 190 145 220 140 Q 260 160 300 220 Q 360 280 440 320 Q 520 335 660 339" stroke="#56B4E9" stroke-width="2.5" fill="none"/>
+  <text x="320" y="180" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">Planck (5800 K, observed)</text>
+
+  <!-- Peak marker -->
+  <circle cx="220" cy="140" r="3" fill="#56B4E9"/>
+  <line x1="220" y1="140" x2="220" y2="340" stroke="#56B4E9" stroke-width="0.5" stroke-dasharray="2 2"/>
+  <text x="220" y="200" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#56B4E9">~ peak</text>
+
+  <!-- Caption -->
+  <rect x="100" y="386" width="560" height="26" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="380" y="404" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Planck added a quantization constraint (E = nhf) and the divergence vanished. Physics changed forever.</text>
 </svg>

@@ -1,29 +1,106 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Davisson-Germer electron diffraction </title>
-  <desc id="desc">The sharp peak is the signature of diffraction — constructive interference of the electron's wave at specific angles. Classical particles scatter smoo</desc>
+<!--
+  Davisson-Germer Electron Diffraction
+  Book: Physics +1: Modern Physics
+  Chapter: 10-quantum-physics
+  Figure: 05
+  Type: Statistical / quantitative + mechanism inset
+  Generated: 2026-05-25
+  Source: pantry/10-quantum-physics-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Davisson-Germer 1927 — Electrons Diffract Like Waves</title>
+  <desc>Polar plot of scattering intensity versus angle for 54 electron volt electrons on a nickel crystal. A sharp peak appears at 50 degrees — exactly the angle predicted by Bragg diffraction at the electron's de Broglie wavelength. Inset: schematic of the apparatus with electron gun, nickel target with crystal planes, and rotating detector.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="10-quantum-physics"
+      figure-number="05"
+      figure-title="Davisson-Germer"
+      figure-slug="davisson-germer"
+      figure-type="quantitative"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/10-quantum-physics-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowblue" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#56B4E9"/>
     </marker>
   </defs>
-  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Davisson-Germer electron diffraction </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The sharp peak is the signature of diffraction — constructive interference of the electron's wave at specific angles. Classical particles scatter smoo</text>
-  <rect x="64" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="120" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">START</text>
-  <text x="120" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 180 210 C 196 210, 206 210, 218 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="218" y="166" width="112" height="88" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="274" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">DAVISSON-GERMER</text>
-  <text x="274" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 334 210 C 350 210, 360 210, 372 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="372" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="428" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">ELECTRON</text>
-  <text x="428" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 488 210 C 504 210, 514 210, 526 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="526" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="582" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">DIFFRACTION</text>
-  <text x="582" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 120 292 C 240 340, 430 340, 584 292" stroke="#C8102E" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/>
-  <text x="350" y="362" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The diagram emphasizes sequence, dependency, and the decision point.</text>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Experiment 3: Davisson-Germer — Electrons Diffract</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">54 eV electrons on Ni crystal. Sharp peak at 50°. Matter is wave.</text>
+
+  <!-- Polar plot (left/center) -->
+  <text x="240" y="100" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e" letter-spacing="0.06em">SCATTERING INTENSITY (POLAR)</text>
+
+  <!-- Origin (sample position) -->
+  <circle cx="240" cy="320" r="3" fill="#2a1a0e"/>
+  <text x="240" y="338" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">Ni sample</text>
+
+  <!-- Angular grid -->
+  <g fill="none" stroke="#D4D4D4" stroke-width="0.5">
+    <circle cx="240" cy="320" r="60"/>
+    <circle cx="240" cy="320" r="100"/>
+    <circle cx="240" cy="320" r="140"/>
+  </g>
+  <!-- Angle reference lines -->
+  <g stroke="#545454" stroke-width="0.5" stroke-dasharray="2 2">
+    <line x1="240" y1="320" x2="240" y2="180"/>
+    <line x1="240" y1="320" x2="380" y2="320"/>
+    <line x1="240" y1="320" x2="100" y2="320"/>
+  </g>
+  <text x="240" y="170" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">0°</text>
+  <text x="388" y="324" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">90°</text>
+  <text x="92" y="324" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">270°</text>
+
+  <!-- Scattering data — sharp peak at 50° (measured from incident beam coming from below) -->
+  <!-- 50° from vertical, on the right side. -->
+  <!-- intensity envelope: low everywhere except big lobe near 50° (right side) -->
+  <path d="M 240 320 L 240 280 L 250 274 L 260 268 L 270 262 L 280 256 L 290 248 L 300 240 L 310 234 L 320 232 L 330 232 L 340 236 L 350 244 L 360 254 L 368 268 L 374 282 L 378 296 L 380 308 L 380 320 L 240 320 Z" fill="#56B4E9" opacity="0.5" stroke="#56B4E9" stroke-width="1.5"/>
+
+  <!-- Peak marker -->
+  <line x1="240" y1="320" x2="324" y2="248" stroke="#C8102E" stroke-width="0.75" stroke-dasharray="3 2"/>
+  <circle cx="324" cy="248" r="4" fill="#C8102E"/>
+  <text x="330" y="240" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">peak @ 50°</text>
+
+  <!-- Incoming beam from below -->
+  <line x1="240" y1="380" x2="240" y2="328" stroke="#56B4E9" stroke-width="2" marker-end="url(#arrowblue)"/>
+  <text x="240" y="396" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">54 eV e⁻ beam</text>
+
+  <!-- Mechanism inset (right) -->
+  <rect x="440" y="100" width="220" height="180" fill="#F5F5F5" stroke="#545454" stroke-width="0.75"/>
+  <text x="550" y="118" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" letter-spacing="0.06em">APPARATUS</text>
+  <line x1="460" y1="124" x2="640" y2="124" stroke="#545454" stroke-width="0.25"/>
+  <!-- Electron gun -->
+  <rect x="460" y="140" width="36" height="20" fill="#C8102E" opacity="0.7" stroke="#2a1a0e" stroke-width="0.5"/>
+  <text x="478" y="138" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E">e-gun</text>
+  <line x1="496" y1="150" x2="550" y2="200" stroke="#56B4E9" stroke-width="1.5" marker-end="url(#arrowblue)"/>
+  <!-- Ni crystal -->
+  <rect x="540" y="200" width="40" height="20" fill="#545454" stroke="#2a1a0e" stroke-width="0.5"/>
+  <!-- Crystal planes -->
+  <g stroke="#FFFFFF" stroke-width="0.5">
+    <line x1="544" y1="204" x2="576" y2="204"/>
+    <line x1="544" y1="212" x2="576" y2="212"/>
+    <line x1="544" y1="220" x2="576" y2="220"/>
+  </g>
+  <text x="560" y="234" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#2a1a0e">Ni</text>
+  <!-- Detector arc -->
+  <path d="M 560 200 L 620 160" stroke="#C8860E" stroke-width="1.5"/>
+  <rect x="610" y="150" width="20" height="14" fill="#FFEE00" stroke="#2a1a0e" stroke-width="0.5"/>
+  <text x="620" y="146" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8860E">detector</text>
+  <!-- Rotation indicator -->
+  <path d="M 590 178 Q 600 174 610 178" stroke="#C8102E" stroke-width="0.75" fill="none" marker-end="url(#arrowblue)"/>
+  <text x="600" y="260" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">rotates to scan angle</text>
+
+  <!-- Caption -->
+  <rect x="60" y="406" width="600" height="44" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="360" y="426" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">de Broglie's prediction (1924): matter has wavelength λ = h/p.</text>
+  <text x="360" y="442" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Davisson-Germer (1927): peak at 50° matches λ = 0.166 nm exactly.</text>
 </svg>

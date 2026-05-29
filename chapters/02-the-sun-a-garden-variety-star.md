@@ -1,4 +1,11 @@
 # Chapter 2 — The Sun: A Garden-Variety Star
+
+## TL;DR
+
+- Why the Most Ordinary Star in the Galaxy Is Trying to Kill Your Power Grid.
+- The chapter moves through The Composition Problem, The Energy Problem, The Slowness of Light, Where Things Get Interesting: Convection, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Why the Most Ordinary Star in the Galaxy Is Trying to Kill Your Power Grid.*
 
 On the morning of September 1, 1859, an English amateur astronomer named Richard Carrington was drawing sunspots through a projecting telescope when two intensely bright points of white light appeared among the spot group. They flared, moved, and within five minutes faded. He noted it and waited. He did not have to wait long.
@@ -7,7 +14,7 @@ About seventeen hours later, something arrived at Earth. It had no weight that a
 
 What had arrived was a cloud of magnetized plasma, launched from the Sun, that traveled ninety million miles in seventeen hours, compressed Earth's magnetic field like a fist squeezing a balloon, and dumped enough energy into the upper atmosphere to light the sky from pole to nearly equator. The most advanced communication technology of the industrialized world simply stopped working.
 
-![Sun–Earth timeline for the Carrington Event ](images/02-the-sun-a-garden-variety-star-fig-01.png)
+![Sun–Earth timeline for the Carrington Event ](../images/02-the-sun-a-garden-variety-star-fig-01.png)
 *Figure 2.1 — Sun–Earth timeline for the Carrington Event *
 
 If it happened tomorrow, we would lose power grids, satellites, GPS, hospital equipment, financial networks. The 1859 damage was bounded by the technology of 1859. We have since added considerably more technology. The Sun has not changed.
@@ -24,14 +31,14 @@ In 1925, a young British astronomer named Cecilia Payne-Gaposchkin decided to re
 
 Every element, when heated, absorbs light at specific wavelengths — the same wavelengths it would emit if you excited it in isolation. The pattern is distinctive. Iron has its fingerprint. Hydrogen has its own. Pass sunlight through a prism and spread it into a spectrum, and you see thousands of dark lines where the Sun's cooler outer atmosphere has absorbed specific colors from the light passing through it on its way to your eye. Each dark line is an element saying *I am here*.
 
-![Each dark line is an element removing its characteristic wavelengths from passing sunlight. The pattern is a fingerprint. Payne-Gaposchkin read it in 1925 and found something no one expected.](images/02-the-sun-a-garden-variety-star-fig-02.png)
+![Each dark line is an element removing its characteristic wavelengths from passing sunlight. The pattern is a fingerprint. Payne-Gaposchkin read it in 1925 and found something no one expected.](../images/02-the-sun-a-garden-variety-star-fig-02.png)
 *Figure 2.2 — Solar absorption spectrum (Fraunhofer lines) *
 
 Payne-Gaposchkin measured those lines and ran the calculations. The result was so improbable she doubted herself. The Sun, she found, is approximately 73 percent hydrogen by mass and 25 percent helium. Everything else — carbon, oxygen, nitrogen, iron, all the elements you associate with planets and life — makes up about 2 percent.
 
 She wrote in her doctoral thesis that the enormous abundances she found for hydrogen and helium were "almost certainly not real." Her advisor, Henry Norris Russell, told her to add the disclaimer. He was wrong. She was right. The Sun is made of the two simplest elements in the universe, and almost nothing else.
 
-![Payne-Gaposchkin's 1925 result, which she initially walked back under pressure from her advisor. The disclaimer was wrong. The numbers were right.](images/02-the-sun-a-garden-variety-star-fig-03.png)
+![Payne-Gaposchkin's 1925 result, which she initially walked back under pressure from her advisor. The disclaimer was wrong. The numbers were right.](../images/02-the-sun-a-garden-variety-star-fig-03.png)
 *Figure 2.3 — Pie chart of solar composition by mass *
 
 This matters for what comes next. Hydrogen is not burning in the ordinary chemical sense — there is no oxygen to react with, and chemical burning could not keep the Sun shining for more than a few thousand years. Something else is happening, something that requires 15 million Kelvin to even begin.
@@ -58,7 +65,7 @@ A photon produced in the core of the Sun does not travel outward in a straight l
 
 The statistics of random walks produce a remarkable result. If each step is of length $l$, and the total distance from start to finish is $D$, the number of steps required to travel distance $D$ in a random walk is not $D/l$ but $(D/l)^2$. The straight-line trip from the Sun's core to its surface at light speed takes about two seconds. But a random walk with steps of 1 centimeter across 700,000 kilometers takes roughly $10^{26}$ steps. At the speed of light, that is about 100,000 years.
 
-![Random walk vs](images/02-the-sun-a-garden-variety-star-fig-04.png)
+![Random walk vs](../images/02-the-sun-a-garden-variety-star-fig-04.png)
 *Figure 2.4 — Random walk vs*
 
 The light hitting your eyes right now left the Sun's surface eight minutes ago. But the energy in that light left the Sun's *core* roughly 100,000 years ago — around the time modern humans were first spreading into Europe.
@@ -73,12 +80,12 @@ At about 70 percent of the radius outward, the temperature has dropped to around
 
 When more heat arrives from below than can be transported upward by radiation, the only option is convection. Hot material rises. Cool material sinks. It is the same process that moves warm water to the surface of a heating pot, the same process that drives a thunderstorm, the same process that moves continents — just operating in a shell of plasma 200,000 kilometers deep, at temperatures of millions of Kelvin, cycling material at thousands of meters per second.
 
-![Labeled cross-section of the Sun's interior ](images/02-the-sun-a-garden-variety-star-fig-05.png)
+![Labeled cross-section of the Sun's interior ](../images/02-the-sun-a-garden-variety-star-fig-05.png)
 *Figure 2.5 — Labeled cross-section of the Sun's interior *
 
 The tops of these convection cells are visible from Earth. High-resolution solar telescopes show the photosphere — the thin layer where light finally escapes — covered in polygonal bright patches roughly 1,000 kilometers across, called granules, surrounded by darker lanes where cooler plasma is sinking. Each granule rises, spreads, cools, and dissolves in about eight minutes. The photosphere is covered with millions of them at any moment. The Sun's surface is not still. It is churning.
 
-![Each bright polygon is a convection cell completing one full cycle in about 8 minutes. Millions operate simultaneously. The photosphere looks calm from a distance. Up close, it is not.](images/02-the-sun-a-garden-variety-star-fig-06.png)
+![Each bright polygon is a convection cell completing one full cycle in about 8 minutes. Millions operate simultaneously. The photosphere looks calm from a distance. Up close, it is not.](../images/02-the-sun-a-garden-variety-star-fig-06.png)
 *Figure 2.6 — High-resolution solar telescope photograph of photospheric granulation *
 
 The convection zone is also where the Sun's magnetic field is generated. This is the connection we need.
@@ -91,7 +98,7 @@ Moving plasma is moving charge. Moving charge generates a magnetic field. The co
 
 The Sun does not rotate as a rigid body. Its equator rotates faster than its poles — about 25 days per rotation at the equator versus 36 days near the poles. The magnetic field, which is frozen into the conducting plasma, gets stretched and wound by this differential rotation. The equatorial field gets pulled ahead of the polar field. Imagine stirring a very viscous fluid in which thin strands of chocolate have been laid in straight lines north to south — after a few stirs, the strands are wound around and around, increasingly tangled, amplified.
 
-![Differential rotation winding the magnetic field ](images/02-the-sun-a-garden-variety-star-fig-07.png)
+![Differential rotation winding the magnetic field ](../images/02-the-sun-a-garden-variety-star-fig-07.png)
 *Figure 2.7 — Differential rotation winding the magnetic field *
 
 After enough windings, the magnetic field is coiled so tightly that it forms concentrated flux tubes. These tubes are so magnetically pressurized that they are less dense than their surroundings. Buoyant, they rise through the convection zone like long magnetic ropes. When one of these ropes punches through the photosphere, it creates a pair of sunspots: one where the field emerges (one magnetic polarity) and one nearby where it re-enters (opposite polarity). The strong field in the tube suppresses convection underneath, blocking the upward heat flow. The region cools to about 3,800 Kelvin — still intensely hot, but cool enough relative to the surrounding 5,800 Kelvin to appear dark.
@@ -106,7 +113,7 @@ The amateur pharmacist Heinrich Schwabe spent seventeen years, starting in the 1
 
 The mechanism is the dynamo described above, running to its natural conclusion. The field winds up over roughly five years — sunspot activity rises as flux tubes emerge in growing numbers. Then the field becomes so tangled, so stressed by continued winding, that it breaks apart and reconnects to new configurations. The energy stored in the magnetic field is released. The field rebuilds, but with reversed polarity. What was north is now south. The cycle repeats, taking another eleven years to reverse again — meaning the true magnetic cycle is 22 years, though the observable sunspot cycle is 11.
 
-![Monthly smoothed sunspot number vs](images/02-the-sun-a-garden-variety-star-fig-08.png)
+![Monthly smoothed sunspot number vs](../images/02-the-sun-a-garden-variety-star-fig-08.png)
 *Figure 2.8 — Monthly smoothed sunspot number vs*
 
 Right now, we are in Solar Cycle 25, approaching maximum. The Sun will be most active around 2025 and decline thereafter. We know this in the same way we know when the tide will come in: the broad pattern is regular enough to predict. What we cannot predict is which specific active region will produce a major flare on which specific day. The cycle is the rhythm. The individual events are the improvisation.
@@ -119,7 +126,7 @@ Above the photosphere, the Sun's atmosphere does something that violates every n
 
 You are moving away from the most powerful energy source in the solar system, and the temperature rises by a factor of nearly 200.
 
-![Temperature vs](images/02-the-sun-a-garden-variety-star-fig-09.png)
+![Temperature vs](../images/02-the-sun-a-garden-variety-star-fig-09.png)
 *Figure 2.9 — Temperature vs*
 
 This is not a trick of measurement. It is real. And it is one of the major unsolved problems in astrophysics. We know the magnetic field is involved — waves and oscillations propagating upward from the convection zone carry energy into the corona, and magnetic reconnection events release energy there — but the precise mechanism by which the corona maintains temperatures of a million Kelvin remains genuinely open. The corona is simultaneously the most visible and the least understood part of the Sun.
@@ -134,14 +141,14 @@ Sunspot maximum is when the tangled magnetic field above active regions is under
 
 The first is a solar flare. When two magnetic loops with opposite orientations approach each other in the corona, the field lines break and reconnect explosively. The stored magnetic energy — which had been building since those loops were first dragged up through the photosphere — releases all at once. The surrounding plasma is heated to tens of millions of Kelvin. A flood of X-rays and extreme ultraviolet radiation streams outward. Because it travels at the speed of light, it arrives at Earth eight minutes after the flare. There is no warning time. By the time anyone knows it happened, it has already arrived. The X-rays ionize the upper atmosphere, disrupting the ionosphere that radio communication depends on as a reflector. Satellites experience increased drag as the upper atmosphere expands from sudden heating.
 
-![Magnetic reconnection sequence ](images/02-the-sun-a-garden-variety-star-fig-10.png)
+![Magnetic reconnection sequence ](../images/02-the-sun-a-garden-variety-star-fig-10.png)
 *Figure 2.10 — Magnetic reconnection sequence *
 
 The second event is a coronal mass ejection. Sometimes — not always, and not only with flares — the eruption launches an actual cloud of plasma: tens of millions of tons of magnetized material blasted away from the corona at 500 to 1,000 kilometers per second. A CME is not radiation. It is matter. It does not travel at the speed of light. It arrives at Earth in two to four days. Unlike the flare's instantaneous punch, a CME is a slow punch you can see coming — and modern solar observatories do see them coming, giving a few days of warning.
 
 When a CME arrives, it encounters Earth's magnetic field. The outcome depends critically on the orientation of the CME's own magnetic field. If the CME's field happens to point southward — opposite to Earth's equatorial field, which points northward — the two fields connect. Charged particles funnel deep into the magnetosphere along field lines that now extend from the CME all the way down to Earth's polar regions. The field compressions and oscillations induce electric currents in anything long and conducting at the surface: power lines, pipelines, telegraph wires.
 
-![Earth's magnetosphere during CME impact ](images/02-the-sun-a-garden-variety-star-fig-11.png)
+![Earth's magnetosphere during CME impact ](../images/02-the-sun-a-garden-variety-star-fig-11.png)
 *Figure 2.11 — Earth's magnetosphere during CME impact *
 
 This is exactly what happened in 1859. This is what burned Carrington's telegraph operators.
@@ -156,7 +163,7 @@ Studies published afterward, using satellite data from the STEREO spacecraft tha
 
 This is not a hypothetical projection about a possible future event. It is a description of something that already happened, in 2012, and missed.
 
-![Major solar events and Earth impacts on a](images/02-the-sun-a-garden-variety-star-fig-12.png)
+![Major solar events and Earth impacts on a](../images/02-the-sun-a-garden-variety-star-fig-12.png)
 *Figure 2.12 — Major solar events and Earth impacts on a*
 
 The Carrington Event of 1859 happened. The 1989 Quebec blackout — a much weaker storm that knocked out power for six million people for nine hours in a Canadian winter — happened. The 2003 Halloween storms damaged or destroyed several satellites. The 2012 near-miss happened.
@@ -173,7 +180,7 @@ It formed 4.6 billion years ago from a collapsing cloud of gas and dust — itse
 
 The Sun will continue fusing hydrogen for another five billion years or so. As it ages, its luminosity will gradually increase — it is already about 30 percent brighter than it was when Earth formed, a change with real consequences for Earth's climate history. When the hydrogen in the core is finally exhausted, the core will contract, the outer layers will expand enormously, and the Sun will become a red giant: vastly larger, cooler at the surface, likely engulfing Mercury and Venus and possibly Earth. The outer layers will be expelled as a planetary nebula. The remaining core will become a white dwarf — roughly Earth-sized, slowly cooling over billions of years in the dark.
 
-![Sun's life cycle on a horizontal timeline ](images/02-the-sun-a-garden-variety-star-fig-13.png)
+![Sun's life cycle on a horizontal timeline ](../images/02-the-sun-a-garden-variety-star-fig-13.png)
 *Figure 2.13 — Sun's life cycle on a horizontal timeline *
 
 None of that matters on any human timescale. What matters to us is the eleven-year cycle, the coronal mass ejections, the solar flares, the charged particles that reach Earth in days. The Sun is stable enough, on billion-year scales, for life to evolve and persist. It is violent enough, on eleven-year scales, to periodically threaten the infrastructure that life — in its current technological form — depends on.

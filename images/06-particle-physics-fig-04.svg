@@ -1,0 +1,92 @@
+<!--
+  Higgs Mechanism — Mass from a Field
+  Book: Physics +1: Modern Physics
+  Chapter: 06-particle-physics
+  Figure: 04
+  Type: Conceptual map / mechanism diagram
+  Generated: 2026-05-25
+  Source: pantry/06-particle-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Higgs Mechanism — Mass Is Coupling Strength to a Field</title>
+  <desc>Three particles travel through space filled with the Higgs field (shown as a stippled background). A photon passes through unaffected because it has zero coupling to the Higgs — massless. A light fermion (electron) experiences slight drag — light mass. A top quark experiences heavy drag — heaviest known particle. Mass is not intrinsic — it is how strongly a particle interacts with the field that fills space.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="06-particle-physics"
+      figure-number="04"
+      figure-title="Higgs Mechanism"
+      figure-slug="higgs-mechanism"
+      figure-type="conceptual"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/06-particle-physics-cajal.md"
+    />
+  </metadata>
+  <defs>
+    <pattern id="higgs-stipple" patternUnits="userSpaceOnUse" width="14" height="14">
+      <circle cx="3" cy="3" r="0.75" fill="#7B61A8"/>
+      <circle cx="10" cy="8" r="0.75" fill="#7B61A8"/>
+      <circle cx="6" cy="12" r="0.75" fill="#7B61A8"/>
+    </pattern>
+    <marker id="arrowblue" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#56B4E9"/>
+    </marker>
+    <marker id="arrowoch" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8860E"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8102E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Higgs Mechanism — Mass Is How Strongly You Couple to the Field</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Not molasses. A coupling constant.</text>
+
+  <!-- Background: Higgs field stipple -->
+  <rect x="60" y="90" width="580" height="240" fill="url(#higgs-stipple)" stroke="#7B61A8" stroke-width="1"/>
+  <text x="70" y="108" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#7B61A8" letter-spacing="0.06em">HIGGS FIELD (fills all space)</text>
+
+  <!-- Photon (top): straight, fast, unaffected -->
+  <line x1="80" y1="150" x2="620" y2="150" stroke="#56B4E9" stroke-width="2.5" marker-end="url(#arrowblue)"/>
+  <circle cx="80" cy="150" r="6" fill="#56B4E9"/>
+  <text x="62" y="154" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">γ</text>
+  <text x="350" y="138" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">photon — no coupling → massless</text>
+
+  <!-- Light fermion (middle): slight drag -->
+  <line x1="80" y1="210" x2="500" y2="210" stroke="#C8860E" stroke-width="2.5" marker-end="url(#arrowoch)"/>
+  <circle cx="80" cy="210" r="6" fill="#C8860E"/>
+  <text x="62" y="214" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8860E">e⁻</text>
+  <!-- Slight wavy drag -->
+  <g stroke="#7B61A8" stroke-width="0.5" opacity="0.7">
+    <line x1="200" y1="208" x2="200" y2="216"/>
+    <line x1="280" y1="208" x2="280" y2="216"/>
+    <line x1="360" y1="208" x2="360" y2="216"/>
+    <line x1="440" y1="208" x2="440" y2="216"/>
+  </g>
+  <text x="280" y="198" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">electron — small coupling → 0.511 MeV</text>
+
+  <!-- Top quark (bottom): heavy drag -->
+  <line x1="80" y1="280" x2="280" y2="280" stroke="#C8102E" stroke-width="2.5" marker-end="url(#arrowred)"/>
+  <circle cx="80" cy="280" r="8" fill="#C8102E"/>
+  <text x="62" y="285" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">t</text>
+  <!-- Heavy drag indicators -->
+  <g stroke="#7B61A8" stroke-width="1.5">
+    <line x1="120" y1="270" x2="120" y2="290"/>
+    <line x1="160" y1="270" x2="160" y2="290"/>
+    <line x1="200" y1="270" x2="200" y2="290"/>
+    <line x1="240" y1="270" x2="240" y2="290"/>
+  </g>
+  <text x="290" y="278" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">top quark — strong coupling → 173 GeV (heaviest)</text>
+
+  <!-- Caption -->
+  <rect x="60" y="346" width="580" height="60" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="368" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Mass is the coupling constant — not "stickiness" in molasses.</text>
+  <text x="350" y="386" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">You weigh what you do because your quarks and electrons couple to a field discovered in 2012.</text>
+  <text x="350" y="400" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">Englert &amp; Higgs (1964) predicted; ATLAS &amp; CMS (CERN, 2012) confirmed.</text>
+</svg>

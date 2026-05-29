@@ -1,4 +1,11 @@
 # Chapter 16 — Frontiers of Physics
+
+## TL;DR
+
+- What two perfect theories, taken together, explain — and what they leave out.
+- The chapter moves through The universe is expanding, and has been for 13.8 billion years, Gravity is the geometry of spacetime, Most of the universe is missing, The honest map, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *What two perfect theories, taken together, explain — and what they leave out.*
 
 At 5:51 in the morning on September 14, 2015, two detectors — one in Hanford, Washington, and one in Livingston, Louisiana, separated by 3,000 kilometers — simultaneously recorded a signal. The signal was a chirp. It started low in frequency, swept upward over about 0.2 seconds, peaked near 250 Hz, and died away. The two recordings were nearly identical, arriving 7 milliseconds apart — the time it takes light to cross the distance between the two sites.
@@ -33,12 +40,12 @@ This is the "Hubble time" — how long galaxies would take to reach their curren
 
 The oldest stars in the Milky Way — in globular clusters — have ages of about 13 billion years. A star older than the universe would be a catastrophic failure of the model. So far: no such stars found.
 
-![Hubble's 1929 data is the origin of modern cosmology — 24 galaxies, one of the most consequential plots in science.](images/16-frontiers-of-physics-fig-01.png)
+![Hubble's 1929 data is the origin of modern cosmology — 24 galaxies, one of the most consequential plots in science.](../images/16-frontiers-of-physics-fig-01.png)
 *Figure 16.1 — Hubble diagram *
 
 The contents of the universe, by mass-energy, are striking. About 5% is ordinary matter — atoms, ions, gas, everything that makes up all the stars and galaxies you can see. About 27% is dark matter. About 68% is dark energy. We are made of, and can observe, only the 5%.
 
-![The Standard Model and all of chemistry describe this slice.](images/16-frontiers-of-physics-fig-02.png)
+![The Standard Model and all of chemistry describe this slice.](../images/16-frontiers-of-physics-fig-02.png)
 *Figure 16.2 — Universe composition pie chart *
 
 ---
@@ -69,7 +76,7 @@ For one solar mass, this is about 3 km. For the Sun to become a black hole, you 
 
 Gravitational waves — ripples in the spacetime geometry itself, traveling at the speed of light — were also predicted in 1916 and are emitted by any accelerating mass distribution. The amplitude of the waves is tiny. The signal from GW150914, 1.3 billion light-years away, reached Earth as a strain of $10^{-21}$ — a 4-km interferometer arm changed length by $10^{-18}$ meters, less than a thousandth the diameter of a proton. LIGO detected this directly with laser interferometry. The precision required is extraordinary: it is as if you were measuring the distance from here to the nearest star, Alpha Centauri, to within the width of a human hair.
 
-![The strain of 10⁻²¹ means a 4-km arm changed by 10⁻¹⁸ m — less than a proton's diameter. The template match is exact.](images/16-frontiers-of-physics-fig-03.png)
+![The strain of 10⁻²¹ means a 4-km arm changed by 10⁻¹⁸ m — less than a proton's diameter. The template match is exact.](../images/16-frontiers-of-physics-fig-03.png)
 *Figure 16.3 — LIGO gravitational-wave detection *
 
 The incompleteness of general relativity is well-defined. GR is a classical theory. It says nothing about quantum mechanics. At the center of a black hole, and in the first $10^{-43}$ seconds of the Big Bang, the spacetime curvature becomes so extreme that quantum-gravitational effects must dominate — and we have no theory for this regime. Every candidate theory (string theory, loop quantum gravity, others) has produced beautiful mathematics and no confirmed predictions that differ from the classical theory. The problem is not that we lack ideas; it is that the energy scale at which quantum gravity matters ($\sim 10^{19}$ GeV, the Planck scale) is about fifteen orders of magnitude beyond what any conceivable particle accelerator will ever reach. Testing quantum gravity may require cosmological observations rather than laboratory experiments.
@@ -82,7 +89,7 @@ Vera Rubin spent years in the 1970s measuring how fast stars orbit the centers o
 
 The speed did not fall off. It stayed flat.
 
-![The flat part is the problem. There is no visible mass out there to support those speeds.](images/16-frontiers-of-physics-fig-04.png)
+![The flat part is the problem. There is no visible mass out there to support those speeds.](../images/16-frontiers-of-physics-fig-04.png)
 *Figure 16.4 — Galactic rotation curve *
 
 To support a flat rotation curve at $v = 200$ km/s out to 30 kiloparsecs, the enclosed mass must be:
@@ -237,8 +244,7 @@ Welcome to the open frontier. Keep asking.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **Saul Perlmutter** co-discovered the accelerating expansion of the universe in 1998 — by observing distant supernovae that were dimmer than expected. The result implied dark energy, the dominant component of the universe nobody understands. Nobel 2011.
 
 **Run this:**

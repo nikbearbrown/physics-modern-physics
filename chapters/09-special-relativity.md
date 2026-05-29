@@ -1,4 +1,11 @@
 # Chapter 9 — Special Relativity
+
+## TL;DR
+
+- The machinery that turns two postulates into a universe where time is not a constant.
+- The chapter moves through What Simultaneity Actually Means, Why Moving Clocks Run Slow, Length Contraction and the Muon's Own Account, How Velocities Actually Add, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The machinery that turns two postulates into a universe where time is not a constant.*
 
 ---
@@ -7,7 +14,7 @@ In the basement of a dormitory at the Case School of Applied Science in Clevelan
 
 The ether was the medium light was supposed to travel through — the way sound travels through air. Nobody had ever seen it, but it seemed logically necessary. Waves wave in something. Light is a wave. Therefore light waves in something. The ether was that something, and Michelson and Morley were going to find it.
 
-![Schematic of the Michelson-Morley interferometer ](images/09-special-relativity-fig-01.png)
+![Schematic of the Michelson-Morley interferometer ](../images/09-special-relativity-fig-01.png)
 *Figure 9.1 — Schematic of the Michelson-Morley interferometer *
 
 Their interferometer was exquisite. Light from a sodium lamp was split into two beams, sent down perpendicular arms several meters long, bounced off mirrors, and recombined. The interference pattern where they met depended on whether the two beams took the same amount of time or slightly different amounts. If the Earth was moving through the ether at orbital speed — about 30 km/s — then the beam traveling parallel to Earth's motion should take slightly longer than the beam traveling perpendicular, because it would be fighting the ether current in one direction and riding it in the other, like a swimmer crossing a river versus swimming downstream and back. The interference pattern should shift measurably when the apparatus was rotated.
@@ -34,7 +41,7 @@ But accepting the second postulate forces consequences that nobody expected. Fro
 
 The first consequence, the one that cuts deepest, is about simultaneity.
 
-![Train-and-embankment simultaneity thought experiment ](images/09-special-relativity-fig-02.png)
+![Train-and-embankment simultaneity thought experiment ](../images/09-special-relativity-fig-02.png)
 *Figure 9.2 — Train-and-embankment simultaneity thought experiment *
 
 Imagine a train moving along a track at constant speed. Two lightning bolts strike the two ends of the train simultaneously — simultaneously, that is, from the perspective of an observer standing beside the track exactly at the midpoint between the two strikes. The light from both strikes reaches her at the same instant. She concludes: the two bolts struck at the same time.
@@ -55,7 +62,7 @@ Once this is clear, time dilation follows by a direct argument.
 
 Build the simplest clock imaginable. Two mirrors facing each other, separated by a distance $D$, with a pulse of light bouncing between them. Each round trip — down and back — takes $2D/c$. Call this the tick.
 
-![The path is longer at the same speed — so the tick takes longer.](images/09-special-relativity-fig-03.png)
+![The path is longer at the same speed — so the tick takes longer.](../images/09-special-relativity-fig-03.png)
 *Figure 9.3 — Light-clock time dilation derivation *
 
 Now put this clock on a moving spaceship and watch it from outside. The clock is moving horizontally. The light pulse, in your frame, has to travel diagonally — it goes up and sideways on the way to the top mirror, then down and sideways on the way back. The total path is longer than $2D$. But light travels at $c$ in your frame too — that is the second postulate. So if the path is longer and the speed is the same, the time for each tick is longer. The clock is running slow.
@@ -76,7 +83,7 @@ Time dilation is $\Delta t = \gamma \Delta t_0$. This is not an artifact of the 
 
 The effect is negligible at ordinary speeds. A car at 100 km/h has $\gamma$ differing from 1 by about $4 \times 10^{-14}$. A muon produced by cosmic rays at 0.99$c$ has $\gamma \approx 7$.
 
-![Γ as a function of v/c ](images/09-special-relativity-fig-04.png)
+![Γ as a function of v/c ](../images/09-special-relativity-fig-04.png)
 *Figure 9.4 — Γ as a function of v/c *
 
 That muon is worth dwelling on. It is created high in the atmosphere — typically 10 km up — when an energetic cosmic ray strikes an air molecule. A muon at rest decays into an electron and two neutrinos with a mean lifetime of 2.2 microseconds. At the speed of light, it would travel $c \times 2.2 \times 10^{-6}$ seconds, which is about 660 meters. It should decay long before reaching sea level. But muons rain down on the surface at a rate of about one per square centimeter per minute. They are making the 10-kilometer journey.
@@ -99,7 +106,7 @@ $$L = \frac{L_0}{\gamma}$$
 
 where $L_0$ is the proper length — the length measured in the object's rest frame — and $L$ is the length measured by an observer past whom the object is moving. At 0.99$c$, $\gamma \approx 7$, and the 10 km becomes about 1.4 km. At 0.99$c$, the muon crosses 1.4 km in about 4.7 microseconds in its own frame. It decays in 2.2 microseconds on average, so many of them make it, and the fraction that do is the same number Earth calculates.
 
-![Two different mechanisms, one physical outcome — the consistency of the theory.](images/09-special-relativity-fig-05.png)
+![Two different mechanisms, one physical outcome — the consistency of the theory.](../images/09-special-relativity-fig-05.png)
 *Figure 9.5 — Muon survival *
 
 Two different accounts, two different mechanisms — time dilation in Earth's frame, length contraction in the muon's frame — and the same physical outcome: the muon lands. This is not a coincidence. It is the consistency of the theory. The two effects are not independent phenomena. They are the same geometry seen from different frames.
@@ -128,7 +135,7 @@ $$u = \frac{0.9c + 0.9c}{1 + (0.9)(0.9)} = \frac{1.8c}{1.81} \approx 0.994c$$
 
 Not $1.8c$. Velocities saturate as they approach $c$. The speed of light is not a barrier you approach from below and asymptotically close in on. It is a hard limit built into the structure of the addition rule.
 
-![Relativistic vs](images/09-special-relativity-fig-06.png)
+![Relativistic vs](../images/09-special-relativity-fig-06.png)
 *Figure 9.6 — Relativistic vs*
 
 ---
@@ -161,7 +168,7 @@ The rest energy $mc^2$ is what makes nuclear physics work. When uranium-235 fiss
 
 This is not a special property of uranium. It is what happens whenever mass is converted to energy in any form. The Sun converts about 600 million tons of hydrogen into helium every second. The helium weighs slightly less than the hydrogen it came from. The difference — about 4 million tons per second — has become the light and heat that have powered the Earth for 4.5 billion years.
 
-![Mass-energy equivalence in context ](images/09-special-relativity-fig-07.png)
+![Mass-energy equivalence in context ](../images/09-special-relativity-fig-07.png)
 *Figure 9.7 — Mass-energy equivalence in context *
 
 ---
@@ -194,7 +201,7 @@ This is why the theory is called "relativity" — spatial distances and time int
 
 Newton's failure was not in his equations, which are almost exactly right at ordinary speeds. His failure was in his assumption about what was fundamental. He took space and time as given — absolute, universal, requiring no explanation. Einstein showed that the fundamental thing is the geometry of spacetime, of which Newton's space and time are a low-velocity shadow.
 
-![Each observer cuts spacetime differently — but the geometry they're cutting is the same.](images/09-special-relativity-fig-08.png)
+![Each observer cuts spacetime differently — but the geometry they're cutting is the same.](../images/09-special-relativity-fig-08.png)
 *Figure 9.8 — Spacetime diagram (Minkowski diagram) *
 
 ---
@@ -271,9 +278,7 @@ Save the output as logbook/chapter-28-relativity.md.
 
 ---
 
-## AI Wayback Machine
-
-**Hendrik Lorentz** developed the Lorentz transformation in 1904 — the equations relating measurements between observers in relative motion. Einstein's 1905 special relativity used Lorentz's mathematics with a different interpretation: not a real ether contraction, but a property of spacetime itself.
+##  AI Wayback Machine
 
 **Run this:**
 

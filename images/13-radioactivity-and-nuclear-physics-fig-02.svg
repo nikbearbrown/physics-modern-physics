@@ -1,25 +1,111 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Rutherford's 1899 magnetic deflection experiment </title>
-  <desc id="desc">One experiment, three beams. Everything known about nuclear radiation in the early 20th century begins here.</desc>
+<!--
+  Rutherford's 1899 Magnetic Deflection Experiment
+  Book: Physics +1: Modern Physics
+  Chapter: 13-radioactivity-and-nuclear-physics
+  Figure: 02
+  Type: Mechanism cross-section
+  Generated: 2026-05-25
+  Source: pantry/13-radioactivity-and-nuclear-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Rutherford's Magnetic Deflection — Three Kinds of Radiation</title>
+  <desc>Radium sample sits in a lead block with a narrow exit channel. Radiation passes through a perpendicular magnetic field. Three beams emerge: alpha particles (heavy, positive, slightly deflected one way), beta particles (light, negative, strongly deflected the other way), gamma rays (uncharged, undeflected, straight through). A detection screen on the far side records where each beam lands.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="13-radioactivity-and-nuclear-physics"
+      figure-number="02"
+      figure-title="Rutherford Magnetic Deflection"
+      figure-slug="alpha-beta-gamma"
+      figure-type="mechanism"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/13-radioactivity-and-nuclear-physics-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowink" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#2a1a0e"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Rutherford's 1899 magnetic deflection experiment </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">One experiment, three beams. Everything known about nuclear radiation in the early 20th century begins here.</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">RUTHERFORD'S</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">1899</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">MAGNETIC</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Rutherford 1899 — Three Kinds of Radiation, Sorted by a Magnet</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">α (heavy +), β (light −), γ (neutral). Mass and charge from deflection.</text>
+
+  <!-- Lead block (left) with cavity -->
+  <rect x="60" y="180" width="100" height="80" fill="#545454" stroke="#2a1a0e" stroke-width="1.5"/>
+  <!-- Radium sample inside (small circle) -->
+  <circle cx="100" cy="220" r="10" fill="#C8102E" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="100" y="170" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">Pb shield</text>
+  <text x="100" y="276" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Ra source</text>
+  <!-- Exit channel -->
+  <rect x="160" y="216" width="40" height="8" fill="#FFFFFF"/>
+
+  <!-- Magnetic field region (dots for B out of page) -->
+  <rect x="220" y="120" width="220" height="180" fill="#F5F5F5" stroke="#545454" stroke-width="0.5" stroke-dasharray="3 2"/>
+  <g fill="#7B61A8">
+    <circle cx="260" cy="150" r="1.5"/>
+    <circle cx="320" cy="150" r="1.5"/>
+    <circle cx="380" cy="150" r="1.5"/>
+    <circle cx="420" cy="150" r="1.5"/>
+    <circle cx="260" cy="190" r="1.5"/>
+    <circle cx="320" cy="190" r="1.5"/>
+    <circle cx="380" cy="190" r="1.5"/>
+    <circle cx="420" cy="190" r="1.5"/>
+    <circle cx="260" cy="230" r="1.5"/>
+    <circle cx="320" cy="230" r="1.5"/>
+    <circle cx="380" cy="230" r="1.5"/>
+    <circle cx="420" cy="230" r="1.5"/>
+    <circle cx="260" cy="270" r="1.5"/>
+    <circle cx="320" cy="270" r="1.5"/>
+    <circle cx="380" cy="270" r="1.5"/>
+    <circle cx="420" cy="270" r="1.5"/>
+  </g>
+  <text x="330" y="138" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#7B61A8">B⃗ out of page</text>
+
+  <!-- Three trajectories from exit channel (200, 220) -->
+  <!-- α: heavy positive, slight upward curve. End at y ≈ 180 -->
+  <path d="M 200 220 Q 320 215 440 200" stroke="#C8102E" stroke-width="2" fill="none" marker-end="url(#arrowink)"/>
+  <text x="440" y="195" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">α</text>
+
+  <!-- γ: undeflected, straight -->
+  <line x1="200" y1="220" x2="440" y2="220" stroke="#545454" stroke-width="2" marker-end="url(#arrowink)"/>
+  <text x="440" y="234" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">γ</text>
+
+  <!-- β: light negative, strong downward curve. End at y ≈ 280 -->
+  <path d="M 200 220 Q 320 240 440 280" stroke="#56B4E9" stroke-width="2" fill="none" marker-end="url(#arrowink)"/>
+  <text x="440" y="290" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">β</text>
+
+  <!-- Detection screen (right) -->
+  <line x1="460" y1="120" x2="460" y2="300" stroke="#2a1a0e" stroke-width="3"/>
+  <text x="476" y="200" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">detection</text>
+  <text x="476" y="212" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">screen</text>
+
+  <!-- Detection spots on screen -->
+  <circle cx="460" cy="200" r="4" fill="#C8102E"/>
+  <circle cx="460" cy="220" r="4" fill="#545454"/>
+  <circle cx="460" cy="280" r="4" fill="#56B4E9"/>
+
+  <!-- Identification table -->
+  <rect x="500" y="120" width="160" height="180" fill="#F5F5F5" stroke="#545454" stroke-width="0.75"/>
+  <text x="580" y="138" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" letter-spacing="0.06em">IDENTIFICATION</text>
+  <line x1="510" y1="144" x2="650" y2="144" stroke="#545454" stroke-width="0.25"/>
+  <text x="510" y="162" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">α  =  ⁴He nucleus</text>
+  <text x="510" y="178" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">    heavy, +2e</text>
+
+  <text x="510" y="206" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">γ  =  photon</text>
+  <text x="510" y="222" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">    massless, neutral</text>
+
+  <text x="510" y="250" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">β  =  electron</text>
+  <text x="510" y="266" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">    light, −1e</text>
+
+  <!-- Caption -->
+  <rect x="60" y="356" width="600" height="36" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="360" y="376" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">A single magnet sorted three different particles by mass-to-charge.</text>
+  <text x="360" y="388" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">Becquerel discovered radioactivity in 1896 by accident; Rutherford named the three types in 1899.</text>
 </svg>

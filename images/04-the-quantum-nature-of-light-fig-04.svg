@@ -1,25 +1,73 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Photograph or diagram of a comet showing both</title>
-  <desc id="desc">The tail points away from the Sun in both directions of travel. This is not aerodynamic drag. It is radiation pressure — photon momentum accumulated o</desc>
+<!--
+  Comet Tail Geometry — Radiation Pressure
+  Book: Physics +1: Modern Physics
+  Chapter: 04-the-quantum-nature-of-light
+  Figure: 04
+  Type: Annotated example
+  Generated: 2026-05-25
+  Source: pantry/04-the-quantum-nature-of-light-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Comet Tails Always Point Away from the Sun</title>
+  <desc>A comet orbits the Sun on an elliptical path. At two positions, approaching and receding, the comet's tail points radially away from the Sun, not opposite to motion. The tail is pushed by photon momentum (radiation pressure) plus the solar wind, both flowing radially outward.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="04-the-quantum-nature-of-light"
+      figure-number="04"
+      figure-title="Comet Tail Geometry"
+      figure-slug="comet-tail"
+      figure-type="annotated-example"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/04-the-quantum-nature-of-light-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowoch" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8860E"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8102E"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Photograph or diagram of a comet showing both</text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The tail points away from the Sun in both directions of travel. This is not aerodynamic drag. It is radiation pressure — photon momentum accumulated o</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">PHOTOGRAPH</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">OR</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">DIAGRAM</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Comet Tails Always Point Away From the Sun</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Photon momentum + solar wind push the dust and ions radially outward.</text>
+
+  <circle cx="350" cy="210" r="22" fill="#C8860E" opacity="0.9" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="350" y="246" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">Sun</text>
+
+  <g stroke="#C8860E" stroke-width="0.75" fill="none" opacity="0.5">
+    <line x1="350" y1="180" x2="350" y2="155" marker-end="url(#arrowoch)"/>
+    <line x1="350" y1="240" x2="350" y2="265" marker-end="url(#arrowoch)"/>
+    <line x1="378" y1="195" x2="408" y2="180" marker-end="url(#arrowoch)"/>
+    <line x1="378" y1="225" x2="408" y2="240" marker-end="url(#arrowoch)"/>
+    <line x1="322" y1="195" x2="292" y2="180" marker-end="url(#arrowoch)"/>
+    <line x1="322" y1="225" x2="292" y2="240" marker-end="url(#arrowoch)"/>
+  </g>
+
+  <ellipse cx="350" cy="210" rx="230" ry="120" fill="none" stroke="#545454" stroke-width="0.75" stroke-dasharray="4 3"/>
+
+  <circle cx="160" cy="140" r="6" fill="#56B4E9" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="148" y="128" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">A · approaching</text>
+  <line x1="170" y1="138" x2="200" y2="130" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrowred)"/>
+  <text x="200" y="120" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#2a1a0e">motion</text>
+  <line x1="154" y1="134" x2="100" y2="86" stroke="#C8102E" stroke-width="2" marker-end="url(#arrowred)"/>
+  <text x="100" y="78" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">tail (away from Sun)</text>
+
+  <circle cx="540" cy="280" r="6" fill="#56B4E9" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="552" y="298" text-anchor="start" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">B · receding</text>
+  <line x1="534" y1="284" x2="510" y2="300" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrowred)"/>
+  <text x="500" y="316" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#2a1a0e">motion</text>
+  <line x1="546" y1="286" x2="610" y2="340" stroke="#C8102E" stroke-width="2" marker-end="url(#arrowred)"/>
+  <text x="616" y="350" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">tail (away from Sun)</text>
+
+  <rect x="60" y="376" width="580" height="36" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="396" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">The tail does not "trail" the comet. It points away from the Sun — light pushes.</text>
 </svg>

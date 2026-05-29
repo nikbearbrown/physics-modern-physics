@@ -1,0 +1,87 @@
+<!--
+  Hydrostatic Equilibrium as a Thermostat
+  Book: Physics +1: Modern Physics
+  Chapter: 03-the-sun-a-nuclear-powerhouse
+  Figure: 06
+  Type: Cycle diagram (feedback loop)
+  Generated: 2026-05-25
+  Source: pantry/03-the-sun-a-nuclear-powerhouse-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Hydrostatic Equilibrium — The Sun as a Thermostat</title>
+  <desc>Two opposing feedback loops show how the Sun self-regulates. Outer loop (sky-blue, cooling-corrects): core cools slightly → fusion slows → pressure drops → outer layers compress → core heats → fusion accelerates → returns to equilibrium. Inner loop (vermillion, heating-corrects): core heats slightly → fusion accelerates → pressure rises → layers expand → core cools → fusion slows. The exponential temperature dependence of fusion rate makes the feedback strong; perturbations damp within seconds.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="03-the-sun-a-nuclear-powerhouse"
+      figure-number="06"
+      figure-title="Hydrostatic Thermostat"
+      figure-slug="hydrostatic-thermostat"
+      figure-type="cycle"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/03-the-sun-a-nuclear-powerhouse-cajal.md"
+    />
+  </metadata>
+  <defs>
+    <marker id="arrowblue" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#56B4E9"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8102E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The Sun Is a Thermostat — Self-Regulating Fusion</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Exponential T-sensitivity of fusion rate → strong negative feedback → seconds-fast damping.</text>
+
+  <!-- Center label -->
+  <circle cx="350" cy="240" r="40" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.25"/>
+  <text x="350" y="236" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Sun</text>
+  <text x="350" y="252" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">stable</text>
+
+  <!-- Outer loop boxes (cooling-corrects, sky-blue, clockwise) -->
+  <!-- Top: "core cools" -->
+  <rect x="270" y="100" width="160" height="40" fill="#F5F5F5" stroke="#56B4E9" stroke-width="1.5" rx="4"/>
+  <text x="350" y="118" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">core cools slightly</text>
+  <text x="350" y="132" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">→ fusion slows</text>
+
+  <!-- Right: "pressure drops" -->
+  <rect x="510" y="220" width="160" height="40" fill="#F5F5F5" stroke="#56B4E9" stroke-width="1.5" rx="4"/>
+  <text x="590" y="238" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">pressure drops</text>
+  <text x="590" y="252" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">→ layers compress</text>
+
+  <!-- Bottom: "core heats" -->
+  <rect x="270" y="340" width="160" height="40" fill="#F5F5F5" stroke="#56B4E9" stroke-width="1.5" rx="4"/>
+  <text x="350" y="358" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">core heats</text>
+  <text x="350" y="372" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">→ fusion accelerates</text>
+
+  <!-- Left: "→ back to equilibrium" -->
+  <rect x="30" y="220" width="160" height="40" fill="#F5F5F5" stroke="#56B4E9" stroke-width="1.5" rx="4"/>
+  <text x="110" y="238" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">returns to</text>
+  <text x="110" y="252" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">equilibrium</text>
+
+  <!-- Curved arrows connecting (clockwise) -->
+  <path d="M 430 130 Q 510 160 530 220" stroke="#56B4E9" stroke-width="1.5" fill="none" marker-end="url(#arrowblue)"/>
+  <path d="M 530 260 Q 510 320 430 350" stroke="#56B4E9" stroke-width="1.5" fill="none" marker-end="url(#arrowblue)"/>
+  <path d="M 270 350 Q 190 320 170 260" stroke="#56B4E9" stroke-width="1.5" fill="none" marker-end="url(#arrowblue)"/>
+  <path d="M 170 220 Q 190 160 270 130" stroke="#56B4E9" stroke-width="1.5" fill="none" marker-end="url(#arrowblue)"/>
+
+  <!-- Center labels for cycles -->
+  <text x="590" y="200" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">cooling perturbation</text>
+  <text x="590" y="284" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">heating perturbation</text>
+
+  <!-- Mirror loop annotation (just label - the inverse path runs the other way) -->
+  <text x="110" y="200" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">if heated:</text>
+  <text x="110" y="284" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">expand → cool → slow</text>
+
+  <!-- Caption -->
+  <rect x="60" y="400" width="580" height="44" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="420" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">The Sun isn't a bomb — it's a thermostat.</text>
+  <text x="350" y="438" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Same exponential T-sensitivity that makes fusion powerful makes it controllable.</text>
+</svg>

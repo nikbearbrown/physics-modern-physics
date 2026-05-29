@@ -1,25 +1,69 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Illustration of why high-frequency modes go dark</title>
-  <desc id="desc">The minimum wage problem: high-frequency modes require more energy per quantum than the system can afford. They go unexcited. The catastrophe vanishes</desc>
+<!--
+  Why High-Frequency Modes Go Dark
+  Book: Physics +1: Modern Physics
+  Chapter: 04-the-quantum-nature-of-light
+  Figure: 02
+  Type: Conceptual map / mechanism diagram
+  Generated: 2026-05-25
+  Source: pantry/04-the-quantum-nature-of-light-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Why High-Frequency Modes Go Dark — the Quantization Tax</title>
+  <desc>Bar chart of energy per quantum h f rising linearly with frequency. A horizontal threshold line at thermal energy k B T marks the affordability line. Modes below the line — low frequencies — are populated and contribute to the radiance. Modes above the line — high frequencies — cost more than one thermal energy quantum and are statistically suppressed.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="04-the-quantum-nature-of-light"
+      figure-number="02"
+      figure-title="High-Freq Modes Go Dark"
+      figure-slug="modes-go-dark"
+      figure-type="conceptual"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/04-the-quantum-nature-of-light-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
+    <pattern id="dark-hatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#545454" stroke-width="0.75"/>
+    </pattern>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Illustration of why high-frequency modes go dark</text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The minimum wage problem: high-frequency modes require more energy per quantum than the system can afford. They go unexcited. The catastrophe vanishes</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">ILLUSTRATION</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">OF</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">WHY</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">High-Frequency Modes Go Dark — Quantum Cost Exceeds Thermal Budget</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Each photon costs hf. The thermal budget is k_B T. Above the line, modes can't afford to fire.</text>
+
+  <line x1="100" y1="340" x2="660" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+
+  <text x="50" y="220" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 50 220)">ENERGY PER QUANTUM (hf)</text>
+  <text x="380" y="376" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">FREQUENCY (low → high)</text>
+
+  <line x1="100" y1="240" x2="660" y2="240" stroke="#C8102E" stroke-width="1.5" stroke-dasharray="6 3"/>
+  <text x="670" y="244" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">k_B T (thermal budget)</text>
+
+  <rect x="120" y="320" width="40" height="20" fill="#56B4E9"/>
+  <rect x="170" y="300" width="40" height="40" fill="#56B4E9"/>
+  <rect x="220" y="282" width="40" height="58" fill="#56B4E9"/>
+  <rect x="270" y="265" width="40" height="75" fill="#56B4E9"/>
+  <rect x="320" y="248" width="40" height="92" fill="#56B4E9"/>
+  <rect x="370" y="240" width="40" height="100" fill="#56B4E9" opacity="0.5"/>
+  <rect x="420" y="220" width="40" height="120" fill="url(#dark-hatch)" stroke="#545454" stroke-width="0.5"/>
+  <rect x="470" y="195" width="40" height="145" fill="url(#dark-hatch)" stroke="#545454" stroke-width="0.5"/>
+  <rect x="520" y="170" width="40" height="170" fill="url(#dark-hatch)" stroke="#545454" stroke-width="0.5"/>
+  <rect x="570" y="140" width="40" height="200" fill="url(#dark-hatch)" stroke="#545454" stroke-width="0.5"/>
+  <rect x="620" y="110" width="40" height="230" fill="url(#dark-hatch)" stroke="#545454" stroke-width="0.5"/>
+
+  <text x="240" y="284" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">"active" modes</text>
+  <text x="240" y="298" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">hf &lt; k_B T</text>
+
+  <text x="540" y="155" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">"dark" modes</text>
+  <text x="540" y="168" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">hf &gt; k_B T → suppressed</text>
+
+  <rect x="100" y="386" width="560" height="26" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="380" y="404" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Quantization sets a price floor per photon. Expensive modes can't fire → catastrophe averted.</text>
 </svg>

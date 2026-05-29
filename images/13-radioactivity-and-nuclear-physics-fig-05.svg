@@ -1,36 +1,110 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Binding energy per nucleon vs</title>
-  <desc id="desc">The most important graph in nuclear physics. Both fusion and fission move toward iron — they release energy for opposite physical reasons.</desc>
+<!--
+  Binding Energy per Nucleon vs Mass Number
+  Book: Physics +1: Modern Physics
+  Chapter: 13-radioactivity-and-nuclear-physics
+  Figure: 05
+  Type: Statistical / quantitative
+  Generated: 2026-05-25
+  Source: pantry/13-radioactivity-and-nuclear-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Binding Energy per Nucleon — Why Both Fusion AND Fission Release Energy</title>
+  <desc>Plot of binding energy per nucleon in MeV versus mass number A from 1 to 240. Curve rises sharply from hydrogen-1 at zero, spikes at helium-4, smoothly rises to a peak at iron-56 around 8.8 MeV per nucleon, then gradually declines toward uranium-238 at 7.6 MeV per nucleon. Fe-56 marked as the most tightly bound nucleus. Fusion releases energy going up the left side; fission releases energy coming down the right.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="13-radioactivity-and-nuclear-physics"
+      figure-number="05"
+      figure-title="Binding Energy Curve"
+      figure-slug="binding-energy-curve"
+      figure-type="quantitative"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/13-radioactivity-and-nuclear-physics-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowoch" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8860E"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Binding energy per nucleon vs</text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The most important graph in nuclear physics. Both fusion and fission move toward iron — they release energy for opposite physical reasons.</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="145" y1="180" x2="190" y2="135" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="190" y1="135" x2="226" y2="205" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="226" y1="205" x2="176" y2="242" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="176" y1="242" x2="145" y2="180" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="145" y1="180" x2="226" y2="205" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="468" y1="150" x2="520" y2="196" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="520" y1="196" x2="466" y2="250" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="466" y1="250" x2="560" y2="254" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="468" y1="150" x2="466" y2="250" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="226" y1="205" x2="350" y2="206" stroke="#C8102E" stroke-width="2"/>
-  <line x1="350" y1="206" x2="468" y2="150" stroke="#C8102E" stroke-width="2"/>
-  <circle cx="145" cy="180" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="190" cy="135" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="226" cy="205" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="176" cy="242" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="468" cy="150" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="520" cy="196" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="466" cy="250" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="560" cy="254" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="350" cy="206" r="13" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
-  <text x="168" y="304" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">CLUSTER A</text>
-  <text x="504" y="304" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">CLUSTER B</text>
-  <text x="350" y="332" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The emphasized bridge shows the structural relation named in the prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Binding Energy per Nucleon — The Most Important Plot in Nuclear Physics</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Fe-56 is the most-bound nucleus. Move toward it from either side → energy out.</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="340" x2="660" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+
+  <text x="50" y="220" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 50 220)">BE / A (MeV)</text>
+  <text x="380" y="376" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">MASS NUMBER A</text>
+
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="end">
+    <text x="94" y="344">0</text>
+    <text x="94" y="293">2</text>
+    <text x="94" y="242">4</text>
+    <text x="94" y="191">6</text>
+    <text x="94" y="140">8</text>
+    <text x="94" y="108">9.5</text>
+  </g>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="95" y1="289" x2="105" y2="289"/>
+    <line x1="95" y1="238" x2="105" y2="238"/>
+    <line x1="95" y1="187" x2="105" y2="187"/>
+    <line x1="95" y1="136" x2="105" y2="136"/>
+  </g>
+
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="356">0</text>
+    <text x="220" y="356">50</text>
+    <text x="340" y="356">100</text>
+    <text x="460" y="356">150</text>
+    <text x="580" y="356">200</text>
+    <text x="660" y="356">240</text>
+  </g>
+
+  <!-- Binding energy curve. y(BE/A) = 340 - (BE/A)*25.5 (since 9 MeV ~ y=110)
+       Key points:
+       H-1: A=1 → x=104, BE/A=0 → y=340
+       He-4: A=4 → x=110, BE/A=7.07 → y=159 (early spike)
+       Li: A=7 → 5.6 → y=197
+       C-12: A=12 → x=126, BE/A=7.68 → y=144
+       O-16: A=16 → x=134, BE/A=7.98 → y=137
+       Fe-56: A=56 → x=234, BE/A=8.79 → y=116 (peak)
+       Ni-62: A=62 → x=249, BE/A=8.79 → y=116
+       Sn-118: A=118 → x=383, BE/A=8.52 → y=123
+       Au-197: A=197 → x=573, BE/A=7.91 → y=138
+       U-238: A=238 → x=671, BE/A=7.57 → y=147 -->
+
+  <path d="M 104 340 L 108 200 Q 110 159 114 159 L 118 175 Q 122 165 126 144 L 134 137 Q 160 124 200 119 Q 220 116 234 116 L 260 116 Q 310 120 383 123 Q 460 128 540 134 Q 600 142 660 147" stroke="#56B4E9" stroke-width="2.5" fill="none"/>
+
+  <!-- He-4 spike marker -->
+  <circle cx="114" cy="159" r="3" fill="#C8102E"/>
+  <text x="124" y="158" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">⁴He</text>
+
+  <!-- Fe-56 peak marker -->
+  <circle cx="234" cy="116" r="5" fill="#C8102E"/>
+  <line x1="234" y1="116" x2="234" y2="100" stroke="#C8102E" stroke-width="0.5"/>
+  <text x="234" y="94" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">Fe-56 · most-bound</text>
+  <text x="234" y="82" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">8.79 MeV/nucleon</text>
+
+  <!-- U-238 marker -->
+  <circle cx="660" cy="147" r="3" fill="#C8102E"/>
+  <text x="652" y="142" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">U-238</text>
+
+  <!-- Fusion / fission arrows -->
+  <line x1="150" y1="240" x2="220" y2="160" stroke="#C8860E" stroke-width="2" marker-end="url(#arrowoch)"/>
+  <text x="160" y="260" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8860E">← fusion</text>
+
+  <line x1="600" y1="160" x2="280" y2="135" stroke="#C8860E" stroke-width="2" marker-end="url(#arrowoch)"/>
+  <text x="500" y="180" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8860E">fission →</text>
+
+  <!-- Caption -->
+  <rect x="100" y="386" width="560" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="380" y="402" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Energy is released moving toward Fe — from either side. The Sun goes one way; reactors the other.</text>
 </svg>

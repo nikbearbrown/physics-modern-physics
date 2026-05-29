@@ -1,0 +1,86 @@
+<!--
+  Standing Wave on Circular Orbit (de Broglie Justification)
+  Book: Physics +1: Modern Physics
+  Chapter: 05-the-atom
+  Figure: 03
+  Type: Mechanism diagram (3 panels)
+  Generated: 2026-05-25
+  Source: pantry/05-the-atom-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Standing Waves on a Circular Orbit — Why Bohr's Quantization Works</title>
+  <desc>Three panels show electron waves wrapped around circular orbits. Panel A n equals 1: one full wavelength fits around the circumference; wave closes on itself. Panel B n equals 2: two wavelengths fit; closes again. Panel C forbidden: a non-integer number of wavelengths fails to close — destructive interference with itself, the wave vanishes. Only integer wavelengths survive, recovering Bohr's quantization rule from a wave argument.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="05-the-atom"
+      figure-number="03"
+      figure-title="Standing Wave on Orbit"
+      figure-slug="standing-wave-orbit"
+      figure-type="mechanism"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/05-the-atom-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">de Broglie's Insight — Electron Waves Must Close on Themselves</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Bohr's quantization rule is a wave condition in disguise.</text>
+
+  <line x1="240" y1="80" x2="240" y2="340" stroke="#2a1a0e" stroke-width="0.5"/>
+  <line x1="460" y1="80" x2="460" y2="340" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel A: n=1 -->
+  <text x="120" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(A) n = 1 · ONE λ</text>
+
+  <!-- Orbit circle -->
+  <circle cx="120" cy="220" r="60" fill="none" stroke="#545454" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <!-- Nucleus dot -->
+  <circle cx="120" cy="220" r="3" fill="#C8102E"/>
+
+  <!-- Standing wave: 1 full wavelength around (one peak, one trough) -->
+  <!-- Approximate as a sinusoid riding on circle of radius 60, varying ±10 -->
+  <path d="M 180 220 Q 175 200 165 184 Q 145 158 120 156 Q 95 158 75 184 Q 65 200 60 220 Q 65 240 75 256 Q 95 282 120 284 Q 145 282 165 256 Q 175 240 180 220" stroke="#56B4E9" stroke-width="2" fill="none"/>
+
+  <text x="120" y="324" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">2πr = 1 · λ ✓</text>
+
+  <!-- Panel B: n=2 -->
+  <text x="350" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(B) n = 2 · TWO λ</text>
+
+  <circle cx="350" cy="220" r="60" fill="none" stroke="#545454" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <circle cx="350" cy="220" r="3" fill="#C8102E"/>
+
+  <!-- Standing wave: 2 wavelengths (4 nodes/antinodes around) -->
+  <path d="M 410 220 Q 405 230 397 240 Q 385 232 390 220 Q 395 208 397 200 Q 385 208 380 220 Q 380 245 365 270 Q 350 285 335 270 Q 320 245 320 220 Q 315 208 303 200 Q 305 208 310 220 Q 315 232 303 240 Q 295 230 290 220 Q 290 195 305 170 Q 320 155 335 170 Q 350 195 350 220 Q 350 195 365 170 Q 380 155 395 170 Q 410 195 410 220" stroke="#56B4E9" stroke-width="2" fill="none"/>
+
+  <text x="350" y="324" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">2πr = 2 · λ ✓</text>
+
+  <!-- Panel C: forbidden (non-integer) -->
+  <text x="570" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">(C) NON-INTEGER · FORBIDDEN</text>
+
+  <circle cx="570" cy="220" r="60" fill="none" stroke="#545454" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <circle cx="570" cy="220" r="3" fill="#C8102E"/>
+
+  <!-- Non-integer wave that doesn't close -->
+  <!-- Show a wave that starts at one point and ends offset (gap) -->
+  <path d="M 630 220 Q 625 200 615 184 Q 595 158 570 156 Q 545 158 525 184 Q 515 200 510 220 Q 515 240 525 256 Q 545 282 570 284 Q 580 283 590 274" stroke="#C8102E" stroke-width="2" fill="none" stroke-dasharray="4 2" opacity="0.7"/>
+
+  <!-- Gap indicator -->
+  <circle cx="630" cy="220" r="3" fill="#C8102E"/>
+  <circle cx="592" cy="274" r="3" fill="#C8102E"/>
+  <line x1="610" y1="250" x2="616" y2="244" stroke="#C8102E" stroke-width="1.5"/>
+  <line x1="616" y1="250" x2="610" y2="244" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="640" y="252" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">mismatch</text>
+
+  <text x="570" y="324" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">wave can't close → vanishes</text>
+
+  <!-- Formula + caption -->
+  <rect x="60" y="356" width="580" height="50" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="376" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">2π r = n λ  →  m v r = n ℏ  (Bohr's rule, recovered)</text>
+  <text x="350" y="394" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Quantization comes from waves; integers come from "fits into the circumference."</text>
+</svg>

@@ -1,5 +1,12 @@
 # Chapter 1 — The Speed Limit: What Einstein's Postulates Reveal About Space, Time, and Energy
 
+
+## TL;DR
+
+- Here is something that actually happened.
+- The chapter moves through Two Postulates, Simultaneity Goes First, Why Clocks Slow Down, Why Objects Shrink, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 ---
 
 Here is something that actually happened. In 1887, two careful experimenters — Michelson and Morley, working in Cleveland — set out to measure how fast the Earth moves through the substance that light was supposed to travel through. The substance was called the ether. Every wave needs a medium: sound moves through air, ocean waves move through water, and it seemed obvious that light, being a wave, had to move through something. The ether was that something.
@@ -263,9 +270,7 @@ to matter (1%? 10%? 50%)?
 
 ---
 
-## AI Wayback Machine
-
-**Hendrik Lorentz** developed the Lorentz transformation in 1904 — the mathematical foundation Einstein used in 1905.
+##  AI Wayback Machine
 
 **Run this:**
 
@@ -281,3 +286,21 @@ Who is Hendrik Lorentz, and how does their work connect to special relativity we
 - Add a constraint: "Answer including criticisms or limits of Hendrik Lorentz's framework."
 
 What changes? What gets better? What gets worse?
+![The Light Clock](../images/01-special-relativity-fig-01.png)
+*Figure 1.1 — The Light Clock*
+
+![Relativity of Simultaneity](../images/01-special-relativity-fig-02.png)
+*Figure 1.2 — Relativity of Simultaneity*
+
+![The Lorentz Factor γ vs v/c](../images/01-special-relativity-fig-03.png)
+*Figure 1.3 — The Lorentz Factor γ vs v/c*
+
+![Muon Story](../images/01-special-relativity-fig-04.png)
+*Figure 1.4 — Muon Story*
+
+![Length Contraction](../images/01-special-relativity-fig-05.png)
+*Figure 1.5 — Length Contraction*
+
+![Energy vs v/c](../images/01-special-relativity-fig-06.png)
+*Figure 1.6 — Energy vs v/c*
+

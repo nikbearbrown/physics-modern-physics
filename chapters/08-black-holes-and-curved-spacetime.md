@@ -1,4 +1,11 @@
 # Chapter 8 — Black Holes and Curved Spacetime
+
+## TL;DR
+
+- What a Dying Mathematician Found in Einstein's Equations While the War Was Ending Around Him.
+- The chapter moves through Gravity Is Not a Force, The Event Horizon, Seeing the Invisible, What General Relativity Actually Predicts, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *What a Dying Mathematician Found in Einstein's Equations While the War Was Ending Around Him.*
 
 **TL;DR:** Gravity is not a force pulling things down but the curvature of space and time itself — a shift in perspective so fundamental it rewrites what happens at the end of a massive star's life. We have detected black holes and confirmed Einstein's prediction through gravitational waves and X-ray astronomy.
@@ -15,7 +22,7 @@ The universe, it turns out, does this constantly. The galaxy is full of the remn
 
 This chapter explains three things. First, what gravity actually is according to Einstein — not a force, but the curvature of spacetime. Second, what the event horizon is and why it forms. Third, how we detect objects that, by definition, emit no light.
 
-![From mathematical curiosity to confirmed observation in one century. Each milestone closed a gap between theory and evidence.](images/08-black-holes-and-curved-spacetime-fig-01.png)
+![From mathematical curiosity to confirmed observation in one century. Each milestone closed a gap between theory and evidence.](../images/08-black-holes-and-curved-spacetime-fig-01.png)
 *Figure 8.1 — Timeline of black hole confirmation *
 
 ---
@@ -44,7 +51,7 @@ In flat spacetime (far from any mass), geodesics are straight lines. Light trave
 
 In curved spacetime (near a massive object), geodesics are curves. Even light — which has no mass and experiences no gravitational force in Newton's picture — follows the curved geodesics of spacetime. It has to. There's nowhere else to go. Spacetime is all there is, and everything moves through it.
 
-![Gravity is not pulling the light. The geometry of space has changed, and the light follows the only available path.](images/08-black-holes-and-curved-spacetime-fig-02.png)
+![Gravity is not pulling the light. The geometry of space has changed, and the light follows the only available path.](../images/08-black-holes-and-curved-spacetime-fig-02.png)
 *Figure 8.2 — Two panels *
 
 This prediction was tested first during the total solar eclipse of 1919. Einstein had calculated that starlight passing close to the Sun's limb should be deflected by 1.75 arcseconds — not because gravity pulls on photons, but because spacetime near the Sun is curved. Arthur Eddington's expedition photographed stars near the Sun during totality and measured the apparent displacement of their positions. The result matched Einstein's prediction. The Sun was bending space, and light was following.
@@ -81,7 +88,7 @@ For the Sun ($M = 2 \times 10^{30}$ kg), this gives $R_S \approx 3$ km. For Eart
 
 The formula depends only on mass. Nothing else. Not what the object is made of, not its temperature, not its history. Only mass determines the critical radius.
 
-![The Schwarzschild radius spans 28 orders of magnitude in size across the mass range of known black holes.](images/08-black-holes-and-curved-spacetime-fig-03.png)
+![The Schwarzschild radius spans 28 orders of magnitude in size across the mass range of known black holes.](../images/08-black-holes-and-curved-spacetime-fig-03.png)
 *Figure 8.3 — Schwarzschild radius comparison across scales *
 
 The event horizon is not a physical surface. There is no shell, no wall, no detectable barrier. If you fell through it, you would not feel it. You would not see it. To a freely falling observer, the event horizon is locally indistinguishable from ordinary space. This is the equivalence principle again: locally, free fall looks like the absence of gravity. The horizon is a global feature of the geometry, not a local one.
@@ -90,7 +97,7 @@ What makes it remarkable is what happens to the paths available to you once you'
 
 This is the feature that physicists mean when they say the event horizon is a one-way membrane. Not that something stops you at the boundary, but that on the other side, the structure of spacetime itself has changed.
 
-![The event horizon is not a wall. It is the boundary where the future changes direction.](images/08-black-holes-and-curved-spacetime-fig-04.png)
+![The event horizon is not a wall. It is the boundary where the future changes direction.](../images/08-black-holes-and-curved-spacetime-fig-04.png)
 *Figure 8.4 — Light cone diagram showing the event horizon *
 
 Let me compute a real example. Astronomers have tracked stars at the center of the Milky Way for thirty years, measuring their positions and velocities with infrared telescopes. The stars trace elliptical orbits around an invisible point. Applying Kepler's third law — the same relationship between orbital period and radius that Kepler found for planets around the Sun — gives the mass of the central object: approximately four million solar masses, confined to a volume less than the orbit of Mercury.
@@ -101,7 +108,7 @@ $$R_S = \frac{2 \times (6.67 \times 10^{-11}) \times (4 \times 10^6) \times (1.9
 
 About 12 million kilometers — roughly one-fifth the radius of Mercury's orbit. This object, Sagittarius A*, is invisible at optical wavelengths, not because it is dark in the sense of reflecting no light, but because it is a black hole, and the geometry of its spacetime permits no light to escape from within that 12-million-kilometer boundary.
 
-![Stars orbit the Galactic center as if something with 4 million solar masses sits there. The object is invisible. Kepler's law identifies it.](images/08-black-holes-and-curved-spacetime-fig-05.png)
+![Stars orbit the Galactic center as if something with 4 million solar masses sits there. The object is invisible. Kepler's law identifies it.](../images/08-black-holes-and-curved-spacetime-fig-05.png)
 *Figure 8.5 — Stellar orbits around Sagittarius A* *
 
 One important correction to a persistent misconception: black holes are not cosmic vacuum cleaners. They do not suck. A black hole's gravitational field at large distances is identical to that of the ordinary star that formed it. If the Sun magically became a black hole — it can't, it's too low mass, but suppose — Earth's orbit would be unchanged. We would continue orbiting the same as now, in permanent darkness, at the same distance, experiencing the same gravitational acceleration. The black hole's effect differs from the original star only when you get very close — within a few Schwarzschild radii.
@@ -122,7 +129,7 @@ By measuring the orbital period and the companion star's velocity, Kepler's law 
 
 This is not a direct detection. It is an inference from orbital mechanics and X-ray emission. But the inference is tight. We now know of more than a dozen stellar-mass black holes in binary systems, with masses ranging from 5 to 21 solar masses.
 
-![The black hole is invisible. The X-rays from the disk and the companion star's orbital motion together make its presence unmistakable.](images/08-black-holes-and-curved-spacetime-fig-06.png)
+![The black hole is invisible. The X-rays from the disk and the companion star's orbital motion together make its presence unmistakable.](../images/08-black-holes-and-curved-spacetime-fig-06.png)
 *Figure 8.6 — X-ray binary schematic *
 
 **Gravitational waves.** In September 2015, the LIGO detectors — two instruments in Louisiana and Washington, each consisting of two perpendicular laser-beam arms four kilometers long — measured something that shook the infrastructure of physics. Both instruments registered a signal lasting about 0.2 seconds, rising in frequency from 35 to 150 Hz. It was the chirp of two black holes spiraling together.
@@ -135,7 +142,7 @@ The signal arrived at the Louisiana detector 7 milliseconds before the Washingto
 
 This was not an inference. This was spacetime itself vibrating against our instruments. The result won the Nobel Prize in Physics in 2017, and since then, LIGO and its partner detector Virgo in Italy have catalogued hundreds of mergers — black holes colliding with black holes, neutron stars colliding with black holes, neutron stars colliding with each other.
 
-![Two detectors, separated by 3,000 km, registered the same signal 7 milliseconds apart. Spacetime had vibrated.](images/08-black-holes-and-curved-spacetime-fig-07.png)
+![Two detectors, separated by 3,000 km, registered the same signal 7 milliseconds apart. Spacetime had vibrated.](../images/08-black-holes-and-curved-spacetime-fig-07.png)
 *Figure 8.7 — LIGO schematic and GW150914 signal *
 
 **The shadow of the event horizon.** In 2019, the Event Horizon Telescope Collaboration announced the first image of a black hole's shadow. The target was M87, a giant elliptical galaxy 55 million light-years away, whose central black hole has a mass of about 6.5 billion solar masses.
@@ -146,7 +153,7 @@ The image shows a ring of bright emission — gas heated by the black hole, swir
 
 This is as close as you can get to a photograph of curved spacetime. The dark region is not a material object. It is the absence of light — light that entered the event horizon and will never return — surrounded by light that narrowly avoided that fate.
 
-![The dark region is not the black hole. It is the shadow cast by the event horizon. Its size and shape are determined entirely by general relativity — and they match.](images/08-black-holes-and-curved-spacetime-fig-08.png)
+![The dark region is not the black hole. It is the shadow cast by the event horizon. Its size and shape are determined entirely by general relativity — and they match.](../images/08-black-holes-and-curved-spacetime-fig-08.png)
 *Figure 8.8 — Event Horizon Telescope image of M87 black hole*
 
 ---
@@ -224,8 +231,7 @@ The following exercises are designed for use with a language model that can reas
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Karl Schwarzschild** solved Einstein's field equations for a non-rotating mass in 1916 — producing the first exact black hole solution — while serving on the Russian front during World War I. He sent the manuscript by mail from the trenches and died of an autoimmune disease months later.
 
 **Run this:**

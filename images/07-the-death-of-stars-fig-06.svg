@@ -1,25 +1,80 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Hubble Space Telescope or Chandra X-ray image of</title>
-  <desc id="desc">SN 1054, nearly a thousand years later. The explosion is still being powered by the dead star at its center.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Crab Nebula (schematic)
+  Book: Physics +1: Modern Physics
+  Chapter: 07-the-death-of-stars
+  Figure: 06
+  Type: Annotated example / schematic of nebula
+  Generated: 2026-05-25
+  Source: pantry/07-the-death-of-stars-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Crab Nebula — SN 1054 Still Glowing</title>
+  <desc>Schematic of the Crab Nebula, the remnant of the supernova recorded by Chinese astronomers in 1054. A diffuse expanding cloud about 11 light-years across, color-coded to suggest the actual Hubble/Chandra composite — bluish synchrotron core, reddish-orange filamentary outer regions. Central marker for the Crab Pulsar — a 33 millisecond pulsar that powers the entire nebula by shedding rotational energy.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="07-the-death-of-stars"
+      figure-number="06"
+      figure-title="Crab Nebula"
+      figure-slug="crab-nebula"
+      figure-type="annotated-example"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/07-the-death-of-stars-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Hubble Space Telescope or Chandra X-ray image of</text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">SN 1054, nearly a thousand years later. The explosion is still being powered by the dead star at its center.</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">HUBBLE</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SPACE</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">TELESCOPE</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Crab Nebula — A Thousand Years After SN 1054</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Schematic — actual composite image is Hubble (optical) + Chandra (X-ray).</text>
+
+  <!-- Background canvas -->
+  <rect x="80" y="80" width="540" height="240" fill="#1a1208" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Filamentary outer nebula (orange-vermillion clumps) -->
+  <g fill="#C8102E" opacity="0.55">
+    <ellipse cx="200" cy="140" rx="35" ry="22"/>
+    <ellipse cx="180" cy="200" rx="40" ry="28"/>
+    <ellipse cx="220" cy="260" rx="38" ry="24"/>
+    <ellipse cx="500" cy="260" rx="38" ry="26"/>
+    <ellipse cx="520" cy="180" rx="42" ry="28"/>
+    <ellipse cx="490" cy="120" rx="32" ry="22"/>
+    <ellipse cx="160" cy="240" rx="22" ry="16"/>
+    <ellipse cx="540" cy="220" rx="26" ry="18"/>
+  </g>
+
+  <!-- Inner synchrotron region (sky-blue) -->
+  <ellipse cx="350" cy="200" rx="160" ry="80" fill="#56B4E9" opacity="0.35"/>
+  <ellipse cx="350" cy="200" rx="100" ry="50" fill="#56B4E9" opacity="0.45"/>
+  <ellipse cx="350" cy="200" rx="60" ry="32" fill="#56B4E9" opacity="0.55"/>
+
+  <!-- Central pulsar -->
+  <circle cx="350" cy="200" r="4" fill="#FFFFFF"/>
+  <circle cx="350" cy="200" r="2" fill="#C8102E"/>
+
+  <!-- Annotation: pulsar -->
+  <line x1="356" y1="200" x2="430" y2="160" stroke="#FFFFFF" stroke-width="0.5"/>
+  <text x="438" y="158" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">Crab Pulsar · 33 ms</text>
+  <text x="438" y="170" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8860E">slows 38 ns/day</text>
+
+  <!-- Annotation: nebula -->
+  <line x1="200" y1="140" x2="120" y2="100" stroke="#FFFFFF" stroke-width="0.5"/>
+  <text x="115" y="98" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">filaments</text>
+  <text x="115" y="108" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8860E">expanding ejecta</text>
+
+  <!-- Scale bar -->
+  <line x1="100" y1="304" x2="200" y2="304" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="100" y1="300" x2="100" y2="308" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="200" y1="300" x2="200" y2="308" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="150" y="316" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">~ 2 light-years</text>
+
+  <!-- Caption -->
+  <rect x="60" y="346" width="580" height="60" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="366" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Recorded by Chinese astronomers as a "guest star" in 1054. Visible by day for 23 days.</text>
+  <text x="350" y="384" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Nearly 1,000 years later, the central pulsar still powers everything you see —</text>
+  <text x="350" y="400" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">38 nanoseconds of slowing per day.</text>
 </svg>

@@ -1,5 +1,12 @@
 # Chapter 5 — The Atom: Structure, Energy, and Uncertainty
 
+
+## TL;DR
+
+- In 1909, a graduate student named Ernest Marsden was given what seemed like a tedious task.
+- The chapter moves through What the Scattering Actually Tells You, The Colors That Should Not Be Discrete, Electrons Are Waves, Why You Cannot Know Both Position and Momentum, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 ---
 
 In 1909, a graduate student named Ernest Marsden was given what seemed like a tedious task. His supervisor, Hans Geiger, asked him to check whether alpha particles — helium nuclei fired from a radioactive source — could be deflected at large angles by a thin sheet of gold foil. The question was almost rhetorical. The accepted model of the atom said this shouldn't happen in any interesting way. J.J. Thomson's atom was a sphere of diffuse positive charge with electrons embedded throughout it, like raisins in a pudding. When a fast, heavy alpha particle punched through such a thing, the distributed charge would push it slightly off course — a small deflection, easily predicted, not very interesting.
@@ -231,9 +238,7 @@ wavelengths? (Hint: Bohr's quantization postulate.)
 
 ---
 
-## AI Wayback Machine
-
-**Lise Meitner** co-discovered nuclear fission with Otto Hahn in 1938 — and was passed over for the Nobel that recognized the discovery.
+##  AI Wayback Machine
 
 **Run this:**
 
@@ -249,3 +254,21 @@ Who is Lise Meitner, and how does their work connect to the atom we covered in t
 - Add a constraint: "Answer including criticisms or limits of Lise Meitner's framework."
 
 What changes? What gets better? What gets worse?
+![Rutherford Scattering](../images/05-the-atom-fig-01.png)
+*Figure 5.1 — Rutherford Scattering*
+
+![Bohr Energy Ladder for Hydrogen](../images/05-the-atom-fig-02.png)
+*Figure 5.2 — Bohr Energy Ladder for Hydrogen*
+
+![Standing Waves on a Circular Orbit](../images/05-the-atom-fig-03.png)
+*Figure 5.3 — Standing Waves on a Circular Orbit*
+
+![Hydrogen Orbitals](../images/05-the-atom-fig-04.png)
+*Figure 5.4 — Hydrogen Orbitals*
+
+![Uncertainty Principle](../images/05-the-atom-fig-05.png)
+*Figure 5.5 — Uncertainty Principle*
+
+![Why Atoms Don't Collapse](../images/05-the-atom-fig-06.png)
+*Figure 5.6 — Why Atoms Don't Collapse*
+

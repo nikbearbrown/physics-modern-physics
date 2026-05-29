@@ -1,0 +1,115 @@
+<!--
+  Relativity of Simultaneity — Train + Lightning
+  Book: Physics +1: Modern Physics
+  Chapter: 01-special-relativity
+  Figure: 02
+  Type: Comparison panels (two frames)
+  Generated: 2026-05-25
+  Source: pantry/01-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Relativity of Simultaneity — Two Observers Disagree on "At the Same Time"</title>
+  <desc>Two side-by-side panels. Panel A: train frame with observer A at the center of the car; two lightning strikes hit both ends simultaneously, and the light reaches A at the same instant. Panel B: platform frame with observer B watching the train move rightward; the front-strike light has a shorter path to B because the train was moving toward the front strike, so it arrives first. Both observers reason correctly, both disagree about whether the strikes happened together.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="01-special-relativity"
+      figure-number="02"
+      figure-title="Relativity of Simultaneity"
+      figure-slug="simultaneity-train"
+      figure-type="comparison"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/01-special-relativity-cajal.md"
+    />
+  </metadata>
+  <defs>
+    <marker id="arrowoch" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8860E"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#56B4E9"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Simultaneity Is Frame-Dependent — Built into Spacetime</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Both reason carefully. Both correctly account for light travel. Both disagree.</text>
+
+  <line x1="350" y1="80" x2="350" y2="380" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel A: Train frame -->
+  <text x="180" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(A) TRAIN FRAME — SIMULTANEOUS</text>
+
+  <!-- Train car -->
+  <rect x="60" y="200" width="240" height="50" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- Observer A at center -->
+  <circle cx="180" cy="225" r="6" fill="#2a1a0e"/>
+  <text x="180" y="266" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">observer A</text>
+
+  <!-- Strike points (both ends) -->
+  <g stroke="#C8860E" stroke-width="2">
+    <line x1="60" y1="180" x2="60" y2="200"/>
+    <line x1="55" y1="170" x2="65" y2="180"/>
+    <line x1="300" y1="180" x2="300" y2="200"/>
+    <line x1="295" y1="170" x2="305" y2="180"/>
+  </g>
+  <text x="60" y="166" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">⚡ strike L</text>
+  <text x="300" y="166" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">⚡ strike R</text>
+
+  <!-- Light rays from both ends to observer (equal path) -->
+  <line x1="66" y1="200" x2="174" y2="225" stroke="#C8860E" stroke-width="1.25" marker-end="url(#arrowoch)"/>
+  <line x1="294" y1="200" x2="186" y2="225" stroke="#56B4E9" stroke-width="1.25" marker-end="url(#arrowblue)"/>
+
+  <text x="180" y="296" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">light arrives at SAME time</text>
+  <text x="180" y="316" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">→ A says strikes were simultaneous</text>
+
+  <!-- Time arrow -->
+  <line x1="60" y1="340" x2="300" y2="340" stroke="#545454" stroke-width="0.5" marker-end="url(#arrowoch)"/>
+  <text x="180" y="354" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">time →</text>
+
+  <!-- Panel B: Platform frame -->
+  <text x="510" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">(B) PLATFORM FRAME — NOT SIMULTANEOUS</text>
+
+  <!-- Train car (moving right) -->
+  <rect x="390" y="200" width="240" height="50" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- Velocity arrow showing train motion -->
+  <line x1="634" y1="225" x2="660" y2="225" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrowblue)"/>
+  <text x="650" y="216" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">v</text>
+
+  <!-- Observer A on train (still at center) -->
+  <circle cx="510" cy="225" r="6" fill="#2a1a0e"/>
+
+  <!-- Observer B on platform (below train) -->
+  <circle cx="510" cy="290" r="6" fill="#C8102E"/>
+  <text x="510" y="312" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">observer B (platform)</text>
+
+  <!-- Strikes -->
+  <g stroke="#C8860E" stroke-width="2">
+    <line x1="390" y1="180" x2="390" y2="200"/>
+    <line x1="385" y1="170" x2="395" y2="180"/>
+    <line x1="630" y1="180" x2="630" y2="200"/>
+    <line x1="625" y1="170" x2="635" y2="180"/>
+  </g>
+  <text x="390" y="166" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">⚡ L</text>
+  <text x="630" y="166" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">⚡ R</text>
+
+  <!-- B's view: right-strike light arrives FIRST because train moved RIGHT during light's travel -->
+  <!-- Light rays to B (which is at platform position 510,290) -->
+  <line x1="396" y1="200" x2="504" y2="288" stroke="#C8860E" stroke-width="1.25" marker-end="url(#arrowoch)"/>
+  <line x1="624" y1="200" x2="516" y2="288" stroke="#56B4E9" stroke-width="2" marker-end="url(#arrowblue)"/>
+
+  <text x="510" y="334" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">R light arrives FIRST</text>
+  <text x="510" y="354" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">→ B says R struck before L</text>
+
+  <!-- Caption -->
+  <rect x="60" y="384" width="580" height="56" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="404" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Both reason correctly. Both account for finite light travel. Both disagree.</text>
+  <text x="350" y="422" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">"At the same time" depends on who's asking — and the postulates require it.</text>
+</svg>

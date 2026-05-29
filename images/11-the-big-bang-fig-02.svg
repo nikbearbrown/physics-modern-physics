@@ -1,36 +1,94 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Big Bang nucleosynthesis reaction network </title>
-  <desc id="desc">The entire periodic table above helium was made later, in stars. These four light elements are what the first three minutes produced.</desc>
+<!--
+  Big Bang Nucleosynthesis Reaction Network
+  Book: Physics +1: Modern Physics
+  Chapter: 11-the-big-bang
+  Figure: 02
+  Type: Process flowchart
+  Generated: 2026-05-25
+  Source: pantry/11-the-big-bang-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Big Bang Nucleosynthesis — How H and He Were Made</title>
+  <desc>Reaction network during the first three minutes. Free protons and neutrons freeze out at a ratio of about 6 to 1. Deuterium forms from p plus n. Tritium and helium-3 form from deuterium-deuterium reactions. Helium-4 is the bottleneck endpoint because there are no stable mass-5 or mass-8 nuclei. Trace lithium-7 forms as a side branch. Result: about 25 percent helium-4 by mass.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="11-the-big-bang"
+      figure-number="02"
+      figure-title="BBN Reaction Network"
+      figure-slug="bbn-network"
+      figure-type="flowchart"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/11-the-big-bang-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowink" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#2a1a0e"/>
     </marker>
   </defs>
-  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Big Bang nucleosynthesis reaction network </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The entire periodic table above helium was made later, in stars. These four light elements are what the first three minutes produced.</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="145" y1="180" x2="190" y2="135" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="190" y1="135" x2="226" y2="205" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="226" y1="205" x2="176" y2="242" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="176" y1="242" x2="145" y2="180" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="145" y1="180" x2="226" y2="205" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="468" y1="150" x2="520" y2="196" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="520" y1="196" x2="466" y2="250" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="466" y1="250" x2="560" y2="254" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="468" y1="150" x2="466" y2="250" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="226" y1="205" x2="350" y2="206" stroke="#C8102E" stroke-width="2"/>
-  <line x1="350" y1="206" x2="468" y2="150" stroke="#C8102E" stroke-width="2"/>
-  <circle cx="145" cy="180" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="190" cy="135" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="226" cy="205" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="176" cy="242" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="468" cy="150" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="520" cy="196" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="466" cy="250" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="560" cy="254" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="350" cy="206" r="13" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
-  <text x="168" y="304" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">CLUSTER A</text>
-  <text x="504" y="304" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">CLUSTER B</text>
-  <text x="350" y="332" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The emphasized bridge shows the structural relation named in the prompt.</text>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">BBN — How H and He Were Forged in the First 3 Minutes</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Freeze-out ratio 6 p : 1 n → ~25% He-4 by mass. Chain stops at He-4.</text>
+
+  <!-- p and n nodes (top) -->
+  <circle cx="160" cy="120" r="24" fill="#56B4E9" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="160" y="124" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#FFFFFF">p</text>
+  <text x="160" y="160" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">proton (×6)</text>
+
+  <circle cx="300" cy="120" r="24" fill="#56B4E9" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="300" y="124" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#FFFFFF">n</text>
+  <text x="300" y="160" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">neutron (×1)</text>
+
+  <!-- Arrows to D -->
+  <line x1="178" y1="138" x2="220" y2="200" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrowink)"/>
+  <line x1="282" y1="138" x2="240" y2="200" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrowink)"/>
+
+  <!-- Deuterium -->
+  <circle cx="230" cy="220" r="24" fill="#C8860E" opacity="0.5" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="230" y="225" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">D (²H)</text>
+  <text x="230" y="260" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8860E">deuterium</text>
+
+  <!-- D → T and He-3 -->
+  <line x1="220" y1="240" x2="180" y2="290" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrowink)"/>
+  <line x1="240" y1="240" x2="280" y2="290" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrowink)"/>
+
+  <!-- Tritium -->
+  <circle cx="170" cy="310" r="22" fill="#C8860E" opacity="0.4" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="170" y="314" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">T</text>
+  <text x="170" y="346" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8860E">tritium · unstable</text>
+
+  <!-- He-3 -->
+  <circle cx="290" cy="310" r="22" fill="#C8860E" opacity="0.4" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="290" y="314" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">³He</text>
+  <text x="290" y="346" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8860E">helium-3</text>
+
+  <!-- T → He-4 and He-3 → He-4 -->
+  <line x1="190" y1="328" x2="370" y2="328" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrowink)"/>
+  <line x1="310" y1="328" x2="370" y2="328" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- He-4 (main product, bigger) -->
+  <circle cx="420" cy="328" r="32" fill="#C8102E" opacity="0.7" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="420" y="334" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#FFFFFF">⁴He</text>
+  <text x="420" y="376" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">helium-4 · ~25% by mass</text>
+
+  <!-- Li-7 (side branch trace) -->
+  <line x1="450" y1="310" x2="540" y2="280" stroke="#545454" stroke-width="0.75" stroke-dasharray="3 2" marker-end="url(#arrowink)"/>
+  <circle cx="560" cy="270" r="18" fill="#7B61A8" opacity="0.5" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="560" y="273" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#FFFFFF">⁷Li</text>
+  <text x="560" y="298" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#7B61A8">trace · open problem</text>
+
+  <!-- Stop sign for A=5 and A=8 -->
+  <rect x="500" y="380" width="160" height="20" fill="#C8102E" opacity="0.2" stroke="#C8102E" stroke-width="1"/>
+  <text x="580" y="394" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">no stable A=5 or A=8 → chain stops</text>
+
+  <!-- Caption -->
+  <rect x="60" y="416" width="580" height="30" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="436" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Stable nuclei beyond He-4 had to wait for stars. The lithium-7 abundance is still a puzzle.</text>
 </svg>

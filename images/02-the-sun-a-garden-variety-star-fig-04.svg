@@ -1,29 +1,98 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Random walk vs</title>
-  <desc id="desc">random walk vs. straight-line path — two panels side by side; left panel: clean arrow from core to surface labeled "straight line at light speed: ~2 s</desc>
+<!--
+  Random Walk vs Straight Line — Photon Diffusion in the Sun
+  Book: Physics +1: Modern Physics
+  Chapter: 02-the-sun-a-garden-variety-star
+  Figure: 04
+  Type: Comparison panels
+  Generated: 2026-05-25
+  Source: pantry/02-the-sun-a-garden-variety-star-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Random Walk vs Straight Line — A Photon's Long Trip Out</title>
+  <desc>Two side-by-side panels show the same path from core to surface inside the Sun. Panel A: an idealized straight-line photon at c would take about 2 seconds to traverse 700,000 km. Panel B: actual random walk through dense plasma — millions of scattering events shown as a zigzag — takes about 100,000 years to escape.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="02-the-sun-a-garden-variety-star"
+      figure-number="04"
+      figure-title="Random Walk vs Straight Line"
+      figure-slug="random-walk-photon"
+      figure-type="comparison"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/02-the-sun-a-garden-variety-star-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowblue" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#56B4E9"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Random walk vs</text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">random walk vs. straight-line path — two panels side by side; left panel: clean arrow from core to surface labeled "straight line at light speed: ~2 s</text>
-  <rect x="64" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="120" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">START</text>
-  <text x="120" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 180 210 C 196 210, 206 210, 218 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="218" y="166" width="112" height="88" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="274" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">RANDOM</text>
-  <text x="274" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 334 210 C 350 210, 360 210, 372 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="372" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="428" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">WALK</text>
-  <text x="428" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 488 210 C 504 210, 514 210, 526 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="526" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="582" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">VS</text>
-  <text x="582" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 120 292 C 240 340, 430 340, 584 292" stroke="#C8102E" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/>
-  <text x="350" y="362" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The diagram emphasizes sequence, dependency, and the decision point.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">A Photon's Trip from Core to Surface — Two Times</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Same distance, two routes: 2 seconds vs ~100,000 years.</text>
+
+  <line x1="350" y1="80" x2="350" y2="340" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel A: Straight line -->
+  <text x="180" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(A) IDEAL — STRAIGHT LINE AT c</text>
+
+  <!-- Sun (left side - core; right side - surface) -->
+  <circle cx="180" cy="220" r="80" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/>
+  <circle cx="135" cy="220" r="6" fill="#C8102E"/>
+  <text x="135" y="208" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">core</text>
+  <circle cx="260" cy="220" r="3" fill="#C8860E"/>
+  <text x="270" y="222" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">surface</text>
+
+  <!-- Straight-line path -->
+  <line x1="140" y1="220" x2="258" y2="220" stroke="#56B4E9" stroke-width="3" marker-end="url(#arrowblue)"/>
+
+  <!-- Time label -->
+  <text x="180" y="324" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#56B4E9">~ 2 seconds</text>
+
+  <!-- Panel B: Random walk -->
+  <text x="510" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">(B) ACTUAL — RANDOM WALK</text>
+
+  <circle cx="510" cy="220" r="80" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/>
+  <circle cx="465" cy="220" r="6" fill="#C8102E"/>
+  <text x="465" y="208" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">core</text>
+  <circle cx="590" cy="220" r="3" fill="#C8860E"/>
+  <text x="600" y="222" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">surface</text>
+
+  <!-- Random walk path (zigzag with many small segments) -->
+  <polyline points="470,220 478,205 490,225 480,240 495,232 485,210 500,202 510,222 502,238 518,248 528,234 520,218 535,210 548,220 542,236 558,245 568,232 562,216 578,212 590,220" stroke="#56B4E9" stroke-width="1.5" fill="none"/>
+
+  <!-- Scattering dots -->
+  <g fill="#C8102E">
+    <circle cx="478" cy="205" r="1.5"/>
+    <circle cx="490" cy="225" r="1.5"/>
+    <circle cx="480" cy="240" r="1.5"/>
+    <circle cx="495" cy="232" r="1.5"/>
+    <circle cx="485" cy="210" r="1.5"/>
+    <circle cx="500" cy="202" r="1.5"/>
+    <circle cx="510" cy="222" r="1.5"/>
+    <circle cx="502" cy="238" r="1.5"/>
+    <circle cx="518" cy="248" r="1.5"/>
+    <circle cx="528" cy="234" r="1.5"/>
+    <circle cx="520" cy="218" r="1.5"/>
+    <circle cx="535" cy="210" r="1.5"/>
+    <circle cx="548" cy="220" r="1.5"/>
+    <circle cx="542" cy="236" r="1.5"/>
+    <circle cx="558" cy="245" r="1.5"/>
+    <circle cx="568" cy="232" r="1.5"/>
+    <circle cx="562" cy="216" r="1.5"/>
+    <circle cx="578" cy="212" r="1.5"/>
+  </g>
+
+  <text x="510" y="324" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#C8102E">~ 100,000 years</text>
+
+  <!-- Caption -->
+  <rect x="60" y="360" width="580" height="44" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="380" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">A photon's straight-line trip would take 2 seconds.</text>
+  <text x="350" y="398" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">The actual walk through dense plasma takes 100,000 years — 10²⁶ scatterings.</text>
 </svg>

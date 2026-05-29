@@ -1,29 +1,93 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">SN 1987A event timeline </title>
-  <desc id="desc">SN 1987A event timeline — horizontal axis showing: stellar core collapse at t=0; neutrino burst detected at Kamiokande (Japan) and IMB (Ohio) at t+0 (</desc>
+<!--
+  SN 1987A Event Timeline
+  Book: Physics +1: Modern Physics
+  Chapter: 07-the-death-of-stars
+  Figure: 01
+  Type: Timeline
+  Generated: 2026-05-25
+  Source: pantry/07-the-death-of-stars-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">SN 1987A — Neutrinos First, Light Hours Later</title>
+  <desc>Horizontal time axis spanning about 3 hours. At T equals zero: core collapse and neutrino burst. T plus zero to 13 seconds: 20 neutrinos detected at Kamiokande and IMB from a flood of 10 to the 58. Photons begin breakout. T plus 3 hours: naked-eye visibility from Chile. The neutrinos arrived 3 hours before the light.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="07-the-death-of-stars"
+      figure-number="01"
+      figure-title="SN 1987A Timeline"
+      figure-slug="sn1987a-timeline"
+      figure-type="timeline"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/07-the-death-of-stars-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowink" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#2a1a0e"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">SN 1987A event timeline </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">SN 1987A event timeline — horizontal axis showing: stellar core collapse at t=0; neutrino burst detected at Kamiokande (Japan) and IMB (Ohio) at t+0 (</text>
-  <rect x="64" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="120" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">START</text>
-  <text x="120" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 180 210 C 196 210, 206 210, 218 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="218" y="166" width="112" height="88" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="274" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SN</text>
-  <text x="274" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 334 210 C 350 210, 360 210, 372 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="372" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="428" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">1987A</text>
-  <text x="428" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 488 210 C 504 210, 514 210, 526 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="526" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="582" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">EVENT</text>
-  <text x="582" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 120 292 C 240 340, 430 340, 584 292" stroke="#C8102E" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/>
-  <text x="350" y="362" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The diagram emphasizes sequence, dependency, and the decision point.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">SN 1987A — Twenty Neutrinos from 160,000 Light-Years</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Neutrinos arrived 3 hours before the light. From a flood of 10⁵⁸, we caught 20.</text>
+
+  <!-- Timeline axis -->
+  <line x1="80" y1="240" x2="660" y2="240" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrowink)"/>
+  <text x="660" y="264" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">time after collapse →</text>
+
+  <!-- Tick marks at T=0, +13s, +1h, +3h -->
+  <g stroke="#2a1a0e" stroke-width="0.75">
+    <line x1="100" y1="235" x2="100" y2="245"/>
+    <line x1="240" y1="235" x2="240" y2="245"/>
+    <line x1="420" y1="235" x2="420" y2="245"/>
+    <line x1="620" y1="235" x2="620" y2="245"/>
+  </g>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="258">T = 0</text>
+    <text x="240" y="258">+13 sec</text>
+    <text x="420" y="258">+1 hr</text>
+    <text x="620" y="258">+3 hr</text>
+  </g>
+
+  <!-- Event 1: Core collapse at T=0 -->
+  <line x1="100" y1="240" x2="100" y2="160" stroke="#2a1a0e" stroke-width="2"/>
+  <circle cx="100" cy="160" r="6" fill="#2a1a0e"/>
+  <text x="100" y="148" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">core collapse</text>
+  <text x="100" y="136" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">10⁵⁸ ν emitted</text>
+
+  <!-- Event 2: Neutrino burst at Kamiokande/IMB -->
+  <line x1="240" y1="240" x2="240" y2="120" stroke="#56B4E9" stroke-width="2.5"/>
+  <circle cx="240" cy="120" r="8" fill="#56B4E9"/>
+  <text x="240" y="108" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">ν detection</text>
+  <text x="240" y="96" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">20 caught</text>
+  <text x="240" y="84" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">Kamiokande + IMB</text>
+
+  <!-- Event 3: Photons begin breakout (~ +1 h) -->
+  <line x1="420" y1="240" x2="420" y2="180" stroke="#C8860E" stroke-width="2"/>
+  <circle cx="420" cy="180" r="6" fill="#C8860E"/>
+  <text x="420" y="168" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">shock breakout</text>
+  <text x="420" y="156" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">photons escape envelope</text>
+
+  <!-- Event 4: Naked-eye visibility at +3h -->
+  <line x1="620" y1="240" x2="620" y2="140" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="620" cy="140" r="8" fill="#C8102E"/>
+  <text x="620" y="128" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">naked-eye visible</text>
+  <text x="620" y="116" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">Las Campanas, Chile</text>
+
+  <!-- Annotation: 3-hour gap -->
+  <line x1="240" y1="320" x2="620" y2="320" stroke="#545454" stroke-width="0.75"/>
+  <line x1="240" y1="315" x2="240" y2="325" stroke="#545454" stroke-width="0.75"/>
+  <line x1="620" y1="315" x2="620" y2="325" stroke="#545454" stroke-width="0.75"/>
+  <text x="430" y="338" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">3-hour neutrino lead</text>
+
+  <!-- Caption -->
+  <rect x="60" y="372" width="580" height="38" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="392" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Neutrinos escape the collapsing core instantly; photons fight through 10⁹ km of envelope.</text>
+  <text x="350" y="406" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="10" fill="#C8102E">First confirmed neutrinos from outside the solar system. Two Nobel Prizes followed.</text>
 </svg>

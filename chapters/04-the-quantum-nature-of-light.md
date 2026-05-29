@@ -1,4 +1,11 @@
 # Chapter 4 — The Quantum Nature of Light
+
+## TL;DR
+
+- When the Math Screamed Infinity and the Experiment Said No.
+- The chapter moves through The Guess That Worked, Einstein and the Electrons, Light Has Momentum, The Thing That Won't Resolve, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *When the Math Screamed Infinity and the Experiment Said No.*
 
 In 1900, physics was in a peculiar position. It had successfully predicted the orbit of Neptune. It had unified electricity and magnetism into a single theory. It had explained the behavior of gases, the flow of heat, the bending of light. The edifice was nearly complete — a few small cracks, some physicists said, but nothing that wouldn't be patched up in a decade or two.
@@ -7,7 +14,7 @@ One of those cracks was embarrassing. Take a furnace. Heat it to any temperature
 
 This was not what happened. Not even close. Measure the actual radiation curve and it peaks at a particular wavelength, then falls away. The oven glows red or yellow or white depending on temperature. It does not blind you with X-rays.
 
-![Two curves on the same axes ](images/04-the-quantum-nature-of-light-fig-01.png)
+![Two curves on the same axes ](../images/04-the-quantum-nature-of-light-fig-01.png)
 *Figure 4.1 — Two curves on the same axes *
 
 The equations were wrong. Not slightly wrong — catastrophically, embarrassingly, infinitely wrong. Physicists called it the ultraviolet catastrophe, and the name captures the mood: this was not a small discrepancy to be explained away. It was a failure of classical physics at the most fundamental level, and it would not be patched up. It would be demolished and replaced.
@@ -34,7 +41,7 @@ Here is why Planck's assumption resolves the catastrophe. In the classical pictu
 
 In Planck's picture, each high-frequency mode requires a minimum energy of $hf$ to be excited at all. At high frequencies, $hf$ becomes large compared to the available thermal energy $k_BT$. Modes that require more energy than the system can readily supply simply go unexcited. The distribution peaks, then falls. The catastrophe evaporates.
 
-![The minimum wage problem: high-frequency modes require more energy per quantum than the system can afford. They go unexcited. The catastrophe vanishes.](images/04-the-quantum-nature-of-light-fig-02.png)
+![The minimum wage problem: high-frequency modes require more energy per quantum than the system can afford. They go unexcited. The catastrophe vanishes.](../images/04-the-quantum-nature-of-light-fig-02.png)
 *Figure 4.2 — Illustration of why high-frequency modes go dark*
 
 What Planck had found, though he did not fully believe it yet, was that energy comes in packets. Not continuously divisible like water, but in discrete units like coins. You cannot pay half a photon.
@@ -81,7 +88,7 @@ $$E = hf = (6.626 \times 10^{-34})(7.14 \times 10^{14}) = 4.73 \times 10^{-19} \
 
 So the ejected electron carries $2.96 - 2.71 = 0.25$ eV of kinetic energy. Red light at 650 nm carries only 1.91 eV — below the 2.71 eV threshold — so no electrons emerge from calcium regardless of how bright the red beam is.
 
-![Photon energy (eV) vs](images/04-the-quantum-nature-of-light-fig-03.png)
+![Photon energy (eV) vs](../images/04-the-quantum-nature-of-light-fig-03.png)
 *Figure 4.3 — Photon energy (eV) vs*
 
 This is also why ultraviolet light damages skin and visible light does not. A single UV photon at 300 nm carries about 4.1 eV — enough to break chemical bonds in DNA. A single visible photon carries 1.5 to 3 eV, generally insufficient to break the bonds that hold biological molecules together. You could bathe in visible light forever and the individual photon interactions would not snap those bonds. UV photons can snap them one at a time. The damage is not about total energy delivered; it is about energy delivered per photon.
@@ -96,7 +103,7 @@ Here is something that should be impossible under classical mechanics: massless 
 
 Look at a comet. Its tail does not trail behind it like a boat's wake. The tail points away from the Sun — always away, regardless of which direction the comet is moving. Something from the Sun is pushing the comet's material away. That something is light.
 
-![The tail points away from the Sun in both directions of travel. This is not aerodynamic drag. It is radiation pressure — photon momentum accumulated over billions of particles.](images/04-the-quantum-nature-of-light-fig-04.png)
+![The tail points away from the Sun in both directions of travel. This is not aerodynamic drag. It is radiation pressure — photon momentum accumulated over billions of particles.](../images/04-the-quantum-nature-of-light-fig-04.png)
 *Figure 4.4 — Photograph or diagram of a comet showing both*
 
 In 1923, Arthur Compton settled the matter experimentally. He aimed X-rays at electrons and measured what came out. If X-rays were purely waves, scattering off an electron should not change their wavelength — only their direction. But Compton found that the scattered X-rays had longer wavelengths than the incident ones. The X-rays had lost energy. The electrons had recoiled, carrying kinetic energy they didn't have before.
@@ -113,7 +120,7 @@ $$p = \frac{6.626 \times 10^{-34}}{500 \times 10^{-9}} = 1.33 \times 10^{-27} \t
 
 This is vanishingly small. If a 70 kg person absorbed a visible photon, the resulting velocity change would be about $2 \times 10^{-29}$ m/s — a number so small it has no physical significance. You do not feel the push of light in ordinary circumstances.
 
-![Compton's 1923 experiment: X-rays scattered off electrons emerged with longer wavelengths. The only way to explain this is if photons have momentum and transfer it to electrons exactly as classical billiard balls would.](images/04-the-quantum-nature-of-light-fig-05.png)
+![Compton's 1923 experiment: X-rays scattered off electrons emerged with longer wavelengths. The only way to explain this is if photons have momentum and transfer it to electrons exactly as classical billiard balls would.](../images/04-the-quantum-nature-of-light-fig-05.png)
 *Figure 4.5 — Compton scattering *
 
 But accumulate enough photons on a small enough object over a long enough time, in the absence of friction, and the momentum adds up. Cometary tails are the visible proof. Solar sails — spacecraft propelled by sunlight — are the engineering application. A 10-square-meter sail at Earth's distance from the Sun receives roughly $9 \times 10^{-5}$ newtons of force from photon pressure. For a 100 kg spacecraft, that produces an acceleration of about $9 \times 10^{-7}$ m/s², which over a month accumulates to several meters per second of velocity change — meaningful for deep-space navigation.
@@ -132,7 +139,7 @@ These two descriptions are not compatible within classical physics. A wave sprea
 
 And yet. If you send photons through a double slit one at a time — so slowly that only one photon is in the apparatus at a moment — each photon lands at a single point on the detector. One spot. Particle behavior. But as you accumulate many such single-photon events, the pattern that builds up is the interference pattern. Wave behavior. The individual photon lands somewhere consistent with a probability distribution that is itself wave-like.
 
-![Each photon lands at one point — particle. The pattern they build is an interference fringe — wave. There is no classical picture in which the same object does both.](images/04-the-quantum-nature-of-light-fig-06.png)
+![Each photon lands at one point — particle. The pattern they build is an interference fringe — wave. There is no classical picture in which the same object does both.](../images/04-the-quantum-nature-of-light-fig-06.png)
 *Figure 4.6 — Single-photon double-slit buildup *
 
 The photon is not a wave. It is not a particle. It is a quantum entity, and it behaves like a wave when it propagates and like a particle when it interacts. The double slit shows both behaviors in the same experiment, using the same photons. There is no classical picture — no mental model built from everyday experience — that accommodates this. Every attempt to sneak a classical interpretation in, to say "the photon really went through one slit, we just don't know which one," breaks down when you test it experimentally.
@@ -164,7 +171,7 @@ This single fact propagates outward in every direction.
 
 Atomic spectra become intelligible. Hydrogen emits light at exactly four visible wavelengths — 656 nm, 486 nm, 434 nm, 410 nm — and no others. Classical physics cannot explain this. Why would hydrogen emit those specific wavelengths and not the ones in between? Because the electron in a hydrogen atom can only occupy certain quantized energy levels, and when it drops from a higher level to a lower one, it emits a photon whose energy equals the difference. Each transition produces one specific frequency. The discrete spectrum is direct evidence of discrete energy levels.
 
-![Hydrogen emits at exactly these four wavelengths and nowhere else. The discreteness of the spectrum is direct evidence that electron energy levels in the atom are quantized.](images/04-the-quantum-nature-of-light-fig-07.png)
+![Hydrogen emits at exactly these four wavelengths and nowhere else. The discreteness of the spectrum is direct evidence that electron energy levels in the atom are quantized.](../images/04-the-quantum-nature-of-light-fig-07.png)
 *Figure 4.7 — Hydrogen emission spectrum *
 
 Semiconductors become designable. The gap between the quantum energy levels of electrons in a crystal lattice determines whether a material conducts electricity, whether it absorbs a particular wavelength of light, whether it can be made into a solar cell or an LED. Engineering that gap — by controlling composition and structure — is the entire basis of the microelectronics industry. Every transistor in every computer ever built exists because quantization makes the band gap real and controllable.
@@ -297,9 +304,7 @@ directions?
 
 ---
 
-## AI Wayback Machine
-
-**Albert Einstein** explained the photoelectric effect in 1905 by proposing light comes in quanta — the work that won him the Nobel Prize, not relativity.
+##  AI Wayback Machine
 
 **Run this:**
 

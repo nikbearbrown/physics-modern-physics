@@ -1,32 +1,97 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Hydrogen energy level diagram </title>
-  <desc id="desc">Hydrogen energy level diagram — vertical axis is energy in eV, horizontal lines at E_n = −13.6/n² for n = 1 through 6, with n = ∞ (ionization) at 0 eV</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
-  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Hydrogen energy level diagram </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Hydrogen energy level diagram — vertical axis is energy in eV, horizontal lines at E_n = −13.6/n² for n = 1 through 6, with n = ∞ (ionization) at 0 eV</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+<!--
+  Hydrogen Energy-Level Diagram — Full Rydberg Series
+  Book: Physics +1: Modern Physics
+  Chapter: 12-atomic-physics (extends Ch 5 Fig 5.2 with Lyman + Paschen)
+  Figure: 02
+  Type: Hierarchy / energy-level diagram
+  Generated: 2026-05-25
+  Source: pantry/12-atomic-physics-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Hydrogen Spectrum — Lyman (UV), Balmer (Visible), Paschen (IR)</title>
+  <desc>Full Rydberg series. Energy levels n equals 1 through 6 shown with horizontal lines on a vertical energy axis. Transitions ending at n equals 1 are the Lyman series (UV). Transitions ending at n equals 2 are the Balmer series (visible). Transitions ending at n equals 3 are the Paschen series (infrared). See Chapter 5 Figure 5.2 for the Balmer-only introductory version.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="12-atomic-physics"
+      figure-number="02"
+      figure-title="Full Rydberg Spectrum"
+      figure-slug="rydberg-full"
+      figure-type="energy-diagram"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/12-atomic-physics-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Hydrogen Spectrum — Three Series Across UV, Visible, and IR</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Extends Ch 5 Fig 5.2. Lyman ends at n=1; Balmer at n=2; Paschen at n=3.</text>
+
+  <!-- Energy axis -->
+  <line x1="220" y1="100" x2="220" y2="380" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="100" y="240" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 100 240)">ENERGY (eV) · signed</text>
+
+  <!-- n=1 (-13.6 eV) at y=380 — n=2 (-3.40, y=170) — n=3 (-1.51, y=131) — n=4 (-0.85, y=117) — n=5 (-0.544, y=111) — n=6 (-0.378, y=108) -->
+
+  <line x1="220" y1="380" x2="540" y2="380" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="550" y="384" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">n=1 · −13.6 eV</text>
+
+  <line x1="220" y1="170" x2="540" y2="170" stroke="#2a1a0e" stroke-width="1.5"/>
+  <text x="550" y="174" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">n=2 · −3.40 eV</text>
+
+  <line x1="220" y1="131" x2="540" y2="131" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="550" y="135" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">n=3 · −1.51 eV</text>
+
+  <line x1="220" y1="117" x2="540" y2="117" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="550" y="120" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">n=4</text>
+
+  <line x1="220" y1="111" x2="540" y2="111" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="550" y="113" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">n=5</text>
+
+  <line x1="220" y1="106" x2="540" y2="106" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="550" y="108" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">n=6</text>
+
+  <line x1="220" y1="100" x2="540" y2="100" stroke="#C8102E" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="220" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">E = 0  (ionization)</text>
+
+  <!-- Lyman series (ends at n=1) — all UV — purple -->
+  <line x1="260" y1="170" x2="260" y2="380" stroke="#7B61A8" stroke-width="2"/>
+  <polygon points="260 380, 256 372, 264 372" fill="#7B61A8"/>
+  <line x1="280" y1="131" x2="280" y2="380" stroke="#7B61A8" stroke-width="2"/>
+  <polygon points="280 380, 276 372, 284 372" fill="#7B61A8"/>
+  <line x1="300" y1="117" x2="300" y2="380" stroke="#7B61A8" stroke-width="2"/>
+  <polygon points="300 380, 296 372, 304 372" fill="#7B61A8"/>
+  <text x="280" y="404" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#7B61A8">Lyman (UV)</text>
+  <text x="280" y="416" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">121 / 103 / 97 nm</text>
+
+  <!-- Balmer series (ends at n=2) — visible — colored by emission color -->
+  <line x1="340" y1="131" x2="340" y2="170" stroke="#FF3030" stroke-width="2"/>
+  <polygon points="340 170, 336 162, 344 162" fill="#FF3030"/>
+  <line x1="360" y1="117" x2="360" y2="170" stroke="#00CCFF" stroke-width="2"/>
+  <polygon points="360 170, 356 162, 364 162" fill="#00CCFF"/>
+  <line x1="380" y1="111" x2="380" y2="170" stroke="#5050FF" stroke-width="2"/>
+  <polygon points="380 170, 376 162, 384 162" fill="#5050FF"/>
+  <line x1="400" y1="106" x2="400" y2="170" stroke="#9400D3" stroke-width="2"/>
+  <polygon points="400 170, 396 162, 404 162" fill="#9400D3"/>
+  <text x="370" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">Balmer (visible)</text>
+  <text x="370" y="206" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">656/486/434/410 nm</text>
+
+  <!-- Paschen series (ends at n=3) — IR — orange/red -->
+  <line x1="440" y1="117" x2="440" y2="131" stroke="#C8860E" stroke-width="2"/>
+  <polygon points="440 131, 436 123, 444 123" fill="#C8860E"/>
+  <line x1="460" y1="111" x2="460" y2="131" stroke="#C8860E" stroke-width="2"/>
+  <polygon points="460 131, 456 123, 464 123" fill="#C8860E"/>
+  <line x1="480" y1="106" x2="480" y2="131" stroke="#C8860E" stroke-width="2"/>
+  <polygon points="480 131, 476 123, 484 123" fill="#C8860E"/>
+  <text x="460" y="150" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8860E">Paschen (IR)</text>
+  <text x="460" y="160" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">1875/1282/1094 nm</text>
+
+  <!-- Rydberg formula -->
+  <rect x="60" y="430" width="580" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="446" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#C8102E">1/λ = R (1/n_f² − 1/n_i²)  ·  R = 1.097 × 10⁷ m⁻¹</text>
 </svg>

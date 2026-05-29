@@ -1,0 +1,118 @@
+<!--
+  Lorentz Factor γ vs v/c
+  Book: Physics +1: Modern Physics
+  Chapter: 01-special-relativity
+  Figure: 03
+  Type: Statistical / quantitative
+  Generated: 2026-05-25
+  Source: pantry/01-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">The Lorentz Factor γ vs v/c</title>
+  <desc>Plot of gamma equals one over square root of one minus v squared over c squared, as v over c runs from zero to point nine nine. Gamma sits near one for everyday speeds, climbs to two near 0.87 c, seven near 0.99 c, and diverges to infinity as v approaches c. The y-axis starts at one — the rest-frame floor. Markers at v over c equals zero, 0.5, 0.87, 0.95, 0.99.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="01-special-relativity"
+      figure-number="03"
+      figure-title="Lorentz Factor"
+      figure-slug="gamma-vs-vc"
+      figure-type="quantitative"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/01-special-relativity-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">γ vs v/c — Why the Speed of Light Is an Infinite-Energy Wall</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">γ ≈ 1 until ~0.5c; then it blows up. y-axis starts at 1 (rest-frame floor).</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="380" x2="640" y2="380" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="380" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Y-axis (γ from 1 to 10) -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="end">
+    <text x="94" y="384">1</text>
+    <text x="94" y="320">2.5</text>
+    <text x="94" y="256">5</text>
+    <text x="94" y="192">7.5</text>
+    <text x="94" y="128">10</text>
+  </g>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="95" y1="316" x2="105" y2="316"/>
+    <line x1="95" y1="252" x2="105" y2="252"/>
+    <line x1="95" y1="188" x2="105" y2="188"/>
+    <line x1="95" y1="124" x2="105" y2="124"/>
+  </g>
+  <text x="50" y="240" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 50 240)">γ (Lorentz factor)</text>
+
+  <!-- X-axis (v/c from 0 to 1) -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="396">0</text>
+    <text x="208" y="396">0.2</text>
+    <text x="316" y="396">0.4</text>
+    <text x="424" y="396">0.6</text>
+    <text x="532" y="396">0.8</text>
+    <text x="640" y="396">1.0</text>
+  </g>
+  <text x="370" y="418" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">v / c</text>
+
+  <!-- Asymptote at v/c = 1 -->
+  <line x1="640" y1="100" x2="640" y2="380" stroke="#C8102E" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="635" y="92" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">γ → ∞ at v = c</text>
+
+  <!-- γ curve. y maps γ=1→380, γ=10→124. Δ=256/9 ≈ 28.4 per unit of γ -->
+  <!-- v/c=0:    γ=1.000 → y=380
+       v/c=0.1:  γ=1.005 → y=380
+       v/c=0.2:  γ=1.021 → y=379
+       v/c=0.3:  γ=1.048 → y=379
+       v/c=0.4:  γ=1.091 → y=377
+       v/c=0.5:  γ=1.155 → y=375
+       v/c=0.6:  γ=1.250 → y=373
+       v/c=0.7:  γ=1.400 → y=369
+       v/c=0.8:  γ=1.667 → y=361
+       v/c=0.87: γ=2.030 → y=351
+       v/c=0.9:  γ=2.294 → y=343
+       v/c=0.95: γ=3.203 → y=317
+       v/c=0.99: γ=7.089 → y=207
+  -->
+  <path d="M 100 380 L 154 380 L 208 379 L 262 379 L 316 377 L 370 375 L 424 373 L 478 369 L 532 361 Q 552 351 568 343 Q 595 317 610 280 Q 625 230 632 180 Q 638 140 640 100" stroke="#56B4E9" stroke-width="2.5" fill="none"/>
+
+  <!-- Marker points -->
+  <circle cx="370" cy="375" r="3.5" fill="#56B4E9"/>
+  <text x="370" y="364" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">1.16</text>
+
+  <circle cx="570" cy="351" r="3.5" fill="#56B4E9"/>
+  <text x="558" y="346" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">2.03</text>
+  <text x="558" y="358" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">(0.87c)</text>
+
+  <circle cx="613" cy="270" r="3.5" fill="#56B4E9"/>
+  <text x="606" y="266" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">3.2</text>
+
+  <circle cx="632" cy="207" r="3.5" fill="#C8102E"/>
+  <text x="624" y="200" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">7.1</text>
+  <text x="624" y="212" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">(0.99c)</text>
+
+  <!-- Drop-lines -->
+  <g stroke="#545454" stroke-width="0.5" stroke-dasharray="2 2">
+    <line x1="370" y1="380" x2="370" y2="375"/>
+    <line x1="570" y1="380" x2="570" y2="351"/>
+    <line x1="613" y1="380" x2="613" y2="270"/>
+    <line x1="632" y1="380" x2="632" y2="207"/>
+  </g>
+
+  <!-- Formula box -->
+  <rect x="120" y="120" width="180" height="50" fill="#F5F5F5" stroke="#56B4E9" stroke-width="1"/>
+  <text x="210" y="142" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#56B4E9">γ = 1 / √(1 − v²/c²)</text>
+  <text x="210" y="160" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">γ ≥ 1 always</text>
+
+  <!-- Caption -->
+  <rect x="100" y="430" width="540" height="20" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="370" y="445" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Everyday γ ≈ 1 to 20 decimal places. The blow-up is sudden — and it sits at c.</text>
+</svg>

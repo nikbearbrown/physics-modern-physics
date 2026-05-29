@@ -1,0 +1,98 @@
+<!--
+  Rutherford Scattering Geometry
+  Book: Physics +1: Modern Physics
+  Chapter: 05-the-atom
+  Figure: 01
+  Type: Comparison panels
+  Generated: 2026-05-25
+  Source: pantry/05-the-atom-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Rutherford Scattering — Two Atomic Models, One Beam</title>
+  <desc>Two side-by-side panels. Panel A: Thomson's plum-pudding atom — diffuse positive charge sphere; alpha particles passing through deflect only slightly. Panel B: Rutherford's nuclear atom — concentrated nucleus 100000 times smaller than the atom; most alphas pass through, but a few that strike near the nucleus backscatter at large angles. Rutherford observed about 1 in 8000 backscattering.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="05-the-atom"
+      figure-number="01"
+      figure-title="Rutherford Scattering"
+      figure-slug="rutherford-scattering"
+      figure-type="comparison"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/05-the-atom-cajal.md"
+    />
+  </metadata>
+  <defs>
+    <marker id="arrowred" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8102E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Rutherford 1911 — Backscatter Killed the Plum Pudding</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Same α beam, two atomic models, different observed patterns.</text>
+
+  <line x1="350" y1="80" x2="350" y2="340" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel A: Thomson plum-pudding -->
+  <text x="180" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(A) THOMSON · DIFFUSE</text>
+
+  <!-- Diffuse atom (gray cloud) -->
+  <circle cx="180" cy="220" r="60" fill="#C8860E" opacity="0.25" stroke="#2a1a0e" stroke-width="0.75" stroke-dasharray="3 2"/>
+  <!-- "raisins" (electrons sprinkled) -->
+  <g fill="#2a1a0e">
+    <circle cx="155" cy="195" r="2"/>
+    <circle cx="200" cy="200" r="2"/>
+    <circle cx="170" cy="240" r="2"/>
+    <circle cx="205" cy="250" r="2"/>
+    <circle cx="145" cy="225" r="2"/>
+  </g>
+
+  <!-- Alpha beam (left → right) — all pass through with tiny deflections -->
+  <g stroke="#C8102E" stroke-width="1.25" fill="none">
+    <path d="M 60 180 L 130 180 Q 180 178 240 175 L 300 173" marker-end="url(#arrowred)"/>
+    <path d="M 60 210 L 130 210 Q 180 212 240 215 L 300 217" marker-end="url(#arrowred)"/>
+    <path d="M 60 240 L 130 240 Q 180 238 240 235 L 300 233" marker-end="url(#arrowred)"/>
+    <path d="M 60 260 L 130 260 Q 180 262 240 265 L 300 267" marker-end="url(#arrowred)"/>
+  </g>
+  <text x="80" y="170" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">α beam</text>
+
+  <text x="180" y="312" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">prediction: small deflections only</text>
+  <text x="180" y="326" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">fails: backscatter observed</text>
+
+  <!-- Panel B: Rutherford nuclear -->
+  <text x="510" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">(B) RUTHERFORD · NUCLEAR</text>
+
+  <!-- Diffuse atomic boundary -->
+  <circle cx="510" cy="220" r="60" fill="none" stroke="#2a1a0e" stroke-width="0.75" stroke-dasharray="3 2"/>
+  <!-- Tiny dense nucleus at center -->
+  <circle cx="510" cy="220" r="3.5" fill="#C8102E" stroke="#2a1a0e" stroke-width="0.5"/>
+  <text x="518" y="216" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E">nucleus</text>
+  <text x="518" y="226" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="7" fill="#545454">10⁻¹⁵ m</text>
+
+  <!-- Alpha trajectories: most pass through, one backscatters from near-direct hit -->
+  <g stroke="#C8102E" stroke-width="1.25" fill="none">
+    <line x1="390" y1="180" x2="630" y2="180" marker-end="url(#arrowred)"/>
+    <line x1="390" y1="200" x2="630" y2="200" marker-end="url(#arrowred)"/>
+    <line x1="390" y1="240" x2="630" y2="240" marker-end="url(#arrowred)"/>
+    <line x1="390" y1="260" x2="630" y2="260" marker-end="url(#arrowred)"/>
+  </g>
+
+  <!-- The rare backscatter — alpha approaches near nucleus and bounces back -->
+  <path d="M 390 220 L 500 220 Q 510 220 504 200 Q 490 180 460 180 L 380 180" stroke="#C8102E" stroke-width="2" fill="none" marker-end="url(#arrowred)"/>
+  <text x="430" y="168" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">~1 in 8,000</text>
+  <text x="430" y="156" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">backscatter</text>
+
+  <text x="510" y="312" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">fits: most pass; rare hard bounce</text>
+  <text x="510" y="326" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">→ atom is mostly empty space</text>
+
+  <!-- Caption -->
+  <rect x="60" y="360" width="580" height="50" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="380" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Most α particles pass through. A few hit the nucleus and bounce back.</text>
+  <text x="350" y="398" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Rutherford: "It was as if you'd fired a 15-inch shell at tissue paper and it came back."</text>
+</svg>

@@ -1,32 +1,88 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Relativistic vs</title>
-  <desc id="desc">Relativistic vs. classical velocity addition — two curves on the same axes. Horizontal axis: u' from 0 to c (speed of object in moving frame). Vertica</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Velocity Addition — Classical vs Relativistic
+  Book: Physics +1: Modern Physics
+  Chapter: 09-special-relativity (NEW content not in Ch 1)
+  Figure: 06
+  Type: Statistical / quantitative
+  Generated: 2026-05-25
+  Source: pantry/09-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Velocity Addition — Classical Exceeds c, Relativistic Saturates at c</title>
+  <desc>Plot of combined speed u versus the object's speed u-prime as measured in the moving frame, with v fixed at 0.5 c. Classical formula u equals v plus u-prime is a straight line that crosses c at u-prime equals 0.5 c. Relativistic formula u equals (v plus u-prime) over (1 plus v u-prime over c squared) is a curve that asymptotes to c. Horizontal dashed line at u equals c is the cosmic speed limit.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="09-special-relativity"
+      figure-number="06"
+      figure-title="Velocity Addition"
+      figure-slug="velocity-addition"
+      figure-type="quantitative"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/09-special-relativity-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Relativistic vs</text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Relativistic vs. classical velocity addition — two curves on the same axes. Horizontal axis: u' from 0 to c (speed of object in moving frame). Vertica</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Velocity Addition — Why You Can't Add Up to Faster Than Light</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">v = 0.5c fixed. Classical addition exceeds c; relativistic addition saturates exactly at c.</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="340" x2="640" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Y-axis: u/c from 0 to 1.5 -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="end">
+    <text x="94" y="344">0</text>
+    <text x="94" y="264">0.5</text>
+    <text x="94" y="184">1.0 (c)</text>
+    <text x="94" y="104">1.5</text>
+  </g>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="95" y1="260" x2="105" y2="260"/>
+    <line x1="95" y1="180" x2="105" y2="180"/>
+    <line x1="95" y1="100" x2="105" y2="100"/>
+  </g>
+  <text x="50" y="220" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 50 220)">COMBINED SPEED u / c</text>
+
+  <!-- X-axis: u'/c from 0 to 1 -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="356">0</text>
+    <text x="208" y="356">0.2</text>
+    <text x="316" y="356">0.4</text>
+    <text x="424" y="356">0.6</text>
+    <text x="532" y="356">0.8</text>
+    <text x="640" y="356">1.0 c</text>
+  </g>
+  <text x="370" y="378" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">u' / c  (speed in moving frame)</text>
+
+  <!-- c limit dashed -->
+  <line x1="100" y1="180" x2="640" y2="180" stroke="#C8102E" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="650" y="184" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">c (speed limit)</text>
+
+  <!-- Classical line: u = v + u' = 0.5c + u'. At u'=0, u=0.5c (y=260). At u'=0.5c, u=1.0c (y=180). At u'=1.0c, u=1.5c (y=100). Linear -->
+  <line x1="100" y1="260" x2="640" y2="100" stroke="#56B4E9" stroke-width="2.5"/>
+  <text x="280" y="156" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#56B4E9">classical: u = v + u'</text>
+  <text x="280" y="168" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">exceeds c — wrong</text>
+
+  <!-- Relativistic: u = (0.5c + u')/(1 + 0.5 u'/c). At u'=0, u=0.5c; at u'=0.5c, u=(1.0c)/(1.25)=0.8c; at u'=0.8c, u=1.3c/1.4=0.929c; at u'=c, u=c -->
+  <!-- y mapping: y(u/c) = 340 - (u/c)*160. So 0.5→260, 0.8→212, 0.929→191.4, 1.0→180 -->
+  <path d="M 100 260 Q 250 240 316 224 Q 424 200 532 188 Q 588 184 640 180" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+  <text x="420" y="220" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">relativistic — saturates at c</text>
+
+  <!-- Crossing marker at u' = 0.5c -->
+  <line x1="316" y1="180" x2="316" y2="340" stroke="#545454" stroke-width="0.5" stroke-dasharray="2 2"/>
+  <circle cx="316" cy="180" r="4" fill="#56B4E9"/>
+  <circle cx="316" cy="224" r="4" fill="#C8102E"/>
+  <text x="324" y="172" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">classical: 1.0c</text>
+  <text x="324" y="220" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">relativistic: 0.8c</text>
+
+  <!-- Formula -->
+  <rect x="60" y="386" width="580" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="402" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">u = (v + u') / (1 + v u' / c²)   ·   exactly c when u' = c</text>
 </svg>

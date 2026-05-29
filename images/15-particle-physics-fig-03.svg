@@ -1,25 +1,89 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Higgs mechanism </title>
-  <desc id="desc">The Higgs field is like a medium that fills all space. Particles that interact with it are impeded — we call that impedance 'mass.' The photon doesn't</desc>
+<!--
+  Higgs Mechanism (Ch 15 — cites Ch 6 Fig 6.4)
+  Book: Physics +1: Modern Physics
+  Chapter: 15-particle-physics
+  Figure: 03
+  Type: Conceptual map
+  Generated: 2026-05-25
+  Source: pantry/15-particle-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Higgs Mechanism — Mass from a Field (Experimental Framing)</title>
+  <desc>Three particles traveling through Higgs-filled space (stippled background). Photon: no coupling, no drag, massless. Electron: small coupling, slight drag, 0.511 MeV. Top quark: strong coupling, heavy drag, 173 GeV. Mass is measured at the LHC; coupling strength fits the Standard Model. See Chapter 6 Figure 6.4 for the conceptual introduction.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="15-particle-physics"
+      figure-number="03"
+      figure-title="Higgs Mechanism (Ch 15)"
+      figure-slug="higgs-mech-15"
+      figure-type="conceptual"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/15-particle-physics-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <pattern id="higgs-stipple15" patternUnits="userSpaceOnUse" width="14" height="14">
+      <circle cx="3" cy="3" r="0.75" fill="#7B61A8"/>
+      <circle cx="10" cy="8" r="0.75" fill="#7B61A8"/>
+      <circle cx="6" cy="12" r="0.75" fill="#7B61A8"/>
+    </pattern>
+    <marker id="arrowblue15" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#56B4E9"/>
+    </marker>
+    <marker id="arrowoch15" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8860E"/>
+    </marker>
+    <marker id="arrowred15b" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8102E"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Higgs mechanism </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The Higgs field is like a medium that fills all space. Particles that interact with it are impeded — we call that impedance 'mass.' The photon doesn't</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">HIGGS</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">MECHANISM</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">PANEL 3</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Higgs Mechanism — Mass = Coupling × LHC Calibration</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">See Ch 6 Fig 6.4 for the concept. Here: experimental measurements from ATLAS/CMS.</text>
+
+  <rect x="60" y="90" width="580" height="220" fill="url(#higgs-stipple15)" stroke="#7B61A8" stroke-width="1"/>
+  <text x="70" y="108" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#7B61A8" letter-spacing="0.06em">HIGGS FIELD</text>
+
+  <!-- Photon -->
+  <line x1="80" y1="150" x2="620" y2="150" stroke="#56B4E9" stroke-width="2.5" marker-end="url(#arrowblue15)"/>
+  <circle cx="80" cy="150" r="6" fill="#56B4E9"/>
+  <text x="62" y="154" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">γ</text>
+  <text x="350" y="138" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">no coupling → m = 0 (measured: &lt; 10⁻²⁷ GeV)</text>
+
+  <!-- Electron -->
+  <line x1="80" y1="210" x2="500" y2="210" stroke="#C8860E" stroke-width="2.5" marker-end="url(#arrowoch15)"/>
+  <circle cx="80" cy="210" r="6" fill="#C8860E"/>
+  <text x="62" y="214" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8860E">e⁻</text>
+  <g stroke="#7B61A8" stroke-width="0.5" opacity="0.7">
+    <line x1="200" y1="208" x2="200" y2="216"/>
+    <line x1="280" y1="208" x2="280" y2="216"/>
+    <line x1="360" y1="208" x2="360" y2="216"/>
+    <line x1="440" y1="208" x2="440" y2="216"/>
+  </g>
+  <text x="280" y="198" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">m = 0.511 MeV (small coupling)</text>
+
+  <!-- Top quark -->
+  <line x1="80" y1="280" x2="280" y2="280" stroke="#C8102E" stroke-width="2.5" marker-end="url(#arrowred15b)"/>
+  <circle cx="80" cy="280" r="8" fill="#C8102E"/>
+  <text x="62" y="285" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">t</text>
+  <g stroke="#7B61A8" stroke-width="1.5">
+    <line x1="120" y1="270" x2="120" y2="290"/>
+    <line x1="160" y1="270" x2="160" y2="290"/>
+    <line x1="200" y1="270" x2="200" y2="290"/>
+    <line x1="240" y1="270" x2="240" y2="290"/>
+  </g>
+  <text x="290" y="278" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">m_t = 172.7 ± 0.3 GeV  (measured at LHC, ATLAS/CMS)</text>
+
+  <!-- Caption -->
+  <rect x="60" y="340" width="580" height="60" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="360" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Coupling strengths are measured one by one in LHC events.</text>
+  <text x="350" y="378" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">The Higgs boson at 125 GeV is the mediator; each fermion mass is a separate datum.</text>
+  <text x="350" y="394" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">No theory predicts the values — they are SM parameters, fit to data.</text>
 </svg>

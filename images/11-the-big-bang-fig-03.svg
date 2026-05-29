@@ -1,25 +1,76 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Planck satellite full-sky CMB map </title>
-  <desc id="desc">The entire visible color range spans four ten-thousandths of a degree. The early universe was uniform to one part in 100,000. The tiny variations you </desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Planck Satellite Full-Sky CMB Map (Brutalist Schematic)
+  Book: Physics +1: Modern Physics
+  Chapter: 11-the-big-bang
+  Figure: 03
+  Type: Annotated data visualization
+  Generated: 2026-05-25
+  Source: pantry/11-the-big-bang-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Planck Satellite CMB Temperature Map — The Universe at 380,000 Years</title>
+  <desc>Schematic of the full-sky cosmic microwave background temperature map in Mollweide projection. The actual image shows tiny temperature fluctuations of about 10 to the minus 5 of the mean 2.7 kelvin background. Cooler (blue) and warmer (orange) patches at sub-degree scales encode the seed inhomogeneities that grew into today's galaxies. Galactic plane is masked in the actual image.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="11-the-big-bang"
+      figure-number="03"
+      figure-title="CMB Sky Map"
+      figure-slug="cmb-map"
+      figure-type="data-viz"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/11-the-big-bang-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Planck satellite full-sky CMB map </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The entire visible color range spans four ten-thousandths of a degree. The early universe was uniform to one part in 100,000. The tiny variations you </text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">PLANCK</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SATELLITE</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FULL-SKY</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The CMB — Light from 380,000 Years After the Big Bang</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Mean 2.7 K. Fluctuations ~10⁻⁵. Patches are baby pictures of today's galaxy clusters.</text>
+
+  <!-- Mollweide ellipse outline -->
+  <ellipse cx="350" cy="220" rx="260" ry="130" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- Schematic temperature fluctuations: small ellipses scattered, alternating cool (sky-blue) and warm (orange) -->
+  <g opacity="0.6">
+    <ellipse cx="160" cy="180" rx="22" ry="14" fill="#56B4E9"/>
+    <ellipse cx="230" cy="160" rx="18" ry="12" fill="#C8860E"/>
+    <ellipse cx="300" cy="200" rx="24" ry="16" fill="#56B4E9"/>
+    <ellipse cx="370" cy="170" rx="20" ry="14" fill="#C8860E"/>
+    <ellipse cx="440" cy="190" rx="22" ry="15" fill="#56B4E9"/>
+    <ellipse cx="510" cy="170" rx="18" ry="12" fill="#C8860E"/>
+    <ellipse cx="560" cy="210" rx="16" ry="10" fill="#56B4E9"/>
+    <ellipse cx="200" cy="240" rx="18" ry="12" fill="#C8860E"/>
+    <ellipse cx="280" cy="270" rx="22" ry="14" fill="#56B4E9"/>
+    <ellipse cx="360" cy="250" rx="20" ry="14" fill="#C8860E"/>
+    <ellipse cx="430" cy="280" rx="18" ry="12" fill="#56B4E9"/>
+    <ellipse cx="500" cy="260" rx="22" ry="14" fill="#C8860E"/>
+    <ellipse cx="240" cy="300" rx="16" ry="10" fill="#56B4E9"/>
+    <ellipse cx="320" cy="320" rx="20" ry="13" fill="#C8860E"/>
+    <ellipse cx="400" cy="310" rx="18" ry="12" fill="#56B4E9"/>
+    <ellipse cx="180" cy="220" rx="14" ry="10" fill="#C8860E"/>
+    <ellipse cx="470" cy="220" rx="16" ry="11" fill="#C8860E"/>
+  </g>
+
+  <!-- Galactic plane mask (horizontal band) -->
+  <rect x="120" y="216" width="460" height="8" fill="#2a1a0e" opacity="0.7"/>
+  <text x="350" y="232" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#FFFFFF">galactic plane (masked)</text>
+
+  <!-- Color bar -->
+  <rect x="80" y="370" width="120" height="14" fill="#56B4E9" opacity="0.6"/>
+  <rect x="200" y="370" width="120" height="14" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.5"/>
+  <rect x="320" y="370" width="120" height="14" fill="#C8860E" opacity="0.6"/>
+  <text x="80" y="398" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">−200 µK</text>
+  <text x="260" y="398" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">2.725 K</text>
+  <text x="440" y="398" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">+200 µK</text>
+
+  <text x="500" y="380" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">ΔT / T ~ 10⁻⁵</text>
+
+  <!-- Caption -->
+  <rect x="60" y="80" width="280" height="20" fill="#F5F5F5" opacity="0.85"/>
+  <text x="70" y="94" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">Mollweide all-sky projection · Planck 2018</text>
 </svg>

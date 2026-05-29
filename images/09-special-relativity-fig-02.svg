@@ -1,25 +1,92 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Train-and-embankment simultaneity thought experiment </title>
-  <desc id="desc">Train-and-embankment simultaneity thought experiment — two panels side by side. Left panel: embankment observer at midpoint, two lightning strike posi</desc>
+<!--
+  Train-and-Embankment Simultaneity (Ch 9 — duplicate of Ch 1 Fig 1.2)
+  Book: Physics +1: Modern Physics
+  Chapter: 09-special-relativity
+  Figure: 02
+  Type: Comparison panels
+  Generated: 2026-05-25
+  Source: pantry/09-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Simultaneity Is Frame-Dependent — Same Two Strikes, Two Verdicts</title>
+  <desc>Two side-by-side panels of Einstein's train thought experiment. Panel A train frame: observer at the center; two lightning strikes hit both ends simultaneously and the light reaches the observer at the same instant. Panel B platform frame: the train moves rightward; the front-strike light has a shorter path to the stationary observer and arrives first. Both reason correctly; both disagree about simultaneity. See also Ch 1 Fig 1.2 — same physics.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="09-special-relativity"
+      figure-number="02"
+      figure-title="Simultaneity Two Frames"
+      figure-slug="simultaneity-train-9"
+      figure-type="comparison"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/09-special-relativity-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowoch" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8860E"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#56B4E9"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Train-and-embankment simultaneity thought experiment </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Train-and-embankment simultaneity thought experiment — two panels side by side. Left panel: embankment observer at midpoint, two lightning strike posi</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">TRAIN-AND-EMBANKMENT</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SIMULTANEITY</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">THOUGHT</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Simultaneity Is Frame-Dependent</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">See Ch 1 Fig 1.2 for the same physics anchored to the postulates.</text>
+
+  <line x1="350" y1="80" x2="350" y2="340" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel A: Train frame -->
+  <text x="180" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(A) TRAIN FRAME — SIMULTANEOUS</text>
+  <rect x="60" y="200" width="240" height="50" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/>
+  <circle cx="180" cy="225" r="6" fill="#2a1a0e"/>
+  <text x="180" y="266" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">observer A</text>
+
+  <g stroke="#C8860E" stroke-width="2">
+    <line x1="60" y1="180" x2="60" y2="200"/>
+    <line x1="55" y1="170" x2="65" y2="180"/>
+    <line x1="300" y1="180" x2="300" y2="200"/>
+    <line x1="295" y1="170" x2="305" y2="180"/>
+  </g>
+  <text x="60" y="166" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">⚡ strike L</text>
+  <text x="300" y="166" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">⚡ strike R</text>
+
+  <line x1="66" y1="200" x2="174" y2="225" stroke="#C8860E" stroke-width="1.25" marker-end="url(#arrowoch)"/>
+  <line x1="294" y1="200" x2="186" y2="225" stroke="#56B4E9" stroke-width="1.25" marker-end="url(#arrowblue)"/>
+
+  <text x="180" y="296" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">arrives at same instant</text>
+
+  <!-- Panel B: Platform frame -->
+  <text x="510" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">(B) PLATFORM FRAME — NOT SIMULTANEOUS</text>
+  <rect x="390" y="200" width="240" height="50" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="634" y1="225" x2="660" y2="225" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrowblue)"/>
+  <text x="650" y="216" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">v</text>
+  <circle cx="510" cy="225" r="6" fill="#2a1a0e"/>
+  <circle cx="510" cy="290" r="6" fill="#C8102E"/>
+  <text x="510" y="312" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">observer B (platform)</text>
+
+  <g stroke="#C8860E" stroke-width="2">
+    <line x1="390" y1="180" x2="390" y2="200"/>
+    <line x1="385" y1="170" x2="395" y2="180"/>
+    <line x1="630" y1="180" x2="630" y2="200"/>
+    <line x1="625" y1="170" x2="635" y2="180"/>
+  </g>
+  <text x="390" y="166" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">⚡ L</text>
+  <text x="630" y="166" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">⚡ R</text>
+
+  <line x1="396" y1="200" x2="504" y2="288" stroke="#C8860E" stroke-width="1.25" marker-end="url(#arrowoch)"/>
+  <line x1="624" y1="200" x2="516" y2="288" stroke="#56B4E9" stroke-width="2" marker-end="url(#arrowblue)"/>
+
+  <text x="510" y="334" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">R arrives FIRST</text>
+
+  <!-- Caption -->
+  <rect x="60" y="360" width="580" height="50" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="380" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Both observers reason carefully. Both disagree.</text>
+  <text x="350" y="398" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">"At the same time" is not a frame-independent statement.</text>
 </svg>

@@ -1,25 +1,78 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Compton scattering </title>
-  <desc id="desc">Compton's 1923 experiment: X-rays scattered off electrons emerged with longer wavelengths. The only way to explain this is if photons have momentum an</desc>
+<!--
+  Compton Scattering Geometry
+  Book: Physics +1: Modern Physics
+  Chapter: 04-the-quantum-nature-of-light
+  Figure: 05
+  Type: Mechanism cross-section
+  Generated: 2026-05-25
+  Source: pantry/04-the-quantum-nature-of-light-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Compton Scattering — A Photon Bounces Off an Electron</title>
+  <desc>A short-wavelength incoming photon strikes a stationary electron. The scattered photon emerges at angle theta with longer wavelength; the electron recoils at angle phi. Wavelength shift equals h over m c times one minus cos theta.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="04-the-quantum-nature-of-light"
+      figure-number="05"
+      figure-title="Compton Scattering"
+      figure-slug="compton-scattering"
+      figure-type="mechanism"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/04-the-quantum-nature-of-light-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowblue" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#56B4E9"/>
+    </marker>
+    <marker id="arrowoch" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8860E"/>
+    </marker>
+    <marker id="arrowink" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#2a1a0e"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Compton scattering </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Compton's 1923 experiment: X-rays scattered off electrons emerged with longer wavelengths. The only way to explain this is if photons have momentum an</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">COMPTON</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SCATTERING</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">PANEL 3</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Compton Scattering — Light Has Momentum, Caught Red-Handed</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Scattered photon is redshifted (longer λ); electron recoils carrying the missing momentum.</text>
+
+  <circle cx="380" cy="220" r="8" fill="#2a1a0e"/>
+  <text x="380" y="244" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">e⁻ (at rest)</text>
+
+  <path d="M 100 220 Q 110 210 120 220 Q 130 230 140 220 Q 150 210 160 220 Q 170 230 180 220 Q 190 210 200 220 Q 210 230 220 220 Q 230 210 240 220 Q 250 230 260 220 Q 270 210 280 220 Q 290 230 300 220 Q 310 210 320 220 Q 330 230 340 220 Q 350 210 360 220" stroke="#56B4E9" stroke-width="2" fill="none"/>
+  <line x1="360" y1="220" x2="372" y2="220" stroke="#56B4E9" stroke-width="2" marker-end="url(#arrowblue)"/>
+  <text x="180" y="200" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">incoming γ · short λ</text>
+
+  <path d="M 388 214 Q 410 196 432 178 Q 454 200 476 182 Q 498 164 520 146 Q 542 168 564 150" stroke="#C8860E" stroke-width="2" fill="none"/>
+  <line x1="564" y1="150" x2="572" y2="146" stroke="#C8860E" stroke-width="2" marker-end="url(#arrowoch)"/>
+  <text x="568" y="138" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8860E">scattered γ · longer λ</text>
+
+  <line x1="388" y1="226" x2="490" y2="288" stroke="#2a1a0e" stroke-width="2" marker-end="url(#arrowink)"/>
+  <text x="500" y="300" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">recoil e⁻</text>
+
+  <path d="M 410 220 A 30 30 0 0 0 400 196" stroke="#545454" stroke-width="0.5" fill="none"/>
+  <text x="412" y="208" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">θ</text>
+  <path d="M 408 230 A 28 28 0 0 1 416 252" stroke="#545454" stroke-width="0.5" fill="none"/>
+  <text x="418" y="252" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">φ</text>
+
+  <rect x="380" y="320" width="280" height="60" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="520" y="340" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E" letter-spacing="0.06em">WAVELENGTH SHIFT</text>
+  <line x1="394" y1="348" x2="646" y2="348" stroke="#C8102E" stroke-width="0.5"/>
+  <text x="520" y="372" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#2a1a0e">Δλ = (h/m_e c)(1 − cos θ)</text>
+
+  <rect x="60" y="320" width="280" height="60" fill="#F5F5F5" stroke="#56B4E9" stroke-width="1"/>
+  <text x="200" y="340" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9" letter-spacing="0.06em">CONSERVATION</text>
+  <line x1="74" y1="348" x2="326" y2="348" stroke="#56B4E9" stroke-width="0.5"/>
+  <text x="200" y="362" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">photon: E = pc, p = h/λ</text>
+  <text x="200" y="374" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">treat as a billiard ball</text>
+
+  <rect x="60" y="386" width="600" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="360" y="402" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Compton 1923 settled it: photons carry momentum p = h/λ, behave like particles in collisions.</text>
 </svg>

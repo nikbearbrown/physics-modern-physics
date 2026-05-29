@@ -1,0 +1,101 @@
+<!--
+  The Muon Story from Two Frames
+  Book: Physics +1: Modern Physics
+  Chapter: 01-special-relativity
+  Figure: 04
+  Type: Comparison panels
+  Generated: 2026-05-25
+  Source: pantry/01-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Muon Story — Same Particle, Two Frames, Two Derivations</title>
+  <desc>Two vertical columns show the same muon arriving at a ground detector after being produced at the top of Earth's atmosphere. Panel A Earth frame: 15 km atmosphere column, muon moving down at 0.99 c, gamma about 7 dilates the muon's 2.2 microsecond lifetime to 15 microseconds — enough time to reach the ground. Panel B muon frame: atmosphere length-contracted to about 2 km, muon at rest, Earth rushing up at 0.99 c — the contracted atmosphere is crossed in 2.2 microseconds.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="01-special-relativity"
+      figure-number="04"
+      figure-title="Muon From Two Frames"
+      figure-slug="muon-two-frames"
+      figure-type="comparison"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/01-special-relativity-cajal.md"
+    />
+  </metadata>
+  <defs>
+    <marker id="arrowred" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8102E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The Muon — Same Detector Hit, Two Equally Valid Derivations</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Time dilation in Earth frame; length contraction in muon frame. Both required for consistency.</text>
+
+  <line x1="350" y1="80" x2="350" y2="380" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel A: Earth frame -->
+  <text x="180" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(A) EARTH FRAME — TIME DILATION</text>
+
+  <!-- Atmosphere column (full 15 km) -->
+  <rect x="140" y="120" width="80" height="220" fill="#56B4E9" opacity="0.25" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="226" y="125" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">top of atmos</text>
+  <text x="226" y="346" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">ground (detector)</text>
+
+  <!-- Atmosphere length -->
+  <line x1="124" y1="124" x2="124" y2="336" stroke="#545454" stroke-width="0.5"/>
+  <line x1="120" y1="124" x2="128" y2="124" stroke="#545454" stroke-width="0.5"/>
+  <line x1="120" y1="336" x2="128" y2="336" stroke="#545454" stroke-width="0.5"/>
+  <text x="118" y="232" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">15 km</text>
+
+  <!-- Muon (at top, moving down) -->
+  <circle cx="180" cy="140" r="6" fill="#C8102E"/>
+  <line x1="180" y1="148" x2="180" y2="320" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrowred)"/>
+  <text x="186" y="232" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">v = 0.99c</text>
+
+  <!-- Ground -->
+  <rect x="120" y="340" width="120" height="6" fill="#2a1a0e"/>
+
+  <!-- Clock readout -->
+  <rect x="60" y="360" width="240" height="20" fill="#F5F5F5" stroke="#C8102E" stroke-width="1"/>
+  <text x="180" y="375" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">τ₀ = 2.2 µs · γ ≈ 7 → 15 µs ✓</text>
+
+  <!-- Panel B: Muon frame -->
+  <text x="510" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">(B) MUON FRAME — LENGTH CONTRACTION</text>
+
+  <!-- Atmosphere column (contracted to ~2 km, ratio 1/7.5) -->
+  <rect x="470" y="120" width="80" height="30" fill="#56B4E9" opacity="0.25" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="556" y="125" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">top</text>
+  <text x="556" y="155" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">ground (rushing up)</text>
+
+  <!-- Contracted length -->
+  <line x1="454" y1="124" x2="454" y2="146" stroke="#545454" stroke-width="0.5"/>
+  <line x1="450" y1="124" x2="458" y2="124" stroke="#545454" stroke-width="0.5"/>
+  <line x1="450" y1="146" x2="458" y2="146" stroke="#545454" stroke-width="0.5"/>
+  <text x="448" y="138" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">2 km</text>
+
+  <!-- Muon at rest (lower part) -->
+  <circle cx="510" cy="220" r="6" fill="#C8102E"/>
+  <text x="520" y="224" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">muon at rest</text>
+
+  <!-- Earth rushing up arrow -->
+  <line x1="510" y1="320" x2="510" y2="170" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrowred)"/>
+  <text x="516" y="270" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Earth rushes up at 0.99c</text>
+
+  <!-- Ground (down at bottom, will arrive) -->
+  <rect x="450" y="320" width="120" height="6" fill="#2a1a0e"/>
+
+  <!-- Clock readout -->
+  <rect x="390" y="360" width="240" height="20" fill="#F5F5F5" stroke="#C8102E" stroke-width="1"/>
+  <text x="510" y="375" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">2 km / 0.99c ≈ 2.2 µs (own life) ✓</text>
+
+  <!-- Caption -->
+  <rect x="60" y="394" width="580" height="50" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="414" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Same particle, same detector — derived two ways.</text>
+  <text x="350" y="432" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Both required for relativity to be internally consistent.</text>
+</svg>

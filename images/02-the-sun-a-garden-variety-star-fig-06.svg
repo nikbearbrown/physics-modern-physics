@@ -1,25 +1,85 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">High-resolution solar telescope photograph of photospheric granulation </title>
-  <desc id="desc">Each bright polygon is a convection cell completing one full cycle in about 8 minutes. Millions operate simultaneously. The photosphere looks calm fro</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Photospheric Granulation
+  Book: Physics +1: Modern Physics
+  Chapter: 02-the-sun-a-garden-variety-star
+  Figure: 06
+  Type: Annotated example / schematic
+  Generated: 2026-05-25
+  Source: pantry/02-the-sun-a-garden-variety-star-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Photospheric Granulation — Convection Made Visible</title>
+  <desc>Schematic of the Sun's photosphere showing the granulation pattern: bright polygonal cells where hot plasma rises, separated by darker lanes where cooler plasma sinks. Each cell is about 1000 kilometers across and lives roughly 8 minutes. The pattern is the top of the convection zone made visible at the surface.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="02-the-sun-a-garden-variety-star"
+      figure-number="06"
+      figure-title="Photospheric Granulation"
+      figure-slug="granulation"
+      figure-type="schematic"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/02-the-sun-a-garden-variety-star-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">High-resolution solar telescope photograph of photospheric granulation </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Each bright polygon is a convection cell completing one full cycle in about 8 minutes. Millions operate simultaneously. The photosphere looks calm fro</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">HIGH-RESOLUTION</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SOLAR</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">TELESCOPE</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Photospheric Granulation — Convection at the Surface</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Bright cells: hot plasma rising. Dark lanes: cooler plasma sinking.</text>
+
+  <!-- Background frame -->
+  <rect x="80" y="90" width="540" height="240" fill="#1a1208" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- Granulation cells (polygonal bright patches separated by dark lanes) -->
+  <g fill="#C8860E" stroke="#1a1208" stroke-width="2">
+    <polygon points="100,110 150,108 170,140 155,170 110,165"/>
+    <polygon points="172,108 230,108 245,140 225,170 158,170"/>
+    <polygon points="247,108 305,108 320,138 300,170 230,168"/>
+    <polygon points="322,108 380,108 395,140 380,170 308,170"/>
+    <polygon points="397,108 455,108 470,140 450,168 380,170"/>
+    <polygon points="472,108 530,108 545,138 525,168 450,170"/>
+    <polygon points="547,108 600,108 600,150 565,168 525,168"/>
+    <!-- Row 2 -->
+    <polygon points="110,168 158,170 160,205 145,225 100,222"/>
+    <polygon points="160,172 230,170 235,200 220,228 145,225"/>
+    <polygon points="232,172 305,170 305,205 290,228 220,228"/>
+    <polygon points="308,172 380,170 385,205 365,228 290,225"/>
+    <polygon points="385,172 455,170 460,200 445,225 365,225"/>
+    <polygon points="460,172 530,170 535,205 510,225 445,225"/>
+    <polygon points="540,172 600,165 600,210 575,225 510,225"/>
+    <!-- Row 3 -->
+    <polygon points="100,225 148,228 155,260 140,288 100,285"/>
+    <polygon points="155,230 220,228 225,265 210,290 140,288"/>
+    <polygon points="225,230 290,228 295,265 280,290 210,290"/>
+    <polygon points="295,230 365,228 370,265 355,290 280,290"/>
+    <polygon points="370,230 445,228 450,265 435,290 355,290"/>
+    <polygon points="450,228 510,225 515,265 495,290 435,290"/>
+    <polygon points="515,228 575,225 600,260 600,290 495,290"/>
+  </g>
+
+  <!-- Annotation arrows -->
+  <line x1="200" y1="138" x2="170" y2="80" stroke="#C8102E" stroke-width="0.75"/>
+  <text x="170" y="76" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">bright cell · rising hot plasma</text>
+
+  <line x1="155" y1="170" x2="60" y2="240" stroke="#C8102E" stroke-width="0.75"/>
+  <text x="56" y="244" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">dark lane</text>
+  <text x="56" y="256" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">sinking cool plasma</text>
+
+  <!-- Scale bar -->
+  <line x1="100" y1="356" x2="180" y2="356" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="100" y1="352" x2="100" y2="360" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="180" y1="352" x2="180" y2="360" stroke="#2a1a0e" stroke-width="2"/>
+  <text x="140" y="372" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">1000 km</text>
+
+  <!-- Lifetime callout -->
+  <text x="620" y="358" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">cell lifetime ≈ 8 minutes</text>
+
+  <!-- Caption -->
+  <rect x="60" y="380" width="580" height="32" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="400" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">A boiling pot of plasma seen from above — and every cell is the size of Texas.</text>
 </svg>

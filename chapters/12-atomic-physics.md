@@ -1,4 +1,11 @@
 # Chapter 12 — Atomic Physics
+
+## TL;DR
+
+- How two postulates and a counting rule became the entire periodic table.
+- The chapter moves through The mechanism, Why the orbits are stable — the wave interpretation, More than one electron, Seeing inside atoms: characteristic X-rays, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *How two postulates and a counting rule became the entire periodic table.*
 
 In 1909, a graduate student named Hans Geiger sat in a darkened room in Manchester and counted flashes of light on a zinc-sulfide screen. Each flash was a single alpha particle — a helium nucleus, fast and heavy — that had traveled through a thin gold foil and struck the screen. Most of the flashes appeared almost directly ahead, at small angles from the beam. That was expected. A few appeared at angles of twenty, thirty, forty degrees. That was curious. And then, occasionally, one appeared behind the foil — at an angle greater than ninety degrees, having bounced almost directly backward.
@@ -7,7 +14,7 @@ Geiger's supervisor, Ernest Rutherford, later said that seeing this was "almost 
 
 Rutherford worked out the mathematics. To produce the observed scattering rate, the positive charge and almost all the mass of the gold atom had to be concentrated in a nucleus roughly $10^{-14}$ meters across. The atom itself is $10^{-10}$ meters across — ten thousand times larger. The nucleus is to the atom as a fly is to a cathedral. Almost everything inside an atom is empty space.
 
-![Scale comparison of atom vs](images/12-atomic-physics-fig-01.png)
+![Scale comparison of atom vs](../images/12-atomic-physics-fig-01.png)
 *Figure 12.1 — Scale comparison of atom vs*
 
 This is the picture every chemistry student learns in the first week. But it immediately creates a catastrophe.
@@ -46,7 +53,7 @@ $$E_n = -\frac{13.6 \, \text{eV}}{n^2}.$$
 
 The ground state, $n = 1$, has energy $-13.6$ eV — that is, it would take 13.6 eV of energy to rip the electron completely free of the proton. The excited states ($n = 2, 3, \ldots$) have less negative energies, approaching zero as $n \to \infty$ (a free electron at rest).
 
-![Hydrogen energy level diagram ](images/12-atomic-physics-fig-02.png)
+![Hydrogen energy level diagram ](../images/12-atomic-physics-fig-02.png)
 *Figure 12.2 — Hydrogen energy level diagram *
 
 When the electron jumps from state $n_i$ to state $n_f$ (with $n_f < n_i$), it releases a photon of energy:
@@ -85,7 +92,7 @@ $$m_e v r_n = n \frac{h}{2\pi}.$$
 
 That is Bohr's quantization condition, now derived from the requirement that the electron's de Broglie wave be a standing wave on the orbit. The allowed orbits are the ones where the electron, thought of as a wave, resonates with itself. The disallowed orbits are the ones where it destructively interferes.
 
-![Only integer fits survive — everything else cancels.](images/12-atomic-physics-fig-03.png)
+![Only integer fits survive — everything else cancels.](../images/12-atomic-physics-fig-03.png)
 *Figure 12.3 — Standing waves on a circular orbit *
 
 This is why the electron does not radiate while in a stationary orbit. The standing-wave state is an eigenstate of the atom — it is as stable as a vibrating string in its fundamental mode. There is nothing to radiate because there is no oscillating charge distribution; the standing wave is symmetric and static in time. Radiation requires a *transition* — a change from one standing-wave pattern to another — which is a time-varying process. That time variation drives the photon emission.
@@ -166,7 +173,7 @@ A tube operating at $80$ kV produces photons up to $80$ keV. A tube at $100$ kV,
 
 The total X-ray spectrum from a tube is the sum of both: a continuous bremsstrahlung background from deceleration, with sharp characteristic lines sitting on top of it, at energies specific to the anode material. The lines let you identify the element; the bremsstrahlung gives you the imaging exposure.
 
-![The continuous background comes from deceleration; the sharp peaks are the element's signature.](images/12-atomic-physics-fig-04.png)
+![The continuous background comes from deceleration; the sharp peaks are the element's signature.](../images/12-atomic-physics-fig-04.png)
 *Figure 12.4 — X-ray tube spectrum *
 
 Moseley enlisted in the British Army in 1914 and was killed at Gallipoli in August 1915. He was twenty-seven. Had he lived, he would almost certainly have received the Nobel Prize. He never did. The work that died with him would have been the work of another decade.
@@ -181,7 +188,7 @@ Sodium (Na, $Z = 11$) has electron configuration $1s^2 \, 2s^2 \, 2p^6 \, 3s^1$.
 
 The same 589-nm line appears in solar absorption spectra. When sunlight passes through the Sun's cooler outer atmosphere, sodium atoms there absorb exactly those wavelengths, leaving dark gaps (Fraunhofer lines) in the solar spectrum at 589 nm. Joseph Fraunhofer catalogued these lines in 1814 without knowing what they were. By the 1860s, Kirchhoff and Bunsen had matched them to laboratory spectra of known elements. By 1913, Bohr's model explained why the lines were at those specific wavelengths.
 
-![The dark lines are where atoms in the Sun's atmosphere absorbed exactly the photon energies their electrons needed. Each gap is an element's signature.](images/12-atomic-physics-fig-05.png)
+![The dark lines are where atoms in the Sun's atmosphere absorbed exactly the photon energies their electrons needed. Each gap is an element's signature.](../images/12-atomic-physics-fig-05.png)
 *Figure 12.5 — Solar absorption spectrum showing Fraunhofer lines *
 
 That is the arc: from Geiger counting flashes in a darkened room in 1909, to Bohr's standing-wave orbits in 1913, to Pauli's exclusion principle in 1925, to an explanation of every line in every stellar spectrum and the electron configuration of every element. The whole edifice sits on two postulates and four quantum numbers.
@@ -293,9 +300,7 @@ Chapter 13 (radioactivity and nuclear physics) moves from electrons to nuclei �
 
 ---
 
-## AI Wayback Machine
-
-**Lise Meitner** identified nuclear fission in 1938 — interpreting Otto Hahn's puzzling experimental results during her exile in Sweden. Hahn alone received the Nobel; Meitner's exclusion is one of the most-cited omissions in Nobel history.
+##  AI Wayback Machine
 
 **Run this:**
 

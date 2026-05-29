@@ -1,25 +1,71 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Muon survival </title>
-  <desc id="desc">Two different mechanisms, one physical outcome — the consistency of the theory.</desc>
+<!--
+  Muon Survival — Two Frames (duplicate of Ch 1 Fig 1.4)
+  Book: Physics +1: Modern Physics
+  Chapter: 09-special-relativity
+  Figure: 05
+  Type: Comparison panels
+  Generated: 2026-05-25
+  Source: pantry/09-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Muon Survival from Two Frames</title>
+  <desc>Two columns. Earth frame at left: 15 km atmosphere column, muon descends at 0.99 c; gamma equals 7 dilates the muon's proper lifetime of 2.2 microseconds to 15 microseconds — enough to reach the ground. Muon frame at right: atmosphere length-contracted to 2 km, muon at rest, Earth rushes up; contracted atmosphere is crossed in 2.2 microseconds.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="09-special-relativity"
+      figure-number="05"
+      figure-title="Muon Two Frames"
+      figure-slug="muon-two-frames-9"
+      figure-type="comparison"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/09-special-relativity-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowred" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8102E"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Muon survival </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Two different mechanisms, one physical outcome — the consistency of the theory.</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">MUON</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SURVIVAL</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">PANEL 3</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Muon Survival — Two Equally Valid Derivations</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">See Ch 1 Fig 1.4. Time dilation in Earth's frame; length contraction in the muon's.</text>
+
+  <line x1="350" y1="80" x2="350" y2="340" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <text x="180" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(A) EARTH FRAME — TIME DILATION</text>
+  <rect x="140" y="120" width="80" height="200" fill="#56B4E9" opacity="0.25" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="124" y1="124" x2="124" y2="316" stroke="#545454" stroke-width="0.5"/>
+  <line x1="120" y1="124" x2="128" y2="124" stroke="#545454" stroke-width="0.5"/>
+  <line x1="120" y1="316" x2="128" y2="316" stroke="#545454" stroke-width="0.5"/>
+  <text x="118" y="222" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">15 km</text>
+  <circle cx="180" cy="140" r="6" fill="#C8102E"/>
+  <line x1="180" y1="148" x2="180" y2="300" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrowred)"/>
+  <text x="186" y="222" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">v = 0.99c</text>
+  <rect x="120" y="320" width="120" height="6" fill="#2a1a0e"/>
+  <rect x="60" y="340" width="240" height="20" fill="#F5F5F5" stroke="#C8102E" stroke-width="1"/>
+  <text x="180" y="355" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">τ₀ = 2.2 µs · γ ≈ 7 → 15 µs ✓</text>
+
+  <text x="510" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">(B) MUON FRAME — LENGTH CONTRACTION</text>
+  <rect x="470" y="120" width="80" height="28" fill="#56B4E9" opacity="0.25" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="454" y1="124" x2="454" y2="144" stroke="#545454" stroke-width="0.5"/>
+  <line x1="450" y1="124" x2="458" y2="124" stroke="#545454" stroke-width="0.5"/>
+  <line x1="450" y1="144" x2="458" y2="144" stroke="#545454" stroke-width="0.5"/>
+  <text x="448" y="138" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">2 km</text>
+  <circle cx="510" cy="220" r="6" fill="#C8102E"/>
+  <text x="520" y="224" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">at rest</text>
+  <line x1="510" y1="320" x2="510" y2="170" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrowred)"/>
+  <text x="516" y="278" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Earth rushes up</text>
+  <rect x="450" y="320" width="120" height="6" fill="#2a1a0e"/>
+  <rect x="390" y="340" width="240" height="20" fill="#F5F5F5" stroke="#C8102E" stroke-width="1"/>
+  <text x="510" y="355" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">2 km / 0.99c ≈ 2.2 µs (own life) ✓</text>
+
+  <rect x="60" y="378" width="580" height="32" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="398" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Same particle, same detector — derived two ways. Both required for consistency.</text>
 </svg>

@@ -1,29 +1,86 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Light-clock time dilation derivation </title>
-  <desc id="desc">The path is longer at the same speed — so the tick takes longer.</desc>
+<!--
+  Light-Clock Time Dilation Derivation
+  Book: Physics +1: Modern Physics
+  Chapter: 09-special-relativity (duplicate of Ch 1 Fig 1.1)
+  Figure: 03
+  Type: Mechanism cross-section
+  Generated: 2026-05-25
+  Source: pantry/09-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Light Clock — The Geometric Derivation of Time Dilation</title>
+  <desc>Two panels of a light pulse bouncing between two mirrors. Panel A rest frame: vertical path of length two h, period equals two h over c. Panel B moving frame: clock translates rightward at velocity v, light traces a diagonal — the hypotenuse of a right triangle with legs h and v delta t over 2. Pythagoras gives delta t equals two h over c divided by square root of one minus v squared over c squared, equal to gamma times proper time.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="09-special-relativity"
+      figure-number="03"
+      figure-title="Light Clock Derivation"
+      figure-slug="light-clock-derivation"
+      figure-type="mechanism"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/09-special-relativity-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowblue" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#56B4E9"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Light-clock time dilation derivation </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The path is longer at the same speed — so the tick takes longer.</text>
-  <rect x="64" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="120" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">START</text>
-  <text x="120" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 180 210 C 196 210, 206 210, 218 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="218" y="166" width="112" height="88" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="274" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">LIGHT-CLOCK</text>
-  <text x="274" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 334 210 C 350 210, 360 210, 372 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="372" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="428" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">TIME</text>
-  <text x="428" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 488 210 C 504 210, 514 210, 526 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="526" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="582" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">DILATION</text>
-  <text x="582" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 120 292 C 240 340, 430 340, 584 292" stroke="#C8102E" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/>
-  <text x="350" y="362" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The diagram emphasizes sequence, dependency, and the decision point.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Light Clock — Derivation in Two Frames</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">See Ch 1 Fig 1.1. Same physics, shown here with the algebra step labeled.</text>
+
+  <line x1="350" y1="80" x2="350" y2="340" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel A: Rest -->
+  <text x="180" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(A) REST FRAME · proper time Δt₀</text>
+  <rect x="140" y="130" width="80" height="6" fill="#2a1a0e"/>
+  <rect x="140" y="270" width="80" height="6" fill="#2a1a0e"/>
+  <line x1="180" y1="270" x2="180" y2="138" stroke="#56B4E9" stroke-width="2.5" marker-end="url(#arrowblue)"/>
+  <line x1="186" y1="138" x2="186" y2="268" stroke="#56B4E9" stroke-width="2.5" marker-end="url(#arrowblue)"/>
+
+  <line x1="124" y1="136" x2="124" y2="276" stroke="#545454" stroke-width="0.5"/>
+  <line x1="120" y1="136" x2="128" y2="136" stroke="#545454" stroke-width="0.5"/>
+  <line x1="120" y1="276" x2="128" y2="276" stroke="#545454" stroke-width="0.5"/>
+  <text x="116" y="208" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">h</text>
+
+  <text x="180" y="312" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">Δt₀ = 2h / c</text>
+
+  <!-- Panel B: Moving -->
+  <text x="510" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">(B) MOVING FRAME · dilated Δt</text>
+
+  <rect x="420" y="130" width="60" height="6" fill="#2a1a0e" opacity="0.4"/>
+  <rect x="540" y="130" width="60" height="6" fill="#2a1a0e"/>
+  <rect x="420" y="270" width="60" height="6" fill="#2a1a0e" opacity="0.4"/>
+  <rect x="540" y="270" width="60" height="6" fill="#2a1a0e"/>
+
+  <line x1="610" y1="220" x2="640" y2="220" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrowblue)"/>
+  <text x="624" y="212" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">v</text>
+
+  <!-- Diagonal light path -->
+  <line x1="450" y1="270" x2="570" y2="138" stroke="#56B4E9" stroke-width="2.5" marker-end="url(#arrowblue)"/>
+  <line x1="570" y1="138" x2="455" y2="268" stroke="#56B4E9" stroke-width="2.5" marker-end="url(#arrowblue)"/>
+
+  <!-- Right triangle (dashed gray) -->
+  <line x1="450" y1="270" x2="570" y2="270" stroke="#545454" stroke-width="0.75" stroke-dasharray="3 2"/>
+  <line x1="570" y1="270" x2="570" y2="138" stroke="#545454" stroke-width="0.75" stroke-dasharray="3 2"/>
+
+  <!-- Triangle labels -->
+  <text x="510" y="286" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">v Δt / 2</text>
+  <text x="578" y="208" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">h</text>
+  <text x="498" y="194" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">c Δt / 2</text>
+
+  <text x="510" y="312" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">Δt = γ Δt₀</text>
+
+  <!-- Pythagoras box -->
+  <rect x="60" y="360" width="580" height="50" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="382" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">(c Δt/2)² = h² + (v Δt/2)²   →   Δt = 2h/c · 1/√(1 − v²/c²)</text>
+  <text x="350" y="400" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Pythagoras + the invariance of c gives γ.</text>
 </svg>

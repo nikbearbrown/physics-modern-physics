@@ -1,32 +1,63 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Nuclear scale comparison </title>
-  <desc id="desc">The atom is mostly empty space. The nucleus is almost incomprehensibly dense by human-scale standards.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Nuclear Scale Comparison (density emphasis)
+  Book: Physics +1: Modern Physics
+  Chapter: 13-radioactivity-and-nuclear-physics
+  Figure: 01
+  Type: Annotated example
+  Generated: 2026-05-25
+  Source: pantry/13-radioactivity-and-nuclear-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Nuclear Scale and Density — a Teaspoon Weighs a Billion Tonnes</title>
+  <desc>Schematic showing atom and nucleus at scale. Nucleus is about 10 to the minus 14 meters across, 10000 times smaller than the atom. Density is about 2 times 10 to the 17 kilograms per cubic meter — a teaspoon of nuclear matter weighs about a billion tonnes. The implication, not the geometry, is the focus here.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="13-radioactivity-and-nuclear-physics"
+      figure-number="01"
+      figure-title="Nuclear Density"
+      figure-slug="nuclear-density"
+      figure-type="annotated-example"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/13-radioactivity-and-nuclear-physics-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Nuclear scale comparison </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The atom is mostly empty space. The nucleus is almost incomprehensibly dense by human-scale standards.</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Nuclear Density — All the Mass in 10⁻¹² of the Volume</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">A teaspoon of nuclear matter ≈ 10⁹ tonnes. See Ch 12 Fig 12.1 for structural angle.</text>
+
+  <!-- Atom at scale (left) -->
+  <text x="180" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">ATOM (~10⁻¹⁰ m)</text>
+  <circle cx="180" cy="220" r="100" fill="none" stroke="#2a1a0e" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="180" cy="220" r="0.6" fill="#C8102E"/>
+
+  <!-- Density box for atom -->
+  <text x="180" y="332" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">average density ≈ 1 g/cm³</text>
+  <text x="180" y="348" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">(like water)</text>
+
+  <!-- Nucleus magnified (right) -->
+  <text x="520" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">NUCLEUS · MAGNIFIED 10,000×</text>
+  <circle cx="520" cy="220" r="80" fill="#C8102E" opacity="0.55" stroke="#2a1a0e" stroke-width="1.5"/>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <circle cx="500" cy="208" r="14" fill="#C8102E"/>
+    <circle cx="532" cy="210" r="14" fill="#56B4E9"/>
+    <circle cx="515" cy="235" r="14" fill="#C8102E"/>
+    <circle cx="546" cy="238" r="14" fill="#56B4E9"/>
+    <circle cx="490" cy="235" r="14" fill="#56B4E9"/>
+    <circle cx="538" cy="190" r="14" fill="#C8102E"/>
+  </g>
+
+  <text x="520" y="332" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">density ≈ 2 × 10¹⁷ kg/m³</text>
+  <text x="520" y="348" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">teaspoon ≈ 10⁹ tonnes</text>
+
+  <!-- Caption -->
+  <rect x="60" y="376" width="580" height="36" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="396" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Atoms are mostly empty. Mass is concentrated in the tiny nuclear dot at the center.</text>
+  <text x="350" y="406" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">Neutron-star matter has this density across the entire star.</text>
 </svg>

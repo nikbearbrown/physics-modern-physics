@@ -1,0 +1,103 @@
+<!--
+  Hydrogen Orbital Shapes (1s, 2s, 2p_x, 2p_z)
+  Book: Physics +1: Modern Physics
+  Chapter: 05-the-atom
+  Figure: 04
+  Type: Structural schematic / probability cloud
+  Generated: 2026-05-25
+  Source: pantry/05-the-atom-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Hydrogen Orbitals — Probability Clouds, Not Orbits</title>
+  <desc>Four panels showing the lowest hydrogen orbital shapes. 1s: spherical density cloud, densest at the nucleus, decaying outward. 2s: spherical with one radial node (a dark ring at intermediate radius). 2p sub x: dumbbell shape along the x-axis with a node at the nucleus. 2p sub z: dumbbell along z-axis. Density represents the probability of finding the electron at each point.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="05-the-atom"
+      figure-number="04"
+      figure-title="Hydrogen Orbital Shapes"
+      figure-slug="hydrogen-orbitals"
+      figure-type="schematic"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/05-the-atom-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Hydrogen Orbitals — Probability Clouds from Schrödinger's Equation</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">The electron is not in orbit. It is a wave; density is its probability squared.</text>
+
+  <!-- Dividers -->
+  <line x1="200" y1="80" x2="200" y2="320" stroke="#2a1a0e" stroke-width="0.5"/>
+  <line x1="380" y1="80" x2="380" y2="320" stroke="#2a1a0e" stroke-width="0.5"/>
+  <line x1="540" y1="80" x2="540" y2="320" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel 1: 1s -->
+  <text x="120" y="100" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">1s</text>
+  <!-- Sphere with density gradient (nested ellipses, densest at center) -->
+  <circle cx="120" cy="200" r="60" fill="#56B4E9" opacity="0.15"/>
+  <circle cx="120" cy="200" r="42" fill="#56B4E9" opacity="0.30"/>
+  <circle cx="120" cy="200" r="26" fill="#56B4E9" opacity="0.55"/>
+  <circle cx="120" cy="200" r="14" fill="#56B4E9" opacity="0.85"/>
+  <circle cx="120" cy="200" r="2" fill="#C8102E"/>
+  <text x="120" y="288" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">no nodes · monotonic</text>
+
+  <!-- Panel 2: 2s (one radial node) -->
+  <text x="290" y="100" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">2s</text>
+  <!-- Outer cloud, dark ring (node), inner cloud -->
+  <circle cx="290" cy="200" r="68" fill="#56B4E9" opacity="0.30"/>
+  <circle cx="290" cy="200" r="50" fill="#FFFFFF"/>
+  <circle cx="290" cy="200" r="42" fill="#56B4E9" opacity="0.25"/>
+  <circle cx="290" cy="200" r="18" fill="#FFFFFF"/>
+  <circle cx="290" cy="200" r="12" fill="#56B4E9" opacity="0.80"/>
+  <circle cx="290" cy="200" r="2" fill="#C8102E"/>
+  <!-- Node label -->
+  <line x1="346" y1="160" x2="386" y2="148" stroke="#545454" stroke-width="0.5"/>
+  <text x="386" y="146" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">radial node</text>
+  <text x="290" y="288" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">1 radial node</text>
+
+  <!-- Panel 3: 2p_x (dumbbell along x-axis) -->
+  <text x="460" y="100" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">2p_x</text>
+  <!-- Two lobes along horizontal axis -->
+  <ellipse cx="430" cy="200" rx="32" ry="18" fill="#56B4E9" opacity="0.5"/>
+  <ellipse cx="430" cy="200" rx="20" ry="11" fill="#56B4E9" opacity="0.8"/>
+  <ellipse cx="490" cy="200" rx="32" ry="18" fill="#56B4E9" opacity="0.5"/>
+  <ellipse cx="490" cy="200" rx="20" ry="11" fill="#56B4E9" opacity="0.8"/>
+  <circle cx="460" cy="200" r="2" fill="#C8102E"/>
+  <!-- x axis indicator -->
+  <line x1="400" y1="240" x2="520" y2="240" stroke="#545454" stroke-width="0.5"/>
+  <line x1="520" y1="240" x2="514" y2="236" stroke="#545454" stroke-width="0.5"/>
+  <line x1="520" y1="240" x2="514" y2="244" stroke="#545454" stroke-width="0.5"/>
+  <text x="525" y="243" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">x</text>
+  <text x="460" y="288" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">node at nucleus</text>
+
+  <!-- Panel 4: 2p_z (dumbbell along z-axis) -->
+  <text x="620" y="100" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">2p_z</text>
+  <ellipse cx="620" cy="170" rx="18" ry="32" fill="#56B4E9" opacity="0.5"/>
+  <ellipse cx="620" cy="170" rx="11" ry="20" fill="#56B4E9" opacity="0.8"/>
+  <ellipse cx="620" cy="230" rx="18" ry="32" fill="#56B4E9" opacity="0.5"/>
+  <ellipse cx="620" cy="230" rx="11" ry="20" fill="#56B4E9" opacity="0.8"/>
+  <circle cx="620" cy="200" r="2" fill="#C8102E"/>
+  <!-- z axis indicator (vertical) -->
+  <line x1="660" y1="260" x2="660" y2="140" stroke="#545454" stroke-width="0.5"/>
+  <line x1="660" y1="140" x2="656" y2="146" stroke="#545454" stroke-width="0.5"/>
+  <line x1="660" y1="140" x2="664" y2="146" stroke="#545454" stroke-width="0.5"/>
+  <text x="666" y="138" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">z</text>
+  <text x="620" y="288" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">node along x-y plane</text>
+
+  <!-- Scale bar -->
+  <line x1="60" y1="316" x2="120" y2="316" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="60" y1="312" x2="60" y2="320" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="120" y1="312" x2="120" y2="320" stroke="#2a1a0e" stroke-width="2"/>
+  <text x="90" y="332" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">0.1 nm</text>
+
+  <!-- Caption -->
+  <rect x="60" y="356" width="580" height="50" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="376" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Solutions to Schrödinger's equation for a Coulomb potential.</text>
+  <text x="350" y="394" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">The electron is everywhere it might be — with probability |ψ|² at each point.</text>
+</svg>

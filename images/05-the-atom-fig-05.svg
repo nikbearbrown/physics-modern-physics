@@ -1,0 +1,91 @@
+<!--
+  Uncertainty Principle — Position vs Momentum Trade-off
+  Book: Physics +1: Modern Physics
+  Chapter: 05-the-atom
+  Figure: 05
+  Type: Comparison panels (wave packets)
+  Generated: 2026-05-25
+  Source: pantry/05-the-atom-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Uncertainty Principle — Wave Packets Trade Position for Momentum</title>
+  <desc>Two side-by-side wave packets. Panel A: tightly localized in position — Gaussian envelope is narrow, but momentum spectrum (inset) is broad. Panel B: long sinusoidal wave train — well-defined momentum (narrow spectrum), but position is spread out. The product delta x times delta p is bounded below by h-bar over 2. This is what waves are, not measurement error.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="05-the-atom"
+      figure-number="05"
+      figure-title="Uncertainty Principle"
+      figure-slug="uncertainty-principle"
+      figure-type="comparison"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/05-the-atom-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Position vs Momentum — Built In, Not Measurement Error</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Pin one, the other spreads. This is what being a wave means.</text>
+
+  <line x1="350" y1="80" x2="350" y2="380" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel A: Localized position -->
+  <text x="180" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(A) LOCALIZED POSITION</text>
+
+  <!-- x-axis -->
+  <line x1="60" y1="220" x2="300" y2="220" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="295" y="234" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">x</text>
+
+  <!-- Narrow Gaussian envelope (gray) -->
+  <path d="M 60 220 Q 160 220 168 180 Q 180 140 192 180 Q 200 220 300 220" stroke="#545454" stroke-width="0.75" fill="none" opacity="0.6"/>
+
+  <!-- Narrow oscillating wave packet inside -->
+  <path d="M 60 220 Q 100 220 130 220 Q 145 220 152 200 Q 158 180 165 175 Q 170 170 175 180 Q 182 200 188 210 Q 195 220 210 220 Q 230 220 300 220" stroke="#56B4E9" stroke-width="1.75" fill="none"/>
+
+  <!-- Δx annotation -->
+  <line x1="155" y1="240" x2="195" y2="240" stroke="#C8102E" stroke-width="1"/>
+  <line x1="155" y1="236" x2="155" y2="244" stroke="#C8102E" stroke-width="1"/>
+  <line x1="195" y1="236" x2="195" y2="244" stroke="#C8102E" stroke-width="1"/>
+  <text x="175" y="256" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Δx small</text>
+
+  <!-- Momentum spectrum inset (small) -->
+  <rect x="80" y="280" width="200" height="80" fill="#F5F5F5" stroke="#545454" stroke-width="0.5"/>
+  <line x1="80" y1="350" x2="280" y2="350" stroke="#2a1a0e" stroke-width="0.5"/>
+  <text x="275" y="346" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">p</text>
+  <!-- Wide momentum spectrum -->
+  <path d="M 90 350 Q 130 320 180 295 Q 230 320 270 350" stroke="#C8860E" stroke-width="1.5" fill="none"/>
+  <text x="180" y="296" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">Δp large</text>
+  <text x="180" y="312" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">spectrum |ψ(p)|²</text>
+
+  <!-- Panel B: Localized momentum -->
+  <text x="510" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">(B) LOCALIZED MOMENTUM</text>
+
+  <line x1="390" y1="220" x2="630" y2="220" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="625" y="234" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">x</text>
+
+  <!-- Long sinusoidal wave train -->
+  <path d="M 390 220 Q 405 200 420 220 Q 435 240 450 220 Q 465 200 480 220 Q 495 240 510 220 Q 525 200 540 220 Q 555 240 570 220 Q 585 200 600 220 Q 615 240 630 220" stroke="#56B4E9" stroke-width="1.75" fill="none"/>
+
+  <!-- Δx annotation (wide) -->
+  <line x1="395" y1="240" x2="625" y2="240" stroke="#C8102E" stroke-width="1"/>
+  <line x1="395" y1="236" x2="395" y2="244" stroke="#C8102E" stroke-width="1"/>
+  <line x1="625" y1="236" x2="625" y2="244" stroke="#C8102E" stroke-width="1"/>
+  <text x="510" y="256" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Δx large</text>
+
+  <!-- Momentum spectrum inset (narrow peak) -->
+  <rect x="410" y="280" width="200" height="80" fill="#F5F5F5" stroke="#545454" stroke-width="0.5"/>
+  <line x1="410" y1="350" x2="610" y2="350" stroke="#2a1a0e" stroke-width="0.5"/>
+  <text x="605" y="346" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">p</text>
+  <!-- Narrow momentum peak -->
+  <path d="M 410 350 L 500 350 Q 508 350 510 290 Q 512 350 520 350 L 610 350" stroke="#C8860E" stroke-width="1.5" fill="none"/>
+  <text x="510" y="296" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">Δp small</text>
+
+  <!-- Caption -->
+  <rect x="60" y="384" width="580" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="400" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#C8102E">Δx · Δp  ≥  ℏ / 2</text>
+</svg>

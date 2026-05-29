@@ -1,0 +1,85 @@
+<!--
+  Proton-Proton Chain — Three Steps
+  Book: Physics +1: Modern Physics
+  Chapter: 03-the-sun-a-nuclear-powerhouse
+  Figure: 03
+  Type: Process flowchart
+  Generated: 2026-05-25
+  Source: pantry/03-the-sun-a-nuclear-powerhouse-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Proton-Proton Chain — Four Protons In, One Helium-4 Out</title>
+  <desc>Three reaction steps. Step 1, slow and rate-limiting: two protons fuse to form a deuteron, emitting a positron and an electron neutrino — requires both quantum tunneling and a weak-force conversion of one proton to a neutron. Step 2, fast: deuteron plus proton fuses to helium-3, emitting a gamma photon. Step 3, fast: two helium-3 nuclei combine to give helium-4 and recycle two protons. Net: four protons converted to one helium-4 with 0.7 percent of the mass becoming energy — 26.7 MeV per cycle.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="03-the-sun-a-nuclear-powerhouse"
+      figure-number="03"
+      figure-title="pp-chain"
+      figure-slug="pp-chain"
+      figure-type="flowchart"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/03-the-sun-a-nuclear-powerhouse-cajal.md"
+    />
+  </metadata>
+  <defs>
+    <marker id="arrowink" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#2a1a0e"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">pp-chain — How the Sun Turns 4 H Into 1 He</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Three steps, one bottleneck (step 1), 26.7 MeV per chain.</text>
+
+  <!-- Step 1: slow, rate-limiting -->
+  <rect x="60" y="100" width="600" height="80" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="76" y="124" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E" letter-spacing="0.06em">STEP 1 — SLOW (BOTTLENECK)</text>
+  <text x="76" y="156" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#2a1a0e">¹H + ¹H → ²H + e⁺ + ν_e</text>
+  <text x="76" y="172" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">tunneling + weak interaction · ~10⁹ years per proton</text>
+  <!-- Tiny icon: 2 small filled circles -->
+  <circle cx="540" cy="140" r="6" fill="#56B4E9"/>
+  <circle cx="558" cy="140" r="6" fill="#56B4E9"/>
+  <text x="570" y="144" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">→</text>
+  <!-- Output: deuteron (1 filled + 1 open) + positron + neutrino -->
+  <circle cx="592" cy="140" r="6" fill="#56B4E9"/>
+  <circle cx="606" cy="140" r="6" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="620" y="144" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">+ e⁺ + ν</text>
+
+  <!-- Down arrow -->
+  <line x1="360" y1="184" x2="360" y2="212" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrowink)"/>
+
+  <!-- Step 2: fast -->
+  <rect x="60" y="220" width="600" height="80" fill="#F5F5F5" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="76" y="244" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9" letter-spacing="0.06em">STEP 2 — FAST</text>
+  <text x="76" y="276" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#2a1a0e">²H + ¹H → ³He + γ</text>
+  <text x="76" y="292" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">strong-force capture · ~1 second</text>
+  <!-- Icons -->
+  <circle cx="540" cy="260" r="6" fill="#56B4E9"/>
+  <circle cx="554" cy="260" r="6" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+  <circle cx="572" cy="260" r="6" fill="#56B4E9"/>
+  <text x="586" y="264" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">→</text>
+  <text x="600" y="264" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">³He + γ</text>
+
+  <!-- Down arrow -->
+  <line x1="360" y1="304" x2="360" y2="332" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrowink)"/>
+
+  <!-- Step 3: fast -->
+  <rect x="60" y="340" width="600" height="80" fill="#F5F5F5" stroke="#56B4E9" stroke-width="1.5"/>
+  <text x="76" y="364" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9" letter-spacing="0.06em">STEP 3 — FAST</text>
+  <text x="76" y="396" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#2a1a0e">³He + ³He → ⁴He + 2 ¹H</text>
+  <text x="76" y="412" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">α-particle product · ~10⁶ years</text>
+  <!-- Icons -->
+  <text x="540" y="384" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">net:</text>
+  <text x="568" y="384" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">⁴He</text>
+  <text x="600" y="384" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">+ recycle 2 p</text>
+
+  <!-- Summary bar -->
+  <rect x="60" y="76" width="600" height="20" fill="#C8102E" opacity="0.15" stroke="#C8102E" stroke-width="1"/>
+  <text x="360" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">4 ¹H  →  ⁴He  +  26.7 MeV  ·  Δm/m ≈ 0.7%</text>
+</svg>

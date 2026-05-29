@@ -1,4 +1,11 @@
 # Chapter 7 — The Death of Stars
+
+## TL;DR
+
+- Why the end of a star is the beginning of everything else.
+- The chapter moves through The Quantum Rule That Holds Up the Dead, The Fast Death, What Is Left: Neutrons and Silence, The Bit of Scruff, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Why the end of a star is the beginning of everything else.*
 
 On February 24, 1987, Ian Shelton pulled a photographic plate from the developer at an observatory in Chile and found a bright spot where nothing had been two nights before. Concerned his plate was flawed, he stepped outside and looked at the actual sky. The new object was real. A star had exploded 160,000 light-years away in the Large Magellanic Cloud, and he was watching light from that explosion arrive on Earth.
@@ -9,7 +16,7 @@ Twenty particles. From a stellar core collapsing to the size of a city in less t
 
 The rest passed through the Earth as though it were not there.
 
-![SN 1987A event timeline ](images/07-the-death-of-stars-fig-01.png)
+![SN 1987A event timeline ](../images/07-the-death-of-stars-fig-01.png)
 *Figure 7.1 — SN 1987A event timeline *
 
 This chapter is about what makes that possible. What goes on inside a dying star that converts ten billion years of a sun's light into a single second of neutrino flood. What remains when the fire goes out. And why none of this is merely a spectacle — why stellar death is the reason the atoms in your body exist at all.
@@ -36,7 +43,7 @@ But there is a limit. Subrahmanyan Chandrasekhar worked it out in 1930 on a ship
 
 Eddington, the most prominent astrophysicist of the era, told Chandrasekhar that his result could not be right — that nature would not permit such an inelegant conclusion. Chandrasekhar was right. Eddington was wrong. The Nobel came in 1983, fifty years later.
 
-![Chandrasekhar derived this curve at age 20. Eddington said it was wrong. It isn't.](images/07-the-death-of-stars-fig-02.png)
+![Chandrasekhar derived this curve at age 20. Eddington said it was wrong. It isn't.](../images/07-the-death-of-stars-fig-02.png)
 *Figure 7.2 — White dwarf mass-radius relationship *
 
 Below the Chandrasekhar limit, a white dwarf simply cools. Over timescales longer than the current age of the universe, it becomes a black dwarf — a cold crystalline sphere of carbon and oxygen, dense as anything, cold as space, slowly doing nothing. This is the Sun's ultimate fate. Not a bang. A slow cooling into darkness.
@@ -47,7 +54,7 @@ Below the Chandrasekhar limit, a white dwarf simply cools. Over timescales longe
 
 A star born twenty times more massive than the Sun lives completely differently. Its core temperature and pressure are high enough to fuse not just hydrogen and helium but everything up the periodic table toward iron. After hydrogen comes helium, which fuses to carbon. Carbon fuses to oxygen, neon, magnesium. Then silicon fuses to iron. Each stage runs faster than the last. Hydrogen burning takes millions of years. Silicon burning takes about a day.
 
-![Cross-section of a massive star near the end](images/07-the-death-of-stars-fig-03.png)
+![Cross-section of a massive star near the end](../images/07-the-death-of-stars-fig-03.png)
 *Figure 7.3 — Cross-section of a massive star near the end*
 
 Iron is where it ends.
@@ -68,7 +75,7 @@ The outer layers of the star — which had been collapsing inward — accelerate
 
 The star explodes. The material scattered by this explosion travels at thousands of kilometers per second. And in the final seconds, as neutrons barrel through the expanding material, they are captured by nuclei and converted into protons in a cascade of nuclear reactions. This process — rapid neutron capture, the r-process — builds elements heavier than iron. Gold. Silver. Platinum. Uranium. Every element in the universe heavier than iron was created in the seconds after a stellar core collapsed, either in the supernova itself or in the neutron star merger events we now know also produce these elements.
 
-![The entire sequence from iron core to explosion takes less than one second. The neutrinos are the hidden mechanism.](images/07-the-death-of-stars-fig-04.png)
+![The entire sequence from iron core to explosion takes less than one second. The neutrinos are the hidden mechanism.](../images/07-the-death-of-stars-fig-04.png)
 *Figure 7.4 — Core collapse sequence in five panels *
 
 ---
@@ -87,7 +94,7 @@ The collapse also amplifies the star's magnetic field by the same compression. I
 
 The neutron star rotates. The beams rotate with it. If Earth lies in the path of the sweep, we detect a pulse of radio waves with each rotation. A pulsar.
 
-![Each spike is the beam sweeping past Earth. The period is the rotation rate of the dead star. Jocelyn Bell found this pattern in paper printouts in 1967 and called it 'a bit of scruff.'](images/07-the-death-of-stars-fig-05.png)
+![Each spike is the beam sweeping past Earth. The period is the rotation rate of the dead star. Jocelyn Bell found this pattern in paper printouts in 1967 and called it 'a bit of scruff.'](../images/07-the-death-of-stars-fig-05.png)
 *Figure 7.5 — Pulsar lighthouse model *
 
 ---
@@ -104,7 +111,7 @@ The Crab Nebula pulsar is the clearest demonstration of what drives these object
 
 Where is the energy coming from? The pulsar is slowing down. It loses about 38 nanoseconds of rotation per day. From that measurement, you can calculate how much rotational kinetic energy the pulsar sheds per second. The number matches the energy output of the nebula. The dead star is still powering the explosion's afterglow — not through nuclear burning, not through residual heat, but through the steady braking of a 10-kilometer sphere spinning 30 times per second, with a magnetic field a trillion times stronger than Earth's.
 
-![SN 1054, nearly a thousand years later. The explosion is still being powered by the dead star at its center.](images/07-the-death-of-stars-fig-06.png)
+![SN 1054, nearly a thousand years later. The explosion is still being powered by the dead star at its center.](../images/07-the-death-of-stars-fig-06.png)
 *Figure 7.6 — Hubble Space Telescope or Chandra X-ray image of*
 
 ---
@@ -143,7 +150,7 @@ Trace an iron atom in your blood's hemoglobin. It was forged in the core of a ma
 
 Trace a gold atom in any jewelry you own. It was not made in stellar fusion. Iron is the end of the nuclear road for fusion. Gold was made in the seconds after a stellar core collapsed, or in the moments when two neutron stars spiraled together and merged — detected for the first time in 2017 by LIGO as gravitational waves, accompanied by the electromagnetic signal of heavy-element synthesis. Gold is the product of either a supernova or a collision between dead stars.
 
-![Every element in your body has a different origin story. The periodic table is a map of stellar history.](images/07-the-death-of-stars-fig-07.png)
+![Every element in your body has a different origin story. The periodic table is a map of stellar history.](../images/07-the-death-of-stars-fig-07.png)
 *Figure 7.7 — Periodic table color-coded by nucleosynthetic origin *
 
 None of this is metaphor. These are the actual histories of the atoms in your body, reconstructable through nuclear astrophysics and isotope geochemistry. The universe chemically enriches itself through stellar death. Each generation of stars inherits a more complex chemistry than the last, because each generation of supernovae scattered heavier elements into the gas from which the next generation formed.
@@ -170,8 +177,7 @@ Understanding stellar death is understanding where everything comes from. The ex
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Jocelyn Bell Burnell** discovered pulsars as a graduate student in 1967 — neutron-star corpses spinning so fast their radio beams sweep past Earth like lighthouses. The Nobel for the discovery went to her supervisor; she was not named. She has spent the half-century since reshaping astronomy education and equity.
 
 **Run this:**

@@ -1,25 +1,83 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Scale comparison of atom vs</title>
-  <desc id="desc">Scale comparison of atom vs. nucleus — two concentric circles. Outer circle labeled "atom (~10⁻¹⁰ m)"; inner circle, drawn to correct relative scale (</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Scale Comparison: Atom vs Nucleus
+  Book: Physics +1: Modern Physics
+  Chapter: 12-atomic-physics
+  Figure: 01
+  Type: Annotated example / scale comparison
+  Generated: 2026-05-25
+  Source: pantry/12-atomic-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Atom vs Nucleus — A Fly in a Cathedral</title>
+  <desc>Side-by-side scale comparison. Atom drawn as a circle of about 10 to the minus 10 meters; nucleus shown at proportional scale (invisible dot in the center) and in a magnified inset where it's about 10 to the minus 14 meters. The nucleus is 10000 times smaller than the atom — like a fly in the middle of a cathedral.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="12-atomic-physics"
+      figure-number="01"
+      figure-title="Atom vs Nucleus Scale"
+      figure-slug="atom-nucleus-scale"
+      figure-type="annotated-example"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/12-atomic-physics-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Scale comparison of atom vs</text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Scale comparison of atom vs. nucleus — two concentric circles. Outer circle labeled "atom (~10⁻¹⁰ m)"; inner circle, drawn to correct relative scale (</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SCALE</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">COMPARISON</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">OF</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Scale Comparison — Atom vs Nucleus, Both at Real Proportions</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Nucleus is 10⁴ × smaller than atom. At proportional scale, it's an invisible dot.</text>
+
+  <!-- Atom at full scale (left) -->
+  <text x="200" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">ATOM (10⁻¹⁰ m)</text>
+
+  <!-- Large atomic outline -->
+  <circle cx="200" cy="230" r="120" fill="none" stroke="#2a1a0e" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="200" y="370" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">electron cloud</text>
+
+  <!-- Tiny dot for nucleus (proportionally invisible) -->
+  <circle cx="200" cy="230" r="0.8" fill="#C8102E"/>
+  <text x="200" y="222" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E">nucleus (true scale)</text>
+
+  <!-- Arrow + leader to magnified inset -->
+  <line x1="320" y1="230" x2="380" y2="200" stroke="#C8102E" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="350" y="220" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E">× 10,000</text>
+
+  <!-- Magnified inset of nucleus (right) -->
+  <text x="540" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">NUCLEUS · MAGNIFIED 10,000×</text>
+
+  <circle cx="540" cy="230" r="80" fill="#C8102E" opacity="0.45" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- Nucleons (protons + neutrons clustered inside) -->
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <circle cx="520" cy="218" r="14" fill="#C8102E"/>
+    <circle cx="552" cy="220" r="14" fill="#56B4E9"/>
+    <circle cx="535" cy="245" r="14" fill="#C8102E"/>
+    <circle cx="566" cy="248" r="14" fill="#56B4E9"/>
+    <circle cx="510" cy="245" r="14" fill="#56B4E9"/>
+    <circle cx="558" cy="200" r="14" fill="#C8102E"/>
+  </g>
+  <text x="514" y="222" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">p</text>
+  <text x="546" y="224" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">n</text>
+
+  <text x="540" y="330" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">~ 10⁻¹⁴ m  ·  density 2×10¹⁷ kg/m³</text>
+
+  <!-- Scale bars -->
+  <line x1="80" y1="350" x2="320" y2="350" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="80" y1="346" x2="80" y2="354" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="320" y1="346" x2="320" y2="354" stroke="#2a1a0e" stroke-width="2"/>
+  <text x="200" y="392" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">0.1 nm</text>
+
+  <line x1="460" y1="350" x2="620" y2="350" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="460" y1="346" x2="460" y2="354" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="620" y1="346" x2="620" y2="354" stroke="#2a1a0e" stroke-width="2"/>
+  <text x="540" y="392" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">~ 3 fm (in magnified view)</text>
+
+  <!-- Caption box (no need — small inline) -->
+  <rect x="60" y="402" width="580" height="14" fill="none"/>
+  <text x="350" y="412" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E" font-style="italic">"All the mass; almost none of the volume."</text>
 </svg>

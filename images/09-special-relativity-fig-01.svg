@@ -1,25 +1,90 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Schematic of the Michelson-Morley interferometer </title>
-  <desc id="desc">Annotated schematic of the Michelson-Morley interferometer — beam splitter, two perpendicular arms, mirrors, recombination point, fringe pattern. Capt</desc>
+<!--
+  Michelson-Morley Interferometer
+  Book: Physics +1: Modern Physics
+  Chapter: 09-special-relativity (duplicate-topic; geometry emphasis)
+  Figure: 01
+  Type: Mechanism cross-section
+  Generated: 2026-05-25
+  Source: pantry/09-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Michelson-Morley Interferometer — The Null Result That Killed the Aether</title>
+  <desc>Top-down schematic of the 1887 interferometer. A monochromatic light source on the left. A beamsplitter at the center. Two perpendicular arms with mirrors at their ends. The two beams recombine at the detector. If a luminiferous aether existed and Earth moved through it, the two arm-lengths should produce a measurable fringe shift as the apparatus rotates. Michelson and Morley measured zero — to far better than the predicted sensitivity. Aether wind: not detected.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="09-special-relativity"
+      figure-number="01"
+      figure-title="Michelson-Morley Interferometer"
+      figure-slug="michelson-morley"
+      figure-type="mechanism"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/09-special-relativity-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowred" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8102E"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Schematic of the Michelson-Morley interferometer </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Annotated schematic of the Michelson-Morley interferometer — beam splitter, two perpendicular arms, mirrors, recombination point, fringe pattern. Capt</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SCHEMATIC</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">OF</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">THE</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Michelson-Morley 1887 — The Experiment That Found Nothing</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Looked for the aether wind. Came back with zero — to 40× better precision than needed.</text>
+
+  <!-- Light source (left) -->
+  <rect x="60" y="200" width="50" height="20" fill="#C8102E" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="85" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">laser</text>
+
+  <!-- Incoming light beam to beamsplitter -->
+  <line x1="110" y1="210" x2="280" y2="210" stroke="#56B4E9" stroke-width="2"/>
+
+  <!-- Beamsplitter at center (tilted 45°) -->
+  <line x1="276" y1="220" x2="296" y2="200" stroke="#C8860E" stroke-width="2.5"/>
+  <text x="296" y="234" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">beamsplitter</text>
+
+  <!-- Arm 1: horizontal beam continues to right mirror -->
+  <line x1="296" y1="210" x2="500" y2="210" stroke="#56B4E9" stroke-width="2"/>
+  <rect x="500" y="200" width="8" height="24" fill="#2a1a0e"/>
+  <text x="504" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">M₁</text>
+
+  <!-- Arm 2: vertical beam goes up to top mirror -->
+  <line x1="286" y1="200" x2="286" y2="100" stroke="#56B4E9" stroke-width="2"/>
+  <rect x="276" y="92" width="24" height="8" fill="#2a1a0e"/>
+  <text x="270" y="98" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">M₂</text>
+
+  <!-- Arm length labels -->
+  <line x1="296" y1="234" x2="500" y2="234" stroke="#545454" stroke-width="0.5"/>
+  <text x="398" y="248" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">arm L₁</text>
+  <line x1="266" y1="200" x2="266" y2="100" stroke="#545454" stroke-width="0.5"/>
+  <text x="252" y="155" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">arm L₂</text>
+
+  <!-- Recombination beam down to detector -->
+  <line x1="286" y1="220" x2="286" y2="320" stroke="#56B4E9" stroke-width="2" marker-end="url(#arrowred)"/>
+  <!-- Detector -->
+  <rect x="270" y="320" width="32" height="20" fill="#FFEE00" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="286" y="356" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">detector</text>
+
+  <!-- "Aether wind" indicator (vermillion arrow showing predicted direction) -->
+  <line x1="500" y1="120" x2="560" y2="120" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrowred)"/>
+  <text x="568" y="124" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">predicted</text>
+  <text x="568" y="138" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">"aether wind"</text>
+  <text x="568" y="152" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">not observed ✗</text>
+
+  <!-- Predicted vs observed fringe shift box -->
+  <rect x="440" y="270" width="220" height="80" fill="#F5F5F5" stroke="#545454" stroke-width="0.75"/>
+  <text x="550" y="288" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" letter-spacing="0.06em">FRINGE SHIFT</text>
+  <line x1="454" y1="294" x2="646" y2="294" stroke="#545454" stroke-width="0.25"/>
+  <text x="460" y="312" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">predicted: ~0.4 fringe</text>
+  <text x="460" y="328" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">observed:  &lt; 0.01 ✗</text>
+  <text x="460" y="344" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">→ no aether motion</text>
+
+  <!-- Caption -->
+  <rect x="60" y="376" width="580" height="36" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="396" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">"The most famous failed experiment in physics" — and the empirical seed of special relativity.</text>
 </svg>

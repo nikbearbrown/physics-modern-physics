@@ -1,25 +1,81 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Anderson's original 1932 cloud chamber photograph of the</title>
-  <desc id="desc">Anderson's 1932 photograph. The track curves the wrong way for an electron. It's a positron — the first antiparticle ever observed, four years after D</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
-  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Anderson's original 1932 cloud chamber photograph of the</text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Anderson's 1932 photograph. The track curves the wrong way for an electron. It's a positron — the first antiparticle ever observed, four years after D</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">ANDERSON'S</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">ORIGINAL</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">1932</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+<!--
+  Anderson's 1932 Cloud Chamber Photograph (Schematic)
+  Book: Physics +1: Modern Physics
+  Chapter: 15-particle-physics
+  Figure: 01
+  Type: Annotated photograph (schematic)
+  Generated: 2026-05-25
+  Source: pantry/15-particle-physics-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Anderson 1932 — The First Positron Track in a Cloud Chamber</title>
+  <desc>Schematic of Anderson's published cloud chamber photograph that announced the positron. A horizontal lead plate splits the chamber. A curved track passes through. Above the plate the curvature is tighter (lower energy); below it the curvature is broader (the particle entered from below at higher energy and lost energy crossing the lead). Curvature direction in the applied magnetic field rules out a negatively charged electron — the particle is positive. Track thickness rules out a proton — too light. Therefore: a positive electron, the positron.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="15-particle-physics"
+      figure-number="01"
+      figure-title="Anderson Cloud Chamber"
+      figure-slug="anderson-cloud-chamber"
+      figure-type="annotated-photograph"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/15-particle-physics-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Anderson 1932 — The Track That Discovered Antimatter</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Schematic of the published cloud-chamber photograph.</text>
+
+  <!-- Black chamber background -->
+  <rect x="120" y="90" width="460" height="280" fill="#1a1208" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- Lead plate (horizontal, middle) -->
+  <rect x="120" y="218" width="460" height="14" fill="#545454" stroke="#FFFFFF" stroke-width="0.5"/>
+  <text x="600" y="228" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">Pb plate</text>
+
+  <!-- Below the plate: broad curving track (high energy, entering from bottom) -->
+  <path d="M 300 360 Q 320 320 350 290 Q 380 256 410 232" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+
+  <!-- Above the plate: tighter curl (lower energy after passing through lead) -->
+  <path d="M 410 218 Q 410 180 380 160 Q 350 144 320 156 Q 290 170 280 200" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <polygon points="280 200, 286 198, 286 206" fill="#FFFFFF"/>
+
+  <!-- Magnetic field direction (B into page — small × marks scattered) -->
+  <g stroke="#FFFFFF" stroke-width="0.75">
+    <line x1="158" y1="118" x2="164" y2="124"/>
+    <line x1="164" y1="118" x2="158" y2="124"/>
+    <line x1="234" y1="118" x2="240" y2="124"/>
+    <line x1="240" y1="118" x2="234" y2="124"/>
+    <line x1="510" y1="118" x2="516" y2="124"/>
+    <line x1="516" y1="118" x2="510" y2="124"/>
+    <line x1="158" y1="334" x2="164" y2="340"/>
+    <line x1="164" y1="334" x2="158" y2="340"/>
+    <line x1="510" y1="334" x2="516" y2="340"/>
+    <line x1="516" y1="334" x2="510" y2="340"/>
+  </g>
+  <text x="180" y="116" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">B into page</text>
+
+  <!-- Annotations with leader lines -->
+  <line x1="320" y1="350" x2="80" y2="380" stroke="#C8102E" stroke-width="0.5"/>
+  <text x="76" y="384" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">enters from below</text>
+  <text x="76" y="396" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">(high energy)</text>
+
+  <line x1="410" y1="225" x2="630" y2="180" stroke="#C8102E" stroke-width="0.5"/>
+  <text x="636" y="180" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">lead absorbs energy</text>
+  <text x="636" y="192" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">→ tighter curl above</text>
+
+  <line x1="290" y1="170" x2="80" y2="140" stroke="#C8102E" stroke-width="0.5"/>
+  <text x="76" y="144" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">curves "wrong way"</text>
+  <text x="76" y="156" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">→ positive charge</text>
+
+  <!-- Inference box (right side) -->
+  <rect x="120" y="382" width="460" height="46" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="402" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E" letter-spacing="0.06em">INFERENCE: light + positive = ANTI-ELECTRON</text>
+  <text x="350" y="420" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Dirac's prediction (1928) confirmed.  Anderson Nobel 1936.</text>
 </svg>

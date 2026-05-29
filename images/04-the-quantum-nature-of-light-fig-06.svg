@@ -1,29 +1,86 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Single-photon double-slit buildup </title>
-  <desc id="desc">Each photon lands at one point — particle. The pattern they build is an interference fringe — wave. There is no classical picture in which the same ob</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Single-Photon Double-Slit Buildup
+  Book: Physics +1: Modern Physics
+  Chapter: 04-the-quantum-nature-of-light
+  Figure: 06
+  Type: Sequential / time-series panels
+  Generated: 2026-05-25
+  Source: pantry/04-the-quantum-nature-of-light-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Single-Photon Double-Slit — Pattern Builds from One Dot at a Time</title>
+  <desc>Four panels show detector accumulation over time. 10 photons: random scatter. 100 photons: faint fringe hints. 1000 photons: clear fringes emerging. 100000 photons: full interference pattern. Each photon lands at one point (particle); the collective pattern is interference (wave).</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="04-the-quantum-nature-of-light"
+      figure-number="06"
+      figure-title="Double-Slit Buildup"
+      figure-slug="double-slit-buildup"
+      figure-type="sequence"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/04-the-quantum-nature-of-light-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Single-photon double-slit buildup </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Each photon lands at one point — particle. The pattern they build is an interference fringe — wave. There is no classical picture in which the same ob</text>
-  <rect x="64" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="120" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">START</text>
-  <text x="120" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 180 210 C 196 210, 206 210, 218 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="218" y="166" width="112" height="88" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="274" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SINGLE-PHOTON</text>
-  <text x="274" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 334 210 C 350 210, 360 210, 372 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="372" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="428" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">DOUBLE-SLIT</text>
-  <text x="428" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 488 210 C 504 210, 514 210, 526 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="526" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="582" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">BUILDUP</text>
-  <text x="582" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 120 292 C 240 340, 430 340, 584 292" stroke="#C8102E" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/>
-  <text x="350" y="362" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The diagram emphasizes sequence, dependency, and the decision point.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Single-Photon Double-Slit — Each Point a Particle, Pattern a Wave</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">No classical picture fits. The formalism does.</text>
+
+  <rect x="40" y="100" width="140" height="220" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+  <text x="110" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e" letter-spacing="0.06em">(A) 10 PHOTONS</text>
+  <g fill="#56B4E9">
+    <circle cx="68" cy="142" r="2.5"/><circle cx="98" cy="180" r="2.5"/><circle cx="148" cy="200" r="2.5"/><circle cx="78" cy="240" r="2.5"/><circle cx="128" cy="156" r="2.5"/>
+    <circle cx="160" cy="280" r="2.5"/><circle cx="110" cy="220" r="2.5"/><circle cx="92" cy="260" r="2.5"/><circle cx="140" cy="116" r="2.5"/><circle cx="70" cy="296" r="2.5"/>
+  </g>
+  <text x="110" y="340" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">random scatter</text>
+
+  <rect x="200" y="100" width="140" height="220" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+  <text x="270" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e" letter-spacing="0.06em">(B) 100 PHOTONS</text>
+  <g fill="#56B4E9">
+    <circle cx="220" cy="120" r="2"/><circle cx="230" cy="130" r="2"/><circle cx="240" cy="145" r="2"/><circle cx="250" cy="160" r="2"/><circle cx="260" cy="175" r="2"/>
+    <circle cx="270" cy="190" r="2"/><circle cx="280" cy="200" r="2"/><circle cx="290" cy="215" r="2"/><circle cx="300" cy="225" r="2"/><circle cx="310" cy="240" r="2"/>
+    <circle cx="320" cy="255" r="2"/><circle cx="330" cy="270" r="2"/><circle cx="225" cy="140" r="2"/><circle cx="245" cy="160" r="2"/><circle cx="265" cy="180" r="2"/>
+    <circle cx="285" cy="200" r="2"/><circle cx="305" cy="220" r="2"/><circle cx="325" cy="240" r="2"/><circle cx="220" cy="170" r="2"/><circle cx="240" cy="190" r="2"/>
+    <circle cx="260" cy="210" r="2"/><circle cx="280" cy="230" r="2"/><circle cx="300" cy="250" r="2"/><circle cx="320" cy="270" r="2"/><circle cx="225" cy="200" r="2"/>
+    <circle cx="245" cy="220" r="2"/><circle cx="265" cy="240" r="2"/><circle cx="285" cy="260" r="2"/><circle cx="305" cy="280" r="2"/><circle cx="325" cy="290" r="2"/>
+    <circle cx="230" cy="220" r="2"/><circle cx="250" cy="240" r="2"/><circle cx="270" cy="260" r="2"/><circle cx="290" cy="280" r="2"/><circle cx="310" cy="295" r="2"/>
+    <circle cx="220" cy="250" r="2"/><circle cx="240" cy="270" r="2"/><circle cx="260" cy="285" r="2"/><circle cx="280" cy="300" r="2"/><circle cx="300" cy="160" r="2"/>
+    <circle cx="220" cy="230" r="2"/><circle cx="250" cy="135" r="2"/><circle cx="270" cy="150" r="2"/><circle cx="290" cy="170" r="2"/><circle cx="310" cy="195" r="2"/>
+    <circle cx="330" cy="220" r="2"/><circle cx="225" cy="270" r="2"/><circle cx="245" cy="280" r="2"/><circle cx="265" cy="300" r="2"/><circle cx="285" cy="125" r="2"/>
+  </g>
+  <text x="270" y="340" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">faint hint of fringes</text>
+
+  <rect x="360" y="100" width="140" height="220" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+  <text x="430" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e" letter-spacing="0.06em">(C) 1,000 PHOTONS</text>
+  <g fill="#56B4E9">
+    <circle cx="378" cy="115" r="2"/><circle cx="382" cy="125" r="2"/><circle cx="378" cy="135" r="2"/><circle cx="382" cy="145" r="2"/><circle cx="378" cy="155" r="2"/><circle cx="382" cy="165" r="2"/><circle cx="378" cy="175" r="2"/><circle cx="382" cy="185" r="2"/><circle cx="378" cy="195" r="2"/><circle cx="382" cy="205" r="2"/><circle cx="378" cy="215" r="2"/><circle cx="382" cy="225" r="2"/><circle cx="378" cy="235" r="2"/><circle cx="382" cy="245" r="2"/><circle cx="378" cy="255" r="2"/><circle cx="382" cy="265" r="2"/><circle cx="378" cy="275" r="2"/><circle cx="382" cy="285" r="2"/><circle cx="378" cy="295" r="2"/><circle cx="382" cy="305" r="2"/>
+    <circle cx="408" cy="160" r="1.5"/><circle cx="412" cy="210" r="1.5"/><circle cx="408" cy="260" r="1.5"/>
+    <circle cx="438" cy="115" r="2"/><circle cx="442" cy="130" r="2"/><circle cx="438" cy="145" r="2"/><circle cx="442" cy="160" r="2"/><circle cx="438" cy="175" r="2"/><circle cx="442" cy="190" r="2"/><circle cx="438" cy="205" r="2"/><circle cx="442" cy="220" r="2"/><circle cx="438" cy="235" r="2"/><circle cx="442" cy="250" r="2"/><circle cx="438" cy="265" r="2"/><circle cx="442" cy="280" r="2"/><circle cx="438" cy="295" r="2"/><circle cx="442" cy="305" r="2"/>
+    <circle cx="468" cy="170" r="1.5"/><circle cx="472" cy="220" r="1.5"/><circle cx="468" cy="270" r="1.5"/>
+    <circle cx="488" cy="125" r="2"/><circle cx="492" cy="145" r="2"/><circle cx="488" cy="165" r="2"/><circle cx="492" cy="185" r="2"/><circle cx="488" cy="205" r="2"/><circle cx="492" cy="225" r="2"/><circle cx="488" cy="245" r="2"/><circle cx="492" cy="265" r="2"/><circle cx="488" cy="285" r="2"/><circle cx="492" cy="305" r="2"/>
+  </g>
+  <text x="430" y="340" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">fringes emerge</text>
+
+  <rect x="520" y="100" width="140" height="220" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+  <text x="590" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E" letter-spacing="0.06em">(D) 100,000 PHOTONS</text>
+  <g fill="#56B4E9">
+    <rect x="534" y="106" width="8" height="208"/>
+    <rect x="564" y="106" width="2" height="208" opacity="0.3"/>
+    <rect x="582" y="106" width="6" height="208"/>
+    <rect x="600" y="106" width="2" height="208" opacity="0.4"/>
+    <rect x="616" y="106" width="8" height="208"/>
+    <rect x="640" y="106" width="3" height="208" opacity="0.3"/>
+    <rect x="652" y="106" width="6" height="208"/>
+  </g>
+  <text x="590" y="340" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">full interference pattern</text>
+
+  <rect x="40" y="372" width="620" height="40" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="392" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Each photon lands at one point — particle.  The pattern is interference — wave.</text>
+  <text x="350" y="406" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">The same photons do both. No classical picture fits.</text>
 </svg>

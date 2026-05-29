@@ -1,32 +1,136 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Radiation dose scale </title>
-  <desc id="desc">Radiation dose scale — log-scale horizontal axis from 0.001 mSv to 10,000 mSv (10 Sv). Labeled markers: single dental X-ray (0.005), chest X-ray (0.1)</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
-  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Radiation dose scale </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Radiation dose scale — log-scale horizontal axis from 0.001 mSv to 10,000 mSv (10 Sv). Labeled markers: single dental X-ray (0.005), chest X-ray (0.1)</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+<!--
+  Radiation Dose Scale
+  Book: Physics +1: Modern Physics
+  Chapter: 14-medical-applications-of-nuclear-physics
+  Figure: 03
+  Type: Statistical / quantitative (log)
+  Generated: 2026-05-25
+  Source: pantry/14-medical-applications-of-nuclear-physics-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Radiation Dose Scale — From a Dental X-ray to Acute Lethal Dose</title>
+  <desc>Vertical log-scale of equivalent dose in sieverts. Dental X-ray about 0.005 mSv at the bottom. Chest X-ray 0.1 mSv. Transatlantic flight 0.03 mSv. Background per year 3 mSv. Chest CT 7 mSv. PET-CT 14 mSv. Full-body CT 20 mSv. Occupational annual limit 50 mSv. Acute symptoms threshold 1 Sv. Acute lethal range 4 to 5 Sv. Five orders of magnitude separate routine medical imaging from acute danger.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="14-medical-applications-of-nuclear-physics"
+      figure-number="03"
+      figure-title="Dose Scale"
+      figure-slug="dose-scale"
+      figure-type="quantitative"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/14-medical-applications-of-nuclear-physics-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Radiation Dose Scale — 0.005 mSv to 5 Sv (Six Orders of Magnitude)</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Log axis. Background; diagnostic; occupational concern; acute danger.</text>
+
+  <!-- Axis -->
+  <line x1="300" y1="420" x2="300" y2="90" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="180" y="260" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 180 260)">EQUIVALENT DOSE (Sv, LOG)</text>
+
+  <!-- y mapping: log -6 (0.001 µSv = 1 nSv) → y=420; log +1 (10 Sv) → y=90. 7 decades over 330 px = 47.1 px/dec.
+       y(logS) = 420 - (logS + 6)*47.1 — but we're using Sv. Range is 10^-6 Sv (1 µSv = .001 mSv) to 10^1 Sv.
+       y(log[Sv]) = 90 + (1 - log)*47.1
+       0.001 mSv = 10⁻⁶ Sv: log=-6 → y=420
+       0.01 mSv = 10⁻⁵: y=373
+       0.1 mSv = 10⁻⁴: y=326
+       1 mSv = 10⁻³: y=279
+       10 mSv = 10⁻²: y=232
+       100 mSv = 10⁻¹: y=185
+       1 Sv = 10⁰: y=138
+       10 Sv = 10¹: y=91 -->
+
+  <!-- Tick marks and labels -->
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="295" y1="420" x2="305" y2="420"/>
+    <line x1="295" y1="373" x2="305" y2="373"/>
+    <line x1="295" y1="326" x2="305" y2="326"/>
+    <line x1="295" y1="279" x2="305" y2="279"/>
+    <line x1="295" y1="232" x2="305" y2="232"/>
+    <line x1="295" y1="185" x2="305" y2="185"/>
+    <line x1="295" y1="138" x2="305" y2="138"/>
+    <line x1="295" y1="91" x2="305" y2="91"/>
+  </g>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="end">
+    <text x="290" y="424">1 µSv</text>
+    <text x="290" y="377">10 µSv</text>
+    <text x="290" y="330">0.1 mSv</text>
+    <text x="290" y="283">1 mSv</text>
+    <text x="290" y="236">10 mSv</text>
+    <text x="290" y="189">100 mSv</text>
+    <text x="290" y="142">1 Sv</text>
+    <text x="290" y="95">10 Sv</text>
+  </g>
+
+  <!-- Shaded bands (left of axis) -->
+  <rect x="240" y="232" width="60" height="188" fill="#3AAE3A" opacity="0.15"/>
+  <rect x="240" y="138" width="60" height="94" fill="#C8860E" opacity="0.2"/>
+  <rect x="240" y="91" width="60" height="47" fill="#C8102E" opacity="0.25"/>
+
+  <text x="244" y="408" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#3AAE3A" transform="rotate(-90 244 408)">routine / background</text>
+  <text x="244" y="222" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8860E" transform="rotate(-90 244 222)">diagnostic / occupational</text>
+  <text x="244" y="128" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E" transform="rotate(-90 244 128)">acute danger</text>
+
+  <!-- Reference points -->
+  <!-- Dental X-ray 5 µSv (log=-5.3) → y=420 - 0.7*47.1 — actually log(5e-6) = -5.30 → y = 90+6.30*47.1 = 386 -->
+  <circle cx="300" cy="386" r="3.5" fill="#56B4E9"/>
+  <line x1="305" y1="386" x2="350" y2="386" stroke="#545454" stroke-width="0.5"/>
+  <text x="356" y="390" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">dental X-ray · 5 µSv</text>
+
+  <!-- Flight 30 µSv = 3e-5 Sv, log=-4.52 → y=90+5.52*47.1 = 350 -->
+  <circle cx="300" cy="350" r="3.5" fill="#56B4E9"/>
+  <line x1="305" y1="350" x2="350" y2="350" stroke="#545454" stroke-width="0.5"/>
+  <text x="356" y="354" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">transatlantic flight · 30 µSv</text>
+
+  <!-- Chest X-ray 100 µSv = 1e-4 Sv, log=-4 → y=90+5*47.1=326 -->
+  <circle cx="300" cy="326" r="3.5" fill="#56B4E9"/>
+  <line x1="305" y1="326" x2="350" y2="326" stroke="#545454" stroke-width="0.5"/>
+  <text x="356" y="330" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">chest X-ray · 0.1 mSv</text>
+
+  <!-- Background/year 3 mSv = 3e-3, log=-2.52 → y=90+3.52*47.1=256 -->
+  <circle cx="300" cy="256" r="3.5" fill="#3AAE3A"/>
+  <line x1="305" y1="256" x2="350" y2="256" stroke="#545454" stroke-width="0.5"/>
+  <text x="356" y="260" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#3AAE3A">natural background · 3 mSv/yr</text>
+
+  <!-- Chest CT 7 mSv = 7e-3, log=-2.15 → y=238 -->
+  <circle cx="300" cy="238" r="3.5" fill="#C8860E"/>
+  <line x1="305" y1="238" x2="350" y2="238" stroke="#545454" stroke-width="0.5"/>
+  <text x="356" y="242" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">chest CT · 7 mSv</text>
+
+  <!-- PET-CT 14 mSv = 1.4e-2, log=-1.85 → y=222 -->
+  <circle cx="300" cy="222" r="3.5" fill="#C8860E"/>
+  <line x1="305" y1="222" x2="350" y2="222" stroke="#545454" stroke-width="0.5"/>
+  <text x="356" y="226" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">PET-CT · 14 mSv</text>
+
+  <!-- Full-body CT 20 mSv, log=-1.7 → y=215 — close to PET-CT; offset -->
+  <circle cx="300" cy="208" r="3.5" fill="#C8860E"/>
+  <line x1="305" y1="208" x2="350" y2="208" stroke="#545454" stroke-width="0.5"/>
+  <text x="356" y="212" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">full-body CT · 20 mSv</text>
+
+  <!-- Occupational limit 50 mSv = 5e-2, log=-1.30 → y=184 -->
+  <circle cx="300" cy="184" r="3.5" fill="#C8860E"/>
+  <line x1="305" y1="184" x2="350" y2="184" stroke="#545454" stroke-width="0.5"/>
+  <text x="356" y="188" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">occupational annual limit · 50 mSv</text>
+
+  <!-- Acute symptoms 1 Sv, log=0 → y=138 -->
+  <circle cx="300" cy="138" r="3.5" fill="#C8102E"/>
+  <line x1="305" y1="138" x2="350" y2="138" stroke="#545454" stroke-width="0.5"/>
+  <text x="356" y="142" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">acute symptoms · 1 Sv</text>
+
+  <!-- LD50 4.5 Sv, log=0.65 → y=109 -->
+  <circle cx="300" cy="109" r="4" fill="#C8102E"/>
+  <line x1="305" y1="109" x2="350" y2="109" stroke="#545454" stroke-width="0.5"/>
+  <text x="356" y="112" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">acute lethal (LD₅₀) · 4–5 Sv</text>
+
+  <!-- Caption -->
+  <rect x="60" y="436" width="580" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="452" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Six orders of magnitude separate "background" from "acutely lethal".</text>
 </svg>

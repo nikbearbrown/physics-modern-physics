@@ -1,5 +1,12 @@
 # Chapter 6 — Particle Physics: Reading the Deepest Structure of Matter
 
+
+## TL;DR
+
+- This chapter gives a working overview of Particle Physics: Reading the Deepest Structure of Matter, focusing on the ideas a reader needs before moving to the next chapter.
+- The chapter moves through Forces Are Carried by Particles, What Matter Is Made Of, The Higgs Field and the Origin of Mass, Forces Were Once One, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 ---
 
 Pick up a magnet. Hold it near an iron nail and feel the pull. Now consider that you are holding the entire mass of the Earth in competition with that magnet — all the rock, all the iron core, all the water and atmosphere, every gram of it — pulling the nail downward through gravity. The magnet wins.
@@ -253,8 +260,7 @@ haven't yet built.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **Chien-Shiung Wu** designed the 1956 experiment that disproved parity conservation — opening modern particle physics.
 
 **Run this:**
@@ -271,3 +277,21 @@ Who is Chien-Shiung Wu, and how does their work connect to particle physics we c
 - Add a constraint: "Answer including criticisms or limits of Chien-Shiung Wu's framework."
 
 What changes? What gets better? What gets worse?
+![Four Fundamental Forces](../images/06-particle-physics-fig-01.png)
+*Figure 6.1 — Four Fundamental Forces*
+
+![Feynman Diagram](../images/06-particle-physics-fig-02.png)
+*Figure 6.2 — Feynman Diagram*
+
+![The Standard Model](../images/06-particle-physics-fig-03.png)
+*Figure 6.3 — The Standard Model*
+
+![Higgs Mechanism](../images/06-particle-physics-fig-04.png)
+*Figure 6.4 — Higgs Mechanism*
+
+![Cosmological Timeline](../images/06-particle-physics-fig-05.png)
+*Figure 6.5 — Cosmological Timeline*
+
+![Standard Model Accounts for 5 Percent of the Universe](../images/06-particle-physics-fig-06.png)
+*Figure 6.6 — Standard Model Accounts for 5 Percent of the Universe*
+

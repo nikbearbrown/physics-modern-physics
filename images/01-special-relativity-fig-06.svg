@@ -1,0 +1,114 @@
+<!--
+  Energy Decomposition — γmc² vs mc² + ½mv²
+  Book: Physics +1: Modern Physics
+  Chapter: 01-special-relativity
+  Figure: 06
+  Type: Statistical / quantitative
+  Generated: 2026-05-25
+  Source: pantry/01-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Energy vs v/c — Newton Is a Low-Speed Limit of Einstein</title>
+  <desc>Plot of total energy divided by rest energy as a function of v over c. Three curves: rest energy m c squared as a flat line at y equals one; Newtonian m c squared plus one-half m v squared as a gentle quadratic; relativistic gamma m c squared diverging to infinity as v approaches c. The Newtonian and relativistic curves are indistinguishable below v over c around 0.1 and diverge dramatically above 0.5.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="01-special-relativity"
+      figure-number="06"
+      figure-title="Energy Decomposition"
+      figure-slug="energy-decomposition"
+      figure-type="quantitative"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/01-special-relativity-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">E = γmc² vs Newton — They Agree Below 0.1c, Diverge Above 0.5c</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Newton isn't wrong — he's a low-speed limit. y-axis starts at 1 (rest-energy floor).</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="380" x2="640" y2="380" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="380" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Y-axis: E/mc² from 1 to 7. y maps 1→380, 7→100. Δ=280/6 ≈ 46.7 per unit -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="end">
+    <text x="94" y="384">1</text>
+    <text x="94" y="337">2</text>
+    <text x="94" y="290">3</text>
+    <text x="94" y="244">4</text>
+    <text x="94" y="197">5</text>
+    <text x="94" y="150">6</text>
+    <text x="94" y="104">7</text>
+  </g>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="95" y1="333" x2="105" y2="333"/>
+    <line x1="95" y1="287" x2="105" y2="287"/>
+    <line x1="95" y1="240" x2="105" y2="240"/>
+    <line x1="95" y1="193" x2="105" y2="193"/>
+    <line x1="95" y1="147" x2="105" y2="147"/>
+    <line x1="95" y1="100" x2="105" y2="100"/>
+  </g>
+  <text x="50" y="240" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 50 240)">E / mc²</text>
+
+  <!-- X-axis: v/c from 0 to 0.99 -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="396">0</text>
+    <text x="208" y="396">0.2</text>
+    <text x="316" y="396">0.4</text>
+    <text x="424" y="396">0.6</text>
+    <text x="532" y="396">0.8</text>
+    <text x="640" y="396">0.99</text>
+  </g>
+  <text x="370" y="418" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">v / c</text>
+
+  <!-- (3) Rest energy = 1 horizontal -->
+  <line x1="100" y1="380" x2="640" y2="380" stroke="#545454" stroke-width="2"/>
+  <text x="640" y="376" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">mc² (rest)</text>
+
+  <!-- (1) Newtonian: 1 + (1/2)(v/c)². At v/c=0 → 1; 0.5 → 1.125; 0.8 → 1.32; 0.99 → 1.49 -->
+  <!-- y(E) = 380 - (E-1)*46.7 -->
+  <!-- v/c=0:   E=1.000 → y=380
+       v/c=0.2: E=1.020 → y=379
+       v/c=0.4: E=1.080 → y=376
+       v/c=0.6: E=1.180 → y=372
+       v/c=0.8: E=1.320 → y=365
+       v/c=0.99: E=1.490 → y=357
+  -->
+  <path d="M 100 380 Q 200 379 316 376 Q 424 369 532 363 L 640 357" stroke="#56B4E9" stroke-width="2.5" fill="none"/>
+  <text x="540" y="376" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">mc² + ½mv² (Newton)</text>
+
+  <!-- (2) Relativistic γmc²: At v/c=0 → 1; 0.5 → 1.155; 0.87 → 2.03; 0.95 → 3.20; 0.99 → 7.09 -->
+  <!-- y values: 1→380, 1.155→373, 2.03→332, 3.20→277, 7.09→96
+       v/c=0.0:  γ=1.000 → y=380
+       v/c=0.2:  γ=1.021 → y=379
+       v/c=0.4:  γ=1.091 → y=376
+       v/c=0.6:  γ=1.250 → y=368
+       v/c=0.7:  γ=1.400 → y=361
+       v/c=0.8:  γ=1.667 → y=349
+       v/c=0.87: γ=2.030 → y=332
+       v/c=0.9:  γ=2.294 → y=319
+       v/c=0.95: γ=3.203 → y=277
+       v/c=0.99: γ=7.089 → y=96
+  -->
+  <path d="M 100 380 Q 200 378 316 376 Q 370 372 424 368 Q 478 360 510 351 Q 545 335 575 305 Q 595 268 615 200 Q 630 140 640 96" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+  <text x="430" y="280" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">γmc² (relativistic)</text>
+
+  <!-- Agreement region shading (below 0.1c) -->
+  <rect x="100" y="100" width="54" height="280" fill="#3AAE3A" opacity="0.08"/>
+  <text x="127" y="120" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#3AAE3A">agree</text>
+  <text x="127" y="132" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#3AAE3A">(low v)</text>
+
+  <!-- Asymptote -->
+  <line x1="640" y1="100" x2="640" y2="380" stroke="#C8102E" stroke-width="0.5" stroke-dasharray="3 3"/>
+  <text x="640" y="92" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">→ ∞ at c</text>
+
+  <!-- Caption -->
+  <rect x="100" y="430" width="540" height="20" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="370" y="445" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">mc² was always there. It just never mattered until mass stopped being conserved.</text>
+</svg>

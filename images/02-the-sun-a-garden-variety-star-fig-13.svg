@@ -1,29 +1,109 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Sun's life cycle on a horizontal timeline </title>
-  <desc id="desc">Sun's life cycle on a horizontal timeline — from left to right: nebular collapse (4.6 Ga ago) → current main sequence position labeled "you are here" </desc>
+<!--
+  Sun's Life Cycle Timeline
+  Book: Physics +1: Modern Physics
+  Chapter: 02-the-sun-a-garden-variety-star
+  Figure: 13
+  Type: Timeline (log scale)
+  Generated: 2026-05-25
+  Source: pantry/02-the-sun-a-garden-variety-star-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">The Sun's Life Cycle — 4.6 Billion Years Past, 7 Billion Years to Go</title>
+  <desc>Horizontal timeline from minus 4.6 billion years (Sun formation) through present day through plus 7 billion years (white dwarf cooling). Stages: formation from protoplanetary disk, main-sequence hydrogen fusion (where we are now, halfway through), red giant phase, planetary nebula ejection, white dwarf cooling. Icons scale roughly with the Sun's relative size at each stage — red giant is about 200 times today's radius.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="02-the-sun-a-garden-variety-star"
+      figure-number="13"
+      figure-title="Sun's Life Cycle"
+      figure-slug="sun-life-cycle"
+      figure-type="timeline"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/02-the-sun-a-garden-variety-star-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
+    <marker id="arrowink" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#2a1a0e"/>
     </marker>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Sun's life cycle on a horizontal timeline </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Sun's life cycle on a horizontal timeline — from left to right: nebular collapse (4.6 Ga ago) → current main sequence position labeled "you are here" </text>
-  <rect x="64" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="120" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">START</text>
-  <text x="120" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 180 210 C 196 210, 206 210, 218 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="218" y="166" width="112" height="88" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="274" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">SUN'S</text>
-  <text x="274" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 334 210 C 350 210, 360 210, 372 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="372" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="428" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">LIFE</text>
-  <text x="428" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 488 210 C 504 210, 514 210, 526 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <rect x="526" y="166" width="112" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="582" y="205" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">CYCLE</text>
-  <text x="582" y="226" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">checkpoint</text>
-  <path d="M 120 292 C 240 340, 430 340, 584 292" stroke="#C8102E" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/>
-  <text x="350" y="362" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The diagram emphasizes sequence, dependency, and the decision point.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The Sun's Life Cycle — Past, Present, Future</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Roughly 4.6 Gyr of fuel left before red giant phase; total H-burning ~10 Gyr.</text>
+
+  <!-- Timeline axis -->
+  <line x1="80" y1="280" x2="660" y2="280" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrowink)"/>
+  <text x="660" y="304" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">time (Gyr) →</text>
+
+  <!-- Tick marks at -4.6, -2, 0 (present), +5, +6.5, +7 -->
+  <!-- x mapping: -4.6 → 80, +7 → 660. Span 11.6 Gyr over 580 px = 50 px/Gyr -->
+  <!-- t=-4.6: x=80
+       t=0:    x=80 + 4.6*50 = 310
+       t=+5:   x=80 + 9.6*50 = 560
+       t=+6.5: x=80 + 11.1*50 = 635
+       t=+7:   x=660 -->
+  <g stroke="#2a1a0e" stroke-width="0.75">
+    <line x1="80" y1="275" x2="80" y2="285"/>
+    <line x1="195" y1="275" x2="195" y2="285"/>
+    <line x1="310" y1="275" x2="310" y2="285"/>
+    <line x1="475" y1="275" x2="475" y2="285"/>
+    <line x1="560" y1="275" x2="560" y2="285"/>
+    <line x1="660" y1="275" x2="660" y2="285"/>
+  </g>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="80" y="298">−4.6</text>
+    <text x="195" y="298">−2.3</text>
+    <text x="310" y="298">0</text>
+    <text x="475" y="298">+3.3</text>
+    <text x="560" y="298">+5</text>
+    <text x="660" y="298">+7</text>
+  </g>
+
+  <!-- Stage 1: Formation (t = -4.6 Gyr) -->
+  <circle cx="80" cy="200" r="14" fill="#C8860E" opacity="0.3" stroke="#2a1a0e" stroke-width="0.75"/>
+  <line x1="80" y1="214" x2="80" y2="270" stroke="#545454" stroke-width="0.5"/>
+  <text x="80" y="184" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">formation</text>
+  <text x="80" y="172" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">protoplanetary disk</text>
+
+  <!-- Stage 2: Main sequence (long bar from t=-4.6 to t=+5) -->
+  <rect x="80" y="240" width="480" height="14" fill="#C8860E" opacity="0.55" stroke="#2a1a0e" stroke-width="0.5"/>
+  <text x="320" y="234" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">main sequence — H fusion (~10 Gyr)</text>
+
+  <!-- Stage 3: Present "we are here" -->
+  <circle cx="310" cy="247" r="6" fill="#C8102E"/>
+  <line x1="310" y1="120" x2="310" y2="240" stroke="#C8102E" stroke-width="1" stroke-dasharray="4 2"/>
+  <text x="310" y="112" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">WE ARE HERE</text>
+  <text x="310" y="100" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">4.6 Gyr in</text>
+
+  <!-- Stage 4: Red giant (t = +5 to +6.5 Gyr) — LARGE circle -->
+  <circle cx="535" cy="200" r="32" fill="#C8102E" opacity="0.4" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="535" y="162" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">red giant</text>
+  <text x="535" y="150" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">~200× current size</text>
+
+  <!-- Stage 5: Planetary nebula at ~+6.5 -->
+  <g fill="none" stroke="#7B61A8" stroke-width="1">
+    <circle cx="620" cy="205" r="6"/>
+    <circle cx="620" cy="205" r="14" opacity="0.7"/>
+    <circle cx="620" cy="205" r="22" opacity="0.4"/>
+  </g>
+  <text x="620" y="174" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#7B61A8">planetary</text>
+  <text x="620" y="186" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#7B61A8">nebula</text>
+
+  <!-- Stage 6: White dwarf (very small dot at +7 Gyr) -->
+  <circle cx="660" cy="206" r="3" fill="#56B4E9"/>
+  <line x1="660" y1="206" x2="660" y2="270" stroke="#545454" stroke-width="0.5"/>
+  <text x="660" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">white dwarf</text>
+  <text x="660" y="180" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">cools forever</text>
+
+  <!-- Caption -->
+  <rect x="60" y="350" width="580" height="56" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="370" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">The Sun is middle-aged. About 5 Gyr from now, hydrogen burning ends in the core.</text>
+  <text x="350" y="388" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Red-giant expansion will engulf Mercury and Venus — and probably Earth.</text>
+  <text x="350" y="402" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">Ch 7 expands the stellar-mass branching for high-mass stars (Type II supernova end).</text>
 </svg>

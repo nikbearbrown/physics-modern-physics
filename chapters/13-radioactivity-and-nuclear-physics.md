@@ -1,4 +1,11 @@
 # Chapter 13 — Radioactivity and Nuclear Physics
+
+## TL;DR
+
+- Why the energy stored in nuclei is a million times greater than the energy stored in atoms — and what happens when it gets out.
+- The chapter moves through What's Inside a Nucleus, Three Kinds of Disintegration, The Decay Law, Where the Energy Comes From: Mass Defect, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Why the energy stored in nuclei is a million times greater than the energy stored in atoms — and what happens when it gets out.*
 
 Marie Curie's notebooks from the 1890s are stored in lead-lined boxes at the Bibliothèque Nationale de France. Visitors who wish to consult them must sign a liability waiver. They will remain dangerously radioactive for another fifteen hundred years.
@@ -19,7 +26,7 @@ Carbon-12 has 6 protons and 6 neutrons: $A = 12$. Carbon-14 has 6 protons and 8 
 
 The nucleus is small. Radii scale as $r \approx (1.2 \text{ fm}) A^{1/3}$, where a femtometer ($10^{-15}$ m) is about one hundred-thousandth the radius of the atom. A typical nucleus is roughly $10^{-14}$ m across. The density of nuclear matter — all isotopes, roughly the same — is about $2 \times 10^{17}$ kg per cubic meter. A teaspoon of nuclear material would weigh roughly a billion tonnes.
 
-![The atom is mostly empty space. The nucleus is almost incomprehensibly dense by human-scale standards.](images/13-radioactivity-and-nuclear-physics-fig-01.png)
+![The atom is mostly empty space. The nucleus is almost incomprehensibly dense by human-scale standards.](../images/13-radioactivity-and-nuclear-physics-fig-01.png)
 *Figure 13.1 — Nuclear scale comparison *
 
 Protons are positively charged. Pack six or eighty of them into a volume the size of a nucleus, and the electrostatic repulsion is enormous. Something must hold them together. That something is the strong nuclear force: a short-range attractive interaction between nucleons that is vastly stronger than electromagnetism at distances of a femtometer or so, and effectively zero beyond a few femtometers. It is attractive between any two nucleons — proton-proton, neutron-neutron, proton-neutron. Without it, every nucleus larger than hydrogen would immediately explode.
@@ -32,7 +39,7 @@ Ernest Rutherford, working in Montreal in 1899, took a sample of radium and put 
 
 He named them alpha, beta, and gamma.
 
-![One experiment, three beams. Everything known about nuclear radiation in the early 20th century begins here.](images/13-radioactivity-and-nuclear-physics-fig-02.png)
+![One experiment, three beams. Everything known about nuclear radiation in the early 20th century begins here.](../images/13-radioactivity-and-nuclear-physics-fig-02.png)
 *Figure 13.2 — Rutherford's 1899 magnetic deflection experiment *
 
 **Alpha radiation** is helium-4 nuclei: two protons and two neutrons, charge $+2e$, mass 4 u. When a nucleus emits an alpha, it loses 2 protons and 2 neutrons. Uranium-238 alpha-decays to thorium-234:
@@ -63,7 +70,7 @@ The electron in beta-minus decay was not sitting inside the nucleus before the d
 
 The neutrino in beta decay puzzled physicists for years. When beta particles were first measured, they came out with a continuous spectrum of energies — not the single definite energy expected from a two-body decay. Wolfgang Pauli, in 1930, proposed in a letter (which he addressed to "Dear Radioactive Ladies and Gentlemen") that an unobserved third particle must be carrying away the missing energy. He called it the neutrino — the little neutral one. It took 26 years to detect it experimentally. Pauli was right.
 
-![If beta decay were a two-body process, every electron would emerge at the same energy — a sharp spike at Q. Instead: a continuous spread. Pauli explained it in 1930. Cowan and Reines confirmed the neutrino in 1956.](images/13-radioactivity-and-nuclear-physics-fig-03.png)
+![If beta decay were a two-body process, every electron would emerge at the same energy — a sharp spike at Q. Instead: a continuous spread. Pauli explained it in 1930. Cowan and Reines confirmed the neutrino in 1956.](../images/13-radioactivity-and-nuclear-physics-fig-03.png)
 *Figure 13.3 — Beta decay energy spectrum *
 
 **Gamma radiation** is photons — extremely high-energy photons, in the MeV range. Gamma emission occurs when a nucleus in an excited state drops to its ground state, releasing the energy difference as light. No protons or neutrons change; only the nuclear energy state.
@@ -92,7 +99,7 @@ In 1988, three independent laboratories — Tucson, Oxford, Zürich — received
 
 For older material — rocks, not cloth — carbon-14 cannot reach. Its half-life of 5,730 years limits it to roughly 50,000 years. Potassium-40, with a half-life of 1.25 billion years, covers geological time. Uranium-238, with a half-life of 4.5 billion years, covers the age of the solar system. Clair Patterson used uranium-lead isotope ratios in meteorites to measure the age of the Earth as $4.55 \pm 0.07$ billion years in 1956 — one of the most precise and consequential measurements in the history of science.
 
-![Each isotope is a clock with a different reach. The choice of clock depends on the age you're trying to measure.](images/13-radioactivity-and-nuclear-physics-fig-04.png)
+![Each isotope is a clock with a different reach. The choice of clock depends on the age you're trying to measure.](../images/13-radioactivity-and-nuclear-physics-fig-04.png)
 *Figure 13.4 — Radioactive dating clocks and their ranges *
 
 ---
@@ -111,7 +118,7 @@ For helium-4, that is about 7.1 MeV per nucleon.
 
 Now compute it for iron-56: $Z = 26$, $N = 30$, atomic mass 55.9349 u. The sum of free nucleons is $26(1.00794) + 30(1.00867) = 56.4665$ u. The mass defect is $56.4665 - 55.9349 = 0.5316$ u. The binding energy is $0.5316 \times 931.5 = 495.2$ MeV. Per nucleon: $495.2 / 56 = 8.84$ MeV.
 
-![The most important graph in nuclear physics. Both fusion and fission move toward iron — they release energy for opposite physical reasons.](images/13-radioactivity-and-nuclear-physics-fig-05.png)
+![The most important graph in nuclear physics. Both fusion and fission move toward iron — they release energy for opposite physical reasons.](../images/13-radioactivity-and-nuclear-physics-fig-05.png)
 *Figure 13.5 — Binding energy per nucleon vs*
 
 Plot binding energy per nucleon against mass number for every stable isotope. The curve rises steeply from hydrogen, peaks near iron and nickel at about 8.8 MeV per nucleon, then falls gradually out to uranium at about 7.6 MeV per nucleon. This curve is the most important graph in nuclear physics. It tells you everything about where nuclear energy comes from and why certain reactions release it.
@@ -132,12 +139,12 @@ Inside uranium-238, an alpha particle has kinetic energy of about 4 to 5 MeV. Ou
 
 George Gamow solved this in 1928 with quantum mechanics. The alpha is not a classical particle with a definite position. It is a quantum object with a wavefunction that extends through the classically forbidden region of the Coulomb barrier — exponentially decaying, but not zero. There is a small but nonzero probability that the alpha will be found on the outside of the barrier where classically it should never reach. Every time the alpha bounces around inside the nucleus, it has a tiny probability of tunneling out. Given enough bounces — and a nucleus provides something like $10^{21}$ bounces per second — eventually it escapes.
 
-![The alpha cannot go over the barrier. Its wavefunction tunnels through. The probability is tiny — which is why the half-life is 4.5 billion years.](images/13-radioactivity-and-nuclear-physics-fig-06.png)
+![The alpha cannot go over the barrier. Its wavefunction tunnels through. The probability is tiny — which is why the half-life is 4.5 billion years.](../images/13-radioactivity-and-nuclear-physics-fig-06.png)
 *Figure 13.6 — Quantum tunneling through the Coulomb barrier *
 
 The tunneling probability depends exponentially on the barrier height and width. A slightly higher barrier means exponentially longer waiting time. This is why alpha-decay half-lives span 17 orders of magnitude while alpha-particle energies vary by only a factor of 2 or 3. A small change in energy means an exponential change in half-life. The Geiger-Nuttall law, discovered empirically in 1911 before quantum mechanics existed, encodes exactly this exponential sensitivity: $\log(t_{1/2})$ varies linearly with $1/\sqrt{E_\alpha}$.
 
-![Discovered empirically in 1911, explained by Gamow in 1928. The linearity of this log-linear plot is the fingerprint of quantum tunneling.](images/13-radioactivity-and-nuclear-physics-fig-07.png)
+![Discovered empirically in 1911, explained by Gamow in 1928. The linearity of this log-linear plot is the fingerprint of quantum tunneling.](../images/13-radioactivity-and-nuclear-physics-fig-07.png)
 *Figure 13.7 — Geiger-Nuttall plot *
 
 Tunneling does not violate conservation of energy. The alpha has the same total energy on both sides of the barrier. What quantum mechanics allows is the possibility of finding the particle in a location that would be forbidden classically — not because energy is not conserved, but because the particle's position is not definite until measured.
@@ -226,8 +233,7 @@ Chapter 32 (medical applications of nuclear physics) shows how the principles of
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **Chien-Shiung Wu** disproved parity conservation in 1956 — designing the experiment that showed nature distinguishes left from right at the nuclear level. The Nobel went to her theorist colleagues Lee and Yang; she was passed over.
 
 **Run this:**

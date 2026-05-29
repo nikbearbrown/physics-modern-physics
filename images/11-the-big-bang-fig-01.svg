@@ -1,32 +1,96 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Hubble's law </title>
-  <desc id="desc">Hubble's 1929 data. The farther the galaxy, the faster it recedes. Run this backward and everything was once together.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Hubble's Law — Recession Velocity vs Distance
+  Book: Physics +1: Modern Physics
+  Chapter: 11-the-big-bang
+  Figure: 01
+  Type: Statistical / quantitative
+  Generated: 2026-05-25
+  Source: pantry/11-the-big-bang-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Hubble's Law — Galaxies Recede Faster the Farther Away They Are</title>
+  <desc>Plot of galactic recession velocity in kilometers per second versus distance in megaparsecs. Hubble's 1929 original data points are sparse and scattered; modern data extends much farther and confirms a linear relation. Slope is Hubble's constant H zero approximately 70 kilometers per second per megaparsec. The expansion of the universe in one straight line.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="11-the-big-bang"
+      figure-number="01"
+      figure-title="Hubble's Law"
+      figure-slug="hubble-law"
+      figure-type="quantitative"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/11-the-big-bang-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Hubble's law </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Hubble's 1929 data. The farther the galaxy, the faster it recedes. Run this backward and everything was once together.</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Hubble's Law — The Universe Is Expanding</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">v = H₀ d   ·   H₀ ≈ 70 km/s/Mpc</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="340" x2="660" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="340" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- Y-axis: 0 to 35000 km/s -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="end">
+    <text x="94" y="344">0</text>
+    <text x="94" y="276">10,000</text>
+    <text x="94" y="208">20,000</text>
+    <text x="94" y="140">30,000</text>
+  </g>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="95" y1="272" x2="105" y2="272"/>
+    <line x1="95" y1="204" x2="105" y2="204"/>
+    <line x1="95" y1="136" x2="105" y2="136"/>
+  </g>
+  <text x="50" y="220" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 50 220)">RECESSION VELOCITY (km/s)</text>
+
+  <!-- X-axis: 0 to 500 Mpc -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="356">0</text>
+    <text x="212" y="356">100</text>
+    <text x="324" y="356">200</text>
+    <text x="436" y="356">300</text>
+    <text x="548" y="356">400</text>
+    <text x="660" y="356">500 Mpc</text>
+  </g>
+  <text x="380" y="378" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">DISTANCE (Mpc)</text>
+
+  <!-- Hubble's law line: v = 70 d. At d=500, v=35000 (y=102). At d=0, v=0 (y=340). Line from (100,340) to (660,102) -->
+  <line x1="100" y1="340" x2="660" y2="102" stroke="#56B4E9" stroke-width="2.5"/>
+  <text x="490" y="138" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#56B4E9">v = H₀ d</text>
+  <text x="490" y="152" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">slope = 70 km/s per Mpc</text>
+
+  <!-- Hubble 1929 data points (sparse, low velocities; vermillion) — within 0-30 Mpc -->
+  <g fill="#C8102E">
+    <circle cx="106" cy="332" r="3.5"/>
+    <circle cx="118" cy="324" r="3.5"/>
+    <circle cx="126" cy="320" r="3.5"/>
+    <circle cx="134" cy="316" r="3.5"/>
+  </g>
+  <text x="150" y="320" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Hubble 1929</text>
+  <text x="150" y="332" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">(within 30 Mpc)</text>
+
+  <!-- Modern data points (orange) — wider scatter, longer range -->
+  <g fill="#C8860E">
+    <circle cx="190" cy="306" r="3"/>
+    <circle cx="240" cy="282" r="3"/>
+    <circle cx="290" cy="266" r="3"/>
+    <circle cx="340" cy="244" r="3"/>
+    <circle cx="396" cy="222" r="3"/>
+    <circle cx="450" cy="198" r="3"/>
+    <circle cx="510" cy="172" r="3"/>
+    <circle cx="580" cy="142" r="3"/>
+    <circle cx="630" cy="120" r="3"/>
+  </g>
+  <text x="540" y="244" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E">modern survey</text>
+
+  <!-- Caption -->
+  <rect x="100" y="386" width="560" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="380" y="402" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">A single straight line: every galaxy is moving away, faster the farther it is.</text>
 </svg>

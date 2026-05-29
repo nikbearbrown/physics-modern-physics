@@ -1,32 +1,85 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Universe composition pie chart </title>
-  <desc id="desc">The Standard Model and all of chemistry describe this slice.</desc>
+<!--
+  Universe Composition Pie (Ch 16 - canonical synthesis placement; cites Ch 6 Fig 6.6)
+  Book: Physics +1: Modern Physics
+  Chapter: 16-frontiers-of-physics
+  Figure: 02
+  Type: Quantitative
+  Generated: 2026-05-25
+  Source: pantry/16-frontiers-of-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Universe Composition — 5% Known, 95% Unknown</title>
+  <desc>Stacked bar of the universe's energy content: 5 percent ordinary matter described by the Standard Model, 27 percent dark matter (gravitationally evident but otherwise invisible), 68 percent dark energy (driving accelerated expansion). This is the closing argument of the book: we are made of, and can directly observe, only the 5 percent. See Chapter 6 Figure 6.6 and Chapter 15 Figure 15.4 for prior appearances.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="16-frontiers-of-physics"
+      figure-number="02"
+      figure-title="Cosmic Pie (Ch 16)"
+      figure-slug="cosmic-pie-16"
+      figure-type="quantitative"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/16-frontiers-of-physics-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
+    <pattern id="de-hatch16" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#A0A0A0" stroke-width="1"/>
+    </pattern>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Universe composition pie chart </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The Standard Model and all of chemistry describe this slice.</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">We Are Made of — and Can Directly Observe — Only the 5%</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">The book's closing argument. The other 95% is the open frontier.</text>
+
+  <!-- Stacked bar -->
+  <rect x="60" y="160" width="30" height="80" fill="#56B4E9" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="90" y="160" width="162" height="80" fill="#545454" opacity="0.6" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="252" y="160" width="408" height="80" fill="url(#de-hatch16)" stroke="#2a1a0e" stroke-width="1"/>
+
+  <line x1="60" y1="252" x2="660" y2="252" stroke="#2a1a0e" stroke-width="0.5"/>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="60" y1="248" x2="60" y2="256"/>
+    <line x1="180" y1="248" x2="180" y2="256"/>
+    <line x1="300" y1="248" x2="300" y2="256"/>
+    <line x1="420" y1="248" x2="420" y2="256"/>
+    <line x1="540" y1="248" x2="540" y2="256"/>
+    <line x1="660" y1="248" x2="660" y2="256"/>
+  </g>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="60" y="270">0%</text>
+    <text x="180" y="270">20%</text>
+    <text x="300" y="270">40%</text>
+    <text x="420" y="270">60%</text>
+    <text x="540" y="270">80%</text>
+    <text x="660" y="270">100%</text>
+  </g>
+
+  <!-- Labels -->
+  <line x1="75" y1="160" x2="120" y2="100" stroke="#56B4E9" stroke-width="0.5"/>
+  <text x="120" y="92" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="13" fill="#56B4E9">5% — atoms</text>
+  <text x="120" y="108" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">stars, planets, you</text>
+
+  <text x="171" y="196" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="13" fill="#FFFFFF">27% — Dark Matter</text>
+  <text x="171" y="216" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">no SM identity</text>
+
+  <text x="456" y="196" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="13" fill="#2a1a0e">68% — Dark Energy</text>
+  <text x="456" y="216" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">accelerates expansion</text>
+
+  <!-- Highlight bracket on the 95% -->
+  <line x1="90" y1="296" x2="660" y2="296" stroke="#C8102E" stroke-width="1"/>
+  <line x1="90" y1="292" x2="90" y2="300" stroke="#C8102E" stroke-width="1"/>
+  <line x1="660" y1="292" x2="660" y2="300" stroke="#C8102E" stroke-width="1"/>
+  <text x="375" y="314" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">95% with no SM identity — the open frontier</text>
+
+  <!-- Caption -->
+  <rect x="60" y="340" width="600" height="60" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="360" y="360" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">The Standard Model accounts for the matter you can touch.</text>
+  <text x="360" y="378" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Of the universe's energy budget, we have a complete theory for 5%.</text>
+  <text x="360" y="394" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">Cross-reference: Ch 6 Fig 6.6 + Ch 15 Fig 15.4. The recurrence is the point.</text>
 </svg>

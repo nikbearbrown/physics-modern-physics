@@ -1,32 +1,74 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Hydrogen atom total energy vs</title>
-  <desc id="desc">Squeeze the electron closer and kinetic energy from confinement rises faster than Coulomb attraction falls. The atom's stable size is where total ener</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Hydrogen Atom Total Energy vs Radius (Ch 10 — cites Ch 5 Fig 5.6)
+  Book: Physics +1: Modern Physics
+  Chapter: 10-quantum-physics
+  Figure: 08
+  Type: Statistical / quantitative
+  Generated: 2026-05-25
+  Source: pantry/10-quantum-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Hydrogen Atom — Total Energy vs Confinement Radius</title>
+  <desc>The chapter's closing figure: the hydrogen atom's total energy as a function of electron confinement radius. Kinetic energy from uncertainty rises as 1 over r squared. Coulomb potential energy falls as minus 1 over r. Their sum has a minimum at the Bohr radius — the atom's natural size. See Chapter 5 Figure 5.6 for the same physics.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="10-quantum-physics"
+      figure-number="08"
+      figure-title="Hydrogen Energy Balance"
+      figure-slug="hydrogen-energy-q10"
+      figure-type="quantitative"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/10-quantum-physics-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Hydrogen atom total energy vs</text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Squeeze the electron closer and kinetic energy from confinement rises faster than Coulomb attraction falls. The atom's stable size is where total ener</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Hydrogen Atom Total Energy vs Radius — Synthesis</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Uncertainty + Coulomb = stable matter. See Ch 5 Fig 5.6 for the atomic context.</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="240" x2="660" y2="240" stroke="#2a1a0e" stroke-width="0.5"/>
+  <line x1="100" y1="100" x2="100" y2="380" stroke="#2a1a0e" stroke-width="1"/>
+
+  <text x="50" y="240" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 50 240)">ENERGY (signed)</text>
+  <text x="380" y="404" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">CONFINEMENT RADIUS r (log)</text>
+
+  <text x="94" y="244" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">0</text>
+  <text x="94" y="104" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">+</text>
+  <text x="94" y="378" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">−</text>
+
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="384">10⁻¹²</text>
+    <text x="240" y="384">10⁻¹¹</text>
+    <text x="380" y="384">10⁻¹⁰</text>
+    <text x="520" y="384">10⁻⁹</text>
+    <text x="660" y="384">10⁻⁸ m</text>
+  </g>
+
+  <!-- Bohr radius marker -->
+  <line x1="340" y1="100" x2="340" y2="380" stroke="#C8102E" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="340" y="92" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Bohr radius a₀ = 0.053 nm</text>
+
+  <!-- KE: rises as 1/r² -->
+  <path d="M 100 110 Q 160 130 220 170 Q 280 200 340 220 Q 420 230 520 236 Q 600 238 660 240" stroke="#56B4E9" stroke-width="2.5" fill="none"/>
+  <text x="180" y="124" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#56B4E9">KE ∝ +1/r² (uncertainty)</text>
+
+  <!-- PE: -1/r -->
+  <path d="M 100 370 Q 160 360 220 340 Q 280 320 340 300 Q 420 280 520 260 Q 600 250 660 245" stroke="#C8860E" stroke-width="2.5" fill="none"/>
+  <text x="180" y="354" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8860E">PE ∝ −1/r (Coulomb)</text>
+
+  <!-- Total -->
+  <path d="M 100 130 Q 160 180 220 240 Q 290 290 340 305 Q 400 290 460 270 Q 540 252 660 244" stroke="#2a1a0e" stroke-width="2.5" fill="none"/>
+  <text x="450" y="318" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">total E (KE + PE)</text>
+
+  <circle cx="340" cy="305" r="4" fill="#C8102E"/>
+  <line x1="100" y1="305" x2="340" y2="305" stroke="#C8102E" stroke-width="0.5" stroke-dasharray="2 2"/>
+  <text x="94" y="308" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">−13.6 eV</text>
+  <text x="346" y="318" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">minimum</text>
 </svg>

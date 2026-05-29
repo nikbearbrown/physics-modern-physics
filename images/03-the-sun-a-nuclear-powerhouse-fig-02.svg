@@ -1,0 +1,93 @@
+<!--
+  Coulomb Barrier and Quantum Tunneling
+  Book: Physics +1: Modern Physics
+  Chapter: 03-the-sun-a-nuclear-powerhouse
+  Figure: 02
+  Type: Mechanism cross-section (energy diagram)
+  Generated: 2026-05-25
+  Source: pantry/03-the-sun-a-nuclear-powerhouse-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">The Coulomb Barrier and Quantum Tunneling</title>
+  <desc>Potential energy curve for two approaching protons as a function of separation. At large separation the Coulomb repulsion rises steeply to a peak around one femtometer; inside that radius the strong nuclear force pulls the protons into a deep binding well. Thermal energy at solar core temperature is millions of times below the peak — classically the protons should never touch. But quantum mechanics lets the wavefunction leak through with vanishing probability, around ten to the minus 20 per collision. Multiplied by 10 to the 57 protons in collision constantly, that vanishing becomes 600 million tonnes per second of hydrogen fused.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="03-the-sun-a-nuclear-powerhouse"
+      figure-number="02"
+      figure-title="Coulomb Barrier and Tunneling"
+      figure-slug="coulomb-tunneling"
+      figure-type="mechanism"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/03-the-sun-a-nuclear-powerhouse-cajal.md"
+    />
+  </metadata>
+  <defs>
+    <pattern id="hatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#545454" stroke-width="0.75"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Coulomb Barrier — Classically Forbidden, Quantum-Mechanically Possible</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Wavefunction leaks through; rare leak × astronomical collisions = steady fusion.</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="320" x2="660" y2="320" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="320" stroke="#2a1a0e" stroke-width="1"/>
+
+  <text x="50" y="220" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 50 220)">POTENTIAL ENERGY</text>
+  <text x="380" y="356" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">PROTON SEPARATION (fm)</text>
+
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="338">0</text>
+    <text x="200" y="338">1</text>
+    <text x="300" y="338">2</text>
+    <text x="500" y="338">5</text>
+    <text x="660" y="338">10</text>
+  </g>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="200" y1="315" x2="200" y2="325"/>
+    <line x1="300" y1="315" x2="300" y2="325"/>
+    <line x1="500" y1="315" x2="500" y2="325"/>
+  </g>
+
+  <!-- Potential curve: deep strong-force well (left) → barrier peak at ~1 fm → 1/r Coulomb decay -->
+  <path d="M 110 290 L 130 250 L 150 200 L 170 145 L 190 110 L 210 120 L 240 160 L 280 200 L 340 240 L 420 270 L 500 290 L 580 302 L 660 308" stroke="#56B4E9" stroke-width="2.5" fill="none"/>
+
+  <!-- Deep well below baseline (strong-force binding) - reaching y=380 -->
+  <path d="M 110 290 L 130 380 L 150 380 L 170 320" stroke="#56B4E9" stroke-width="2.5" fill="none"/>
+  <text x="135" y="380" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">strong-force well</text>
+
+  <!-- Thermal energy line at 15 MK (very low - just above x-axis) -->
+  <line x1="100" y1="298" x2="660" y2="298" stroke="#C8102E" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <text x="668" y="300" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">k_B T at 15 MK</text>
+
+  <!-- Classical turn-around marker (where thermal line meets Coulomb curve) -->
+  <circle cx="490" cy="290" r="3.5" fill="#C8102E"/>
+  <text x="490" y="280" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">classical turn-around</text>
+
+  <!-- Tunneling region (between turn-around and barrier) - hatched -->
+  <rect x="190" y="110" width="300" height="180" fill="url(#hatch)" opacity="0.4"/>
+  <text x="340" y="170" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">classically forbidden</text>
+  <text x="340" y="184" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">(wavefunction tunnels through)</text>
+
+  <!-- Wavefunction sketch — small amplitude on near side, tiny amplitude on far side -->
+  <path d="M 510 305 Q 520 295 530 305 Q 540 315 550 305 Q 560 295 570 305" stroke="#C8102E" stroke-width="1" fill="none" opacity="0.7"/>
+  <text x="540" y="324" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E">incident ψ</text>
+  <path d="M 160 215 Q 165 213 170 215 Q 175 217 180 215" stroke="#C8102E" stroke-width="1" fill="none" opacity="0.7"/>
+  <text x="170" y="210" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E">leaked ψ</text>
+
+  <!-- Barrier peak label -->
+  <text x="190" y="98" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">Coulomb barrier</text>
+  <text x="190" y="86" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">~ 1 MeV</text>
+
+  <!-- Caption -->
+  <rect x="100" y="376" width="560" height="36" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="380" y="396" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Tunneling probability ~10⁻²⁰. Multiplied by 10⁵⁷ protons → 6×10⁸ tonnes/sec fused.</text>
+</svg>

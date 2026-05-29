@@ -1,0 +1,100 @@
+<!--
+  Length Contraction Mechanism
+  Book: Physics +1: Modern Physics
+  Chapter: 01-special-relativity
+  Figure: 05
+  Type: Mechanism cross-section
+  Generated: 2026-05-25
+  Source: pantry/01-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Length Contraction — Consequence of Simultaneity Disagreement</title>
+  <desc>A long rod moves rightward at velocity v. Two observers: the rod's rest frame at top sees the full proper length L zero. The lab frame at bottom marks both ends of the rod simultaneously in lab time; from the rod's frame, those two marks are NOT simultaneous — one end was marked before the other. The lab measurement L equals L zero over gamma is shorter than the proper length. The shorter measurement is real, not a mistake.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="01-special-relativity"
+      figure-number="05"
+      figure-title="Length Contraction"
+      figure-slug="length-contraction"
+      figure-type="mechanism"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/01-special-relativity-cajal.md"
+    />
+  </metadata>
+  <defs>
+    <marker id="arrowoch" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8860E"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#C8102E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Length Contraction — A Consequence of Disagreed Simultaneity</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">The lab marks both ends "at once". The rod's frame says one end was marked first.</text>
+
+  <!-- Panel: rod's rest frame (top) -->
+  <text x="350" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(A) ROD'S REST FRAME — PROPER LENGTH</text>
+
+  <!-- Rod (full length L_0) -->
+  <rect x="120" y="140" width="380" height="20" fill="#56B4E9" stroke="#2a1a0e" stroke-width="1.5"/>
+  <!-- End marks -->
+  <line x1="120" y1="130" x2="120" y2="170" stroke="#2a1a0e" stroke-width="2.5"/>
+  <line x1="500" y1="130" x2="500" y2="170" stroke="#2a1a0e" stroke-width="2.5"/>
+  <text x="120" y="124" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">left end</text>
+  <text x="500" y="124" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">right end</text>
+
+  <!-- Proper length -->
+  <line x1="120" y1="190" x2="500" y2="190" stroke="#545454" stroke-width="0.75"/>
+  <line x1="120" y1="186" x2="120" y2="194" stroke="#545454" stroke-width="0.75"/>
+  <line x1="500" y1="186" x2="500" y2="194" stroke="#545454" stroke-width="0.75"/>
+  <text x="310" y="206" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">L₀ (proper length)</text>
+
+  <!-- Rod's frame clock -->
+  <circle cx="560" cy="150" r="14" fill="none" stroke="#3AAE3A" stroke-width="1.25"/>
+  <line x1="560" y1="146" x2="560" y2="140" stroke="#3AAE3A" stroke-width="1"/>
+  <line x1="560" y1="146" x2="566" y2="150" stroke="#3AAE3A" stroke-width="1"/>
+  <text x="580" y="154" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#3AAE3A">rod's clock</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="240" x2="640" y2="240" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel: Lab frame (bottom) — rod moving -->
+  <text x="350" y="262" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">(B) LAB FRAME — CONTRACTED LENGTH</text>
+
+  <!-- Rod (shorter — L_0/γ) moving right -->
+  <rect x="200" y="300" width="220" height="20" fill="#56B4E9" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="200" y1="290" x2="200" y2="330" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="420" y1="290" x2="420" y2="330" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="200" y="284" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">mark left "now"</text>
+  <text x="420" y="284" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">mark right "now"</text>
+
+  <!-- Velocity arrow -->
+  <line x1="430" y1="310" x2="470" y2="310" stroke="#C8860E" stroke-width="2" marker-end="url(#arrowoch)"/>
+  <text x="460" y="302" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8860E">v</text>
+
+  <!-- Contracted length annotation -->
+  <line x1="200" y1="350" x2="420" y2="350" stroke="#545454" stroke-width="0.75"/>
+  <line x1="200" y1="346" x2="200" y2="354" stroke="#545454" stroke-width="0.75"/>
+  <line x1="420" y1="346" x2="420" y2="354" stroke="#545454" stroke-width="0.75"/>
+  <text x="310" y="366" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">L = L₀ / γ  (shorter)</text>
+
+  <!-- Lab clock -->
+  <circle cx="120" cy="310" r="14" fill="none" stroke="#3AAE3A" stroke-width="1.25"/>
+  <line x1="120" y1="306" x2="120" y2="300" stroke="#3AAE3A" stroke-width="1"/>
+  <line x1="120" y1="306" x2="126" y2="310" stroke="#3AAE3A" stroke-width="1"/>
+  <text x="100" y="314" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#3AAE3A">lab clock</text>
+
+  <!-- Caption -->
+  <rect x="60" y="384" width="580" height="60" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="404" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Lab marks both ends "at once" — in the rod's frame, those marks were NOT simultaneous.</text>
+  <text x="350" y="422" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">The shorter measurement is real, not a mistake — it's the geometric consequence.</text>
+  <text x="350" y="438" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">Length contraction and time dilation are the same principle viewed from two angles.</text>
+</svg>

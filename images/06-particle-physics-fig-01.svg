@@ -1,0 +1,101 @@
+<!--
+  Four Forces Comparison
+  Book: Physics +1: Modern Physics
+  Chapter: 06-particle-physics
+  Figure: 01
+  Type: Statistical / quantitative table
+  Generated: 2026-05-25
+  Source: pantry/06-particle-physics-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Four Fundamental Forces — Strength, Range, and Carrier</title>
+  <desc>Comparison table of the four fundamental forces. Gravity: relative strength 1, range infinite, carrier graviton (hypothetical). Weak: strength 10 to the 25, range 10 to the minus 18 meters, carriers W and Z bosons. Electromagnetic: strength 10 to the 36, range infinite, carrier photon. Strong: strength 10 to the 38, range 10 to the minus 15 meters, carrier gluons. Gravity is 10 to the 38 times weaker than EM but runs the universe at large scales because it does not cancel.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="06-particle-physics"
+      figure-number="01"
+      figure-title="Four Forces Comparison"
+      figure-slug="four-forces"
+      figure-type="quantitative"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/06-particle-physics-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Four Fundamental Forces — Strength, Range, Carrier</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Strengths span 38 orders of magnitude. Gravity is weakest but unrivaled at scale.</text>
+
+  <!-- Header row -->
+  <rect x="60" y="90" width="160" height="36" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="220" y="90" width="160" height="36" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="380" y="90" width="120" height="36" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="500" y="90" width="140" height="36" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1"/>
+  <text x="140" y="112" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454" letter-spacing="0.06em">FORCE</text>
+  <text x="300" y="112" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454" letter-spacing="0.06em">REL. STRENGTH (log)</text>
+  <text x="440" y="112" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454" letter-spacing="0.06em">RANGE</text>
+  <text x="570" y="112" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454" letter-spacing="0.06em">CARRIER</text>
+
+  <!-- Row 1: Gravity -->
+  <rect x="60" y="126" width="160" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="220" y="126" width="160" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="380" y="126" width="120" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="500" y="126" width="140" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="80" y="156" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Gravity</text>
+  <!-- Strength bar: 1 = log 0. Bar width 0 = tiny visible -->
+  <rect x="240" y="148" width="2" height="16" fill="#545454"/>
+  <text x="250" y="160" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">1 (baseline)</text>
+  <text x="440" y="160" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">∞</text>
+  <text x="570" y="156" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#545454">graviton</text>
+  <text x="570" y="170" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">(hypothetical)</text>
+
+  <!-- Row 2: Weak -->
+  <rect x="60" y="186" width="160" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="220" y="186" width="160" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="380" y="186" width="120" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="500" y="186" width="140" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="80" y="216" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Weak</text>
+  <!-- Strength bar: log = 25, scale: 130 px / 38 dec = 3.4 px/dec, so 25 dec = 85 px -->
+  <rect x="240" y="208" width="85" height="16" fill="#C8860E"/>
+  <text x="332" y="220" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">10²⁵</text>
+  <text x="440" y="220" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">10⁻¹⁸ m</text>
+  <text x="570" y="216" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8860E">W, Z bosons</text>
+  <text x="570" y="230" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">~ 80 GeV</text>
+
+  <!-- Row 3: EM -->
+  <rect x="60" y="246" width="160" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="220" y="246" width="160" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="380" y="246" width="120" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="500" y="246" width="140" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="80" y="276" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Electromagnetic</text>
+  <!-- Strength: log 36 = 122 px -->
+  <rect x="240" y="268" width="122" height="16" fill="#56B4E9"/>
+  <text x="240" y="296" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">10³⁶</text>
+  <text x="440" y="280" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">∞</text>
+  <text x="570" y="276" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#56B4E9">photon</text>
+  <text x="570" y="290" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">massless</text>
+
+  <!-- Row 4: Strong -->
+  <rect x="60" y="306" width="160" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="220" y="306" width="160" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="380" y="306" width="120" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <rect x="500" y="306" width="140" height="60" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="0.75"/>
+  <text x="80" y="336" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Strong</text>
+  <!-- Strength: log 38 = 129 -->
+  <rect x="240" y="328" width="129" height="16" fill="#C8102E"/>
+  <text x="240" y="356" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">10³⁸</text>
+  <text x="440" y="340" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#2a1a0e">10⁻¹⁵ m</text>
+  <text x="570" y="336" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">gluons</text>
+  <text x="570" y="350" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#545454">massless · confined</text>
+
+  <!-- Caption -->
+  <rect x="60" y="386" width="580" height="50" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="406" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Gravity is 10³⁸ × weaker than EM — yet runs the universe because it doesn't cancel.</text>
+  <text x="350" y="424" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Carrier mass sets the range — via the uncertainty principle (massive carrier → short range).</text>
+</svg>

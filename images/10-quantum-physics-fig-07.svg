@@ -1,25 +1,68 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">The Fourier uncertainty </title>
-  <desc id="desc">The uncertainty principle is a theorem about Fourier transforms. A wave with one definite wavelength has no definite position. A wave with one definit</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
-  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">The Fourier uncertainty </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The uncertainty principle is a theorem about Fourier transforms. A wave with one definite wavelength has no definite position. A wave with one definit</text>
-  <rect x="64" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="144" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">THE</text>
-  <circle cx="144" cy="204" r="28" fill="#6B3520"/>
-  <text x="144" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="258" y="116" width="160" height="180" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="338" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FOURIER</text>
-  <circle cx="338" cy="204" r="36" fill="#C8102E"/>
-  <text x="338" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <rect x="452" y="116" width="160" height="180" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
-  <text x="532" y="148" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">UNCERTAINTY</text>
-  <circle cx="532" cy="204" r="44" fill="#1A3A5C"/>
-  <text x="532" y="266" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">evidence view</text>
-  <text x="350" y="340" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Panels translate the chapter prompt into comparable visual states.</text>
+<!--
+  Fourier Uncertainty
+  Book: Physics +1: Modern Physics
+  Chapter: 10-quantum-physics
+  Figure: 07
+  Type: Conceptual / comparison
+  Generated: 2026-05-25
+  Source: pantry/10-quantum-physics-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Fourier Uncertainty — Position-Momentum as a Math Identity</title>
+  <desc>Two pairs of plots. Pair 1: narrow position Gaussian (small delta x) paired with broad momentum spectrum (large delta p). Pair 2: broad position Gaussian — a long sine wave packet — paired with narrow momentum peak. The product delta x times delta p is bounded below by h-bar over 2. This is mathematical, built into Fourier transforms.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="10-quantum-physics"
+      figure-number="07"
+      figure-title="Fourier Uncertainty"
+      figure-slug="fourier-uncertainty"
+      figure-type="conceptual"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/10-quantum-physics-cajal.md"
+    />
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Fourier Uncertainty — Math Identity, Not Measurement Error</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">See Ch 5 Fig 5.5 for physical intuition. Here: the Fourier reciprocal of width.</text>
+
+  <line x1="350" y1="80" x2="350" y2="420" stroke="#2a1a0e" stroke-width="0.5"/>
+  <line x1="60" y1="250" x2="640" y2="250" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Top-left: Position-localized wave packet -->
+  <text x="180" y="98" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e" letter-spacing="0.06em">ψ(x) NARROW</text>
+  <line x1="60" y1="200" x2="300" y2="200" stroke="#2a1a0e" stroke-width="0.5"/>
+  <!-- Narrow Gaussian envelope (gray) -->
+  <path d="M 60 200 Q 170 200 175 170 Q 180 130 185 170 Q 190 200 300 200" stroke="#545454" stroke-width="0.75" fill="none" opacity="0.6"/>
+  <!-- Sine wave inside narrow envelope -->
+  <path d="M 60 200 Q 100 200 130 200 Q 155 200 165 180 Q 175 160 180 155 Q 185 158 190 178 Q 200 200 235 200 Q 270 200 300 200" stroke="#56B4E9" stroke-width="1.75" fill="none"/>
+  <text x="180" y="226" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Δx small</text>
+
+  <!-- Top-right: broad momentum spectrum -->
+  <text x="510" y="98" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E" letter-spacing="0.06em">|ψ̃(p)|² BROAD</text>
+  <line x1="390" y1="200" x2="630" y2="200" stroke="#2a1a0e" stroke-width="0.5"/>
+  <path d="M 390 200 Q 440 170 510 145 Q 580 170 630 200" stroke="#C8860E" stroke-width="1.75" fill="none"/>
+  <text x="510" y="226" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Δp large</text>
+
+  <!-- Bottom-left: extended sine wavetrain -->
+  <text x="180" y="270" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e" letter-spacing="0.06em">ψ(x) BROAD (long sine)</text>
+  <line x1="60" y1="370" x2="300" y2="370" stroke="#2a1a0e" stroke-width="0.5"/>
+  <path d="M 60 370 Q 80 340 100 370 Q 120 400 140 370 Q 160 340 180 370 Q 200 400 220 370 Q 240 340 260 370 Q 280 400 300 370" stroke="#56B4E9" stroke-width="1.75" fill="none"/>
+  <text x="180" y="402" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Δx large</text>
+
+  <!-- Bottom-right: narrow momentum peak -->
+  <text x="510" y="270" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8860E" letter-spacing="0.06em">|ψ̃(p)|² SHARP</text>
+  <line x1="390" y1="370" x2="630" y2="370" stroke="#2a1a0e" stroke-width="0.5"/>
+  <path d="M 390 370 L 500 370 Q 508 370 510 320 Q 512 370 520 370 L 630 370" stroke="#C8860E" stroke-width="1.75" fill="none"/>
+  <text x="510" y="402" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">Δp small</text>
+
+  <!-- Caption / formula -->
+  <rect x="60" y="424" width="580" height="22" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="440" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#C8102E">Δx · Δp  ≥  ℏ / 2   (Fourier reciprocal — not measurement disturbance)</text>
 </svg>

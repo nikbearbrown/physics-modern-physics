@@ -1,32 +1,89 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Pie chart of solar composition by mass </title>
-  <desc id="desc">Payne-Gaposchkin's 1925 result, which she initially walked back under pressure from her advisor. The disclaimer was wrong. The numbers were right.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
-  </defs>
+<!--
+  Solar Composition (Stacked Bar, Not Pie)
+  Book: Physics +1: Modern Physics
+  Chapter: 02-the-sun-a-garden-variety-star
+  Figure: 03
+  Type: Statistical / quantitative
+  Generated: 2026-05-25
+  Source: pantry/02-the-sun-a-garden-variety-star-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Solar Composition by Mass — H, He, Everything Else</title>
+  <desc>Horizontal stacked bar showing solar composition by mass. Hydrogen 73 percent, helium 25 percent, all other elements (oxygen, carbon, neon, iron, nitrogen) together about 2 percent. Stacked bar avoids the pie-chart distortion that makes the 2 percent slice invisible.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="02-the-sun-a-garden-variety-star"
+      figure-number="03"
+      figure-title="Solar Composition"
+      figure-slug="solar-composition"
+      figure-type="quantitative"
+      priority="Important"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/02-the-sun-a-garden-variety-star-cajal.md"
+    />
+  </metadata>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Pie chart of solar composition by mass </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Payne-Gaposchkin's 1925 result, which she initially walked back under pressure from her advisor. The disclaimer was wrong. The numbers were right.</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="64" y1="344" x2="636" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="92" x2="64" y2="344" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="64" y1="232" x2="636" y2="232" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
-  <rect x="88" y="132.4" width="64" height="201.6" fill="#C8102E"/>
-  <text x="120" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">A</text>
-  <text x="120" y="124.4" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">72</text>
-  <rect x="194" y="180" width="64" height="154" fill="#6B3520"/>
-  <text x="226" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">B</text>
-  <text x="226" y="172" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">55</text>
-  <rect x="300" y="210.8" width="64" height="123.19999999999999" fill="#6B3520"/>
-  <text x="332" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">C</text>
-  <text x="332" y="202.8" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">44</text>
-  <rect x="406" y="247.2" width="64" height="86.8" fill="#6B3520"/>
-  <text x="438" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">D</text>
-  <text x="438" y="239.2" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">31</text>
-  <rect x="512" y="283.6" width="64" height="50.4" fill="#6B3520"/>
-  <text x="544" y="356" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">E</text>
-  <text x="544" y="275.6" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">18</text>
-  <text x="64" y="382" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Values are illustrative, structured from the chapter prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Solar Composition by Mass — 98% H + He</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Stacked bar instead of pie — the 2% "everything else" stays visible.</text>
+
+  <!-- Stacked bar (full width = 100%) -->
+  <!-- Total width: 540, x: 80 to 620 -->
+  <!-- H = 73% → 394.2 px wide, x=80 to x=474
+       He = 25% → 135 px wide, x=474 to x=609
+       Other = 2% → 10.8 px wide, x=609 to x=620 -->
+  <rect x="80" y="170" width="394" height="80" fill="#C8860E" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="474" y="170" width="135" height="80" fill="#56B4E9" stroke="#2a1a0e" stroke-width="1"/>
+  <rect x="609" y="170" width="11" height="80" fill="#545454" stroke="#2a1a0e" stroke-width="1"/>
+
+  <!-- In-bar labels -->
+  <text x="277" y="200" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#FFFFFF">Hydrogen</text>
+  <text x="277" y="220" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#FFFFFF">73%</text>
+  <text x="277" y="238" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#FFFFFF">by mass</text>
+
+  <text x="541" y="200" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#FFFFFF">Helium</text>
+  <text x="541" y="218" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#FFFFFF">25%</text>
+
+  <!-- "Everything else" callout (leader line to thin slice) -->
+  <line x1="614" y1="170" x2="614" y2="120" stroke="#545454" stroke-width="0.5"/>
+  <text x="614" y="112" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">"metals"</text>
+  <text x="614" y="100" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">~2%</text>
+
+  <!-- Detail box for metals -->
+  <rect x="500" y="280" width="160" height="80" fill="#F5F5F5" stroke="#545454" stroke-width="1"/>
+  <text x="580" y="298" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" letter-spacing="0.06em">~2% BREAKDOWN</text>
+  <line x1="512" y1="306" x2="648" y2="306" stroke="#545454" stroke-width="0.5"/>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">
+    <text x="514" y="322">O  ~1%</text>
+    <text x="514" y="336">C  ~0.3%</text>
+    <text x="514" y="350">Ne, Fe, N · trace</text>
+  </g>
+
+  <!-- Scale axis -->
+  <line x1="80" y1="262" x2="620" y2="262" stroke="#2a1a0e" stroke-width="0.5"/>
+  <g stroke="#2a1a0e" stroke-width="0.5">
+    <line x1="80" y1="258" x2="80" y2="266"/>
+    <line x1="188" y1="258" x2="188" y2="266"/>
+    <line x1="296" y1="258" x2="296" y2="266"/>
+    <line x1="404" y1="258" x2="404" y2="266"/>
+    <line x1="512" y1="258" x2="512" y2="266"/>
+    <line x1="620" y1="258" x2="620" y2="266"/>
+  </g>
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="80" y="278">0%</text>
+    <text x="188" y="278">20%</text>
+    <text x="296" y="278">40%</text>
+    <text x="404" y="278">60%</text>
+    <text x="512" y="278">80%</text>
+    <text x="620" y="278">100%</text>
+  </g>
+
+  <!-- Caption -->
+  <rect x="60" y="380" width="580" height="32" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="400" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">The Sun is the universe writ small — hydrogen and helium, with a sprinkle of everything else.</text>
 </svg>

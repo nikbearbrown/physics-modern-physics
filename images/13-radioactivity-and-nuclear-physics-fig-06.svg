@@ -1,36 +1,91 @@
-<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Quantum tunneling through the Coulomb barrier </title>
-  <desc id="desc">The alpha cannot go over the barrier. Its wavefunction tunnels through. The probability is tiny — which is why the half-life is 4.5 billion years.</desc>
+<!--
+  Quantum Tunneling Through the Coulomb Barrier (Alpha Decay)
+  Book: Physics +1: Modern Physics
+  Chapter: 13-radioactivity-and-nuclear-physics
+  Figure: 06
+  Type: Mechanism cross-section / energy diagram
+  Generated: 2026-05-25
+  Source: pantry/13-radioactivity-and-nuclear-physics-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">Alpha Decay — Tunneling Through the Coulomb Barrier (Out)</title>
+  <desc>Potential energy versus distance from nuclear center. A deep strong-force well at small r holds the alpha particle. At the nuclear surface, the Coulomb repulsion takes over and rises to a peak around 30 MeV, then falls as 1 over r outside. The alpha kinetic energy is around 5 MeV — far below the barrier peak. Classically the alpha is trapped. Quantum-mechanically the wavefunction has a tiny amplitude outside the barrier, and the alpha tunnels out. Mirror of Chapter 3 Figure 3.2 — but going OUT instead of IN.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="13-radioactivity-and-nuclear-physics"
+      figure-number="06"
+      figure-title="Alpha Decay Tunneling"
+      figure-slug="alpha-tunneling"
+      figure-type="mechanism"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/13-radioactivity-and-nuclear-physics-cajal.md"
+    />
+  </metadata>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/>
-    </marker>
+    <pattern id="hatch13" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#545454" stroke-width="0.75"/>
+    </pattern>
   </defs>
   <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
-  <text x="32" y="42" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Quantum tunneling through the Coulomb barrier </text>
-  <text x="32" y="62" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The alpha cannot go over the barrier. Its wavefunction tunnels through. The probability is tiny — which is why the half-life is 4.5 billion years.</text>
-  <rect x="64" y="92" width="572" height="252" fill="#F5EFE8" stroke="#D4D4D4" stroke-width="0.75"/>
-  <line x1="145" y1="180" x2="190" y2="135" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="190" y1="135" x2="226" y2="205" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="226" y1="205" x2="176" y2="242" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="176" y1="242" x2="145" y2="180" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="145" y1="180" x2="226" y2="205" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="468" y1="150" x2="520" y2="196" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="520" y1="196" x2="466" y2="250" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="466" y1="250" x2="560" y2="254" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="468" y1="150" x2="466" y2="250" stroke="#2a1a0e" stroke-width="1"/>
-  <line x1="226" y1="205" x2="350" y2="206" stroke="#C8102E" stroke-width="2"/>
-  <line x1="350" y1="206" x2="468" y2="150" stroke="#C8102E" stroke-width="2"/>
-  <circle cx="145" cy="180" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="190" cy="135" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="226" cy="205" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="176" cy="242" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="468" cy="150" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="520" cy="196" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="466" cy="250" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="560" cy="254" r="10" fill="#6B3520" stroke="#FFFFFF" stroke-width="2"/>
-  <circle cx="350" cy="206" r="13" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
-  <text x="168" y="304" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">CLUSTER A</text>
-  <text x="504" y="304" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">CLUSTER B</text>
-  <text x="350" y="332" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">The emphasized bridge shows the structural relation named in the prompt.</text>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">Alpha Decay = Tunneling Out (Mirror of Ch 3 Fig 3.2)</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">Fusion = tunneling in. Alpha decay = tunneling out. Same physics, opposite direction.</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="320" x2="660" y2="320" stroke="#2a1a0e" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="320" stroke="#2a1a0e" stroke-width="1"/>
+
+  <text x="50" y="220" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em" transform="rotate(-90 50 220)">POTENTIAL ENERGY (MeV)</text>
+  <text x="380" y="356" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">r FROM NUCLEAR CENTER (fm)</text>
+
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454" text-anchor="middle">
+    <text x="100" y="338">0</text>
+    <text x="220" y="338">10</text>
+    <text x="340" y="338">20</text>
+    <text x="500" y="338">40</text>
+    <text x="660" y="338">60</text>
+  </g>
+
+  <!-- Strong-force well at small r (deep) -->
+  <path d="M 110 290 L 130 380 L 170 380 L 190 250" stroke="#56B4E9" stroke-width="2.5" fill="none"/>
+  <text x="150" y="380" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">strong-force well</text>
+
+  <!-- Coulomb barrier at r ~ 10 fm peak, then 1/r decay -->
+  <path d="M 190 250 L 220 145 Q 240 145 260 175 Q 300 230 360 270 Q 440 290 540 305 Q 600 312 660 316" stroke="#56B4E9" stroke-width="2.5" fill="none"/>
+
+  <!-- Alpha kinetic energy line (around 5 MeV → y=298 -->
+  <line x1="100" y1="285" x2="660" y2="285" stroke="#C8102E" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <text x="670" y="288" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">α KE ≈ 5 MeV</text>
+
+  <!-- Barrier (classically forbidden) region — hatched between turn-around inside and outside -->
+  <rect x="220" y="145" width="270" height="150" fill="url(#hatch13)" opacity="0.4"/>
+  <text x="320" y="180" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">classically forbidden</text>
+  <text x="320" y="194" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">(barrier ~ 30 MeV peak)</text>
+
+  <!-- Wavefunction sketch -->
+  <!-- Inside well (oscillating big amplitude) -->
+  <path d="M 130 305 Q 138 280 146 305 Q 154 330 162 305 Q 170 280 178 305" stroke="#C8102E" stroke-width="1" fill="none" opacity="0.7"/>
+  <text x="155" y="262" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E">large ψ</text>
+
+  <!-- Decaying through barrier -->
+  <path d="M 200 305 Q 250 308 320 312 Q 400 315 480 318" stroke="#C8102E" stroke-width="1" fill="none" opacity="0.5"/>
+
+  <!-- Small oscillating wavefunction outside barrier (escape) -->
+  <path d="M 500 313 Q 510 308 520 313 Q 530 318 540 313 Q 550 308 560 313" stroke="#C8102E" stroke-width="1" fill="none" opacity="0.7"/>
+  <text x="540" y="298" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="8" fill="#C8102E">leaked ψ</text>
+
+  <!-- Outward escape arrow -->
+  <path d="M 600 305 L 650 305" stroke="#C8102E" stroke-width="1.5"/>
+  <polygon points="650 305, 644 301, 644 309" fill="#C8102E"/>
+  <text x="640" y="298" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#C8102E">α escapes</text>
+
+  <!-- Caption -->
+  <rect x="100" y="376" width="560" height="34" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="380" y="396" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#2a1a0e">Tiny tunneling probability × 10⁴⁰ bounces per second = U-238's 4.5 Gyr half-life.</text>
 </svg>

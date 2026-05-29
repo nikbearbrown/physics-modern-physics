@@ -1,4 +1,11 @@
 # Chapter 11 — The Universe's First Three Minutes: Evidence for the Beginning
+
+## TL;DR
+
+- How three independent observations — galaxies flying apart, ancient microwave light, and the ratio of hydrogen to helium — converge on a single story.
+- The chapter moves through Running the Film Backward, What Happens When You Compress Everything, The Light That Escaped When the Universe Turned Transparent, Why Three Matters, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *How three independent observations — galaxies flying apart, ancient microwave light, and the ratio of hydrogen to helium — converge on a single story.*
 
 In 1964, Arno Penzias and Robert Wilson at Bell Laboratories in New Jersey were trying to build a sensitive radio antenna and kept finding a persistent hiss in their receiver. It was not interference from New York City. It was not thermal noise from the equipment. It came uniformly from all directions in the sky and did not go away at any time of day or any season of the year. They cleaned pigeon droppings from the antenna horn. The hiss remained.
@@ -21,7 +28,7 @@ where $v$ is the recession velocity, $d$ is the distance, and $H_0$ is the Hubbl
 
 The immediate implication is almost too simple. If everything is currently moving away from everything else, then running the film backward in time brings everything together. At some moment in the past — not infinitely remote, but a finite time ago — all the matter and energy we observe was compressed into a single region. The time since that moment is roughly $1/H_0$, which works out to about 14 billion years. The more careful calculation, accounting for the fact that expansion has not been constant (gravity slowed it early on; something is accelerating it now), gives 13.8 billion years.
 
-![Hubble's 1929 data. The farther the galaxy, the faster it recedes. Run this backward and everything was once together.](images/11-the-big-bang-fig-01.png)
+![Hubble's 1929 data. The farther the galaxy, the faster it recedes. Run this backward and everything was once together.](../images/11-the-big-bang-fig-01.png)
 *Figure 11.1 — Hubble's law *
 
 This is not a strange thing to find. It is the ordinary consequence of the ordinary observation that things are moving apart.
@@ -40,7 +47,7 @@ At one second after the Big Bang, the temperature was about 10 billion Kelvin. F
 
 At about a tenth of a second later, the temperature dropped below the threshold at which deuterium — one proton and one neutron — can survive without being immediately photodissociated. Deuterium formed and was immediately broken apart. But as the universe continued to cool, deuterium began surviving long enough to react further. Deuterium combined with neutrons to form tritium, or with protons to form helium-3. Helium-3 combined with neutrons to form helium-4. Helium-4, with two protons and two neutrons, is the most tightly bound of the light nuclei. Most of the neutrons ended up there.
 
-![The entire periodic table above helium was made later, in stars. These four light elements are what the first three minutes produced.](images/11-the-big-bang-fig-02.png)
+![The entire periodic table above helium was made later, in stars. These four light elements are what the first three minutes produced.](../images/11-the-big-bang-fig-02.png)
 *Figure 11.2 — Big Bang nucleosynthesis reaction network *
 
 The arithmetic is straightforward. Start with the freeze-out ratio of one neutron per six protons. Take 2 neutrons and 12 protons. Form 1 helium-4 nucleus using both neutrons and 2 protons. You have 10 protons left over as hydrogen. The helium fraction by mass is $4/(4+10) = 4/14 \approx 28\%$. The actual calculation accounts for neutron decay (free neutrons are unstable, with a half-life of about ten minutes, so some neutrons decayed before they could be incorporated into helium) and gives a helium mass fraction of about 25%. Hydrogen makes up the remaining 75%.
@@ -71,7 +78,7 @@ Those photons have been traveling ever since. The universe has expanded by a fac
 
 Penzias and Wilson measured the temperature as 3.5 Kelvin, with their instrument uncertainties. The current best value from the Planck satellite is 2.72548 Kelvin. The prediction from the Big Bang model is about 2.73 Kelvin. The agreement is not a free parameter — the predicted temperature follows from the measured expansion rate and the physics of recombination.
 
-![The entire visible color range spans four ten-thousandths of a degree. The early universe was uniform to one part in 100,000. The tiny variations you see here are the seeds of every galaxy that ever formed.](images/11-the-big-bang-fig-03.png)
+![The entire visible color range spans four ten-thousandths of a degree. The early universe was uniform to one part in 100,000. The tiny variations you see here are the seeds of every galaxy that ever formed.](../images/11-the-big-bang-fig-03.png)
 *Figure 11.3 — Planck satellite full-sky CMB map *
 
 The temperature is nearly uniform in all directions. Look in one direction and measure 2.72548 Kelvin. Look in the opposite direction and measure 2.72548 Kelvin. They agree to one part in 100,000. The early universe was extraordinarily uniform.
@@ -86,7 +93,7 @@ The first peak — corresponding to sound waves that had just completed one full
 
 The heights of the second and third peaks encode the relative densities of ordinary matter and dark matter. Dark matter does not interact with photons; ordinary matter does. This difference affects how the plasma oscillates. From the peak heights, one finds that ordinary matter makes up about 5% of the universe's total energy content. Dark matter — which does not interact with the plasma — makes up about 27%. Dark energy, inferred from the overall expansion history, makes up the remaining 68%.
 
-![The agreement between theory and data is not approximate. The curve is calculated from first principles; the data points are measured. They match.](images/11-the-big-bang-fig-04.png)
+![The agreement between theory and data is not approximate. The curve is calculated from first principles; the data points are measured. They match.](../images/11-the-big-bang-fig-04.png)
 *Figure 11.4 — CMB angular power spectrum *
 
 These are not theoretical preferences. They are what the data require.
@@ -129,7 +136,7 @@ The mechanism of inflation — the hypothesized period of rapid early expansion 
 
 And before $10^{-43}$ seconds, at the Planck time, our equations break down. Quantum gravity effects become important and we have no theory that handles them. Whatever happened at the very beginning — and whether "beginning" even makes sense as a concept — is beyond what we can currently calculate.
 
-![Everything to the right of 380,000 years is directly observable. Everything between 1 second and 380,000 years is inferred from two observables that agree. Everything before 1 second is increasingly speculative.](images/11-the-big-bang-fig-05.png)
+![Everything to the right of 380,000 years is directly observable. Everything between 1 second and 380,000 years is inferred from two observables that agree. Everything before 1 second is increasingly speculative.](../images/11-the-big-bang-fig-05.png)
 *Figure 11.5 — Cosmic timeline *
 
 What is not at the frontier: the existence of the Big Bang itself, the age of the universe, the synthesis of the light elements, the origin of the CMB. These are as well-established as anything in science. The open questions are at the edges of what the theory explains. The core is solid.
@@ -152,8 +159,7 @@ Penzias and Wilson eventually learned what they had found, after a preprint was 
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Georges Lemaître** proposed in 1927 that the universe began as a "primeval atom" — what we now call the Big Bang — by deriving an expanding-universe solution to Einstein's equations and connecting it to galaxy redshifts. He was a Belgian Catholic priest as well as a physicist.
 
 **Run this:**

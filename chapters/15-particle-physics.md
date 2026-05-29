@@ -1,4 +1,11 @@
 # Chapter 15 — Particle Physics
+
+## TL;DR
+
+- The inventory of everything — and what the inventory still can't explain.
+- The chapter moves through The Inventory, Forces as Particle Exchanges, Antimatter, The Particle Zoo Tamed, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The inventory of everything — and what the inventory still can't explain.*
 
 On July 4, 2012, Peter Higgs sat in an auditorium at CERN and wept.
@@ -73,7 +80,7 @@ Nobody had seen such a thing.
 
 In 1932, Carl Anderson was studying cosmic rays with a cloud chamber when he saw a track that curved the wrong way for any known particle. The curvature revealed positive charge; the track thickness and length revealed mass equal to the electron's. It was the positron — Dirac's antielectron. Anderson had found antimatter.
 
-![Anderson's 1932 photograph. The track curves the wrong way for an electron. It's a positron — the first antiparticle ever observed, four years after Dirac predicted it must exist.](images/15-particle-physics-fig-01.png)
+![Anderson's 1932 photograph. The track curves the wrong way for an electron. It's a positron — the first antiparticle ever observed, four years after Dirac predicted it must exist.](../images/15-particle-physics-fig-01.png)
 *Figure 15.1 — Anderson's original 1932 cloud chamber photograph of the*
 
 Every fundamental particle has an antimatter counterpart with the same mass and opposite charge. The antielectron is the positron. The antiproton has the same mass as the proton and charge $-e$. The antineutron is electrically neutral but has opposite magnetic moment. Even the neutrinos have antineutrinos — electrically neutral themselves, but distinct particles.
@@ -92,7 +99,7 @@ In 1963, Murray Gell-Mann at Caltech and George Zweig at CERN independently prop
 
 The proposal was radical because it required fractional electric charges — $+2/3$ and $-1/3$ in units of the proton charge — and because it required quarks to be permanently confined inside hadrons, never observable as free particles. You could not produce a quark in isolation. If you tried to pull two quarks apart, the strong force field between them stretched like a rubber band and eventually it was energetically cheaper to create a new quark-antiquark pair than to continue separating them. You always ended up with hadrons, never with a free quark.
 
-![You can't isolate a quark. Pull hard enough and the field breaks — creating new quarks from the energy. You always get hadrons.](images/15-particle-physics-fig-02.png)
+![You can't isolate a quark. Pull hard enough and the field breaks — creating new quarks from the energy. You always get hadrons.](../images/15-particle-physics-fig-02.png)
 *Figure 15.2 — Quark confinement *
 
 This property — confinement — was strange enough that many physicists didn't take quarks seriously for years. The decisive evidence came from deep-inelastic-scattering experiments at Stanford in the late 1960s, the same logic as Rutherford's gold-foil experiment but with high-energy electrons probing the proton's interior. The results showed the proton behaving as if it contained pointlike constituents with fractional charges. The 1990 Nobel Prize went to Friedman, Kendall, and Taylor for this.
@@ -111,7 +118,7 @@ Particles that don't interact with the Higgs field — the photon, the gluons �
 
 The Higgs boson is the quantum excitation of the Higgs field — the particle you get when you disturb the field and it rings like a bell. Detecting the Higgs boson at 125 GeV proved that the Higgs field is real. Everything that has mass has it because it's swimming through a field that was detected, for the first time, in July 2012 in an underground detector on the French-Swiss border.
 
-![The Higgs field is like a medium that fills all space. Particles that interact with it are impeded — we call that impedance 'mass.' The photon doesn't interact at all.](images/15-particle-physics-fig-03.png)
+![The Higgs field is like a medium that fills all space. Particles that interact with it are impeded — we call that impedance 'mass.' The photon doesn't interact at all.](../images/15-particle-physics-fig-03.png)
 *Figure 15.3 — Higgs mechanism *
 
 The Standard Model does not explain *why* the electron's coupling to the Higgs field is what it is, or why the top quark's coupling is so much larger. These are free parameters — about nineteen of them in the full Standard Model — that we measure experimentally and insert into the theory. The theory accommodates any values you put in. It does not predict them. This is one of the Standard Model's known inadequacies.
@@ -130,7 +137,7 @@ The Standard Model accounts for about 5% of the energy content of the universe �
 
 The remaining 68% is dark energy — the energy driving the accelerating expansion of the universe. The Standard Model predicts a vacuum energy from quantum fields that should be about $10^{120}$ times larger than what is observed. This is the most spectacular numerical discrepancy in the history of theoretical physics.
 
-![The Standard Model, despite being the most precisely tested theory in physics, describes 5% of the universe's energy content. The other 95% is unknown.](images/15-particle-physics-fig-04.png)
+![The Standard Model, despite being the most precisely tested theory in physics, describes 5% of the universe's energy content. The other 95% is unknown.](../images/15-particle-physics-fig-04.png)
 *Figure 15.4 — Energy content of the universe *
 
 And the matter-antimatter asymmetry: as discussed above, the Standard Model's CP violation is insufficient by many orders of magnitude.
@@ -147,7 +154,7 @@ Thirteen trillion electron volts. For reference, an electron volt is the energy 
 
 When two protons collide, it's really the quarks and gluons inside them that interact. Most collisions are soft — glancing blows producing low-energy sprays of particles. Occasionally a high-energy collision occurs between individual partons, producing new heavy particles that immediately decay into detectable signals. The Higgs boson is produced this way roughly once every 10 billion collisions and lives for about $10^{-22}$ seconds before decaying. The detectors reconstruct the decay products — photon pairs, or pairs of Z bosons, or other combinations — and infer the Higgs from statistical bumps in energy distributions.
 
-![The bump. Forty-eight years of searching, two experiments, both independently reporting the same excess at 125 GeV. Higgs wept.](images/15-particle-physics-fig-05.png)
+![The bump. Forty-eight years of searching, two experiments, both independently reporting the same excess at 125 GeV. Higgs wept.](../images/15-particle-physics-fig-05.png)
 *Figure 15.5 — The Higgs discovery plot *
 
 Since the Higgs discovery in 2012, the LHC has continued at higher energies searching for new particles. Supersymmetry, which predicts a heavy partner for every Standard Model particle, was one of the most popular theories for physics beyond the Standard Model. The LHC has found no supersymmetric particles in the mass range where many theorists expected to find them. Either supersymmetry doesn't exist, or the particles are heavier than current accelerators can produce, or the theory needs significant revision.
@@ -223,8 +230,7 @@ Chapter 34 (frontiers) considers what the Standard Model leaves unexplained — 
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 **Cecil Powell** developed the photographic emulsion technique that let physicists see particle tracks directly — and used it to discover the pion in 1947, the particle that carries the strong force inside the nucleus. Nobel 1950.
 
 **Run this:**

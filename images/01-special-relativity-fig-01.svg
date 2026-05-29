@@ -1,0 +1,103 @@
+<!--
+  The Light Clock — Time Dilation Geometry
+  Book: Physics +1: Modern Physics
+  Chapter: 01-special-relativity
+  Figure: 01
+  Type: Mechanism cross-section / comparison panels
+  Generated: 2026-05-25
+  Source: pantry/01-special-relativity-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="fig-title">
+  <title id="fig-title">The Light Clock — Same Clock, Two Frames</title>
+  <desc>Two side-by-side panels of the same light clock — two mirrors with a light pulse bouncing between them. Panel A rest frame: vertical path of height h, period two h over c. Panel B moving frame: the clock moves rightward at velocity v, so the light traces a diagonal — the hypotenuse of a right triangle with vertical leg h and horizontal leg v Delta t over two. Same c in both frames means the longer diagonal path takes longer; time dilation is the geometric consequence.</desc>
+  <metadata>
+    <cajal:figure
+      xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Physics +1: Modern Physics"
+      book-slug="physics-modern-physics"
+      chapter="01-special-relativity"
+      figure-number="01"
+      figure-title="Light Clock — Time Dilation"
+      figure-slug="light-clock"
+      figure-type="mechanism"
+      priority="Critical"
+      author="Humanitarians AI"
+      date-generated="2026-05-25"
+      source-file="pantry/01-special-relativity-cajal.md"
+    />
+  </metadata>
+  <defs>
+    <marker id="arrowblue" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#56B4E9"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="32" y="36" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="14" fill="#2a1a0e">The Light Clock — Time Dilation Is Geometry</text>
+  <text x="32" y="56" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="11" fill="#545454">c is the same in both frames; the longer path takes longer.</text>
+
+  <line x1="350" y1="80" x2="350" y2="380" stroke="#2a1a0e" stroke-width="0.5"/>
+
+  <!-- Panel A: Rest frame -->
+  <text x="180" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#2a1a0e" letter-spacing="0.08em">(A) REST FRAME — VERTICAL PATH</text>
+
+  <!-- Top mirror -->
+  <rect x="140" y="130" width="80" height="6" fill="#2a1a0e"/>
+  <text x="226" y="138" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">top mirror</text>
+
+  <!-- Bottom mirror -->
+  <rect x="140" y="290" width="80" height="6" fill="#2a1a0e"/>
+  <text x="226" y="298" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">bottom mirror</text>
+
+  <!-- Light pulse (vertical, sky-blue) -->
+  <line x1="180" y1="290" x2="180" y2="138" stroke="#56B4E9" stroke-width="2.5" marker-end="url(#arrowblue)"/>
+  <line x1="186" y1="138" x2="186" y2="288" stroke="#56B4E9" stroke-width="2.5" marker-end="url(#arrowblue)"/>
+
+  <!-- Height label -->
+  <line x1="124" y1="136" x2="124" y2="296" stroke="#545454" stroke-width="0.5"/>
+  <line x1="120" y1="136" x2="128" y2="136" stroke="#545454" stroke-width="0.5"/>
+  <line x1="120" y1="296" x2="128" y2="296" stroke="#545454" stroke-width="0.5"/>
+  <text x="116" y="220" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#545454">h</text>
+
+  <!-- Period -->
+  <text x="180" y="332" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#2a1a0e">Δt₀ = 2h / c</text>
+  <text x="180" y="350" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">proper time</text>
+
+  <!-- Panel B: Moving frame -->
+  <text x="510" y="100" text-anchor="middle" font-family="'Inter', -apple-system, 'Helvetica Neue', sans-serif" font-size="10" fill="#C8102E" letter-spacing="0.08em">(B) MOVING FRAME — DIAGONAL PATH</text>
+
+  <!-- Mirrors at two positions (start and end of clock motion) - top mirror trajectory -->
+  <rect x="410" y="130" width="70" height="6" fill="#2a1a0e" opacity="0.4"/>
+  <rect x="540" y="130" width="70" height="6" fill="#2a1a0e"/>
+  <rect x="410" y="290" width="70" height="6" fill="#2a1a0e" opacity="0.4"/>
+  <rect x="540" y="290" width="70" height="6" fill="#2a1a0e"/>
+  <text x="618" y="138" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#2a1a0e">final position</text>
+  <text x="402" y="320" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">starting</text>
+
+  <!-- Velocity arrow -->
+  <line x1="610" y1="220" x2="650" y2="220" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrowblue)"/>
+  <text x="630" y="212" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" fill="#C8102E">v</text>
+
+  <!-- Diagonal light path -->
+  <line x1="445" y1="290" x2="575" y2="138" stroke="#56B4E9" stroke-width="2.5" marker-end="url(#arrowblue)"/>
+  <line x1="575" y1="138" x2="450" y2="288" stroke="#56B4E9" stroke-width="2.5" marker-end="url(#arrowblue)"/>
+
+  <!-- Right triangle decomposition (dashed gray) -->
+  <line x1="445" y1="290" x2="575" y2="290" stroke="#545454" stroke-width="0.75" stroke-dasharray="3 2"/>
+  <line x1="575" y1="290" x2="575" y2="138" stroke="#545454" stroke-width="0.75" stroke-dasharray="3 2"/>
+
+  <!-- Triangle leg labels -->
+  <text x="510" y="306" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">v Δt / 2</text>
+  <text x="582" y="220" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">h</text>
+  <text x="492" y="200" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#56B4E9">c Δt / 2</text>
+
+  <text x="510" y="332" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#C8102E">Δt = γ Δt₀  &gt;  Δt₀</text>
+  <text x="510" y="350" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">dilated time</text>
+
+  <!-- Caption -->
+  <rect x="60" y="380" width="580" height="60" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+  <text x="350" y="400" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="12" fill="#2a1a0e">Same clock, two frames. The light travels farther in (B) than in (A).</text>
+  <text x="350" y="418" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="11" fill="#C8102E">Because c is invariant, the longer path takes more time — γ = 1/√(1 − v²/c²).</text>
+  <text x="350" y="434" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#545454">Time dilation is Pythagoras applied to the postulates.</text>
+</svg>

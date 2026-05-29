@@ -1,5 +1,12 @@
 # Chapter 3 — The Sun Burning: Why Four Billion Years of Light Comes from Turning Mass into Energy
 
+
+## TL;DR
+
+- Charles Darwin died worried about physics.
+- The chapter moves through Why Every Obvious Answer Fails, The Barrier That Should Make It Impossible, Four Protons In, One Helium Out, A Million Years Just to Get Out, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 ---
 
 Charles Darwin died worried about physics.
@@ -170,8 +177,7 @@ Darwin was right to worry. The answer was better than he could have imagined.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Hans Bethe** worked out the nuclear reactions that power the Sun in 1939 — the proton-proton chain and the CNO cycle — earning the 1967 Nobel Prize. He was a German Jewish physicist who escaped Nazi Germany and later led the theoretical division at Los Alamos.
 
 **Run this:**
@@ -188,3 +194,21 @@ Who was Hans Bethe, and how does his work on stellar nucleosynthesis connect to 
 - Ask it to compare the proton-proton chain with the CNO cycle — which one dominates in stars of different masses?
 
 What changes? What gets better? What gets worse?
+![Three Candidate Energy Sources for the Sun](../images/03-the-sun-a-nuclear-powerhouse-fig-01.png)
+*Figure 3.1 — Three Candidate Energy Sources for the Sun*
+
+![The Coulomb Barrier and Quantum Tunneling](../images/03-the-sun-a-nuclear-powerhouse-fig-02.png)
+*Figure 3.2 — The Coulomb Barrier and Quantum Tunneling*
+
+![Proton-Proton Chain](../images/03-the-sun-a-nuclear-powerhouse-fig-03.png)
+*Figure 3.3 — Proton-Proton Chain*
+
+![Two Messengers from the Same Fusion Event](../images/03-the-sun-a-nuclear-powerhouse-fig-04.png)
+*Figure 3.4 — Two Messengers from the Same Fusion Event*
+
+![Neutrino Oscillation](../images/03-the-sun-a-nuclear-powerhouse-fig-05.png)
+*Figure 3.5 — Neutrino Oscillation*
+
+![Hydrostatic Equilibrium](../images/03-the-sun-a-nuclear-powerhouse-fig-06.png)
+*Figure 3.6 — Hydrostatic Equilibrium*
+
